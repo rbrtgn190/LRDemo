@@ -1,0 +1,14 @@
+HTTP/2.0 200
+Status: 200
+access-control-allow-origin: *
+date: Tue, 29 Oct 2019 09:07:26 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, no-store, must-revalidate
+last-modified: Sun, 17 May 1998 03:00:00 GMT
+x-content-type-options: nosniff
+content-type: image/gif
+server: Golfe2
+content-length: 35
+alt-svc: quic=":443"; ma=2592000; v="46,43",h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+

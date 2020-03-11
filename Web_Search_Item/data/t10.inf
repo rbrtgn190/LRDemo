@@ -1,0 +1,13 @@
+[t10]
+FileName1=t10_ALL.html
+URL1=http://www.advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_10.xml
+RequestHeaderFile=t10_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t10_ResponseHeader.txt
+FileName2=t10_Roboto-Bold-webfont.html
+URL2=http://www.advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.eot?
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,10 @@
+GET http://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json HTTP/1.1
+Referer: http://www.advantageonlineshopping.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.5
+Accept: */*
+Proxy-Connection: Keep-Alive
+Host: www.advantageonlineshopping.com
+Cookie: _ga=GA1.2.842289835.1542120126; _gid=GA1.2.637907777.1542120126; _gat=1; userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D
+

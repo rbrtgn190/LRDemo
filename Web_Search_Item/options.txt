@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Documents\VuGen\Scripts\Web_Search_Item
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\administrator\documents\vugen\scripts\web_search_item\\logfile.log
+c:\users\administrator\documents\vugen\scripts\web_search_item\\combined_Web_Search_Item.c
+c:\users\administrator\documents\vugen\scripts\web_search_item\\pre_cci.c

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Tue, 29 Oct 2019 09:07:28 GMT
+Content-Type: application/json;charset=UTF-8
+Expires: 0
+Cache-Control: no-store
+Vary: accept-encoding
+Content-Encoding: gzip
+X-Cache: MISS from ip-172-31-35-155
+X-Cache-Lookup: MISS from ip-172-31-35-155:8080
+Transfer-Encoding: chunked
+Via: 1.1 ip-172-31-35-155 (squid/3.5.27)
+Connection: keep-alive
+

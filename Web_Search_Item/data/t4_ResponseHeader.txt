@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=15552000
+Content-Length: 90518
+Content-Type: text/xml
+Last-Modified: Mon, 06 Oct 2014 17:20:33 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-MSEdge-Ref: Ref A: 5D5EEEB8E9D845F18D46B6F84B3CA82F Ref B: WSTEDGE0817 Ref C: 2018-11-13T14:40:06Z
+Date: Tue, 13 Nov 2018 14:40:06 GMT
+

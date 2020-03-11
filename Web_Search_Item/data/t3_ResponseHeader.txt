@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=15552000
+Content-Length: 237
+Content-Type: image/x-icon
+Last-Modified: Sat, 10 Nov 2018 19:04:44 GMT
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-MSEdge-Ref: Ref A: A7884551725A4BFEAC96CA2F4DA3686E Ref B: WSTEDGE0513 Ref C: 2018-11-13T14:39:57Z
+Date: Tue, 13 Nov 2018 14:39:56 GMT
+

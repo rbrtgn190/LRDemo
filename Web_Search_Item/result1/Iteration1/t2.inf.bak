@@ -1,0 +1,14 @@
+[t2]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=DummyContentType
+StepName=Url: favicon.ico_2
+Total=1
+FileName1=t1_0_favicon.ico
+RequestHeaderFile=t2_RequestHeader.txt
+SaveSnapshotResources=1
+ResponseHeaderFile=t2_ResponseHeader.txt
+RawStepEndTime=1572340045445
+RawStepName=favicon.ico_2
+RequestBodyFile=t2_RequestBody.txt
+RawStepStartTime=1572340045445
+URL1=https://www.bing.com/favicon.ico

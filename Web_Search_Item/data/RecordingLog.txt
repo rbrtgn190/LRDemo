@@ -1,0 +1,673 @@
+[API Trapper      (2a64:125c)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (2ca0:23ac)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (2ca0:2630)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2ca0:2630)] Load Network Traffic Analyzers:
+[Network Analyzer (2ca0:2630)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2ca0:2630)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (2ca0:2630)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2ca0:2630)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (2ca0:2630)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (2ca0:2630)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2ca0:2630)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2ca0:2630)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2ca0:2720)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2ca0:27d0)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2ca0:2630)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2ca0:27d0)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (2ca0:2720)] "GET http://download.hpswdemoportal.com/landing.html"   
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Client -> Server @ : 323 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 618 bytes  (Service=HTTP)
+[Network Analyzer (2a64:2ffc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2a64:2ffc)] Load Network Traffic Analyzers:
+[Network Analyzer (2a64:2ffc)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2a64:2ffc)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2a64:2ffc)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2a64:2ffc)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2a64:2ffc)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2a64:2ffc)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2a64:2ffc)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2a64:2ffc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2a64:19c0)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2a64:2ffc)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2a64: a5c)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2a64:2ffc)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (2a64:19c0)] "CONNECT www.bing.com:443"   
+[Network Analyzer (2a64:19c0)]   (Sid:  1) Client -> Server @ : 215 bytes (Service=HTTP)
+[Network Analyzer (2a64: a5c)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      (2a64:19c0)] "CONNECT www.bing.com:443"   
+[Network Analyzer (2a64:19c0)]   (Sid:  2) Client -> Server @ : 215 bytes (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  1) Server -> Client : 39 bytes 
+[Network Analyzer (2a64:19c0)]   (Sid:  2) Server -> Client : 39 bytes 
+[Network Analyzer (2a64:2f88)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-SHA256)
+[Network Analyzer (2a64:129c)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-SHA256)
+[Network Analyzer (2a64:2e28)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2a64:2e28)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (2a64:19c0)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEy0AADKZ1wcdt9FwikIAAAAAMpk%3D"   
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Client -> Server @ : 265 bytes (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 2532 bytes  (Service=HTTP)
+[Web Request      (2a64:19c0)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEy0AADKZ1wcdt9FwikIAAAAAMpk%3D"   
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Client -> Server @ : 308 bytes (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 2665 bytes  (Service=HTTP)
+[Web Request      (2a64:19c0)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%205.crl"   
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Client -> Server @ : 199 bytes (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 14476 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 12816 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16060 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 9572 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 9104 bytes  (Service=HTTP)
+[Web Request      (2a64:19c0)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%205.crl"   
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Client -> Server @ : 242 bytes (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 2041 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 13159 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 15512 bytes  (Service=HTTP)
+[Web Request      (2a64:19c0)] "GET http://crl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%205.crl"   
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Client -> Server @ : 195 bytes (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 14328 bytes  (Service=HTTP)
+[Web Request      (2a64:19c0)] "GET http://crl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%205.crl"   
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 14320 bytes  (Service=HTTP)
+[Net An. Error    (2a64:129c)] SSLAccept(ssl_id = 791573919216 = 000000B84D7B75F0) Failed, ctx = 000000B85047D960, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2a64:129c)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2a64:2ffc)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Net An. Error    (2a64:2f88)] SSLAccept(ssl_id = 791669010656 = 000000B8532670E0) Failed, ctx = 000000B85047D960, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2a64:2f88)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2a64: a5c)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2a64:19c0)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (2a64:19c0)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (2a64:2ffc)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (2a64:19c0)] "CONNECT www.bing.com:443"   
+[Network Analyzer (2a64:19c0)]   (Sid:  4) Client -> Server @ : 215 bytes (Service=HTTP)
+[Network Analyzer (2a64: a5c)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (2a64:19c0)] "CONNECT www.bing.com:443"   
+[Network Analyzer (2a64:19c0)]   (Sid:  5) Client -> Server @ : 215 bytes (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  4) Server -> Client : 39 bytes 
+[Network Analyzer (2a64:19c0)]   (Sid:  5) Server -> Client : 39 bytes 
+[Network Analyzer (2a64:187c)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-SHA256)
+[Network Analyzer (2a64:187c)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-SHA384)
+[Network Analyzer (2a64: d80)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-SHA256)
+[Network Analyzer (2a64: d80)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-SHA384)
+[Web Request      (2a64:19c0)] "GET /favicon.ico"   
+[Network Analyzer (2a64:19c0)]   (Sid:  4) Client -> Server @ : 220 bytes (SSL)(Service=HTTP)
+[Web Request      (2a64:19c0)] "GET /favicon.ico"   
+[Network Analyzer (2a64:19c0)]   (Sid:  5) Client -> Server @ : 220 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  4) Server -> Client : 582 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  5) Server -> Client : 582 bytes (SSL) (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/"   
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Client -> Server @ : 319 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 3226 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/main.min.css"   
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Client -> Server @ : 361 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2714)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 14461 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:24d0)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 10184 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/Down_arrow.svg"   
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Client -> Server @ : 407 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2714)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 1354 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:24d0)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/vendor/requirejs/require.js"   
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Client -> Server @ : 392 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 14503 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 7059 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/fonts/roboto_regular_macroman/Roboto-Regular-webfont.eot?"   
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Client -> Server @ : 444 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/fonts/roboto_light_macroman/Roboto-Light-webfont.eot?"   
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Client -> Server @ : 440 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 13602 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 1922 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 290 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 11970 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 7890 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 7510 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/main.min.js"   
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Client -> Server @ : 376 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 14457 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 12816 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 8335 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/favicon.ico"   
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Client -> Server @ : 274 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 1710 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:11b8)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/logo.png"   
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Client -> Server @ : 401 bytes (Service=HTTP)
+[Network Analyzer (2ca0:11b8)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 3202 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "CONNECT www.google-analytics.com:443"   
+[Network Analyzer (2ca0:2720)]   (Sid:  4) Client -> Server @ : 234 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/fonts/roboto_medium_macroman/Roboto-Medium-webfont.eot?"   
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Client -> Server @ : 442 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/closeDark.png"   
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Client -> Server @ : 406 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  4) Server -> Client : 39 bytes 
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/services.properties"   
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Client -> Server @ : 354 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 1655 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 12444 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 1448 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 7934 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 1436 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:22fc)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-SHA)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/catalog/api/v1/categories/all_data"   
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Client -> Server @ : 473 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL"   
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Client -> Server @ : 490 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.eot?"   
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Client -> Server @ : 512 bytes (Service=HTTP)
+[Network Analyzer (2ca0:1bfc)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 6167 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 12444 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2714)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 8984 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL"   
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Client -> Server @ : 490 bytes (Service=HTTP)
+[Network Analyzer (2ca0:1bfc)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/FacebookLogo.png"   
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Client -> Server @ : 483 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2714)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 6167 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Client -> Server @ : 687 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "POST http://www.advantageonlineshopping.com/accountservice/GetAccountConfigurationRequest"   
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Client -> Server @ : 361 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 1474 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Client -> Server @ : 687 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2714)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Web Request      (2ca0:2720)] "POST http://www.advantageonlineshopping.com/accountservice/GetAccountConfigurationRequest"   
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Client -> Server @ : 361 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2714)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 1508 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://ocsp.pki.goog/GTSGIAG3/MEkwRzBFMEMwQTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCCGbA0zHnfJa8"   
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Client -> Server @ : 252 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 1508 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/catalog/api/v1/categories"   
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Client -> Server @ : 464 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 2037 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Client -> Server @ : 251 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "POST http://ocsp.pki.goog/GTSGIAG3"   
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Client -> Server @ : 75 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 4876 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 1932 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://crl.pki.goog/GTSGIAG3.crl"   
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Client -> Server @ : 149 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 1135 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://crl.pki.goog/GTSGIAG3.crl"   
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Client -> Server @ : 192 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/catalog/api/v1/deals/search?dealOfTheDay=true"   
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Client -> Server @ : 484 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 1135 bytes  (Service=HTTP)
+[Net An. Error    (2ca0:22fc)] SSLAccept(ssl_id = 172513296 = 0A485810) Failed, ctx = 0A2D3E00, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2ca0:22fc)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2ca0:11b8)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2ca0:2720)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (2ca0:11b8)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (2ca0:2720)] "CONNECT www.google-analytics.com:443"   
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 751 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Server -> Client : 39 bytes 
+[Network Analyzer (2ca0:2a74)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2ca0:2a74)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-SHA384)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 8931 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET /analytics.js"   
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Client -> Server @ : 326 bytes (SSL)(Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json"   
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Client -> Server @ : 473 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 1019 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/app/views/home-page.html"   
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Client -> Server @ : 439 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Server -> Client : 95 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 2677 bytes  (Service=HTTP)
+[Net An. Warning  (2ca0:2630)] Request Connection: Remote Server @ 34.210.75.143:80 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10060)
+[Web Request      (2ca0:2720)] "GET /r/collect?v=1&_v=j71&a=936534940&t=pageview&_s=1&dl=http%3A%2F%2Fwww.advantageonlineshopping.com%2F&ul=en-us&de=utf-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1058&vp=674x869&je=1&fl=28.0%20r0&_u=IEBAAEQ~&jid=401104430&gjid=2043768415&cid=842289835.1542120126&tid=UA-81334227-1&_gid=637907777.1542120126&_r=1&z=890268973"   
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Client -> Server @ : 658 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Server -> Client : 424 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2ca0:27d0)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/chat_logo.png"   
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Client -> Server @ : 553 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/Special-offer.jpg"   
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Client -> Server @ : 557 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/GoUp.png"   
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Client -> Server @ : 548 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 14555 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 3560 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/facebook.png"   
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Client -> Server @ : 552 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/twitter.png"   
+[Network Analyzer (2ca0:2720)]   (Sid:  6) Client -> Server @ : 551 bytes (Service=HTTP)
+[Network Analyzer (2ca0:27d0)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (2ca0:24d0)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 2671 bytes  (Service=HTTP)
+[Network Analyzer (2ca0: 958)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/linkedin.png"   
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Client -> Server @ : 552 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 2140 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  6) Server -> Client : 2621 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "CONNECT www.google-analytics.com:443"   
+[Network Analyzer (2ca0:2720)]   (Sid:  9) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 2264 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/Banner1.jpg"   
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Client -> Server @ : 551 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.eot?"   
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Client -> Server @ : 585 bytes (Service=HTTP)
+[Network Analyzer (2ca0:28a4)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  9) Server -> Client : 39 bytes 
+[Network Analyzer (2ca0:24d0)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (2ca0:2e0c)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 1295 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/Banner3.jpg"   
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Client -> Server @ : 551 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/Banner2.jpg"   
+[Network Analyzer (2ca0:2720)]   (Sid:  6) Client -> Server @ : 551 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/Popular-item3.jpg"   
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Client -> Server @ : 557 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0: 958)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (2ca0:1bfc)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 14555 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 5737 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1235"   
+[Network Analyzer (2ca0:2720)]   (Sid: 10) Client -> Server @ : 561 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 11983 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:28a4)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/arrow_right.png"   
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Client -> Server @ : 555 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/Popular-item2.jpg"   
+[Network Analyzer (2ca0:2720)]   (Sid: 11) Client -> Server @ : 557 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/Popular-item1.jpg"   
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Client -> Server @ : 557 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 1551 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2e0c)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 3480 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1237"   
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Client -> Server @ : 561 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  6) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 10) Server -> Client : 15602 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1238"   
+[Network Analyzer (2ca0:2720)]   (Sid: 12) Client -> Server @ : 561 bytes (Service=HTTP)
+[Network Analyzer (2ca0:1bfc)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  6) Server -> Client : 3731 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 11) Server -> Client : 12263 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 10529 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1236"   
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Client -> Server @ : 561 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0: 9bc)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 14562 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1234"   
+[Network Analyzer (2ca0:2720)]   (Sid: 13) Client -> Server @ : 561 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0: 9bc)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-SHA384)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 723 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 12) Server -> Client : 10387 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET /collect?v=1&_v=j71&a=936534940&t=pageview&_s=2&dl=http%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=utf-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1058&vp=674x869&je=1&fl=28.0%20r0&_u=KEBAAEQ~&jid=&gjid=&cid=842289835.1542120126&tid=UA-81334227-1&_gid=637907777.1542120126&z=198571570"   
+[Network Analyzer (2ca0:2720)]   (Sid:  9) Client -> Server @ : 639 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 13) Server -> Client : 11514 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  9) Server -> Client : 437 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 323 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 5420 bytes  (Service=HTTP)
+[Network Analyzer (2a64:2d34)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2a64:2d34)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (2ca0:2720)]   (Sid:  8) Connection Terminated (by Client)
+[Web Request      (2a64:19c0)] "CONNECT iecvlist.microsoft.com:443"   
+[Network Analyzer (2a64:19c0)]   (Sid:  6) Client -> Server @ : 148 bytes (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  6) Server -> Client : 39 bytes 
+[Network Analyzer (2a64:151c)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-SHA384)
+[Web Request      (2a64:19c0)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Client -> Server @ : 265 bytes (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 2532 bytes  (Service=HTTP)
+[Web Request      (2a64:19c0)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Client -> Server @ : 308 bytes (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 2665 bytes  (Service=HTTP)
+[Network Analyzer (2a64: a5c)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2a64: a5c)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (2a64:19c0)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Client -> Server @ : 199 bytes (Service=HTTP)
+[Web Request      (2a64:19c0)] "CONNECT iecvlist.microsoft.com:443"   
+[Network Analyzer (2a64:19c0)]   (Sid:  7) Client -> Server @ : 235 bytes (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 14476 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  7) Server -> Client : 39 bytes 
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 12816 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 4676 bytes  (Service=HTTP)
+[Network Analyzer (2a64: dec)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-SHA384)
+[Web Request      (2a64:19c0)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Client -> Server @ : 242 bytes (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 4677 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 10899 bytes  (Service=HTTP)
+[Web Request      (2a64:19c0)] "GET http://crl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Client -> Server @ : 195 bytes (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 15576 bytes  (Service=HTTP)
+[Web Request      (2a64:19c0)] "GET http://crl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  3) Server -> Client : 15568 bytes  (Service=HTTP)
+[Net An. Error    (2a64:151c)] SSLAccept(ssl_id = 791620930768 = 000000B85048CCD0) Failed, ctx = 000000B8531B4290, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2a64:151c)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2a64: dec)] SSLAccept(ssl_id = 791670682592 = 000000B8533FF3E0) Failed, ctx = 000000B8531B4290, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Network Analyzer (2a64:23e4)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Net An. Error    (2a64: dec)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2a64:19c0)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (2a64:19c0)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (2a64:23e4)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (2a64:19c0)] "CONNECT iecvlist.microsoft.com:443"   
+[Network Analyzer (2a64:19c0)]   (Sid:  8) Client -> Server @ : 235 bytes (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  8) Server -> Client : 39 bytes 
+[Network Analyzer (2a64: 880)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-SHA384)
+[Network Analyzer (2a64: 880)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-SHA384)
+[Web Request      (2a64:19c0)] "GET /IE11/1479242656000/iecompatviewlist.xml"   
+[Network Analyzer (2a64:19c0)]   (Sid:  8) Client -> Server @ : 365 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  8) Server -> Client : 467 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  8) Server -> Client : 16383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  8) Server -> Client : 1 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  8) Server -> Client : 16383 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a64:19c0)]   (Sid:  8) Server -> Client : 772 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (2ca0:1c80)] Address lookup for ADM-Host_1 = 10.32.34.127
+[Network Analyzer (2ca0:1c80)] Request Connection: Remote Server @ 34.210.75.143:8080   (Service=)  (Sid= 15)  PROXIED!
+[Web Request      (2ca0:2720)] "CONNECT iecvlist.microsoft.com:443"   
+[Network Analyzer (2ca0:2720)]   (Sid: 15) Client -> Server @ : 148 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 15) Server -> Client : 39 bytes 
+[Network Analyzer (2ca0:2120)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-SHA384)
+[Web Request      (2ca0:2720)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Client -> Server @ : 265 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 2530 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://ocsp.msocsp.com/MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEyAAAnDMbSUzbKCBs1kAAAACcMw%3D"   
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Client -> Server @ : 308 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 2665 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Client -> Server @ : 199 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 14474 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 12816 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 4676 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Client -> Server @ : 242 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 6949 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16224 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 7327 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://crl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Client -> Server @ : 195 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16278 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 15680 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://crl.microsoft.com/pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 10509 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  7) Server -> Client : 5059 bytes  (Service=HTTP)
+[Net An. Error    (2ca0:2120)] SSLAccept(ssl_id = 257862232 = 0F5EAA58) Failed, ctx = 0A516508, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2ca0:2120)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2ca0:2720)]   (Sid: 15) Connection Terminated (by Client)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/app/views/search-page.html"   
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Client -> Server @ : 514 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 1676 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET /collect?v=1&_v=j71&a=936534940&t=pageview&_s=3&dl=http%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2Fsearch%2F%3FviewAll%3Dlaptop&ul=en-us&de=utf-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1058&vp=674x869&je=1&fl=28.0%20r0&_u=KEBAAEQ~&jid=&gjid=&cid=842289835.1542120126&tid=UA-81334227-1&_gid=637907777.1542120126&z=1453880032"   
+[Network Analyzer (2ca0:2720)]   (Sid:  9) Client -> Server @ : 668 bytes (SSL)(Service=HTTP)
+[Net An. Warning  (2ca0:2630)] Request Connection: Remote Server @ 34.210.75.143:80 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10060)
+[Network Analyzer (2ca0:2720)]   (Sid:  9) Server -> Client : 437 bytes (SSL) (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/Filter.png"   
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Client -> Server @ : 550 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 1871 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1700"   
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Client -> Server @ : 561 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1600"   
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Client -> Server @ : 561 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1100"   
+[Network Analyzer (2ca0:2720)]   (Sid: 13) Client -> Server @ : 561 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1300"   
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Client -> Server @ : 561 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1200"   
+[Network Analyzer (2ca0:2720)]   (Sid: 12) Client -> Server @ : 561 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=11100"   
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Client -> Server @ : 562 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1245"   
+[Network Analyzer (2ca0:2720)]   (Sid: 11) Client -> Server @ : 561 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 14461 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 14461 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 14185 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  3) Server -> Client : 14664 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 12) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  5) Server -> Client : 3107 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 12) Server -> Client : 14782 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 4876 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 13) Server -> Client : 1301 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 2409 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 11) Server -> Client : 19 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/app/views/product-page.html"   
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Client -> Server @ : 515 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 2391 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET /collect?v=1&_v=j71&a=936534940&t=pageview&_s=4&dl=http%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2Fproduct%2F2%3FviewAll%3Dlaptop&ul=en-us&de=utf-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1058&vp=674x869&je=1&fl=28.0%20r0&_u=KEBAAEQ~&jid=&gjid=&cid=842289835.1542120126&tid=UA-81334227-1&_gid=637907777.1542120126&z=947427958"   
+[Network Analyzer (2ca0:2720)]   (Sid:  9) Client -> Server @ : 669 bytes (SSL)(Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/review_right.png"   
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Client -> Server @ : 556 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/reviewUser.png"   
+[Network Analyzer (2ca0:2720)]   (Sid: 11) Client -> Server @ : 554 bytes (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/css/images/review_Left_disabled.png"   
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Client -> Server @ : 564 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  9) Server -> Client : 437 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  1) Server -> Client : 1531 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  2) Server -> Client : 1543 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 11) Server -> Client : 1998 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET http://www.advantageonlineshopping.com/catalog/fetchImage?image_id=1201"   
+[Network Analyzer (2ca0:2720)]   (Sid: 11) Client -> Server @ : 561 bytes (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 11) Server -> Client : 12496 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 11) Server -> Client : 1449 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 11) Server -> Client : 1460 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 11) Server -> Client : 9620 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 11) Server -> Client : 1540 bytes  (Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid: 11) Server -> Client : 605 bytes  (Service=HTTP)
+[Web Request      (2ca0:2720)] "GET /collect?v=1&_v=j71&a=936534940&t=pageview&_s=5&dl=http%3A%2F%2Fwww.advantageonlineshopping.com%2F&dp=%2F&ul=en-us&de=utf-8&dt=%C2%A0Advantage%20Shopping&sd=24-bit&sr=1920x1058&vp=674x869&je=1&fl=28.0%20r0&_u=KEBAAEQ~&jid=&gjid=&cid=842289835.1542120126&tid=UA-81334227-1&_gid=637907777.1542120126&z=434379226"   
+[Network Analyzer (2ca0:2720)]   (Sid:  9) Client -> Server @ : 639 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2ca0:2720)]   (Sid:  9) Server -> Client : 437 bytes (SSL) (Service=HTTP)
