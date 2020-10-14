@@ -1,0 +1,19 @@
+____________________________________________________________________
+D:\Documents\Virtual Machines\WK12 PC Host 2
+
+C:\Tools
+DevWeb_2020.1
+DevWeb_2020.2
+DevWeb_2020.3
+DBBrowser
+grafana
+gwt
+influxdb
+PortableGit
+LogCollator
+
+VisualStudio Code 1.47 (Copy template from devweb install dir/examples/vscodetemplate)
+
+Projects under C:\dev\devweb
+
+https://petstore.swagger.io/v2/swagger.json

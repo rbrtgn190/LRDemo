@@ -1,0 +1,87 @@
+2020-10-14
+(Machine VM LREH2) 
+
+Previous demo assets :
+	C:\dev\devweb\202007
+
+ 
+. Visual Studio code / record Swagger PetStore / Replay local & Grafana + Replay LRC
+. DevWeb in VUgen 
+. Upload to LRE
+
+1/ ======================== Create new project/workspace (DEVWEB202003_CreateVSProject.camrec) =====================================================
+
+Projects under C:\dev\devweb\<dvxx>
+Copy template from devweb install dir/examples/vscodetemplate
+Shows under VSC 
+
+
+2/ ====================== Generate functions (DEVWEB202003_CreateSwaggerFunctions.camrec) ======================================================
+
+Navigate to https://petstore.swagger.io/
+Click https://petstore.swagger.io/v2/swagger.json
+Save as swagger.json onto C:\dev\devweb\<dvxx>
+
+> Terminal > Run Task > Generate Swagger API funtions
+Select swagger.json
+Show main.js : require('./swaggerApi.js')
+
+Open swaggerApi.js
+Search 'function' and navigate for some occurence
+
+Edit main.js
+	NO "swaggerApi.findPetsByStatus " avec liste des methodes disponibles
+	NO ou "swaggerApi.getPetById(1);" avec les parametres
+	
+>>>	const response = await swaggerApi.getPetById(1).send();
+
+Close SwaggerApi.js
+
+Add a timer
+    const TRT = new load.Transaction("getPetById");
+    TRT.start();
+			const response = await swaggerApi.getPetById(1).send();
+    TRT.stop();
+		
+
+3/ ================== Record OpenAPI Flow and generate script (DEVWEB202003_RecordFlowGenerateScriptSwagger.camrec) 
+
+Terminal > run Task > Record flow
+
+Open browser
+Navigate to https://petstore.swagger.io/
+
+findPetsByStatus
+getInventory
+createUsersWithArrayInput
+
+Terminal > run Task > Generate script with Swagger API functions
+
+
+4/ ===================== Run on LR Cloud ===============================
+
+Modify script to include TRANSACTION or copy dv1410 (DevWeb_DempSwagger_LRC.zip) to main.js 
+
+Show LRC_uploader.yml (if not in project, get it from C:\Tools\DevWeb_2020.3)
+tenant:
+  host: https://loadrunner-cloud.saas.microfocus.com  # The host name of LRC.
+  user: "jeanmatthieu.guerin@microfocus.com"          # The username with which to log into LRC.
+  password: "sQlz31**$$"                              # The password with which to log into LRC.
+  tenantId: 604588673                                 # The tenant id of the user.
+  projectId: 34                                       # The id of the project on which the tests will run.
+  sendEmail: true
+
+Show LRC interface, last asset, last tests
+
+RUN 
+	Switch to LRC Console
+	
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+(LRC clean up :
+. Asset (at least)
+. Load Test (optional?)
+
+
+
+

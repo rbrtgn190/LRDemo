@@ -1,0 +1,127 @@
+=================== Configure DevWeb
+
+set DEVWEB_PATH = C:\Tools\DevWeb_2020.1\DevWeb
+or default with VUGen installed : 
+C:\Program Files (x86)\Micro Focus\Virtual User Generator\bin\DevWeb
+
+
+DEVWEB_RECORDER_PATH : "C:\Tools\DevWeb_2020.2\DevWeb\ProxyRecorder.exe"  
+C:\LREHost\bin\DevWebProxyRecorder
+
+
+=================== Demo script
+
+0. Market place
+Already installed => Show explorer
+
+1. Copy template to c:\tmp\demo
+Monter VSCode structure du script
+
+2. Open cmd on %DEVWEB_PATH%
+
+4. Show OfflineGenerator options (--help)
+
+5. copy har file to c:\tmp\demo\
+
+6. Generate script from HAR (with default config)
+OfflineGenerator.exe -level pages  -mode har c:\tmp\demo\InsCo_LogInOut.har c:\tmp\demo
+
+
+8. Execution depuis CMD
+DevWeb.exe -mode single c:\tmp\demo
+
+9. [VSCode]Contenu Results : logs, snapshots (on montrera plus tard ce qu'est DB)
+
+10. Execution depuis VSCOde
+
+7. VSCode, montrer la structure du script
+=> Pointer JSESSIONID (et VIEWSTATE)
+=> Explain Rule-based correlation vs Record-based correlation
+
+8. Show Copy correlation rule insco.yml vers CorrelationRules dans projet
+rulesScanEnabled: true 
+
+9. generate script and show it
+OfflineGenerator.exe -level pages -mode har -config c:\tmp\demo\generator_config.yml c:\tmp\demo\InsCo_LogInOut.har c:\tmp\demo
+
+=> Highlight log :  Loading correlation rules from c:/tmp/demo/CorrelationRules/correlation_rules - insco.yml
+=> Script show extractors and appliers (jsessionid=${webResponse1.extractors['InscoSessionID']})
+
+
+
+10. 
+Edit scenario.yml
+Execute Load mode
+
+!!!!! Si plusieurs dossiers dans le workspace, ça exécute le 1er
+
+
+11. Results : SQLLite
+
+12. Results : InfluxDB/Grafana
+a; Open grafana dashboard
+B; stop LR data service
+c; start "local" influx db
+d; from vscode start load test insco
+e; show cmd outputs ; influx console ; grafana dashboard
+
+
+======= VUGEN=========
+
+
+11. Create script from HAR
+
+12. 
+Execute
+Snapshot view
+From replay snapshot add Text Check (logged in as)
+From record snapshot, correlate SessionID
+
+13;  import a DevWeb script into VuGen:
+
+    In VuGen, select File > Open > Import DevWeb Script.
+	=> Montrer les paramaètres
+	
+14. Upload to LRE
+
+
+
+
+==================== CONFIGURATION InfluxDB
+influxdb.conf :
+Line 15: bind-address = "127.0.0.1:8089"
+Line 256:   bind-address = ":8087"
+
+Start influx : 
+C:\Tools\influxdb-1.7.10-1>influxd.exe run -config influxdb.conf
+
+
+  
+
+=================== Configure DebWeb to report results to influxdb
+
+You can download a DevWeb Grafana Dashboard sample that demonstrates how DevWeb measurements, stored in InfluxDB, can be visualized in Grafana tool. Download from the AppDelivery Marketplace DevWeb page. 
+
+local.config.yml (
+	Set useInfluxDB to true
+	influxDBURL http://myHost:8087?db=devWebDB 
+	
+	
+	measurements:                       #Configuration for storing measurements
+  useSqliteDB: true                 #If true, all measurements is stored in local SQLite database
+  useInfluxDB: true                #If true, all measurements is send to InfluxDB instance
+  influxDBURL: "http://localhost:8087?db=devwebdemo"                   #InfluxDB endpoint and database name (for example: http://myHost:8086?db=devWebDB)    http://pch126x:8086?db=devwebdemo 
+  
+  
+ 
+==================== CONFIGURATION Grafana
+
+Start Grafana: grafana-server.exe
+
+http://localhost:3000/ 
+
+influxdb source:
+  http://LREH2:8087
+  devwebdemo (!! case sensitive)
+
+  
