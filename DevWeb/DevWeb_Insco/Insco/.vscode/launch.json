@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "DevWeb Single",
+            "protocol": "auto",
+            "address": "localhost",
+            "port": 9230,
+            "localRoot": "${workspaceFolder}",
+            "remoteRoot": "${workspaceFolder}",
+            "stopOnEntry": true,
+            "preLaunchTask": "DevWeb Single Run",
+            "showAsyncStacks": true
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "DevWeb Load",
+            "protocol": "inspector",
+            "address": "localhost",
+            "port": 9230,
+            "localRoot": "${workspaceFolder}",
+            "remoteRoot": "${workspaceFolder}",
+            "stopOnEntry": true,
+            "preLaunchTask": "DevWeb Load Run",
+            "showAsyncStacks": true
+        },   
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "DevWeb Debug",
+            "protocol": "inspector",
+            "address": "localhost",
+            "port": 9230,
+            "localRoot": "${workspaceFolder}",
+            "remoteRoot": "${workspaceFolder}",
+            "stopOnEntry": true,
+            "preLaunchTask": "DevWeb Debug Run",
+            "showAsyncStacks": true
+        }
+    ]
+}

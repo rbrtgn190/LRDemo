@@ -1,0 +1,291 @@
+{
+	"FilterHeaders": [
+		{
+			"Header": "",
+			"IncludeInScript": false
+		}
+	],
+	"FilterResources": [
+		{
+			"IsNonResource": true,
+			"type": "text/plain"
+		},
+		{
+			"IsNonResource": true,
+			"type": "application/json"
+		},
+		{
+			"IsNonResource": false,
+			"type": "text/html"
+		},
+		{
+			"IsNonResource": false,
+			"type": "text/css"
+		},
+		{
+			"IsNonResource": false,
+			"type": "application/javascript"
+		},
+		{
+			"IsNonResource": false,
+			"type": "image/png"
+		}
+	],
+	"GeneralInfo": {
+		"BrowserVersion": "",
+		"IsWinInetMode": false,
+		"MaxUsedConnections": 0,
+		"RecordedBrowser": "",
+		"RecordingDate": "Oct-14-2020",
+		"RecordingDuration": 0,
+		"RecordingMode": "N/A",
+		"RecordingTimeStamp": 1602668974,
+		"RecordingType": "Browser",
+		"TotalBytesReceived": 482198,
+		"TotalBytesSent": 9102,
+		"TotalRequests": 16,
+		"UserAgent": "",
+		"ReadOnly": true
+	},
+	"HostInfo": [
+		{
+			"DomainName": "google.com",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": false,
+					"Name": "accounts.google.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1355
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "swagger.io",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/1.1",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "petstore.swagger.io",
+					"Port": 80,
+					"Requests": [
+						{
+							"URL": "http://petstore.swagger.io/",
+							"CompressionType": "",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 302,
+							"Size": 336
+						}
+					],
+					"SSLCipher": "None",
+					"SSLVersion": "None"
+				},
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "petstore.swagger.io",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://petstore.swagger.io/",
+							"CompressionType": "gzip",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1275
+						},
+						{
+							"URL": "https://petstore.swagger.io/swagger-ui.css",
+							"CompressionType": "gzip",
+							"DataType": "text/css",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 22686
+						},
+						{
+							"URL": "https://petstore.swagger.io/swagger-ui-bundle.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 315877
+						},
+						{
+							"URL": "https://petstore.swagger.io/swagger-ui-standalone-preset.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 102824
+						},
+						{
+							"URL": "https://petstore.swagger.io/favicon-32x32.png",
+							"CompressionType": "",
+							"DataType": "image/png",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1212
+						},
+						{
+							"URL": "https://petstore.swagger.io/v2/swagger.json",
+							"CompressionType": "",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 14153
+						},
+						{
+							"URL": "https://petstore.swagger.io/v2/pet/findByStatus?status=available",
+							"CompressionType": "",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 13182
+						},
+						{
+							"URL": "https://petstore.swagger.io/v2/store/inventory",
+							"CompressionType": "",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 403
+						},
+						{
+							"URL": "https://petstore.swagger.io/v2/user/createWithArray",
+							"CompressionType": "",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 354
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				},
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "validator.swagger.io",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://validator.swagger.io/validator?url=https%3A%2F%2Fpetstore.swagger.io%2Fv2%2Fswagger.json",
+							"CompressionType": "",
+							"DataType": "image/png",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1993
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "content-autofill.googleapis.com",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": false,
+					"Name": "content-autofill.googleapis.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIUCekKrkcXD6dkEgkNkWGVThIAGgA=?alt=proto",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 760
+						},
+						{
+							"URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRI1CR1gUHqeXyfXEgkNlJCS-hIAGgASCQ0G7bv_EgAaABIJDZSQkvoSABoAEgkNlJCS-hIAGgA=?alt=proto",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 781
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "update.googleapis.com",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": false,
+					"Name": "update.googleapis.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://update.googleapis.com/service/update2/json?cup2key=10:2010151055&cup2hreq=4799933a28ffea76d5e979a22ae29acedb47c1f933c6d322bc48cafdbc81edba",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3861
+						},
+						{
+							"URL": "https://update.googleapis.com/service/update2/json",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1146
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		}
+	],
+	"WebSocket": {
+		"IncludeInScript": false,
+		"IsScriptIncludeWebSocket": false
+	},
+	"NumberOfCorrelations": 0
+}

@@ -1,0 +1,10 @@
+categories:
+- name: InsCo
+  enabled: true
+  rules:
+  - name: InscoSessionID
+    type: boundary
+    enabled: true
+    options:
+      leftBoundary: JSESSIONID=
+      rightBoundary: ;

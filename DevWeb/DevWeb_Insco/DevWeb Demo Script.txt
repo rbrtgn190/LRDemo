@@ -1,0 +1,74 @@
+0. Market place
+Already installed => Show explorer
+
+1. Copy template to c:\tmp\demo
+Monter VSCode structure du script
+
+2. Open cmd on %DEVWEB_PATH%
+
+4. Show OfflineGenerator options (--help)
+
+5. copy har file to c:\tmp\demo\
+
+6. Generate script from HAR (with default config)
+OfflineGenerator.exe -level pages  -mode har c:\tmp\demo\InsCo_LogInOut.har c:\tmp\demo
+
+
+8. Execution depuis CMD
+DevWeb.exe -mode single c:\tmp\demo
+
+9. [VSCode]Contenu Results : logs, snapshots (on montrera plus tard ce qu'est DB)
+
+10. Execution depuis VSCOde
+
+7. VSCode, montrer la structure du script
+=> Pointer JSESSIONID (et VIEWSTATE)
+=> Explain Rule-based correlation vs Record-based correlation
+
+8. Show Copy correlation rule insco.yml vers CorrelationRules dans projet
+rulesScanEnabled: true 
+
+9. generate script and show it
+OfflineGenerator.exe -level pages -mode har -config c:\tmp\demo\generator_config.yml c:\tmp\demo\InsCo_LogInOut.har c:\tmp\demo
+
+=> Highlight log :  Loading correlation rules from c:/tmp/demo/CorrelationRules/correlation_rules - insco.yml
+=> Script show extractors and appliers (jsessionid=${webResponse1.extractors['InscoSessionID']})
+
+
+
+10. 
+Edit scenario.yml
+Execute Load mode
+
+!!!!! Si plusieurs dossiers dans le workspace, ça exécute le 1er
+
+
+11. Results : SQLLite
+
+12. Results : InfluxDB/Grafana
+a; Open grafana dashboard
+B; stop LR data service
+c; start "local" influx db
+d; from vscode start load test insco
+e; show cmd outputs ; influx console ; grafana dashboard
+
+
+======= VUGEN=========
+
+
+11. Create script from HAR
+
+12. 
+Execute
+Snapshot view
+From replay snapshot add Text Check (logged in as)
+From record snapshot, correlate SessionID
+
+13;  import a DevWeb script into VuGen:
+
+    In VuGen, select File > Open > Import DevWeb Script.
+	=> Montrer les paramaètres
+	
+14. Upload to LRE
+
+

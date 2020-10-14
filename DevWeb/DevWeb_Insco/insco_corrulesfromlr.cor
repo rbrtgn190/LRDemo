@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<CorrelationSettings><Group Name="InsCo" Enable="1" Icon="logo_default.bmp"><Rule Name="Rule_5" LeftBoundText="JSESSIONID=" LeftBoundType="1" LeftBoundInstance="0" RightBoundText=";" RightBoundType="1" AltRightBoundText="" AltRightBoundType="1" Flags="0" ParamPrefix="" Type="256" SaveOffset="0" SaveLen="-1" CallbackName="" CallbackDLLName="" FormField="" ReplaceLB="" ReplaceRB=""/></Group></CorrelationSettings>

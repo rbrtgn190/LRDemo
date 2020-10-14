@@ -1,0 +1,3 @@
+- name: createUsersWithArrayInput
+- name: findPetsByStatus
+- name: getInventory
