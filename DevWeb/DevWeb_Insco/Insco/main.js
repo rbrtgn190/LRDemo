@@ -29,7 +29,8 @@ load.action("Action", async function () {
     };
 
 
-
+    let  T01 = new load.Transaction("Insco_home");
+    T01.start();
 
     const webResponse1 = new load.WebRequest({
         id: 1,
@@ -74,7 +75,7 @@ load.action("Action", async function () {
 
 
 
-    const Login = new load.Transaction("Login");
+    const Login = new load.Transaction("Insco_login");
     Login.start();
 
     const webResponse2 = new load.WebRequest({

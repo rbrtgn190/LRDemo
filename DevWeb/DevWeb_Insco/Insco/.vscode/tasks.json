@@ -2,7 +2,98 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "DevWeb Single Run",
+      "label": "[LoadRunner Developer] Record flow",
+      "type": "process",
+      "presentation": {
+        "panel": "new"
+      },
+      "windows": {
+        "command": "${env:DEVWEB_PATH}\\ProxyRecorder.exe"
+      },
+      "osx": {
+        "command": "${env:DEVWEB_PATH}/ProxyRecorder"
+      },
+      "linux": {
+        "command": "${env:DEVWEB_PATH}/ProxyRecorder"
+      },
+      "args": [
+        "-launchBrowser=chrome",
+        "${cwd}/proxyrecorded.har"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "[LoadRunner Developer] Generate script",
+      "type": "process",
+      "presentation": {
+        "panel": "new"
+      },
+      "windows": {
+        "command": "${env:DEVWEB_PATH}\\OfflineGenerator.exe"
+      },
+      "osx": {
+        "command": "${env:DEVWEB_PATH}/OfflineGenerator"
+      },
+      "linux": {
+        "command": "${env:DEVWEB_PATH}/OfflineGenerator"
+      },
+      "args": [
+        "-mode=har",
+        "-level=pages",
+        "${cwd}/proxyrecorded.har",
+        "${cwd}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "[LoadRunner Developer] Generate Swagger API functions",
+      "type": "process",
+      "presentation": {
+        "panel": "new"
+      },
+      "windows": {
+        "command": "${env:DEVWEB_PATH}\\OfflineGenerator.exe"
+      },
+      "osx": {
+        "command": "${env:DEVWEB_PATH}/OfflineGenerator"
+      },
+      "linux": {
+        "command": "${env:DEVWEB_PATH}/OfflineGenerator"
+      },
+      "args": [
+        "-mode=swagger",
+        "-level=pages",
+        "${input:swaggerJson}",
+        "${cwd}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "[LoadRunner Developer] Generate script with Swagger API functions",
+      "type": "process",
+      "presentation": {
+        "panel": "new"
+      },
+      "windows": {
+        "command": "${env:DEVWEB_PATH}\\OfflineGenerator.exe"
+      },
+      "osx": {
+        "command": "${env:DEVWEB_PATH}/OfflineGenerator"
+      },
+      "linux": {
+        "command": "${env:DEVWEB_PATH}/OfflineGenerator"
+      },
+      "args": [
+        "-mode=swagger",
+        "-level=pages",
+        "-har=${cwd}/proxyrecorded.har",
+        "${input:swaggerJson}",
+        "${cwd}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "[LoadRunner Developer] Run Single Vuser",
       "type": "process",
       "presentation": {
         "panel": "new"
@@ -23,7 +114,7 @@
       "problemMatcher": []
     },
     {
-      "label": "DevWeb Load Run",
+      "label": "[LoadRunner Developer] Run Load",
       "type": "process",
       "presentation": {
         "panel": "new"
@@ -41,10 +132,11 @@
         "-mode=load",
         "-ide=vscode",
         "${workspaceRoot}"
-      ]
+      ],
+      "problemMatcher": []
     },
     {
-      "label": "DevWeb Debug Run",
+      "label": "[LoadRunner Developer] Debug Single Vuser",
       "type": "process",
       "windows": {
         "command": "${env:DEVWEB_PATH}\\DevWeb.exe"
@@ -81,6 +173,88 @@
           }
         }
       ]
+    },
+    {
+      "label": "[LoadRunner Developer] Run test on LoadRunner Cloud",
+      "type": "process",
+      "presentation": {
+        "panel": "new"
+      },
+      "windows": {
+        "command": "${env:DEVWEB_PATH}\\ScaLRD.exe"
+      },
+      "osx": {
+        "command": "${env:DEVWEB_PATH}/ScaLRD"
+      },
+      "linux": {
+        "command": "${env:DEVWEB_PATH}/ScaLRD"
+      },
+      "args": [
+        "lrc",
+        "run",
+        "-report=LRC_Report.pdf",
+        "${cwd}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "[LoadRunner Developer] Get test run results from LoadRunner Cloud",
+      "type": "process",
+      "presentation": {
+        "panel": "new"
+      },
+      "windows": {
+        "command": "${env:DEVWEB_PATH}\\ScaLRD.exe"
+      },
+      "osx": {
+        "command": "${env:DEVWEB_PATH}/ScaLRD"
+      },
+      "linux": {
+        "command": "${env:DEVWEB_PATH}/ScaLRD"
+      },
+      "args": [
+        "lrc",
+        "continue",
+        "${input:runId}",
+        "${cwd}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "[LoadRunner Developer] Run test on LoadRunner Enterprise",
+      "type": "process",
+      "presentation": {
+        "panel": "new"
+      },
+      "windows": {
+        "command": "${env:DEVWEB_PATH}\\ScaLRD.exe"
+      },
+      "osx": {
+        "command": "${env:DEVWEB_PATH}/ScaLRD"
+      },
+      "linux": {
+        "command": "${env:DEVWEB_PATH}/ScaLRD"
+      },
+      "args": [
+        "lre",
+        "run",
+        "-report=${cwd}",
+        "${cwd}"
+      ],
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+        "id": "swaggerJson",
+        "description": "Full path to swagger json file:",
+        "default": "swagger.json",
+        "type": "promptString"
+    },
+    {
+      "id": "runId",
+      "description": "Id of the test run:",
+      "type": "promptString"
     }
   ]
 }

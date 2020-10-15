@@ -1,0 +1,8 @@
+time="2020-10-15T16:53:13.577373" level=info msg="Starting ScaLRD"
+time="2020-10-15T16:53:13.626168" level=error msg="failed to login: fail to login: Get \"LRES/LoadTest/rest/authentication-point/authenticate\": unsupported protocol scheme \"\""
+time="2020-10-15T16:57:28.007179" level=info msg="Starting ScaLRD"
+time="2020-10-15T16:57:35.791195" level=info msg="Uploading script C:\\dev\\LRDemo\\DevWeb\\dv1410 to AutoTestPlan"
+time="2020-10-15T16:57:36.179481" level=error msg="upload script failed: error 1602 occurred: Zip file does not contain a valid script. The main descriptor (.usr file) is missing or invalid."
+time="2020-10-15T16:58:54.482276" level=info msg="Starting ScaLRD"
+time="2020-10-15T16:59:01.595023" level=info msg="Uploading script C:\\dev\\LRDemo\\DevWeb\\dv1410 to AutoTestPlan"
+time="2020-10-15T16:59:01.806803" level=error msg="upload script failed: error 1602 occurred: Zip file does not contain a valid script. The main descriptor (.usr file) is missing or invalid."

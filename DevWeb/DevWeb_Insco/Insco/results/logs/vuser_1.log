@@ -1,13 +1,14 @@
-[13:51:39.24] Debug: Running build Release_2020.2.0_1761 on windows
-[13:51:39.24] Info: Starting initialize.
-[13:51:39.25] Info: Ending initialize.
-[13:51:39.25] Info: Starting iteration 1.
-[13:51:39.25] Debug: Parameter user (sequential) is taken from row 0
-[13:51:39.25] Info: Parameter Substitution: 'user = ed.wesson@gmail.com'	(./main.js:15:32)
-[13:51:39.25] Debug: Parameter password (same as user) is taken from row 0
-[13:51:39.25] Info: Parameter Substitution: 'password = ed'	(./main.js:16:32)
-[13:51:39.26] Info: WebRequest [Id: 1] 'http://demo.borland.com/InsuranceWebExtJS/' registered to send (sync).
-[13:51:39.26] Trace: Request [Id: 1] 'http://demo.borland.com/InsuranceWebExtJS/': 
+[17:18:06.69] Debug: Running build Release_2020.3.0_1869 on windows
+[17:18:06.69] Info: Starting initialize.
+[17:18:06.70] Info: Ending initialize.
+[17:18:06.70] Info: Starting iteration 1.
+[17:18:06.70] Debug: Parameter user (sequential) is taken from row 0
+[17:18:06.70] Info: Parameter Substitution: 'user = ed.wesson@gmail.com'	(./main.js:15:32)
+[17:18:06.70] Debug: Parameter password (same as user) is taken from row 0
+[17:18:06.70] Info: Parameter Substitution: 'password = ed'	(./main.js:16:32)
+[17:18:06.71] Info: Transaction 'Insco_home' started.	(./main.js:33:9)
+[17:18:06.71] Info: WebRequest [Id: 1] 'http://demo.borland.com/InsuranceWebExtJS/' registered to send (sync).
+[17:18:06.71] Trace: Request [Id: 1] 'http://demo.borland.com/InsuranceWebExtJS/': 
 GET /InsuranceWebExtJS/ HTTP/1.1
 Host: demo.borland.com
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
@@ -20,264 +21,29 @@ Pragma: no-cache
 Upgrade-Insecure-Requests: 1
 
 
-[13:51:39.26] Debug: Request [Id: 1]: GET 'http://demo.borland.com/InsuranceWebExtJS/' started.
-[13:51:39.60] Trace: Request [Id: 1]: Connecting tcp socket to host 143.186.120.171:80.
-[13:51:39.63] Trace: Request [Id: 1]: Connection to host 143.186.120.171:80 done.
-[13:51:39.63] Trace: Request [Id: 1]: New connection from 192.168.138.240:3282 to 143.186.120.171:80 in 29 ms.
-[13:51:39.68] Debug: Request [Id: 1]: GET 'http://demo.borland.com/InsuranceWebExtJS/' done. Status 200 OK. HTTP/1.1
-[13:51:39.68] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/': 
+[17:18:06.71] Debug: Request [Id: 1]: GET 'http://demo.borland.com/InsuranceWebExtJS/' started.
+[17:18:06.72] Trace: Request [Id: 1]: Connecting tcp socket to host 143.186.120.171:80.
+[17:18:06.78] Trace: Request [Id: 1]: Connection to host 143.186.120.171:80 done.
+[17:18:06.78] Trace: Request [Id: 1]: New connection from 192.168.138.131:8723 to 143.186.120.171:80 in 64 ms.
+[17:18:06.85] Debug: Request [Id: 1]: GET 'http://demo.borland.com/InsuranceWebExtJS/' done. Status 200 OK. HTTP/1.1
+[17:18:06.85] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/': 
 HTTP/1.1 200 OK
 Content-Length: 2628
 Cache-Control: no-cache,must-revalidate
 Content-Encoding: gzip
 Content-Type: text/html;charset=UTF-8
-Date: Tue, 21 Jul 2020 11:51:29 GMT
+Date: Thu, 15 Oct 2020 15:18:04 GMT
 Expires: Mon, 8 Aug 2000 10:00:00 GMT
 Pragma: no-cache
 Server: Microsoft-IIS/10.0
-Set-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF; Path=/InsuranceWebExtJS/; HttpOnly
+Set-Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C; Path=/InsuranceWebExtJS/; HttpOnly
 Vary: Accept-Encoding
 X-Frame-Options: SAMEORIGIN
 X-Powered-By: JSF/1.2
 X-Powered-By: ASP.NET
 
 
-[13:51:39.68] Trace: Request [Id: 1.21] 'http://demo.borland.com/InsuranceWebExtJS/images/rbc1.gif': 
-GET /InsuranceWebExtJS/images/rbc1.gif HTTP/1.1
-Host: demo.borland.com
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
-Accept-Encoding: gzip, deflate
-Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
-Cache-Control: no-cache
-Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
-Pragma: no-cache
-Referer: http://demo.borland.com/InsuranceWebExtJS/
-Upgrade-Insecure-Requests: 1
-
-
-[13:51:39.68] Debug: Request [Id: 1.21]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rbc1.gif' started.
-[13:51:39.68] Trace: Request [Id: 1.10] 'http://demo.borland.com/InsuranceWebExtJS/images/h_back2.jpg': 
-GET /InsuranceWebExtJS/images/h_back2.jpg HTTP/1.1
-Host: demo.borland.com
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
-Accept-Encoding: gzip, deflate
-Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
-Cache-Control: no-cache
-Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
-Pragma: no-cache
-Referer: http://demo.borland.com/InsuranceWebExtJS/
-Upgrade-Insecure-Requests: 1
-
-
-[13:51:39.68] Debug: Request [Id: 1.10]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/h_back2.jpg' started.
-[13:51:39.68] Trace: Request [Id: 1.21]: Connection reused from 192.168.138.240:3282 to 143.186.120.171:80.
-[13:51:39.68] Trace: Request [Id: 1.11] 'http://demo.borland.com/InsuranceWebExtJS/images/pimp1.gif': 
-GET /InsuranceWebExtJS/images/pimp1.gif HTTP/1.1
-Host: demo.borland.com
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
-Accept-Encoding: gzip, deflate
-Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
-Cache-Control: no-cache
-Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
-Pragma: no-cache
-Referer: http://demo.borland.com/InsuranceWebExtJS/
-Upgrade-Insecure-Requests: 1
-
-
-[13:51:39.68] Trace: Request [Id: 1.1] 'http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js': 
-GET /InsuranceWebExtJS/javascript/menu.js HTTP/1.1
-Host: demo.borland.com
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
-Accept-Encoding: gzip, deflate
-Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
-Cache-Control: no-cache
-Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
-Pragma: no-cache
-Referer: http://demo.borland.com/InsuranceWebExtJS/
-Upgrade-Insecure-Requests: 1
-
-
-[13:51:39.68] Debug: Request [Id: 1.1]: GET 'http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js' started.
-[13:51:39.68] Trace: Request [Id: 1.1]: Connecting tcp socket to host 143.186.120.171:80.
-[13:51:39.68] Trace: Request [Id: 1.3] 'http://demo.borland.com/InsuranceWebExtJS/images/login.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09': 
-GET /InsuranceWebExtJS/images/login.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09 HTTP/1.1
-Host: demo.borland.com
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
-Accept-Encoding: gzip, deflate
-Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
-Cache-Control: no-cache
-Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
-Pragma: no-cache
-Referer: http://demo.borland.com/InsuranceWebExtJS/
-Upgrade-Insecure-Requests: 1
-
-
-[13:51:39.68] Debug: Request [Id: 1.3]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/login.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09' started.
-[13:51:39.68] Trace: Request [Id: 1.6] 'http://demo.borland.com/InsuranceWebExtJS/images/highlights.gif': 
-GET /InsuranceWebExtJS/images/highlights.gif HTTP/1.1
-Host: demo.borland.com
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
-Accept-Encoding: gzip, deflate
-Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
-Cache-Control: no-cache
-Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
-Pragma: no-cache
-Referer: http://demo.borland.com/InsuranceWebExtJS/
-Upgrade-Insecure-Requests: 1
-
-
-[13:51:39.68] Debug: Request [Id: 1.6]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/highlights.gif' started.
-[13:51:39.68] Debug: Request [Id: 1.11]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/pimp1.gif' started.
-[13:51:39.68] Trace: Request [Id: 1.7] 'http://demo.borland.com/InsuranceWebExtJS/images/signup.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09': 
-GET /InsuranceWebExtJS/images/signup.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09 HTTP/1.1
-Host: demo.borland.com
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
-Accept-Encoding: gzip, deflate
-Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
-Cache-Control: no-cache
-Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
-Pragma: no-cache
-Referer: http://demo.borland.com/InsuranceWebExtJS/
-Upgrade-Insecure-Requests: 1
-
-
-[13:51:39.68] Trace: Request [Id: 1.12] 'http://demo.borland.com/InsuranceWebExtJS/images/ltc.gif': 
-GET /InsuranceWebExtJS/images/ltc.gif HTTP/1.1
-Host: demo.borland.com
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
-Accept-Encoding: gzip, deflate
-Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
-Cache-Control: no-cache
-Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
-Pragma: no-cache
-Referer: http://demo.borland.com/InsuranceWebExtJS/
-Upgrade-Insecure-Requests: 1
-
-
-[13:51:39.68] Trace: Request [Id: 1.15] 'http://demo.borland.com/InsuranceWebExtJS/images/rbc.gif': 
-GET /InsuranceWebExtJS/images/rbc.gif HTTP/1.1
-Host: demo.borland.com
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
-Accept-Encoding: gzip, deflate
-Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
-Cache-Control: no-cache
-Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
-Pragma: no-cache
-Referer: http://demo.borland.com/InsuranceWebExtJS/
-Upgrade-Insecure-Requests: 1
-
-
-[13:51:39.68] Trace: Request [Id: 1.3]: Connecting tcp socket to host 143.186.120.171:80.
-[13:51:39.68] Trace: Request [Id: 1.16] 'http://demo.borland.com/InsuranceWebExtJS/images/pimp2.gif': 
-GET /InsuranceWebExtJS/images/pimp2.gif HTTP/1.1
-Host: demo.borland.com
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
-Accept-Encoding: gzip, deflate
-Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
-Cache-Control: no-cache
-Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
-Pragma: no-cache
-Referer: http://demo.borland.com/InsuranceWebExtJS/
-Upgrade-Insecure-Requests: 1
-
-
-[13:51:39.68] Trace: Request [Id: 1.9] 'http://demo.borland.com/InsuranceWebExtJS/images/spacer.gif': 
-GET /InsuranceWebExtJS/images/spacer.gif HTTP/1.1
-Host: demo.borland.com
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
-Accept-Encoding: gzip, deflate
-Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
-Cache-Control: no-cache
-Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
-Pragma: no-cache
-Referer: http://demo.borland.com/InsuranceWebExtJS/
-Upgrade-Insecure-Requests: 1
-
-
-[13:51:39.68] Trace: Request [Id: 1.17] 'http://demo.borland.com/InsuranceWebExtJS/images/pimp3.gif': 
-GET /InsuranceWebExtJS/images/pimp3.gif HTTP/1.1
-Host: demo.borland.com
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
-Accept-Encoding: gzip, deflate
-Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
-Cache-Control: no-cache
-Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
-Pragma: no-cache
-Referer: http://demo.borland.com/InsuranceWebExtJS/
-Upgrade-Insecure-Requests: 1
-
-
-[13:51:39.68] Trace: Request [Id: 1.10]: Connecting tcp socket to host 143.186.120.171:80.
-[13:51:39.68] Trace: Request [Id: 1.14] 'http://demo.borland.com/InsuranceWebExtJS/images/rtc.gif': 
-GET /InsuranceWebExtJS/images/rtc.gif HTTP/1.1
-Host: demo.borland.com
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
-Accept-Encoding: gzip, deflate
-Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
-Cache-Control: no-cache
-Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
-Pragma: no-cache
-Referer: http://demo.borland.com/InsuranceWebExtJS/
-Upgrade-Insecure-Requests: 1
-
-
-[13:51:39.68] Trace: Request [Id: 1.13] 'http://demo.borland.com/InsuranceWebExtJS/images/lbc.gif': 
-GET /InsuranceWebExtJS/images/lbc.gif HTTP/1.1
-Host: demo.borland.com
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
-Accept-Encoding: gzip, deflate
-Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
-Cache-Control: no-cache
-Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
-Pragma: no-cache
-Referer: http://demo.borland.com/InsuranceWebExtJS/
-Upgrade-Insecure-Requests: 1
-
-
-[13:51:39.68] Trace: Request [Id: 1.8] 'http://demo.borland.com/InsuranceWebExtJS/images/profile.gif': 
-GET /InsuranceWebExtJS/images/profile.gif HTTP/1.1
-Host: demo.borland.com
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
-Accept-Encoding: gzip, deflate
-Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
-Cache-Control: no-cache
-Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
-Pragma: no-cache
-Referer: http://demo.borland.com/InsuranceWebExtJS/
-Upgrade-Insecure-Requests: 1
-
-
-[13:51:39.68] Trace: Request [Id: 1.2] 'http://demo.borland.com/InsuranceWebExtJS/css/style.css': 
+[17:18:06.85] Trace: Request [Id: 1.2] 'http://demo.borland.com/InsuranceWebExtJS/css/style.css': 
 GET /InsuranceWebExtJS/css/style.css HTTP/1.1
 Host: demo.borland.com
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
@@ -286,14 +52,16 @@ Accept-Encoding: gzip, deflate
 Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
 Cache-Control: no-cache
 Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
 Pragma: no-cache
 Referer: http://demo.borland.com/InsuranceWebExtJS/
 Upgrade-Insecure-Requests: 1
 
 
-[13:51:39.68] Trace: Request [Id: 1.4] 'http://demo.borland.com/InsuranceWebExtJS/images/submit2.gif': 
-GET /InsuranceWebExtJS/images/submit2.gif HTTP/1.1
+[17:18:06.85] Debug: Request [Id: 1.2]: GET 'http://demo.borland.com/InsuranceWebExtJS/css/style.css' started.
+[17:18:06.85] Trace: Request [Id: 1.2]: Connection reused from 192.168.138.131:8723 to 143.186.120.171:80.
+[17:18:06.85] Trace: Request [Id: 1.1] 'http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js': 
+GET /InsuranceWebExtJS/javascript/menu.js HTTP/1.1
 Host: demo.borland.com
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
@@ -301,13 +69,46 @@ Accept-Encoding: gzip, deflate
 Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
 Cache-Control: no-cache
 Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
 Pragma: no-cache
 Referer: http://demo.borland.com/InsuranceWebExtJS/
 Upgrade-Insecure-Requests: 1
 
 
-[13:51:39.68] Trace: Request [Id: 1.18] 'http://demo.borland.com/InsuranceWebExtJS/images/ltc1.gif': 
+[17:18:06.85] Debug: Request [Id: 1.1]: GET 'http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js' started.
+[17:18:06.85] Trace: Request [Id: 1.1]: Connecting tcp socket to host 143.186.120.171:80.
+[17:18:06.85] Trace: Request [Id: 1.3] 'http://demo.borland.com/InsuranceWebExtJS/images/login.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09': 
+GET /InsuranceWebExtJS/images/login.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09 HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:06.85] Trace: Request [Id: 1.21] 'http://demo.borland.com/InsuranceWebExtJS/images/rbc1.gif': 
+GET /InsuranceWebExtJS/images/rbc1.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:06.85] Debug: Request [Id: 1.3]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/login.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09' started.
+[17:18:06.85] Trace: Request [Id: 1.18] 'http://demo.borland.com/InsuranceWebExtJS/images/ltc1.gif': 
 GET /InsuranceWebExtJS/images/ltc1.gif HTTP/1.1
 Host: demo.borland.com
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
@@ -316,14 +117,15 @@ Accept-Encoding: gzip, deflate
 Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
 Cache-Control: no-cache
 Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
 Pragma: no-cache
 Referer: http://demo.borland.com/InsuranceWebExtJS/
 Upgrade-Insecure-Requests: 1
 
 
-[13:51:39.68] Trace: Request [Id: 1.19] 'http://demo.borland.com/InsuranceWebExtJS/images/rtc1.gif': 
-GET /InsuranceWebExtJS/images/rtc1.gif HTTP/1.1
+[17:18:06.85] Debug: Request [Id: 1.18]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/ltc1.gif' started.
+[17:18:06.85] Trace: Request [Id: 1.4] 'http://demo.borland.com/InsuranceWebExtJS/images/submit2.gif': 
+GET /InsuranceWebExtJS/images/submit2.gif HTTP/1.1
 Host: demo.borland.com
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
@@ -331,14 +133,15 @@ Accept-Encoding: gzip, deflate
 Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
 Cache-Control: no-cache
 Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
 Pragma: no-cache
 Referer: http://demo.borland.com/InsuranceWebExtJS/
 Upgrade-Insecure-Requests: 1
 
 
-[13:51:39.68] Trace: Request [Id: 1.5] 'http://demo.borland.com/InsuranceWebExtJS/images/main_services.gif': 
-GET /InsuranceWebExtJS/images/main_services.gif HTTP/1.1
+[17:18:06.85] Debug: Request [Id: 1.4]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/submit2.gif' started.
+[17:18:06.85] Trace: Request [Id: 1.6] 'http://demo.borland.com/InsuranceWebExtJS/images/highlights.gif': 
+GET /InsuranceWebExtJS/images/highlights.gif HTTP/1.1
 Host: demo.borland.com
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
@@ -346,13 +149,163 @@ Accept-Encoding: gzip, deflate
 Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
 Cache-Control: no-cache
 Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
 Pragma: no-cache
 Referer: http://demo.borland.com/InsuranceWebExtJS/
 Upgrade-Insecure-Requests: 1
 
 
-[13:51:39.68] Trace: Request [Id: 1.20] 'http://demo.borland.com/InsuranceWebExtJS/images/lbc1.gif': 
+[17:18:06.85] Trace: Request [Id: 1.12] 'http://demo.borland.com/InsuranceWebExtJS/images/ltc.gif': 
+GET /InsuranceWebExtJS/images/ltc.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:06.85] Trace: Request [Id: 1.7] 'http://demo.borland.com/InsuranceWebExtJS/images/signup.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09': 
+GET /InsuranceWebExtJS/images/signup.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09 HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:06.85] Trace: Request [Id: 1.13] 'http://demo.borland.com/InsuranceWebExtJS/images/lbc.gif': 
+GET /InsuranceWebExtJS/images/lbc.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:06.85] Trace: Request [Id: 1.14] 'http://demo.borland.com/InsuranceWebExtJS/images/rtc.gif': 
+GET /InsuranceWebExtJS/images/rtc.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:06.85] Trace: Request [Id: 1.8] 'http://demo.borland.com/InsuranceWebExtJS/images/profile.gif': 
+GET /InsuranceWebExtJS/images/profile.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:06.85] Trace: Request [Id: 1.9] 'http://demo.borland.com/InsuranceWebExtJS/images/spacer.gif': 
+GET /InsuranceWebExtJS/images/spacer.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:06.85] Trace: Request [Id: 1.15] 'http://demo.borland.com/InsuranceWebExtJS/images/rbc.gif': 
+GET /InsuranceWebExtJS/images/rbc.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:06.85] Trace: Request [Id: 1.10] 'http://demo.borland.com/InsuranceWebExtJS/images/h_back2.jpg': 
+GET /InsuranceWebExtJS/images/h_back2.jpg HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:06.85] Trace: Request [Id: 1.16] 'http://demo.borland.com/InsuranceWebExtJS/images/pimp2.gif': 
+GET /InsuranceWebExtJS/images/pimp2.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:06.85] Trace: Request [Id: 1.17] 'http://demo.borland.com/InsuranceWebExtJS/images/pimp3.gif': 
+GET /InsuranceWebExtJS/images/pimp3.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:06.85] Trace: Request [Id: 1.20] 'http://demo.borland.com/InsuranceWebExtJS/images/lbc1.gif': 
 GET /InsuranceWebExtJS/images/lbc1.gif HTTP/1.1
 Host: demo.borland.com
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
@@ -361,272 +314,86 @@ Accept-Encoding: gzip, deflate
 Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
 Cache-Control: no-cache
 Connection: keep-alive
-Cookie: JSESSIONID=3EA2B6ACB4D0724EA319EAA424950EFF
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
 Pragma: no-cache
 Referer: http://demo.borland.com/InsuranceWebExtJS/
 Upgrade-Insecure-Requests: 1
 
 
-[13:51:39.69] Trace: Request [Id: 1.6]: Connecting tcp socket to host 143.186.120.171:80.
-[13:51:39.69] Trace: Request [Id: 1.11]: Connecting tcp socket to host 143.186.120.171:80.
-[13:51:39.69] Debug: Request [Id: 1.7]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/signup.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09' started.
-[13:51:39.69] Debug: Request [Id: 1.12]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/ltc.gif' started.
-[13:51:39.69] Debug: Request [Id: 1.15]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rbc.gif' started.
-[13:51:39.69] Debug: Request [Id: 1.16]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/pimp2.gif' started.
-[13:51:39.69] Debug: Request [Id: 1.9]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/spacer.gif' started.
-[13:51:39.70] Debug: Request [Id: 1.17]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/pimp3.gif' started.
-[13:51:39.70] Debug: Request [Id: 1.14]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rtc.gif' started.
-[13:51:39.70] Debug: Request [Id: 1.13]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/lbc.gif' started.
-[13:51:39.70] Debug: Request [Id: 1.8]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/profile.gif' started.
-[13:51:39.70] Debug: Request [Id: 1.2]: GET 'http://demo.borland.com/InsuranceWebExtJS/css/style.css' started.
-[13:51:39.70] Debug: Request [Id: 1.4]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/submit2.gif' started.
-[13:51:39.70] Debug: Request [Id: 1.18]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/ltc1.gif' started.
-[13:51:39.70] Debug: Request [Id: 1.19]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rtc1.gif' started.
-[13:51:39.70] Debug: Request [Id: 1.5]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/main_services.gif' started.
-[13:51:39.71] Debug: Request [Id: 1.20]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/lbc1.gif' started.
-[13:51:39.71] Trace: Request [Id: 1.1]: Connection to host 143.186.120.171:80 done.
-[13:51:39.71] Debug: Request [Id: 1.21]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rbc1.gif' done. Status 200 OK. HTTP/1.1
-[13:51:39.72] Trace: Request [Id: 1.3]: Connection to host 143.186.120.171:80 done.
-[13:51:39.73] Trace: Request [Id: 1.10]: Connection to host 143.186.120.171:80 done.
-[13:51:39.73] Trace: Request [Id: 1.1]: New connection from 192.168.138.240:3284 to 143.186.120.171:80 in 27 ms.
-[13:51:39.73] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/rbc1.gif': 
-HTTP/1.1 200 OK
-Content-Length: 115
-Accept-Ranges: bytes
-Content-Type: image/gif
-Date: Tue, 21 Jul 2020 11:51:29 GMT
-Etag: W/"115-1355218844000"
-Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
-Server: Microsoft-IIS/10.0
-X-Frame-Options: SAMEORIGIN
-X-Powered-By: ASP.NET
+[17:18:06.85] Debug: Request [Id: 1.6]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/highlights.gif' started.
+[17:18:06.85] Trace: Request [Id: 1.11] 'http://demo.borland.com/InsuranceWebExtJS/images/pimp1.gif': 
+GET /InsuranceWebExtJS/images/pimp1.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/
+Upgrade-Insecure-Requests: 1
 
 
-[13:51:39.73] Trace: Request [Id: 1.3]: New connection from 192.168.138.240:3285 to 143.186.120.171:80 in 38 ms.
-[13:51:39.73] Trace: Request [Id: 1.10]: New connection from 192.168.138.240:3286 to 143.186.120.171:80 in 43 ms.
-[13:51:39.73] Trace: Request [Id: 1.6]: Connection reused from 192.168.138.240:3282 to 143.186.120.171:80.
-[13:51:39.74] Trace: Request [Id: 1.11]: Connection to host 143.186.120.171:80 done.
-[13:51:39.74] Trace: Request [Id: 1.6]: Connection to host 143.186.120.171:80 done.
-[13:51:39.74] Trace: Request [Id: 1.11]: New connection from 192.168.138.240:3288 to 143.186.120.171:80 in 51 ms.
-[13:51:39.74] Trace: Request [Id: 1.7]: Connection reused from 192.168.138.240:3287 to 143.186.120.171:80.
-[13:51:39.77] Debug: Request [Id: 1.1]: GET 'http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js' done. Status 200 OK. HTTP/1.1
-[13:51:39.77] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js': 
-HTTP/1.1 200 OK
-Content-Length: 1641
-Accept-Ranges: bytes
-Content-Type: application/javascript
-Date: Tue, 21 Jul 2020 11:51:29 GMT
-Etag: W/"1641-1355218844000"
-Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
-Server: Microsoft-IIS/10.0
-X-Frame-Options: SAMEORIGIN
-X-Powered-By: ASP.NET
+[17:18:06.85] Trace: Request [Id: 1.4]: Connecting tcp socket to host 143.186.120.171:80.
+[17:18:06.85] Trace: Request [Id: 1.5] 'http://demo.borland.com/InsuranceWebExtJS/images/main_services.gif': 
+GET /InsuranceWebExtJS/images/main_services.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/
+Upgrade-Insecure-Requests: 1
 
 
-[13:51:39.77] Trace: Request [Id: 1.12]: Connection reused from 192.168.138.240:3284 to 143.186.120.171:80.
-[13:51:39.77] Debug: Request [Id: 1.3]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/login.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09' done. Status 200 OK. HTTP/1.1
-[13:51:39.77] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/login.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09': 
-HTTP/1.1 200 OK
-Content-Length: 1666
-Accept-Ranges: bytes
-Content-Type: image/gif
-Date: Tue, 21 Jul 2020 11:51:29 GMT
-Etag: W/"1666-1355218844000"
-Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
-Server: Microsoft-IIS/10.0
-X-Frame-Options: SAMEORIGIN
-X-Powered-By: ASP.NET
+[17:18:06.85] Trace: Request [Id: 1.19] 'http://demo.borland.com/InsuranceWebExtJS/images/rtc1.gif': 
+GET /InsuranceWebExtJS/images/rtc1.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/
+Upgrade-Insecure-Requests: 1
 
 
-[13:51:39.77] Trace: Request [Id: 1.15]: Connection reused from 192.168.138.240:3285 to 143.186.120.171:80.
-[13:51:39.77] Debug: Request [Id: 1.10]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/h_back2.jpg' done. Status 200 OK. HTTP/1.1
-[13:51:39.77] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/h_back2.jpg': 
-HTTP/1.1 200 OK
-Content-Length: 1878
-Accept-Ranges: bytes
-Content-Type: image/jpeg
-Date: Tue, 21 Jul 2020 11:51:29 GMT
-Etag: W/"1878-1355218844000"
-Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
-Server: Microsoft-IIS/10.0
-X-Frame-Options: SAMEORIGIN
-X-Powered-By: ASP.NET
-
-
-[13:51:39.77] Trace: Request [Id: 1.16]: Connection reused from 192.168.138.240:3286 to 143.186.120.171:80.
-[13:51:39.77] Debug: Request [Id: 1.6]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/highlights.gif' done. Status 200 OK. HTTP/1.1
-[13:51:39.77] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/highlights.gif': 
-HTTP/1.1 200 OK
-Content-Length: 2660
-Accept-Ranges: bytes
-Content-Type: image/gif
-Date: Tue, 21 Jul 2020 11:51:29 GMT
-Etag: W/"2660-1355218844000"
-Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
-Server: Microsoft-IIS/10.0
-X-Frame-Options: SAMEORIGIN
-X-Powered-By: ASP.NET
-
-
-[13:51:39.77] Trace: Request [Id: 1.9]: Connection reused from 192.168.138.240:3282 to 143.186.120.171:80.
-[13:51:39.77] Debug: Request [Id: 1.11]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/pimp1.gif' done. Status 200 OK. HTTP/1.1
-[13:51:39.77] Debug: Request [Id: 1.7]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/signup.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09' done. Status 200 OK. HTTP/1.1
-[13:51:39.77] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/signup.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09': 
-HTTP/1.1 200 OK
-Content-Length: 1686
-Accept-Ranges: bytes
-Content-Type: image/gif
-Date: Tue, 21 Jul 2020 11:51:29 GMT
-Etag: W/"1686-1355218844000"
-Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
-Server: Microsoft-IIS/10.0
-X-Frame-Options: SAMEORIGIN
-X-Powered-By: ASP.NET
-
-
-[13:51:39.77] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/pimp1.gif': 
-HTTP/1.1 200 OK
-Content-Length: 64
-Accept-Ranges: bytes
-Content-Type: image/gif
-Date: Tue, 21 Jul 2020 11:51:29 GMT
-Etag: W/"64-1355218844000"
-Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
-Server: Microsoft-IIS/10.0
-X-Frame-Options: SAMEORIGIN
-X-Powered-By: ASP.NET
-
-
-[13:51:39.77] Trace: Request [Id: 1.17]: Connection reused from 192.168.138.240:3287 to 143.186.120.171:80.
-[13:51:39.77] Trace: Request [Id: 1.14]: Connection reused from 192.168.138.240:3288 to 143.186.120.171:80.
-[13:51:39.80] Debug: Request [Id: 1.12]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/ltc.gif' done. Status 200 OK. HTTP/1.1
-[13:51:39.80] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/ltc.gif': 
-HTTP/1.1 200 OK
-Content-Length: 120
-Accept-Ranges: bytes
-Content-Type: image/gif
-Date: Tue, 21 Jul 2020 11:51:29 GMT
-Etag: W/"120-1355218844000"
-Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
-Server: Microsoft-IIS/10.0
-X-Frame-Options: SAMEORIGIN
-X-Powered-By: ASP.NET
-
-
-[13:51:39.80] Trace: Request [Id: 1.13]: Connection reused from 192.168.138.240:3284 to 143.186.120.171:80.
-[13:51:39.80] Debug: Request [Id: 1.15]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rbc.gif' done. Status 200 OK. HTTP/1.1
-[13:51:39.80] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/rbc.gif': 
-HTTP/1.1 200 OK
-Content-Length: 121
-Accept-Ranges: bytes
-Content-Type: image/gif
-Date: Tue, 21 Jul 2020 11:51:29 GMT
-Etag: W/"121-1355218844000"
-Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
-Server: Microsoft-IIS/10.0
-X-Frame-Options: SAMEORIGIN
-X-Powered-By: ASP.NET
-
-
-[13:51:39.80] Debug: Request [Id: 1.16]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/pimp2.gif' done. Status 200 OK. HTTP/1.1
-[13:51:39.80] Trace: Request [Id: 1.8]: Connection reused from 192.168.138.240:3285 to 143.186.120.171:80.
-[13:51:39.80] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/pimp2.gif': 
-HTTP/1.1 200 OK
-Content-Length: 46
-Accept-Ranges: bytes
-Content-Type: image/gif
-Date: Tue, 21 Jul 2020 11:51:29 GMT
-Etag: W/"46-1355218844000"
-Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
-Server: Microsoft-IIS/10.0
-X-Frame-Options: SAMEORIGIN
-X-Powered-By: ASP.NET
-
-
-[13:51:39.80] Trace: Request [Id: 1.2]: Connection reused from 192.168.138.240:3286 to 143.186.120.171:80.
-[13:51:39.80] Debug: Request [Id: 1.17]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/pimp3.gif' done. Status 200 OK. HTTP/1.1
-[13:51:39.80] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/pimp3.gif': 
-HTTP/1.1 200 OK
-Content-Length: 91
-Accept-Ranges: bytes
-Content-Type: image/gif
-Date: Tue, 21 Jul 2020 11:51:29 GMT
-Etag: W/"91-1355218844000"
-Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
-Server: Microsoft-IIS/10.0
-X-Frame-Options: SAMEORIGIN
-X-Powered-By: ASP.NET
-
-
-[13:51:39.81] Trace: Request [Id: 1.4]: Connection reused from 192.168.138.240:3287 to 143.186.120.171:80.
-[13:51:39.81] Debug: Request [Id: 1.9]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/spacer.gif' done. Status 200 OK. HTTP/1.1
-[13:51:39.81] Debug: Request [Id: 1.14]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rtc.gif' done. Status 200 OK. HTTP/1.1
-[13:51:39.81] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/spacer.gif': 
-HTTP/1.1 200 OK
-Content-Length: 43
-Accept-Ranges: bytes
-Content-Type: image/gif
-Date: Tue, 21 Jul 2020 11:51:29 GMT
-Etag: W/"43-1355218844000"
-Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
-Server: Microsoft-IIS/10.0
-X-Frame-Options: SAMEORIGIN
-X-Powered-By: ASP.NET
-
-
-[13:51:39.81] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/rtc.gif': 
-HTTP/1.1 200 OK
-Content-Length: 120
-Accept-Ranges: bytes
-Content-Type: image/gif
-Date: Tue, 21 Jul 2020 11:51:29 GMT
-Etag: W/"120-1355218844000"
-Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
-Server: Microsoft-IIS/10.0
-X-Frame-Options: SAMEORIGIN
-X-Powered-By: ASP.NET
-
-
-[13:51:39.81] Trace: Request [Id: 1.18]: Connection reused from 192.168.138.240:3282 to 143.186.120.171:80.
-[13:51:39.81] Trace: Request [Id: 1.19]: Connection reused from 192.168.138.240:3288 to 143.186.120.171:80.
-[13:51:39.83] Debug: Request [Id: 1.13]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/lbc.gif' done. Status 200 OK. HTTP/1.1
-[13:51:39.83] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/lbc.gif': 
-HTTP/1.1 200 OK
-Content-Length: 118
-Accept-Ranges: bytes
-Content-Type: image/gif
-Date: Tue, 21 Jul 2020 11:51:29 GMT
-Etag: W/"118-1355218844000"
-Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
-Server: Microsoft-IIS/10.0
-X-Frame-Options: SAMEORIGIN
-X-Powered-By: ASP.NET
-
-
-[13:51:39.83] Trace: Request [Id: 1.5]: Connection reused from 192.168.138.240:3284 to 143.186.120.171:80.
-[13:51:39.83] Debug: Request [Id: 1.8]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/profile.gif' done. Status 200 OK. HTTP/1.1
-[13:51:39.83] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/profile.gif': 
-HTTP/1.1 200 OK
-Content-Length: 2594
-Accept-Ranges: bytes
-Content-Type: image/gif
-Date: Tue, 21 Jul 2020 11:51:29 GMT
-Etag: W/"2594-1355218844000"
-Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
-Server: Microsoft-IIS/10.0
-X-Frame-Options: SAMEORIGIN
-X-Powered-By: ASP.NET
-
-
-[13:51:39.83] Trace: Request [Id: 1.20]: Connection reused from 192.168.138.240:3285 to 143.186.120.171:80.
-[13:51:39.83] Debug: Request [Id: 1.2]: GET 'http://demo.borland.com/InsuranceWebExtJS/css/style.css' done. Status 200 OK. HTTP/1.1
-[13:51:39.83] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/css/style.css': 
+[17:18:06.85] Trace: Request [Id: 1.18]: Connecting tcp socket to host 143.186.120.171:80.
+[17:18:06.85] Debug: Request [Id: 1.21]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rbc1.gif' started.
+[17:18:06.85] Trace: Request [Id: 1.3]: Connecting tcp socket to host 143.186.120.171:80.
+[17:18:06.85] Debug: Request [Id: 1.12]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/ltc.gif' started.
+[17:18:06.86] Debug: Request [Id: 1.7]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/signup.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09' started.
+[17:18:06.86] Debug: Request [Id: 1.13]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/lbc.gif' started.
+[17:18:06.86] Debug: Request [Id: 1.14]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rtc.gif' started.
+[17:18:06.86] Debug: Request [Id: 1.8]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/profile.gif' started.
+[17:18:06.86] Debug: Request [Id: 1.9]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/spacer.gif' started.
+[17:18:06.86] Debug: Request [Id: 1.15]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rbc.gif' started.
+[17:18:06.86] Debug: Request [Id: 1.10]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/h_back2.jpg' started.
+[17:18:06.86] Debug: Request [Id: 1.16]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/pimp2.gif' started.
+[17:18:06.86] Debug: Request [Id: 1.17]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/pimp3.gif' started.
+[17:18:06.86] Debug: Request [Id: 1.20]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/lbc1.gif' started.
+[17:18:06.87] Trace: Request [Id: 1.6]: Connecting tcp socket to host 143.186.120.171:80.
+[17:18:06.87] Debug: Request [Id: 1.11]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/pimp1.gif' started.
+[17:18:06.87] Debug: Request [Id: 1.5]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/main_services.gif' started.
+[17:18:06.87] Debug: Request [Id: 1.19]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rtc1.gif' started.
+[17:18:06.97] Debug: Request [Id: 1.2]: GET 'http://demo.borland.com/InsuranceWebExtJS/css/style.css' done. Status 200 OK. HTTP/1.1
+[17:18:06.97] Trace: Request [Id: 1.1]: Connection to host 143.186.120.171:80 done.
+[17:18:06.97] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/css/style.css': 
 HTTP/1.1 200 OK
 Content-Length: 2399
 Accept-Ranges: bytes
 Content-Encoding: gzip
 Content-Type: text/css
-Date: Tue, 21 Jul 2020 11:51:29 GMT
+Date: Thu, 15 Oct 2020 15:18:04 GMT
 Etag: W/"8254-1355218836000"
 Last-Modified: Tue, 11 Dec 2012 09:40:36 GMT
 Server: Microsoft-IIS/10.0
@@ -635,13 +402,68 @@ X-Frame-Options: SAMEORIGIN
 X-Powered-By: ASP.NET
 
 
-[13:51:39.84] Debug: Request [Id: 1.4]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/submit2.gif' done. Status 200 OK. HTTP/1.1
-[13:51:39.84] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/submit2.gif': 
+[17:18:06.97] Trace: Request [Id: 1.1]: New connection from 192.168.138.131:8724 to 143.186.120.171:80 in 119 ms.
+[17:18:06.97] Trace: Request [Id: 1.3]: Connection reused from 192.168.138.131:8723 to 143.186.120.171:80.
+[17:18:06.98] Trace: Request [Id: 1.4]: Connection to host 143.186.120.171:80 done.
+[17:18:06.98] Trace: Request [Id: 1.4]: New connection from 192.168.138.131:8725 to 143.186.120.171:80 in 131 ms.
+[17:18:06.99] Trace: Request [Id: 1.18]: Connection to host 143.186.120.171:80 done.
+[17:18:06.99] Trace: Request [Id: 1.18]: New connection from 192.168.138.131:8726 to 143.186.120.171:80 in 136 ms.
+[17:18:07.01] Trace: Request [Id: 1.6]: Connection to host 143.186.120.171:80 done.
+[17:18:07.01] Trace: Request [Id: 1.6]: New connection from 192.168.138.131:8728 to 143.186.120.171:80 in 142 ms.
+[17:18:07.08] Debug: Request [Id: 1.3]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/login.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09' done. Status 200 OK. HTTP/1.1
+[17:18:07.08] Debug: Request [Id: 1.1]: GET 'http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js' done. Status 200 OK. HTTP/1.1
+[17:18:07.08] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/login.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09': 
+HTTP/1.1 200 OK
+Content-Length: 1666
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:04 GMT
+Etag: W/"1666-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:07.08] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js': 
+HTTP/1.1 200 OK
+Content-Length: 1641
+Accept-Ranges: bytes
+Content-Type: application/javascript
+Date: Thu, 15 Oct 2020 15:18:04 GMT
+Etag: W/"1641-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:07.08] Trace: Request [Id: 1.3]: Connection to host 143.186.120.171:80 done.
+[17:18:07.08] Trace: Connection failure to host 143.186.120.171:80. err: dial tcp 143.186.120.171:80: operation was canceled
+[17:18:07.08] Trace: Request [Id: 1.21]: Connection reused from 192.168.138.131:8723 to 143.186.120.171:80.
+[17:18:07.08] Trace: Request [Id: 1.12]: Connection reused from 192.168.138.131:8724 to 143.186.120.171:80.
+[17:18:07.08] Trace: Request [Id: 1.7]: Connecting tcp socket to host 143.186.120.171:80.
+[17:18:07.10] Debug: Request [Id: 1.4]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/submit2.gif' done. Status 200 OK. HTTP/1.1
+[17:18:07.10] Debug: Request [Id: 1.18]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/ltc1.gif' done. Status 200 OK. HTTP/1.1
+[17:18:07.10] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/ltc1.gif': 
+HTTP/1.1 200 OK
+Content-Length: 115
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:04 GMT
+Etag: W/"115-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:07.10] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/submit2.gif': 
 HTTP/1.1 200 OK
 Content-Length: 900
 Accept-Ranges: bytes
 Content-Type: image/gif
-Date: Tue, 21 Jul 2020 11:51:29 GMT
+Date: Thu, 15 Oct 2020 15:18:04 GMT
 Etag: W/"900-1355218844000"
 Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
 Server: Microsoft-IIS/10.0
@@ -649,27 +471,32 @@ X-Frame-Options: SAMEORIGIN
 X-Powered-By: ASP.NET
 
 
-[13:51:39.84] Debug: Request [Id: 1.19]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rtc1.gif' done. Status 200 OK. HTTP/1.1
-[13:51:39.84] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/rtc1.gif': 
+[17:18:07.10] Trace: Request [Id: 1.7]: Connection reused from 192.168.138.131:8726 to 143.186.120.171:80.
+[17:18:07.10] Trace: Request [Id: 1.13]: Connection reused from 192.168.138.131:8725 to 143.186.120.171:80.
+[17:18:07.11] Debug: Request [Id: 1.6]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/highlights.gif' done. Status 200 OK. HTTP/1.1
+[17:18:07.11] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/highlights.gif': 
 HTTP/1.1 200 OK
-Content-Length: 117
+Content-Length: 2660
 Accept-Ranges: bytes
 Content-Type: image/gif
-Date: Tue, 21 Jul 2020 11:51:29 GMT
-Etag: W/"117-1355218844000"
+Date: Thu, 15 Oct 2020 15:18:04 GMT
+Etag: W/"2660-1355218844000"
 Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
 Server: Microsoft-IIS/10.0
 X-Frame-Options: SAMEORIGIN
 X-Powered-By: ASP.NET
 
 
-[13:51:39.84] Debug: Request [Id: 1.18]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/ltc1.gif' done. Status 200 OK. HTTP/1.1
-[13:51:39.84] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/ltc1.gif': 
+[17:18:07.11] Trace: Request [Id: 1.14]: Connection reused from 192.168.138.131:8728 to 143.186.120.171:80.
+[17:18:07.16] Trace: Request [Id: 1.7]: Connection to host 143.186.120.171:80 done.
+[17:18:07.16] Trace: Request [Id: 1.8]: Connection reused from 192.168.138.131:8729 to 143.186.120.171:80.
+[17:18:07.17] Debug: Request [Id: 1.21]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rbc1.gif' done. Status 200 OK. HTTP/1.1
+[17:18:07.17] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/rbc1.gif': 
 HTTP/1.1 200 OK
 Content-Length: 115
 Accept-Ranges: bytes
 Content-Type: image/gif
-Date: Tue, 21 Jul 2020 11:51:29 GMT
+Date: Thu, 15 Oct 2020 15:18:04 GMT
 Etag: W/"115-1355218844000"
 Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
 Server: Microsoft-IIS/10.0
@@ -677,13 +504,190 @@ X-Frame-Options: SAMEORIGIN
 X-Powered-By: ASP.NET
 
 
-[13:51:39.86] Debug: Request [Id: 1.5]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/main_services.gif' done. Status 200 OK. HTTP/1.1
-[13:51:39.86] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/main_services.gif': 
+[17:18:07.17] Debug: Request [Id: 1.12]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/ltc.gif' done. Status 200 OK. HTTP/1.1
+[17:18:07.17] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/ltc.gif': 
+HTTP/1.1 200 OK
+Content-Length: 120
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:04 GMT
+Etag: W/"120-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:07.17] Trace: Request [Id: 1.9]: Connection reused from 192.168.138.131:8723 to 143.186.120.171:80.
+[17:18:07.17] Trace: Request [Id: 1.15]: Connection reused from 192.168.138.131:8724 to 143.186.120.171:80.
+[17:18:07.17] Debug: Request [Id: 1.7]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/signup.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09' done. Status 200 OK. HTTP/1.1
+[17:18:07.17] Debug: Request [Id: 1.13]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/lbc.gif' done. Status 200 OK. HTTP/1.1
+[17:18:07.17] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/lbc.gif': 
+HTTP/1.1 200 OK
+Content-Length: 118
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:04 GMT
+Etag: W/"118-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:07.17] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/signup.gif;jsessionid=1576411CB36EF57546A9FECBF33C7B09': 
+HTTP/1.1 200 OK
+Content-Length: 1686
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:04 GMT
+Etag: W/"1686-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:07.17] Trace: Request [Id: 1.10]: Connection reused from 192.168.138.131:8725 to 143.186.120.171:80.
+[17:18:07.17] Trace: Request [Id: 1.16]: Connection reused from 192.168.138.131:8726 to 143.186.120.171:80.
+[17:18:07.19] Debug: Request [Id: 1.14]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rtc.gif' done. Status 200 OK. HTTP/1.1
+[17:18:07.19] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/rtc.gif': 
+HTTP/1.1 200 OK
+Content-Length: 120
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:04 GMT
+Etag: W/"120-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:07.19] Trace: Request [Id: 1.17]: Connection reused from 192.168.138.131:8728 to 143.186.120.171:80.
+[17:18:07.25] Debug: Request [Id: 1.9]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/spacer.gif' done. Status 200 OK. HTTP/1.1
+[17:18:07.25] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/spacer.gif': 
+HTTP/1.1 200 OK
+Content-Length: 43
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:04 GMT
+Etag: W/"43-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:07.25] Trace: Request [Id: 1.20]: Connection reused from 192.168.138.131:8723 to 143.186.120.171:80.
+[17:18:07.25] Debug: Request [Id: 1.8]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/profile.gif' done. Status 200 OK. HTTP/1.1
+[17:18:07.25] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/profile.gif': 
+HTTP/1.1 200 OK
+Content-Length: 2594
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:04 GMT
+Etag: W/"2594-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:07.25] Trace: Request [Id: 1.11]: Connection reused from 192.168.138.131:8729 to 143.186.120.171:80.
+[17:18:07.25] Debug: Request [Id: 1.15]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rbc.gif' done. Status 200 OK. HTTP/1.1
+[17:18:07.25] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/rbc.gif': 
+HTTP/1.1 200 OK
+Content-Length: 121
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:04 GMT
+Etag: W/"121-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:07.25] Trace: Request [Id: 1.5]: Connection reused from 192.168.138.131:8724 to 143.186.120.171:80.
+[17:18:07.25] Debug: Request [Id: 1.16]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/pimp2.gif' done. Status 200 OK. HTTP/1.1
+[17:18:07.25] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/pimp2.gif': 
+HTTP/1.1 200 OK
+Content-Length: 46
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:04 GMT
+Etag: W/"46-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:07.25] Trace: Request [Id: 1.19]: Connection reused from 192.168.138.131:8726 to 143.186.120.171:80.
+[17:18:07.26] Debug: Request [Id: 1.10]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/h_back2.jpg' done. Status 200 OK. HTTP/1.1
+[17:18:07.27] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/h_back2.jpg': 
+HTTP/1.1 200 OK
+Content-Length: 1878
+Accept-Ranges: bytes
+Content-Type: image/jpeg
+Date: Thu, 15 Oct 2020 15:18:04 GMT
+Etag: W/"1878-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:07.28] Debug: Request [Id: 1.17]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/pimp3.gif' done. Status 200 OK. HTTP/1.1
+[17:18:07.28] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/pimp3.gif': 
+HTTP/1.1 200 OK
+Content-Length: 91
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:04 GMT
+Etag: W/"91-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:07.33] Debug: Request [Id: 1.11]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/pimp1.gif' done. Status 200 OK. HTTP/1.1
+[17:18:07.33] Debug: Request [Id: 1.20]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/lbc1.gif' done. Status 200 OK. HTTP/1.1
+[17:18:07.33] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/lbc1.gif': 
+HTTP/1.1 200 OK
+Content-Length: 115
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:04 GMT
+Etag: W/"115-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:07.33] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/pimp1.gif': 
+HTTP/1.1 200 OK
+Content-Length: 64
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:04 GMT
+Etag: W/"64-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:07.33] Debug: Request [Id: 1.5]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/main_services.gif' done. Status 200 OK. HTTP/1.1
+[17:18:07.33] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/main_services.gif': 
 HTTP/1.1 200 OK
 Content-Length: 2799
 Accept-Ranges: bytes
 Content-Type: image/gif
-Date: Tue, 21 Jul 2020 11:51:29 GMT
+Date: Thu, 15 Oct 2020 15:18:04 GMT
 Etag: W/"2799-1355218844000"
 Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
 Server: Microsoft-IIS/10.0
@@ -691,13 +695,527 @@ X-Frame-Options: SAMEORIGIN
 X-Powered-By: ASP.NET
 
 
-[13:51:39.86] Debug: Request [Id: 1.20]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/lbc1.gif' done. Status 200 OK. HTTP/1.1
-[13:51:39.86] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/lbc1.gif': 
+[17:18:07.34] Debug: Request [Id: 1.19]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rtc1.gif' done. Status 200 OK. HTTP/1.1
+[17:18:07.34] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/rtc1.gif': 
+HTTP/1.1 200 OK
+Content-Length: 117
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:04 GMT
+Etag: W/"117-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:07.34] Info: WebRequest [Id: 1] 'http://demo.borland.com/InsuranceWebExtJS/' completed. (22 request(s) sent, 28421 bytes downloaded)
+[17:18:07.34] Info: Saving parameter 'InscoSessionID = F31E0E4ED805C7ED74B1E56E1D2DAA0C'
+[17:18:07.34] Info: Transaction 'Insco_home' ended with a 'Passed' status (Duration: 639 ms., ThinkTime: 0 ms.).	(./main.js:71:9)
+[17:18:07.35] Info: Transaction 'Insco_login' started.	(./main.js:79:11)
+[17:18:07.35] Info: WebRequest [Id: 2] 'http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C' registered to send (sync).
+[17:18:07.35] Trace: Request [Id: 2] 'http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C': 
+POST /InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Content-Length: 170
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/
+Upgrade-Insecure-Requests: 1
+
+login-form=login-form&login-form%3Aemail=ed.wesson%40gmail.com&login-form%3Apassword=ed&login-form%3Alogin.x=40&login-form%3Alogin.y=7&javax.faces.ViewState=j_id1%3Aj_id2
+[17:18:07.35] Debug: Request [Id: 2]: POST 'http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C' started.
+[17:18:07.35] Trace: Request [Id: 2]: Connection reused from 192.168.138.131:8726 to 143.186.120.171:80.
+[17:18:09.92] Debug: Request [Id: 2]: POST 'http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C' done. Status 200 OK. HTTP/1.1
+[17:18:09.92] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C': 
+HTTP/1.1 200 OK
+Content-Length: 2651
+Cache-Control: no-cache,must-revalidate
+Content-Encoding: gzip
+Content-Type: text/html;charset=UTF-8
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Expires: Mon, 8 Aug 2000 10:00:00 GMT
+Pragma: no-cache
+Server: Microsoft-IIS/10.0
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: JSF/1.2
+X-Powered-By: ASP.NET
+
+
+[17:18:09.92] Trace: Request [Id: 2.21] 'http://demo.borland.com/InsuranceWebExtJS/images/rbc1.gif': 
+GET /InsuranceWebExtJS/images/rbc1.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Trace: Request [Id: 2.10] 'http://demo.borland.com/InsuranceWebExtJS/images/h_back2.jpg': 
+GET /InsuranceWebExtJS/images/h_back2.jpg HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Debug: Request [Id: 2.10]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/h_back2.jpg' started.
+[17:18:09.92] Trace: Request [Id: 2.10]: Connection reused from 192.168.138.131:8726 to 143.186.120.171:80.
+[17:18:09.92] Trace: Request [Id: 2.6] 'http://demo.borland.com/InsuranceWebExtJS/images/main_services.gif': 
+GET /InsuranceWebExtJS/images/main_services.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Debug: Request [Id: 2.6]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/main_services.gif' started.
+[17:18:09.92] Trace: Request [Id: 2.12] 'http://demo.borland.com/InsuranceWebExtJS/images/lbc.gif': 
+GET /InsuranceWebExtJS/images/lbc.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Trace: Request [Id: 2.6]: Connection reused from 192.168.138.131:8724 to 143.186.120.171:80.
+[17:18:09.92] Trace: Request [Id: 2.13] 'http://demo.borland.com/InsuranceWebExtJS/images/rtc.gif': 
+GET /InsuranceWebExtJS/images/rtc.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Trace: Request [Id: 2.3] 'http://demo.borland.com/InsuranceWebExtJS/images/details.gif': 
+GET /InsuranceWebExtJS/images/details.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Trace: Request [Id: 2.14] 'http://demo.borland.com/InsuranceWebExtJS/images/ltc.gif': 
+GET /InsuranceWebExtJS/images/ltc.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Debug: Request [Id: 2.3]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/details.gif' started.
+[17:18:09.92] Debug: Request [Id: 2.14]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/ltc.gif' started.
+[17:18:09.92] Trace: Request [Id: 2.5] 'http://demo.borland.com/InsuranceWebExtJS/images/spacer.gif': 
+GET /InsuranceWebExtJS/images/spacer.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Trace: Request [Id: 2.11] 'http://demo.borland.com/InsuranceWebExtJS/images/pimp1.gif': 
+GET /InsuranceWebExtJS/images/pimp1.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Trace: Request [Id: 2.15] 'http://demo.borland.com/InsuranceWebExtJS/images/rbc.gif': 
+GET /InsuranceWebExtJS/images/rbc.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Trace: Request [Id: 2.16] 'http://demo.borland.com/InsuranceWebExtJS/images/pimp2.gif': 
+GET /InsuranceWebExtJS/images/pimp2.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Trace: Request [Id: 2.17] 'http://demo.borland.com/InsuranceWebExtJS/images/pimp3.gif': 
+GET /InsuranceWebExtJS/images/pimp3.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Trace: Request [Id: 2.18] 'http://demo.borland.com/InsuranceWebExtJS/images/ltc1.gif': 
+GET /InsuranceWebExtJS/images/ltc1.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Trace: Request [Id: 2.19] 'http://demo.borland.com/InsuranceWebExtJS/images/rtc1.gif': 
+GET /InsuranceWebExtJS/images/rtc1.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Trace: Request [Id: 2.20] 'http://demo.borland.com/InsuranceWebExtJS/images/lbc1.gif': 
+GET /InsuranceWebExtJS/images/lbc1.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Trace: Request [Id: 2.7] 'http://demo.borland.com/InsuranceWebExtJS/images/highlights.gif': 
+GET /InsuranceWebExtJS/images/highlights.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Trace: Request [Id: 2.2] 'http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js': 
+GET /InsuranceWebExtJS/javascript/menu.js HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Trace: Request [Id: 2.4] 'http://demo.borland.com/InsuranceWebExtJS/images/logout.gif': 
+GET /InsuranceWebExtJS/images/logout.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Trace: Request [Id: 2.1] 'http://demo.borland.com/InsuranceWebExtJS/css/style.css': 
+GET /InsuranceWebExtJS/css/style.css HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Trace: Request [Id: 2.9] 'http://demo.borland.com/InsuranceWebExtJS/images/submit2.gif': 
+GET /InsuranceWebExtJS/images/submit2.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Debug: Request [Id: 2.13]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rtc.gif' started.
+[17:18:09.92] Debug: Request [Id: 2.21]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rbc1.gif' started.
+[17:18:09.92] Debug: Request [Id: 2.12]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/lbc.gif' started.
+[17:18:09.92] Trace: Request [Id: 2.8] 'http://demo.borland.com/InsuranceWebExtJS/images/profile.gif': 
+GET /InsuranceWebExtJS/images/profile.gif HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:09.92] Trace: Request [Id: 2.3]: Connection reused from 192.168.138.131:8729 to 143.186.120.171:80.
+[17:18:09.92] Trace: Request [Id: 2.14]: Connection reused from 192.168.138.131:8723 to 143.186.120.171:80.
+[17:18:09.92] Debug: Request [Id: 2.5]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/spacer.gif' started.
+[17:18:09.92] Debug: Request [Id: 2.11]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/pimp1.gif' started.
+[17:18:09.93] Debug: Request [Id: 2.15]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rbc.gif' started.
+[17:18:09.93] Debug: Request [Id: 2.16]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/pimp2.gif' started.
+[17:18:09.93] Debug: Request [Id: 2.17]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/pimp3.gif' started.
+[17:18:09.93] Debug: Request [Id: 2.18]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/ltc1.gif' started.
+[17:18:09.93] Debug: Request [Id: 2.19]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rtc1.gif' started.
+[17:18:09.93] Debug: Request [Id: 2.20]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/lbc1.gif' started.
+[17:18:09.93] Debug: Request [Id: 2.7]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/highlights.gif' started.
+[17:18:09.93] Debug: Request [Id: 2.2]: GET 'http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js' started.
+[17:18:09.93] Debug: Request [Id: 2.4]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/logout.gif' started.
+[17:18:09.93] Debug: Request [Id: 2.1]: GET 'http://demo.borland.com/InsuranceWebExtJS/css/style.css' started.
+[17:18:09.94] Debug: Request [Id: 2.9]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/submit2.gif' started.
+[17:18:09.94] Trace: Request [Id: 2.13]: Connection reused from 192.168.138.131:8728 to 143.186.120.171:80.
+[17:18:09.94] Trace: Request [Id: 2.21]: Connection reused from 192.168.138.131:8725 to 143.186.120.171:80.
+[17:18:09.94] Debug: Request [Id: 2.8]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/profile.gif' started.
+[17:18:10.01] Debug: Request [Id: 2.10]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/h_back2.jpg' done. Status 200 OK. HTTP/1.1
+[17:18:10.01] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/h_back2.jpg': 
+HTTP/1.1 200 OK
+Content-Length: 1878
+Accept-Ranges: bytes
+Content-Type: image/jpeg
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"1878-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.01] Debug: Request [Id: 2.6]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/main_services.gif' done. Status 200 OK. HTTP/1.1
+[17:18:10.01] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/main_services.gif': 
+HTTP/1.1 200 OK
+Content-Length: 2799
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"2799-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.01] Trace: Request [Id: 2.12]: Connection reused from 192.168.138.131:8726 to 143.186.120.171:80.
+[17:18:10.01] Trace: Request [Id: 2.5]: Connection reused from 192.168.138.131:8724 to 143.186.120.171:80.
+[17:18:10.02] Debug: Request [Id: 2.14]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/ltc.gif' done. Status 200 OK. HTTP/1.1
+[17:18:10.02] Debug: Request [Id: 2.3]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/details.gif' done. Status 200 OK. HTTP/1.1
+[17:18:10.02] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/ltc.gif': 
+HTTP/1.1 200 OK
+Content-Length: 120
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"120-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.02] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/details.gif': 
+HTTP/1.1 200 OK
+Content-Length: 1661
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"1661-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.02] Trace: Request [Id: 2.11]: Connection reused from 192.168.138.131:8723 to 143.186.120.171:80.
+[17:18:10.02] Trace: Request [Id: 2.15]: Connection reused from 192.168.138.131:8729 to 143.186.120.171:80.
+[17:18:10.03] Debug: Request [Id: 2.21]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rbc1.gif' done. Status 200 OK. HTTP/1.1
+[17:18:10.03] Debug: Request [Id: 2.13]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rtc.gif' done. Status 200 OK. HTTP/1.1
+[17:18:10.03] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/rtc.gif': 
+HTTP/1.1 200 OK
+Content-Length: 120
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"120-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.03] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/rbc1.gif': 
 HTTP/1.1 200 OK
 Content-Length: 115
 Accept-Ranges: bytes
 Content-Type: image/gif
-Date: Tue, 21 Jul 2020 11:51:29 GMT
+Date: Thu, 15 Oct 2020 15:18:06 GMT
 Etag: W/"115-1355218844000"
 Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
 Server: Microsoft-IIS/10.0
@@ -705,10 +1223,483 @@ X-Frame-Options: SAMEORIGIN
 X-Powered-By: ASP.NET
 
 
-[13:51:39.86] Info: WebRequest [Id: 1] 'http://demo.borland.com/InsuranceWebExtJS/' completed. (22 request(s) sent, 34392 bytes downloaded)
-[13:51:39.86] Info: Saving parameter 'InscoSessionID = 3EA2B6ACB4D0724EA319EAA424950EFF'
-[13:51:39.87] Error: Vuser action was stopped after receiving engine error 'T01 is not defined'	(./main.js:70:5)
-[13:51:39.87] Debug: Error stack: 'ReferenceError: T01 is not defined
-    at Array.<anonymous> (C:\Users\MFAdmin\Documents\Demo\DevWeb\Insco\main.js:70:5)
-    at C:\Tools\DevWeb_2020.2\DevWeb\bin\jsrunner\vuser\engine\script_runner.js:27:24'
-[13:51:39.87] Info: Ending iteration 1.
+[17:18:10.03] Trace: Request [Id: 2.16]: Connection reused from 192.168.138.131:8728 to 143.186.120.171:80.
+[17:18:10.03] Trace: Request [Id: 2.17]: Connection reused from 192.168.138.131:8725 to 143.186.120.171:80.
+[17:18:10.08] Debug: Request [Id: 2.5]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/spacer.gif' done. Status 200 OK. HTTP/1.1
+[17:18:10.08] Debug: Request [Id: 2.12]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/lbc.gif' done. Status 200 OK. HTTP/1.1
+[17:18:10.08] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/lbc.gif': 
+HTTP/1.1 200 OK
+Content-Length: 118
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"118-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.08] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/spacer.gif': 
+HTTP/1.1 200 OK
+Content-Length: 43
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"43-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.08] Trace: Request [Id: 2.18]: Connection reused from 192.168.138.131:8726 to 143.186.120.171:80.
+[17:18:10.08] Trace: Request [Id: 2.19]: Connection reused from 192.168.138.131:8724 to 143.186.120.171:80.
+[17:18:10.10] Debug: Request [Id: 2.15]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rbc.gif' done. Status 200 OK. HTTP/1.1
+[17:18:10.10] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/rbc.gif': 
+HTTP/1.1 200 OK
+Content-Length: 121
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"121-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.10] Debug: Request [Id: 2.11]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/pimp1.gif' done. Status 200 OK. HTTP/1.1
+[17:18:10.10] Trace: Request [Id: 2.20]: Connection reused from 192.168.138.131:8729 to 143.186.120.171:80.
+[17:18:10.10] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/pimp1.gif': 
+HTTP/1.1 200 OK
+Content-Length: 64
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"64-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.10] Trace: Request [Id: 2.7]: Connection reused from 192.168.138.131:8723 to 143.186.120.171:80.
+[17:18:10.11] Debug: Request [Id: 2.17]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/pimp3.gif' done. Status 200 OK. HTTP/1.1
+[17:18:10.11] Debug: Request [Id: 2.16]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/pimp2.gif' done. Status 200 OK. HTTP/1.1
+[17:18:10.11] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/pimp2.gif': 
+HTTP/1.1 200 OK
+Content-Length: 46
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"46-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.11] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/pimp3.gif': 
+HTTP/1.1 200 OK
+Content-Length: 91
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"91-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.11] Trace: Request [Id: 2.2]: Connection reused from 192.168.138.131:8728 to 143.186.120.171:80.
+[17:18:10.11] Trace: Request [Id: 2.4]: Connection reused from 192.168.138.131:8725 to 143.186.120.171:80.
+[17:18:10.17] Debug: Request [Id: 2.18]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/ltc1.gif' done. Status 200 OK. HTTP/1.1
+[17:18:10.17] Debug: Request [Id: 2.19]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/rtc1.gif' done. Status 200 OK. HTTP/1.1
+[17:18:10.17] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/rtc1.gif': 
+HTTP/1.1 200 OK
+Content-Length: 117
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"117-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.17] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/ltc1.gif': 
+HTTP/1.1 200 OK
+Content-Length: 115
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"115-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.17] Trace: Request [Id: 2.1]: Connection reused from 192.168.138.131:8724 to 143.186.120.171:80.
+[17:18:10.17] Trace: Request [Id: 2.9]: Connection reused from 192.168.138.131:8726 to 143.186.120.171:80.
+[17:18:10.18] Debug: Request [Id: 2.20]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/lbc1.gif' done. Status 200 OK. HTTP/1.1
+[17:18:10.18] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/lbc1.gif': 
+HTTP/1.1 200 OK
+Content-Length: 115
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"115-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.18] Trace: Request [Id: 2.8]: Connection reused from 192.168.138.131:8729 to 143.186.120.171:80.
+[17:18:10.18] Debug: Request [Id: 2.7]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/highlights.gif' done. Status 200 OK. HTTP/1.1
+[17:18:10.19] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/highlights.gif': 
+HTTP/1.1 200 OK
+Content-Length: 2660
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"2660-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.19] Debug: Request [Id: 2.2]: GET 'http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js' done. Status 200 OK. HTTP/1.1
+[17:18:10.19] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/javascript/menu.js': 
+HTTP/1.1 200 OK
+Content-Length: 1641
+Accept-Ranges: bytes
+Content-Type: application/javascript
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"1641-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.19] Debug: Request [Id: 2.4]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/logout.gif' done. Status 200 OK. HTTP/1.1
+[17:18:10.19] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/logout.gif': 
+HTTP/1.1 200 OK
+Content-Length: 1678
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"1678-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.24] Debug: Request [Id: 2.9]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/submit2.gif' done. Status 200 OK. HTTP/1.1
+[17:18:10.24] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/submit2.gif': 
+HTTP/1.1 200 OK
+Content-Length: 900
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"900-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.24] Debug: Request [Id: 2.1]: GET 'http://demo.borland.com/InsuranceWebExtJS/css/style.css' done. Status 200 OK. HTTP/1.1
+[17:18:10.24] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/css/style.css': 
+HTTP/1.1 200 OK
+Content-Length: 2399
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Content-Type: text/css
+Date: Thu, 15 Oct 2020 15:18:06 GMT
+Etag: W/"8254-1355218836000"
+Last-Modified: Tue, 11 Dec 2012 09:40:36 GMT
+Server: Microsoft-IIS/10.0
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.26] Debug: Request [Id: 2.8]: GET 'http://demo.borland.com/InsuranceWebExtJS/images/profile.gif' done. Status 200 OK. HTTP/1.1
+[17:18:10.26] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/images/profile.gif': 
+HTTP/1.1 200 OK
+Content-Length: 2594
+Accept-Ranges: bytes
+Content-Type: image/gif
+Date: Thu, 15 Oct 2020 15:18:07 GMT
+Etag: W/"2594-1355218844000"
+Last-Modified: Tue, 11 Dec 2012 09:40:44 GMT
+Server: Microsoft-IIS/10.0
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: ASP.NET
+
+
+[17:18:10.26] Info: WebRequest [Id: 2] 'http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C' completed. (22 request(s) sent, 28338 bytes downloaded)
+[17:18:10.26] Trace: 'http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C' response body: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">   
+    <head>
+        <title>InsuranceWeb: Home</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta http-equiv="cache-control" content="no-cache" />  
+        <meta http-equiv="expires" content="-1" />
+        <meta name="keywords" />
+        <meta name="description" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="javascript/menu.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header"><div xmlns="http://www.w3.org/1999/xhtml">
+    
+    <div id="header">
+      &nbsp; 
+    </div>
+    
+</div>
+            </div>
+            <div class="clear"></div>
+            <div id="content">
+        
+       <div id="upper-content"> 
+           <div id="tiles">
+              <img src="images/tiles.png" />
+           </div>
+           <div id="login">
+              <div>
+                <label for="jump-menu" class="menu">Select a Service or login</label><div xmlns="http://www.w3.org/1999/xhtml">
+<form id="quick-link" name="quick-link" method="post" action="/InsuranceWebExtJS/index.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="quick-link" value="quick-link" />
+<select id="quick-link:jump-menu" name="quick-link:jump-menu" size="1" onchange="MM_jumpMenu('parent',this,0)">	<option value="#">Choose One</option>
+	<option value="quote_auto.jsf">Auto Quote</option>
+	<option value="agent_lookup.jsf">Agent Lookup</option>
+	<option value="agent_lookup_xml.jsf">Agent Lookup (XML)</option>
+	<option value="notImplYet.jsf">Term Life Quote</option>
+	<option value="notImplYet.jsf">Quote Homeowners</option>
+	<option value="notImplYet.jsf">Retrieve Saved Quote</option>
+	<option value="notImplYet.jsf">Report Claim</option>
+	<option value="notImplYet.jsf">Track Claim</option>
+</select><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id1:j_id3" />
+</form>    
+</div>
+              </div>
+<form id="login-form" name="login-form" method="post" action="/InsuranceWebExtJS/index.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="login-form" value="login-form" />
+
+                    <div id="login-messages"><table><tr class="message-error"><td>	Non-existing email, please try again. </td></tr></table>
+                    </div>
+                    <div>
+                        <label class="login" for="email">Email:</label><input id="login-form:email" type="text" name="login-form:email" value="ed.wesson@gmail.com" size="15" />
+                        <br />
+                        <label class="login" for="password">Password:</label><input id="login-form:password" type="password" name="login-form:password" value="" size="15" />
+                        <br /><input id="login-form:login" type="image" src="images/login.gif" name="login-form:login" alt="Login" class="cbutton" /><input id="login-form:signup" type="image" src="images/signup.gif" name="login-form:signup" alt="Signup" class="cbutton" />
+                    </div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id1:j_id3" />
+</form>
+              
+            </div>
+        </div>
+                
+        <div id="lower-content">
+            <div class="column-left">
+                <img src="images/profile.gif" class="heading" />
+                <p class="abstract">
+                   <span class="highlight">The Insurance Co. is a company you can trust for all of your insurance needs.</span>             
+                   Our innovative approach as a leading insurance provider not only saves you time and
+                   money, it provides peace of mind. We have invested heavily in technology to bring
+                   you the very best in online services...
+                   <a class="link-door" href="notImplYet.jsf">Learn more</a>
+                </p>
+    
+                <img src="images/main_services.gif" class="heading" />
+                <div class="infobox-1">
+                    <div class="infobox-2">
+                        <div class="infobox-3">
+                            <div class="infobox-4">
+                                <div class="infobox-content">
+                                    <ul class="abstract service">
+                                        <li>Life Insurance for every stage in life</li>
+                                        <li>Automobile Insurance for the entire family</li>
+                                        <li>Home Owners Insurance to protect your greatest asset</li>
+                                        <li>Renters Insurance that covers everything you own</li>
+                                        <li>Special Insurance products to cover unique circumstances</li>
+                                    </ul>
+                                    <a class="link-door" href="notImplYet.jsf">All services</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="column-right">
+                <img src="images/highlights.gif" class="heading" />
+                <div>
+                    <span class="date">November 1, 2007</span><br />
+                    <span style="color:#FF0000"><b>Default user:</b></span><br />
+                    <b>User:</b> john.smith@gmail.com<br />
+                    <b>Password:</b> john
+                    <br />
+                </div>
+                <div class="line"></div>
+                <div>
+                    <span class="date"> October 25, 2007</span><br />
+                    Insurance Co. recognized as internet visionary by leading experts <br />
+                </div>
+                <div class="line"></div>
+                <div>
+                    <span class="date">October 1, 2007</span><br />
+                    Insurance Co. presents at Borlands user conference on ALM best practices <br />
+                </div>
+                <div>
+                    <a class="link-door" href="notImplYet.jsf">News archive</a>
+                </div>
+                <br />
+    
+                <div class="infobox2-1">
+                    <div class="infobox2-2">
+                        <div class="infobox2-3">
+                            <div class="infobox2-4">
+                                <div class="infobox2-content">
+                                    <span class="newsletter-heading">Newsletter <span>Signup</span></span> <br />
+                                    <span class="newsletter">Enter your email here:</span> <br />
+<form id="j_id29" name="j_id29" method="post" action="/InsuranceWebExtJS/index.jsf" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id29" value="j_id29" />
+<input type="text" name="j_id29:j_id30" value="" />
+                                        <img src="images/spacer.gif" width="5px" height="1px" />                                        
+                                        <a href="notImplYet.jsf"><img src="images/submit2.gif" style="vertical-align:middle" /></a><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id1:j_id3" />
+</form>                                    
+                                    <a href="notImplYet.jsf">Unsubscribe</a> <br />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+            </div>
+            <div class="clear"></div>
+            <div id="footer"><div xmlns="http://www.w3.org/1999/xhtml">
+    
+    <div class="column-left">
+        This site is a fictitious representation<br />
+        of an online company for the purpose of demonstrating Borland Solutions
+    </div>
+    <div class="column-right">
+        <a href="index.jsf">Home</a> -        
+        <a href="webservices.jsf">Webservice</a> -
+        <!-- <a href="settings.jsf">Settings</a> - -->
+        <a href="contact.jsf">Contact Us</a>
+    </div>
+    
+</div>
+            </div> 
+        </div> 
+    </body>
+
+</html>
+[17:18:10.26] Info: Saving parameter 'HTMLTitle = InsuranceWeb: Home'
+[17:18:10.26] Info: Saving parameter 'messageerror = 	Non-existing email, please try again. '
+[17:18:10.26] Warning: No correlation value found for loggedinas boundary
+[17:18:10.26] Info: =============== Parameters ==========	(./main.js:129:10)
+[17:18:10.26] Info: Iteration : 1 ; UserName : ed.wesson@gmail.com ; Password : ed	(./main.js:130:10)
+[17:18:10.26] Info: =====================================	(./main.js:131:10)
+[17:18:10.26] Error: >>>>>>> Erreur : 	Non-existing email, please try again. 	(./main.js:136:14)
+[17:18:10.26] Info: >>>>>>> Iteration : 1 ; UserName : [ed.wesson@gmail.com]  ; Password :  [ed]	(./main.js:137:14)
+[17:18:10.26] Info: Transaction 'Insco_login' ended with a 'Failed' status (Duration: 2911 ms., ThinkTime: 0 ms.).	(./main.js:138:15)
+[17:18:10.26] Info: =====================================	(./main.js:145:10)
+[17:18:10.26] Info: Transaction 'Insco_index' started.	(./main.js:155:9)
+[17:18:10.26] Info: WebRequest [Id: 3] 'http://demo.borland.com/InsuranceWebExtJS/index.jsf' registered to send (sync).
+[17:18:10.26] Trace: Request [Id: 3] 'http://demo.borland.com/InsuranceWebExtJS/index.jsf': 
+POST /InsuranceWebExtJS/index.jsf HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Content-Length: 110
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf;jsessionid=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Upgrade-Insecure-Requests: 1
+
+logout-form=logout-form&logout-form%3Alogout.x=12&logout-form%3Alogout.y=7&javax.faces.ViewState=j_id1%3Aj_id3
+[17:18:10.26] Debug: Request [Id: 3]: POST 'http://demo.borland.com/InsuranceWebExtJS/index.jsf' started.
+[17:18:10.26] Trace: Request [Id: 3]: Connection reused from 192.168.138.131:8729 to 143.186.120.171:80.
+[17:18:10.35] Debug: Request [Id: 3]: POST 'http://demo.borland.com/InsuranceWebExtJS/index.jsf' done. Status 302 Found. HTTP/1.1
+[17:18:10.36] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/index.jsf': 
+HTTP/1.1 302 Found
+Content-Length: 0
+Cache-Control: no-cache,must-revalidate
+Date: Thu, 15 Oct 2020 15:18:07 GMT
+Expires: Mon, 8 Aug 2000 10:00:00 GMT
+Location: http://demo.borland.com/InsuranceWebExtJS/index.jsf
+Pragma: no-cache
+Server: Microsoft-IIS/10.0
+Set-Cookie: UserSessionFilter.sessionId=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: JSF/1.2
+X-Powered-By: ASP.NET
+
+
+[17:18:10.36] Debug: Request 'http://demo.borland.com/InsuranceWebExtJS/index.jsf' was redirected to 'http://demo.borland.com/InsuranceWebExtJS/index.jsf'
+[17:18:10.36] Trace: Request [Id: 3] 'http://demo.borland.com/InsuranceWebExtJS/index.jsf': 
+GET /InsuranceWebExtJS/index.jsf HTTP/1.1
+Host: demo.borland.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cache-Control: no-cache
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: JSESSIONID=F31E0E4ED805C7ED74B1E56E1D2DAA0C
+Origin: http://demo.borland.com
+Pragma: no-cache
+Referer: http://demo.borland.com/InsuranceWebExtJS/index.jsf
+Upgrade-Insecure-Requests: 1
+
+
+[17:18:10.36] Debug: Request [Id: 3]: GET 'http://demo.borland.com/InsuranceWebExtJS/index.jsf' started.
+[17:18:10.36] Trace: Request [Id: 3]: Connection reused from 192.168.138.131:8729 to 143.186.120.171:80.
+[17:18:10.46] Debug: Request [Id: 3]: GET 'http://demo.borland.com/InsuranceWebExtJS/index.jsf' done. Status 200 OK. HTTP/1.1
+[17:18:10.46] Trace: Response 'http://demo.borland.com/InsuranceWebExtJS/index.jsf': 
+HTTP/1.1 200 OK
+Content-Length: 2572
+Cache-Control: no-cache,must-revalidate
+Content-Encoding: gzip
+Content-Type: text/html;charset=UTF-8
+Date: Thu, 15 Oct 2020 15:18:07 GMT
+Expires: Mon, 8 Aug 2000 10:00:00 GMT
+Pragma: no-cache
+Server: Microsoft-IIS/10.0
+Set-Cookie: JSESSIONID=292AA0560ECA9765E994C4980F63B0F2; Path=/InsuranceWebExtJS/; HttpOnly
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: JSF/1.2
+X-Powered-By: ASP.NET
+
+
+[17:18:10.47] Trace: 'http://demo.borland.com/InsuranceWebExtJS/index.jsf' request redirect urls: http://demo.borland.com/InsuranceWebExtJS/index.jsf
+[17:18:10.47] Info: WebRequest [Id: 3] 'http://demo.borland.com/InsuranceWebExtJS/index.jsf' completed. (2 request(s) sent, 3030 bytes downloaded)
+[17:18:10.47] Info: Transaction 'Insco_index' ended with a 'Passed' status (Duration: 210 ms., ThinkTime: 0 ms.).	(./main.js:199:9)
+[17:18:10.48] Info: Ending iteration 1.
+[17:18:10.48] Info: Starting finalize.
+[17:18:10.48] Info: Ending finalize.
