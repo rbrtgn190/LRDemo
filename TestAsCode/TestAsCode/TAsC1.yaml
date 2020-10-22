@@ -1,12 +1,12 @@
 ##################################################
 controller: "LREH2"
 group:
-   - group_name: "WebDem1"
+   - group_name: "AOS_Simple"
      vusers: '20'
-     script_path: "Scripts\\AOS\\Web\\dem1"
+     script_path: "Scripts\\AdvantageOnlineShopping_simple"
      lg_name:
         - "LREH2"
 scheduler:
-   rampup: '45'
-   duration: '300'
+   rampup: '30'
+   duration: '120'
 ##################################################
