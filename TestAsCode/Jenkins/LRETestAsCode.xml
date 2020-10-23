@@ -1,0 +1,81 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.coravy.hudson.plugins.github.GithubProjectProperty plugin="github@1.31.0">
+      <projectUrl>https://github.com/rbrtgn190/LRDemo/</projectUrl>
+      <displayName></displayName>
+    </com.coravy.hudson.plugins.github.GithubProjectProperty>
+  </properties>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@4.3.0">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <url>https://github.com/rbrtgn190/LRDemo.git</url>
+        <credentialsId>52fe77f4-d74d-4bc6-bef8-33d74ad59d3c</credentialsId>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>*/master</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <submoduleCfg class="list"/>
+    <extensions/>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <jdk>(System)</jdk>
+  <triggers>
+    <hudson.triggers.TimerTrigger>
+      <spec># every fifteen minutes (perhaps at :07, :22, :37, :52)
+#H/5 * * * *</spec>
+    </hudson.triggers.TimerTrigger>
+    <com.cloudbees.jenkins.GitHubPushTrigger plugin="github@1.31.0">
+      <spec></spec>
+    </com.cloudbees.jenkins.GitHubPushTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <com.microfocus.performancecenter.integration.pcgitsync.PcGitSyncBuilder plugin="micro-focus-performance-center-integration@1.1.2">
+      <description></description>
+      <pcServerName>LRES</pcServerName>
+      <httpsProtocol>false</httpsProtocol>
+      <credentialsId>72aeec1c-fee5-400d-bc6f-f006e0a42574</credentialsId>
+      <almDomain>DEFAULT</almDomain>
+      <almProject>SANDBOX1</almProject>
+      <serverAndPort>http://nimbusserver:8090/view/jeang</serverAndPort>
+      <proxyOutURL></proxyOutURL>
+      <credentialsProxyId></credentialsProxyId>
+      <subjectTestPlan>Subject\TestAsCode</subjectTestPlan>
+      <uploadScriptMode>RUNTIME_FILES</uploadScriptMode>
+      <removeScriptFromPC>YES</removeScriptFromPC>
+      <importTests>YES</importTests>
+      <pcGitSyncModel>
+        <description></description>
+        <pcServerName>LRES</pcServerName>
+        <serverAndPort>http://nimbusserver:8090/view/jeang</serverAndPort>
+        <httpsProtocol>false</httpsProtocol>
+        <credentialsId>72aeec1c-fee5-400d-bc6f-f006e0a42574</credentialsId>
+        <almDomain>DEFAULT</almDomain>
+        <almProject>SANDBOX1</almProject>
+        <proxyOutURL></proxyOutURL>
+        <credentialsProxyId></credentialsProxyId>
+        <subjectTestPlan>Subject\TestAsCode</subjectTestPlan>
+        <uploadScriptMode>RUNTIME_FILES</uploadScriptMode>
+        <removeScriptFromPC>YES</removeScriptFromPC>
+        <importTests>YES</importTests>
+        <buildParameters></buildParameters>
+      </pcGitSyncModel>
+      <buildParameters></buildParameters>
+      <addDate>true</addDate>
+    </com.microfocus.performancecenter.integration.pcgitsync.PcGitSyncBuilder>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
