@@ -1,4 +1,4 @@
-=================== Configure DevWeb
+﻿=================== Configure DevWeb
 
 set DEVWEB_PATH = C:\Tools\DevWeb_2020.1\DevWeb
 or default with VUGen installed : 
@@ -124,4 +124,5 @@ influxdb source:
   http://LREH2:8087
   devwebdemo (!! case sensitive)
 
-  
+
+Loggin : admin/admin

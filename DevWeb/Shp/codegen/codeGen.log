@@ -1,0 +1,188 @@
+[11:01:00.35] Info: Running build Release_2020.3.0_1869 on windows
+[11:01:00.35] Info: DevWeb offline generator started with 'har' mode, 'pages' level.
+[11:01:00.35] Info: Generating script from 'C:\dev\LRDemo\DevWeb\Shp\proxyrecorded.har'.
+[11:01:00.35] Info: Using configuration file: C:\Tools\DevWeb_2020.3\generator_config.yml.
+[11:01:00.70] Info: HAR file loaded, started parsing phase.
+[11:01:00.70] Info: Configured none resources list: [text/html text/xml text/plain application/json]
+[11:01:00.72] Info: Parsing done, loaded 107 steps from HAR.
+[11:01:00.72] Info: Configured headers to filter: [Host Content-Length Cookie]
+[11:01:00.72] Info: Configured hosts black list: [.*google.* .*bing.* .*geolocation.* .*gstatic.* .*firefox.*]
+[11:01:00.72] Info: Configured extensions to filter: [.ico]
+[11:01:00.74] Info: **********************************************
+[11:01:00.74] Info: WebRequest [Id: 1] GET 'https://microfocusinternational.sharepoint.com/_forms/spfxsinglesignon.aspx'
+[11:01:00.74] Info: **********************************************
+[11:01:00.74] Info: WebRequest [Id: 2] GET 'https://microfocusinternational.sharepoint.com/'
+[11:01:00.75] Info: **********************************************
+[11:01:00.75] Info: WebRequest [Id: 3] GET 'https://login.live.com/Me.htm'
+[11:01:00.75] Info: **********************************************
+[11:01:00.75] Info: WebRequest [Id: 4] POST 'https://login.microsoftonline.com/common/instrumentation/reportpageload'
+[11:01:00.75] Info: **********************************************
+[11:01:00.75] Info: WebRequest [Id: 5] POST 'https://login.microsoftonline.com/common/GetCredentialType'
+[11:01:00.75] Info: **********************************************
+[11:01:00.75] Info: WebRequest [Id: 6] GET 'https://authenticate.microfocus.net/nidp/wsfed/ep'
+[11:01:00.75] Info: **********************************************
+[11:01:00.75] Info: WebRequest [Id: 7] POST 'https://authenticate.microfocus.net/nidp/wsfed/ep'
+[11:01:00.75] Info: **********************************************
+[11:01:00.75] Info: WebRequest [Id: 8] POST 'https://authenticate.microfocus.net/nidp/wsfed/ep'
+[11:01:00.75] Info: **********************************************
+[11:01:00.75] Info: WebRequest [Id: 9] GET 'https://authenticate.microfocus.net/nidp/wsfed/ep'
+[11:01:00.76] Info: **********************************************
+[11:01:00.76] Info: WebRequest [Id: 10] POST 'https://login.microsoftonline.com/login.srf'
+[11:01:00.76] Info: **********************************************
+[11:01:00.76] Info: WebRequest [Id: 11] POST 'https://login.microsoftonline.com/kmsi'
+[11:01:00.79] Info: **********************************************
+[11:01:00.79] Info: WebRequest [Id: 12] POST 'https://microfocusinternational.sharepoint.com/_forms/default.aspx'
+[11:01:00.80] Info: **********************************************
+[11:01:00.80] Info: WebRequest [Id: 13] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/1033/initstrings.js'
+[11:01:00.81] Info: **********************************************
+[11:01:00.81] Info: WebRequest [Id: 14] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/init.js'
+[11:01:00.81] Info: **********************************************
+[11:01:00.81] Info: WebRequest [Id: 15] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/blank.js'
+[11:01:00.81] Info: **********************************************
+[11:01:00.81] Info: WebRequest [Id: 16] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/theming.js'
+[11:01:00.85] Info: **********************************************
+[11:01:00.85] Info: WebRequest [Id: 17] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002//online/scripts/sposuitenav.js'
+[11:01:00.85] Info: **********************************************
+[11:01:00.85] Info: WebRequest [Id: 18] POST 'https://microfocusinternational.sharepoint.com/_layouts/15/online/handlers/SpoSuiteLinks.ashx'
+[11:01:00.86] Info: **********************************************
+[11:01:00.86] Info: WebRequest [Id: 19] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/1033/strings.js'
+[11:01:00.86] Info: **********************************************
+[11:01:00.86] Info: WebRequest [Id: 20] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/sp.init.js'
+[11:01:00.86] Info: **********************************************
+[11:01:00.86] Info: WebRequest [Id: 21] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/1033/sp.res.js'
+[11:01:00.87] Info: **********************************************
+[11:01:00.87] Info: WebRequest [Id: 22] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/cui.js'
+[11:01:00.88] Info: **********************************************
+[11:01:00.88] Info: WebRequest [Id: 23] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/clienttemplates.js'
+[11:01:00.88] Info: **********************************************
+[11:01:00.88] Info: WebRequest [Id: 24] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/sp.ui.dialog.js'
+[11:01:00.88] Info: **********************************************
+[11:01:00.88] Info: WebRequest [Id: 25] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/sp.runtime.js'
+[11:01:00.88] Info: **********************************************
+[11:01:00.88] Info: WebRequest [Id: 26] GET 'https://microfocusinternational.sharepoint.com/_api/Microsoft.SharePoint.Portal.UserProfiles.MySiteLinks.GetMySiteLinks'
+[11:01:00.91] Info: **********************************************
+[11:01:00.91] Info: WebRequest [Id: 27] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/sp.js'
+[11:01:00.93] Info: **********************************************
+[11:01:00.93] Info: WebRequest [Id: 28] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/core.js'
+[11:01:00.93] Info: **********************************************
+[11:01:00.93] Info: WebRequest [Id: 29] GET 'https://shell.cdn.office.net/shellux/o365/versionless/en/shellstrings.67d7988e65d5484aaa0ad81759c844e1.json'
+[11:01:00.93] Info: **********************************************
+[11:01:00.93] Info: WebRequest [Id: 30] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/sp.core.js'
+[11:01:00.93] Info: **********************************************
+[11:01:00.93] Info: WebRequest [Id: 31] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/inplview.js'
+[11:01:00.94] Info: **********************************************
+[11:01:00.94] Info: WebRequest [Id: 32] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/dragdrop.js'
+[11:01:00.94] Info: **********************************************
+[11:01:00.94] Info: WebRequest [Id: 33] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/mquery.js'
+[11:01:00.95] Info: **********************************************
+[11:01:00.95] Info: WebRequest [Id: 34] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/sp.ribbon.js'
+[11:01:00.95] Info: **********************************************
+[11:01:00.95] Info: WebRequest [Id: 35] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/sp.ui.mylinksribbon.js'
+[11:01:00.95] Info: **********************************************
+[11:01:00.95] Info: WebRequest [Id: 36] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/1033/sp.publishing.resources.js'
+[11:01:00.95] Info: **********************************************
+[11:01:00.95] Info: WebRequest [Id: 37] GET 'https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/sp.ui.pub.ribbon.js'
+[11:01:00.95] Info: **********************************************
+[11:01:00.95] Info: WebRequest [Id: 38] GET 'https://outlook.office.com/owa/SuiteServiceProxy.aspx'
+[11:01:00.95] Info: **********************************************
+[11:01:00.95] Info: WebRequest [Id: 39] GET 'https://webshell.suite.office.com/iframe/TokenFactoryIframe'
+[11:01:00.96] Info: **********************************************
+[11:01:00.96] Info: WebRequest [Id: 40] GET 'https://config.fp.measure.office.com/conf/v2/o365se/fpconfig.min.json'
+[11:01:00.96] Info: **********************************************
+[11:01:00.96] Info: WebRequest [Id: 41] GET 'https://login.microsoftonline.com/common/oauth2/authorize'
+[11:01:00.97] Info: **********************************************
+[11:01:00.97] Info: WebRequest [Id: 42] GET 'https://microfocusinternational.sharepoint.com/sites/infocus/'
+[11:01:00.98] Info: **********************************************
+[11:01:00.98] Info: WebRequest [Id: 43] POST 'https://browser.pipe.aria.microsoft.com/Collector/3.0/'
+[11:01:00.98] Info: **********************************************
+[11:01:00.98] Info: WebRequest [Id: 44] POST 'https://microfocusinternational.sharepoint.com/sites/InFocus/_api/contextinfo'
+[11:01:00.98] Info: **********************************************
+[11:01:00.98] Info: WebRequest [Id: 45] GET 'https://microfocusinternational.sharepoint.com/sites/InFocus/_api/Web/CurrentUser'
+[11:01:00.99] Info: **********************************************
+[11:01:00.99] Info: WebRequest [Id: 46] GET 'https://microfocusinternational.sharepoint.com/sites/InFocus/_api/SP.UserProfiles.PeopleManager/GetMyProperties'
+[11:01:00.99] Info: **********************************************
+[11:01:00.99] Info: WebRequest [Id: 47] POST 'https://microfocusinternational.sharepoint.com/sites/InFocus/_api/SP.UI.ApplicationPages.ClientPeoplePickerWebServiceInterface.clientPeoplePickerSearchUser'
+[11:01:00.99] Info: **********************************************
+[11:01:00.99] Info: WebRequest [Id: 48] POST 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/contextinfo'
+[11:01:00.99] Info: **********************************************
+[11:01:00.99] Info: WebRequest [Id: 49] POST 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/ensureuser'
+[11:01:00.99] Info: **********************************************
+[11:01:00.99] Info: WebRequest [Id: 50] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('UserSettings')/Items'
+[11:01:00.99] Info: **********************************************
+[11:01:00.99] Info: WebRequest [Id: 51] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('GlobalBanner')/Items'
+[11:01:00.99] Info: **********************************************
+[11:01:00.99] Info: WebRequest [Id: 52] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('StockQuotes')/Items'
+[11:01:01.00] Info: **********************************************
+[11:01:01.00] Info: WebRequest [Id: 53] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('StockQuotes')/Items'
+[11:01:01.00] Info: **********************************************
+[11:01:01.00] Info: WebRequest [Id: 54] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('Homepages')/Items'
+[11:01:01.00] Info: **********************************************
+[11:01:01.00] Info: WebRequest [Id: 55] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('Homepages')/Items'
+[11:01:01.00] Info: **********************************************
+[11:01:01.00] Info: WebRequest [Id: 56] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('Homepages')/Items'
+[11:01:01.00] Info: **********************************************
+[11:01:01.00] Info: WebRequest [Id: 57] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('HomepageGraphScopes')/Items'
+[11:01:01.00] Info: **********************************************
+[11:01:01.00] Info: WebRequest [Id: 58] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('UserSettings')/Items'
+[11:01:01.01] Info: **********************************************
+[11:01:01.01] Info: WebRequest [Id: 59] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('StockQuotes')/Items'
+[11:01:01.01] Info: **********************************************
+[11:01:01.01] Info: WebRequest [Id: 60] GET 'https://microfocusinternational.sharepoint.com/sites/InFocus/_api/web/lists'
+[11:01:01.01] Info: **********************************************
+[11:01:01.01] Info: WebRequest [Id: 61] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('StockQuotes')/Items'
+[11:01:01.01] Info: **********************************************
+[11:01:01.01] Info: WebRequest [Id: 62] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('Weather')/Items'
+[11:01:01.01] Info: **********************************************
+[11:01:01.01] Info: WebRequest [Id: 63] GET 'https://microfocusinternational.sharepoint.com/sites/InFocus/_api/Web/CurrentUser'
+[11:01:01.02] Info: **********************************************
+[11:01:01.02] Info: WebRequest [Id: 64] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('ITUpdates')/Items'
+[11:01:01.02] Info: **********************************************
+[11:01:01.02] Info: WebRequest [Id: 65] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('PollResults')/Items'
+[11:01:01.02] Info: **********************************************
+[11:01:01.02] Info: WebRequest [Id: 66] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('MandatoryReads')/Items'
+[11:01:01.02] Info: **********************************************
+[11:01:01.02] Info: WebRequest [Id: 67] POST 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/ensureuser'
+[11:01:01.02] Info: **********************************************
+[11:01:01.02] Info: WebRequest [Id: 68] GET 'https://microfocusinternational.sharepoint.com/sites/corp/Coronavirus-updates/_api/web/lists'
+[11:01:01.03] Info: **********************************************
+[11:01:01.03] Info: WebRequest [Id: 69] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('Blogs')/Items'
+[11:01:01.03] Info: **********************************************
+[11:01:01.03] Info: WebRequest [Id: 70] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('Favourites')/Items'
+[11:01:01.03] Info: **********************************************
+[11:01:01.03] Info: WebRequest [Id: 71] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('OsSettings')/Items'
+[11:01:01.03] Info: **********************************************
+[11:01:01.03] Info: WebRequest [Id: 72] GET 'https://platform.twitter.com/widgets/widget_iframe.96fd96193cc66c3e11d4c5e4c7c7ec97.html'
+[11:01:01.04] Info: **********************************************
+[11:01:01.04] Info: WebRequest [Id: 73] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/CurrentUser'
+[11:01:01.04] Info: **********************************************
+[11:01:01.04] Info: WebRequest [Id: 74] GET 'https://syndication.twitter.com/settings'
+[11:01:01.04] Info: **********************************************
+[11:01:01.04] Info: WebRequest [Id: 75] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('Favourites')/Items'
+[11:01:01.04] Info: **********************************************
+[11:01:01.04] Info: WebRequest [Id: 76] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('OsSettings')/Items'
+[11:01:01.04] Info: **********************************************
+[11:01:01.04] Info: WebRequest [Id: 77] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('NewsFeeds')/Items'
+[11:01:01.05] Info: **********************************************
+[11:01:01.05] Info: WebRequest [Id: 78] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('BlogActivity')/Items'
+[11:01:01.05] Info: **********************************************
+[11:01:01.05] Info: WebRequest [Id: 79] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('NewsFeeds')/Items'
+[11:01:01.05] Info: **********************************************
+[11:01:01.05] Info: WebRequest [Id: 80] GET 'https://microfocusinternational.sharepoint.com/sites/Product/_api/web/lists'
+[11:01:01.05] Info: **********************************************
+[11:01:01.05] Info: WebRequest [Id: 81] POST 'https://syndication.twitter.com/i/jot'
+[11:01:01.05] Info: **********************************************
+[11:01:01.05] Info: WebRequest [Id: 82] GET 'https://microfocusinternational.sharepoint.com/sites/InFocus/_api/web/lists/getbytitle('Pages')/fields'
+[11:01:01.06] Info: **********************************************
+[11:01:01.06] Info: WebRequest [Id: 83] GET 'https://microfocusinternational.sharepoint.com/sites/InFocus/_api/web/lists/getbytitle('Pages')/fields'
+[11:01:01.06] Info: **********************************************
+[11:01:01.06] Info: WebRequest [Id: 84] GET 'https://microfocusinternational.sharepoint.com/sites/InFocus/_api/web/lists/getbytitle('Pages')/Items'
+[11:01:01.06] Info: **********************************************
+[11:01:01.06] Info: WebRequest [Id: 85] GET 'https://microfocusinternational.sharepoint.com/sites/InFocus/_api/Web/Lists'
+[11:01:01.07] Info: **********************************************
+[11:01:01.07] Info: WebRequest [Id: 86] GET 'https://microfocusinternational.sharepoint.com/sites/InFocus/_api/web/lists/getbytitle('OsTranslations')/Items'
+[11:01:01.07] Info: **********************************************
+[11:01:01.07] Info: WebRequest [Id: 87] GET 'https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('ITUpdates')/Items'
+[11:01:01.07] Info: Created 87 steps.
+[11:01:01.13] Info: rts.yml already exists at 'C:\dev\LRDemo\DevWeb\Shp\rts.yml' and will not be updated.
+[11:01:01.14] Info: DevWeb script generated in folder 'C:\dev\LRDemo\DevWeb\Shp'.
+[11:01:01.21] Info: Save input file as C:\dev\LRDemo\DevWeb\Shp\codegen\codegen.har

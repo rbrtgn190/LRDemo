@@ -1,0 +1,2198 @@
+{
+	"FilterHeaders": [
+		{
+			"Header": "",
+			"IncludeInScript": false
+		}
+	],
+	"FilterResources": [
+		{
+			"IsNonResource": true,
+			"type": "application/json"
+		},
+		{
+			"IsNonResource": false,
+			"type": "text/html"
+		},
+		{
+			"IsNonResource": true,
+			"type": "text/plain"
+		},
+		{
+			"IsNonResource": false,
+			"type": "text/css"
+		},
+		{
+			"IsNonResource": false,
+			"type": "text/javascript"
+		},
+		{
+			"IsNonResource": false,
+			"type": "image/jpeg"
+		},
+		{
+			"IsNonResource": false,
+			"type": "image/png"
+		},
+		{
+			"IsNonResource": false,
+			"type": "image/gif"
+		},
+		{
+			"IsNonResource": false,
+			"type": "application/javascript"
+		},
+		{
+			"IsNonResource": false,
+			"type": "application/x-javascript"
+		},
+		{
+			"IsNonResource": false,
+			"type": "application/font-woff"
+		}
+	],
+	"GeneralInfo": {
+		"BrowserVersion": "",
+		"IsWinInetMode": false,
+		"MaxUsedConnections": 0,
+		"RecordedBrowser": "",
+		"RecordingDate": "Oct-23-2020",
+		"RecordingDuration": 0,
+		"RecordingMode": "N/A",
+		"RecordingTimeStamp": 1603443661,
+		"RecordingType": "Browser",
+		"TotalBytesReceived": 6074360,
+		"TotalBytesSent": 192772,
+		"TotalRequests": 193,
+		"UserAgent": "",
+		"ReadOnly": true
+	},
+	"HostInfo": [
+		{
+			"DomainName": "sharepoint.com",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/1.1",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "microfocusinternational.sharepoint.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_forms/spfxsinglesignon.aspx",
+							"CompressionType": "gzip",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1818
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/",
+							"CompressionType": "",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 302,
+							"Size": 1114
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_layouts/15/Authenticate.aspx?Source=%2F",
+							"CompressionType": "",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 302,
+							"Size": 1307
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_forms/default.aspx?ReturnUrl=%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&Source=cookie",
+							"CompressionType": "",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 302,
+							"Size": 3581
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_forms/default.aspx",
+							"CompressionType": "",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 302,
+							"Size": 3220
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_layouts/15/Authenticate.aspx?Source=%2F",
+							"CompressionType": "",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 302,
+							"Size": 974
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/",
+							"CompressionType": "",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 302,
+							"Size": 3165
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/SitePages/Redirect.aspx",
+							"CompressionType": "gzip",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 93321
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_layouts/15/1033/styles/Themable/corev15.css?rev=MWXKtEgV%2B2xCwAwBnJNADA%3D%3DTAG1056",
+							"CompressionType": "gzip",
+							"DataType": "text/css",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 51761
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/ScriptResource.axd?d=XtXUxRpiXw8hkjRNCh26wcjllSn5tqd0XQHp4umfUEZaW0Z5Tg9PThOFKETkSAVjgITRuKKre2p9BVEanrrNJvIeRXbK_DdEhKW-Jtqx8bixH7yxm3L2CPdYHg_rRsMkYwqvsF--usML4CQE_BoU0eYDVtthqSNDoj8uhATdX31LGnhbDNTtS0iBSwr7LZjz0&t=ffffffffce034dab",
+							"CompressionType": "gzip",
+							"DataType": "application/x-javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 26274
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/ScriptResource.axd?d=TXhGdaT9op-bGYqeIi0gjdnEOcULibcTHsKmR127EUqmuaEVlVMZcWVwxQQzrwS6O2B6Vm_m4QrwHuCubsYAV-7yR1yJlxMzb60Hz7P5tYj_zpsEmR5U4fzTERyO9xJJnhfGR8MGummt_MkJ2esPdvgVlM9S_gOZjJeKRc-yQxYxlQWaoChnIH1TMjdx8sJg0&t=ffffffffce034dab",
+							"CompressionType": "gzip",
+							"DataType": "application/x-javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 10697
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/WebResource.axd?d=O2qkG7L3n4LeOy-FfN4DUALG029OD7JZDs1ahXhfsdLTrWUrclJ9qrBf1-Z9qsMeQdQZj94irGceVBxI6HY4-MZBHF_wa0guMn684CtrXHM1&t=637290505350350503",
+							"CompressionType": "gzip",
+							"DataType": "application/x-javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 6751
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_layouts/15/images/spcommon.png?rev=47",
+							"CompressionType": "",
+							"DataType": "image/png",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 27336
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/Style%20Library/mf_logo_blue_large.png?rev=47",
+							"CompressionType": "",
+							"DataType": "image/png",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 7242
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/Style%20Library/mf_logo_blue_large.png",
+							"CompressionType": "",
+							"DataType": "image/png",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 7242
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_layouts/15/images/searchresultui.png?rev=47",
+							"CompressionType": "",
+							"DataType": "image/png",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 4794
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_layouts/15/images/tabtitlerowbottombg.png?rev=47",
+							"CompressionType": "",
+							"DataType": "image/png",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 2565
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_layouts/15/images/fgimg.png?rev=47",
+							"CompressionType": "",
+							"DataType": "image/png",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 14215
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_layouts/15/images/create_upgradient.png?rev=47",
+							"CompressionType": "",
+							"DataType": "image/png",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 2581
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_layouts/15/images/create_defaultgradient.png?rev=47",
+							"CompressionType": "",
+							"DataType": "image/png",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 2576
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_layouts/15/images/menu-down.gif?rev=47",
+							"CompressionType": "",
+							"DataType": "image/gif",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 2495
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_layouts/15/images/selbg.png?rev=47",
+							"CompressionType": "",
+							"DataType": "image/png",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 2582
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_layouts/15/1033/images/spintl.png",
+							"CompressionType": "",
+							"DataType": "image/png",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 2852
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_layouts/15/images/menu-right.gif?rev=47",
+							"CompressionType": "",
+							"DataType": "image/gif",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 2499
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_layouts/15/images/UserSquiggle.png?rev=47",
+							"CompressionType": "",
+							"DataType": "image/png",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 2587
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_layouts/15/1033/images/formatmap32x32.png?rev=47",
+							"CompressionType": "",
+							"DataType": "image/png",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 51802
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_layouts/15/1033/images/formatmap16x16.png?rev=47",
+							"CompressionType": "",
+							"DataType": "image/png",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 26330
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_layouts/15/images/spcommon.png",
+							"CompressionType": "",
+							"DataType": "image/png",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 27336
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_layouts/15/online/handlers/SpoSuiteLinks.ashx?Locale=en-US&v=2&mobilereq=0",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 20324
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/_api/Microsoft.SharePoint.Portal.UserProfiles.MySiteLinks.GetMySiteLinks",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3687
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/infocus/",
+							"CompressionType": "",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 302,
+							"Size": 3179
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/infocus/Pages/index.aspx",
+							"CompressionType": "gzip",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3866
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/config/home-config.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 12660
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/infocus/code/bootstrap.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 5708
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/bootstrap.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 22771
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/2.0.6/css/base.css",
+							"CompressionType": "gzip",
+							"DataType": "text/css",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 72235
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/infocus/code/config.js?_=1603443485492",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 5750
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/static/jquery.legacy.min.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 47167
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/config/integration-config.js?_=1603443485492",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3308
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/2.0.6/js/vue-app.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1927781
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/infocus/code/app.js?_=1603443485492",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 185421
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/2.0.6/js/icon-pack.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 159392
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/2.0.6//js/ce1d841cbe7cfa1404f3.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 144047
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/2.0.6//js/5fa5e7808fcdc413fba7.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 27698
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/2.0.6//js/354ab05250708b0f2496.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 17393
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/2.0.6//js/c1acde5489051734cc24.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 31985
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/2.0.6//js/36fa7105d50d33e1be99.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 65994
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/2.0.6//js/56c69f0542094b2fcac3.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 7497
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/2.0.6//js/316791043eacd260cc92.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 13236
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/2.0.6//js/3c0a114be35ec2a71179.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 163505
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/2.0.6//js/299f5ac9cd54d97e884a.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 11373
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/2.0.6//js/b0c2b2258032a92199ed.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 44625
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/2.0.6//js/6858cf15d4f61b68a4ce.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 26126
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/2.0.6//js/82c81a9b2ad46fa73acc.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 39705
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/2.0.6//js/3b603671220a54e79066.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 33461
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/2.0.6//js/b6d6fd0bcfa6726a48c4.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 25114
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/os_dist/2.0.6//js/6ce03ae3af4a2aae3c25.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 21098
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/ag-fonts/AktivGroteskRg.woff",
+							"CompressionType": "",
+							"DataType": "application/font-woff",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 69347
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/ag-fonts/AktivGroteskLt.woff",
+							"CompressionType": "",
+							"DataType": "application/font-woff",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 68795
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/ag-fonts/AktivGroteskMd.woff",
+							"CompressionType": "",
+							"DataType": "application/font-woff",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 71735
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/ag-fonts/AktivGroteskBd.woff",
+							"CompressionType": "",
+							"DataType": "application/font-woff",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 68015
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/InFocus/_api/contextinfo",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3755
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/InFocus/_api/Web/CurrentUser?%24expand=Groups&%24select=Id,LoginName,Title,Groups&_=1603443488874",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3987
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/InFocus/_api/SP.UserProfiles.PeopleManager/GetMyProperties?%24select=Id,DisplayName,Email,LoginName,PersonalUrl,Title,UserUrl,AccountName,PictureUrl,Department&_=1603443488902",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3743
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/InFocus/_api/SP.UI.ApplicationPages.ClientPeoplePickerWebServiceInterface.clientPeoplePickerSearchUser",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 4027
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/contextinfo",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3757
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/ensureuser",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3933
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('UserSettings')/Items?%24filter=User/Id eq 6583&_=1603443492992",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 4162
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('GlobalBanner')/Items?%24filter=Active eq 1&%24select=Text,Expire,Exclude,Data&%24top=4999&_=1603443496734",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3361
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('StockQuotes')/Items?%24filter=Symbol eq 'MCRO.LON' and Modified ge datetime'2020-10-23T08:52:16Z'&%24select=Symbol, Modified&%24top=1&_=1603443496838",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3427
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('StockQuotes')/Items?%24filter=Symbol eq 'MFGP' and Modified ge datetime'2020-10-23T08:52:16Z'&%24select=Symbol, Modified&%24top=1&_=1603443496839",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3423
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('Homepages')/Items?%24filter=Author/ID eq '6583'&%24select=Id, Modified, weather&%24top=1&_=1603443496906",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3640
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('Homepages')/Items?%24filter=Author/ID eq '6583'&%24select=Id, Modified, news&%24top=1&_=1603443496910",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3638
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('Homepages')/Items?%24filter=Author/ID eq '6583'&%24select=Id, Modified, data&%24top=1&_=1603443496920",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 4361
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('HomepageGraphScopes')/Items?%24filter=Author/ID eq '6583'&%24select=Id, scopes, scopesStage&_=1603443496924",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3361
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('UserSettings')/Items?%24filter=User/Id eq 6583&_=1603443496961",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 4163
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('StockQuotes')/Items?%24filter=Symbol eq 'MCRO.LON'&%24select=Title, Symbol, Price, Change, ChangePercent, Modified, ID&%24top=4999&_=1603443498001",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3503
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/InFocus/_api/web/lists?%24filter=Title eq 'Pages' or Title eq 'SitePages'&_=1603443498579",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 4743
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('StockQuotes')/Items?%24filter=Symbol eq 'MFGP'&%24select=Title, Symbol, Price, Change, ChangePercent, Modified, ID&%24top=4999&_=1603443498652",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3559
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('Weather')/Items?%24filter=city eq '2641689'&%24select=Id, city, weather, Modified&%24top=1&_=1603443498855",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 4019
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/InFocus/_api/Web/CurrentUser?%24expand=Groups&%24select=Id,LoginName,Title,Email&_=1603443499159",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3998
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('ITUpdates')/Items?%24orderby=starting desc&%24select=ID, Title, category, description, starting, ending, url, visible&%24top=4999&_=1603443499165",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 16326
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('PollResults')/Items?%24expand=Author&%24filter=PID eq 'rkgWDJPawP'&%24select=AID, Author/Id&_=1603443499171",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 8453
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('MandatoryReads')/Items?%24filter=Start le datetime'2020-10-23T08:58:19.317Z' and End ge datetime'2020-10-23T08:58:19.317Z' and Status eq 'Approved'&%24select=Id, Title, Audience, Url, Start, End, ReadBy, Description, Data&%24top=4999&_=1603443499317",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3362
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/ensureuser",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3933
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/corp/Coronavirus-updates/_api/web/lists?%24filter=Title eq 'Pages' or Title eq 'SitePages'&_=1603443500389",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 4772
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('Blogs')/Items?%24expand=Author&%24filter=Author/Id eq 6583&%24select=Id, ID, Views, Likes, Title, AllowComments, ImageUrl, Tagline, Status, Published, Tags, PublishedDate, Author/Name, Author/Id, Author/EMail, Author/FirstName, Author/LastName&%24top=4999&_=1603443500639",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3361
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('Favourites')/Items?%24filter=User/Id eq 6583&%24orderby=ID desc&%24select=Id,Data,Created,Modified&%24top=1&_=1603443500644",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3361
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('OsSettings')/Items?%24select=Id, Data&_=1603443500646",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3707
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/CurrentUser?%24expand=Groups&%24select=Id,LoginName,Title,Groups&_=1603443501354",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3558
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('Favourites')/Items?%24filter=IsGlobal eq 1&%24orderby=ID desc&%24select=Id,Data,Created,Modified&%24top=1&_=1603443502101",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 4301
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('OsSettings')/Items?%24select=Id, Data&_=1603443502157",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3708
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('NewsFeeds')/Items?%24filter=User/Id eq 6583&%24orderby=ID desc&%24select=Id,Data,Created,Modified&%24top=1&_=1603443502155",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3767
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('BlogActivity')/Items?%24expand=Author&%24filter=Author/Id eq 6583&%24orderby=Id desc&%24select=Id, ID, Title, Score, Author/Name, Author/Id, Created&%24top=4999&_=1603443502210",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3361
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/web/lists/getbytitle('NewsFeeds')/Items?%24filter=IsGlobal eq 1&%24orderby=ID desc&%24select=Id,Data,Created,Modified&%24top=1&_=1603443502850",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3361
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/Product/_api/web/lists?%24filter=Title eq 'Pages' or Title eq 'SitePages'&_=1603443503860",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 4755
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/InFocus/_api/web/lists/getbytitle('Pages')/fields?%24filter=Title eq 'OsArticleExpiryDate'&%24select=Title&_=1603443506134",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3632
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/InFocus/_api/web/lists/getbytitle('Pages')/fields?%24filter=Title eq 'OsParentPageId'&%24select=Title&_=1603443507350",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3575
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/InFocus/_api/web/lists/getbytitle('Pages')/Items?%24filter=(OsArticle eq 1 and OsDate le datetime'2020-10-23T08:58:27Z')&%24orderby=OsSticky desc, OsDate desc, OsPriority desc&%24select=ID,Title,Created,Modified,OsArticle,OsArticleImage,OsArticleSummary,OsDate,OsKeywords,OsPriority,OsSticky,OsTags,OsUrl,OsTarget,FileRef,OsData,OsArticleExpiryDate,OsPinExpiryDate,OsParentPageId,OsLanguage&%24top=4999&_=1603443507651",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 39602
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/InFocus/_api/Web/Lists?$filter=title eq 'OsTranslations'&_=1603443507653",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 4654
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/InFocus/_api/web/lists/getbytitle('OsTranslations')/Items?%24orderby=ParentPageId desc&%24select=ParentPageId, Data&%24top=4999&_=1603443507985",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3361
+						},
+						{
+							"URL": "https://microfocusinternational.sharepoint.com/sites/onesource/_api/Web/Lists/GetByTitle('ITUpdates')/Items?%24orderby=starting desc&%24select=ID, Title, category, description, starting, ending, url, visible&%24top=4999&_=1603443559195",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 16366
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "windows.net",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/1.1",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "login.windows.net",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://login.windows.net/856b813c-16e5-49a5-85ec-6f081e13b527/oauth2/authorize?client%5Fid=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&response%5Fmode=form%5Fpost&protectedtoken=true&response%5Ftype=code%20id%5Ftoken&resource=00000003%2D0000%2D0ff1%2Dce00%2D000000000000&scope=openid&nonce=36BA9A868C74E52377E380CD16133F6D8BC12829006B50A0%2D82839EDEEE25487379BD7C9BF0339CE128B26E83A737A85BFC55C91EE99C4BB0&redirect%5Furi=https%3A%2F%2Fmicrofocusinternational%2Esharepoint%2Ecom%2F%5Fforms%2Fdefault%2Easpx&claims=%7B%22id%5Ftoken%22%3A%7B%22xms%5Fcc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083%2D87e0%2D41b5%2Dbb78%2D0bc43c8a8e8a&client%2Drequest%2Did=9d6d869f%2Df062%2D0000%2D6804%2Ddd58fdbacab1",
+							"CompressionType": "gzip",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 302,
+							"Size": 1930
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "content-autofill.googleapis.com",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": false,
+					"Name": "content-autofill.googleapis.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIfCYICaXLWAdtdEgkN0VtRUhIAGgASCQ1Xevf9EgAaAA==?alt=proto",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 749
+						},
+						{
+							"URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIfCfOYcU-KVsA2EgkNOv35rRIAGgASCQ2rzcEVEgAaAA==?alt=proto",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 749
+						},
+						{
+							"URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIfCZiOIyKOecA7EgkNzzNlIxIAGgASCQ2lzFv8EgAaAA==?alt=proto",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 747
+						},
+						{
+							"URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIUCVIrCcJogm7CEgkNkWGVThIAGgA=?alt=proto",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 735
+						},
+						{
+							"URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIfCWZONmMXzcdTEgkNkWGVThIAGgASCQ3ixn4sEgAaAA==?alt=proto",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 747
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "update.googleapis.com",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": false,
+					"Name": "update.googleapis.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://update.googleapis.com/service/update2/json?cup2key=10:384148016&cup2hreq=1875b19299b612078fe0292f305290c41589bf50c8226c17b44264e35d942883",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 4129
+						},
+						{
+							"URL": "https://update.googleapis.com/service/update2/json",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1120
+						},
+						{
+							"URL": "https://update.googleapis.com/service/update2/json",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1118
+						},
+						{
+							"URL": "https://update.googleapis.com/service/update2/json",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1119
+						},
+						{
+							"URL": "https://update.googleapis.com/service/update2/json",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1120
+						},
+						{
+							"URL": "https://update.googleapis.com/service/update2/json",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1118
+						},
+						{
+							"URL": "https://update.googleapis.com/service/update2/json",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1119
+						},
+						{
+							"URL": "https://update.googleapis.com/service/update2/json",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1119
+						},
+						{
+							"URL": "https://update.googleapis.com/service/update2/json",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1117
+						},
+						{
+							"URL": "https://update.googleapis.com/service/update2/json",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1120
+						},
+						{
+							"URL": "https://update.googleapis.com/service/update2/json",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1118
+						},
+						{
+							"URL": "https://update.googleapis.com/service/update2/json",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1143
+						},
+						{
+							"URL": "https://update.googleapis.com/service/update2/json",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1145
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "microfocus.net",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/1.1",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "authenticate.microfocus.net",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://authenticate.microfocus.net/nidp/wsfed/ep?client-request-id=9d6d869f-f062-0000-6804-dd58fdbacab1&wa=wsignin1.0&wtrealm=urn:federation:MicrosoftOnline&wctx=LoginOptions=3&estsredirect=2&estsrequest=rQIIAa2RsYvTUBzH85pebOsdlsPB8Tg6ebz2vby85CVwYJOmJxzcKQ56B1KS9OUabZPcS0qlo4M6yf0DIjh2Uifp5CjFoXPBxelwOpwEEWxx0PEGv8OXH7_fd_jx-d6UcR1bNfRHBK4cojDEMOCr6R-JzUr19bPBK_9CknrFLw9-TWfvJsDu5XmaWY3GIApEEibBMIvinIvYy6Mk9vr1rOcJnibLZT1IBo1OmIhB1ujy0Bv287qXpU8-ADAH4ByASeGU6HbTbDKdOYbmUpUYhksYclpYx4S09RazHawy1URItylqIshURky35bquSjVmEMO0W4Zj2m1EiOm4y7Ct6i4jzeWpyajddih1TOy6puloto0WhWuHzWHeU1eWiGjMvxfKqx87aZLlE_lSaN7LNUZ1n2ESQKxzCjXTo5BRHkA9RAxzTHyqGjNZSVIeR92v8vYj7sUDL897ER_WT4ZcRPGtvwhXqOZF8K24jmSrVFKq8g1pS_pRBG_Wli1MOs93f758uPf2MxWfDsvSbK0x3Du5PRL9hn_E-jv3jvPRQTbYz53R4_tiPxLjcXiQ7tx17VOhH-0iC58p4ExRpkq5JFelbdm5g88VcKGAF1ekafk_VLqoXFeRiiBGUCVbiFnUsFR0PL8KFuu4Ug4SX3hxN-pu1jD2uwwxApnBEdSwT6HvGwwiP9BIwDzGmfd041KxjxvSbw2&cbcxt=&username=jeanmatthieu.guerin@microfocus.com&mkt=&lc=",
+							"CompressionType": "",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1064
+						},
+						{
+							"URL": "https://authenticate.microfocus.net/nidp/wsfed/ep?id=IDNamePasswordForm&sid=0&option=credential",
+							"CompressionType": "",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1956
+						},
+						{
+							"URL": "https://authenticate.microfocus.net/common/public/css/login.css",
+							"CompressionType": "",
+							"DataType": "text/css",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 2582
+						},
+						{
+							"URL": "https://authenticate.microfocus.net/common/public/js/login.js",
+							"CompressionType": "",
+							"DataType": "text/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 2584
+						},
+						{
+							"URL": "https://authenticate.microfocus.net/common/public/img/login_bg1.jpg",
+							"CompressionType": "",
+							"DataType": "image/jpeg",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 83066
+						},
+						{
+							"URL": "https://authenticate.microfocus.net/common/public/img/mf_logo.png",
+							"CompressionType": "",
+							"DataType": "image/png",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1803
+						},
+						{
+							"URL": "https://authenticate.microfocus.net/nidp/wsfed/ep?sid=0",
+							"CompressionType": "",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1230
+						},
+						{
+							"URL": "https://authenticate.microfocus.net/nidp/wsfed/ep?sid=0",
+							"CompressionType": "",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 8061
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "msftauth.net",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "amcdn.msftauth.net",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://amcdn.msftauth.net/me?partner=Sharepoint&version=10.20266.2&market=en-US&wrapperId=suiteshell",
+							"CompressionType": "br",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 9865
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "jsdelivr.net",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "cdn.jsdelivr.net",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://cdn.jsdelivr.net/npm/es6-promise/dist/es6-promise.auto.min.js",
+							"CompressionType": "br",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3350
+						},
+						{
+							"URL": "https://cdn.jsdelivr.net/npm/whatwg-fetch/dist/fetch.umd.min.js",
+							"CompressionType": "br",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 4288
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "twitter.com",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "platform.twitter.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://platform.twitter.com/widgets/widget_iframe.96fd96193cc66c3e11d4c5e4c7c7ec97.html?origin=https://microfocusinternational.sharepoint.com",
+							"CompressionType": "gzip",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 6496
+						},
+						{
+							"URL": "https://platform.twitter.com/jot.html",
+							"CompressionType": "gzip",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 764
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				},
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "syndication.twitter.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://syndication.twitter.com/settings",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 777
+						},
+						{
+							"URL": "https://syndication.twitter.com/i/jot",
+							"CompressionType": "",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 302,
+							"Size": 829
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "microsoftonline-p.com",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/1.1",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "secure.aadcdn.microsoftonline-p.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://secure.aadcdn.microsoftonline-p.com/lib/1.0.16/js/adal.min.js",
+							"CompressionType": "gzip",
+							"DataType": "application/x-javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 8275
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "live.com",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "login.live.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://login.live.com/Me.htm?v=3",
+							"CompressionType": "gzip",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 2047
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "office365.com",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "r4.res.office365.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://r4.res.office365.com/footprint/v3.2/scripts/fp-min.js",
+							"CompressionType": "gzip",
+							"DataType": "application/x-javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 2642
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "microfocus.com",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "static.microfocus.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://static.microfocus.com/js/mf-header-footer.js?v=1603443485492",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 44680
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "microsoft.com",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/1.1",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "browser.pipe.aria.microsoft.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://browser.pipe.aria.microsoft.com/Collector/3.0/?qsp=true&content-type=application/bond-compact-binary&client-id=NO_AUTH&sdk-version=AWT-Web-JS-1.8.6&x-apikey=a387cfcf60114a43a7699f9fbb49289e-9bceb9fe-1c06-460f-96c5-6a0b247358bc-7238,c6c190a1b73c4a63bba89835d546cf28-f2a0482f-a00d-48d9-822e-e89cc89eb64d-7688&client-time-epoch-millis=1603443483862&time-delta-to-apply-millis=use-collector-delta",
+							"CompressionType": "",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 459
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "google.com",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": false,
+					"Name": "accounts.google.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1330
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "microsoftonline.com",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/1.1",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "login.microsoftonline.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://login.microsoftonline.com/856b813c-16e5-49a5-85ec-6f081e13b527/oauth2/authorize?client_id=00000003-0000-0ff1-ce00-000000000000&response_mode=form_post&protectedtoken=true&response_type=code%20id_token&resource=00000003-0000-0ff1-ce00-000000000000&scope=openid&nonce=36BA9A868C74E52377E380CD16133F6D8BC12829006B50A0-82839EDEEE25487379BD7C9BF0339CE128B26E83A737A85BFC55C91EE99C4BB0&redirect_uri=https%3A%2F%2Fmicrofocusinternational.sharepoint.com%2F_forms%2Fdefault.aspx&claims=%7B%22id_token%22%3A%7B%22xms_cc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083-87e0-41b5-bb78-0bc43c8a8e8a&client-request-id=9d6d869f-f062-0000-6804-dd58fdbacab1",
+							"CompressionType": "gzip",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 49366
+						},
+						{
+							"URL": "https://login.microsoftonline.com/common/instrumentation/reportpageload?mkt=en-US",
+							"CompressionType": "",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1403
+						},
+						{
+							"URL": "https://login.microsoftonline.com/common/GetCredentialType?mkt=en-US",
+							"CompressionType": "",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3852
+						},
+						{
+							"URL": "https://login.microsoftonline.com/login.srf",
+							"CompressionType": "gzip",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 20118
+						},
+						{
+							"URL": "https://login.microsoftonline.com/kmsi",
+							"CompressionType": "gzip",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 8702
+						},
+						{
+							"URL": "https://login.microsoftonline.com/common/oauth2/authorize?response_type=id_token&client_id=89bee1f7-5e6e-4d8a-9f3d-ecd601259da7&redirect_uri=https://webshell.suite.office.com/iframe/TokenFactoryIframe&state=838677c5-d0ef-4eb0-bc6b-6fc5faa3db0c&client-request-id=da4ddba6-c6a4-4508-8699-965449de3777&x-client-SKU=Js&x-client-Ver=1.0.15&nonce=8d549648-ce1d-423e-8418-2e12886e5259&prompt=none&login_hint=JeanMatthieu.Guerin@microfocus.com",
+							"CompressionType": "gzip",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 302,
+							"Size": 2611
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "office.net",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "shell.cdn.office.net",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://shell.cdn.office.net/shellux/o365/versionless/suiteux.shell.shared.6bdfb0da2d02c1f44a67c226d1317b33.css",
+							"CompressionType": "br",
+							"DataType": "text/css",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 755
+						},
+						{
+							"URL": "https://shell.cdn.office.net/shellux/o365/versionless/suiteux.shell.bootstrapper.589362e00c9183985f81.js",
+							"CompressionType": "br",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 35285
+						},
+						{
+							"URL": "https://shell.cdn.office.net/shellux/o365/versionless/suiteux.shell.vendor.ff142101e36337c56d2bd618683d2cc2.js",
+							"CompressionType": "br",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 36382
+						},
+						{
+							"URL": "https://shell.cdn.office.net/shellux/o365/versionless/suiteux.shell.responsive.b0488bf889d2b1b8c00e.js",
+							"CompressionType": "br",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 13660
+						},
+						{
+							"URL": "https://shell.cdn.office.net/shellux/o365/versionless/suiteux.shell.core.3cf0344bcc3a991d59c4.js",
+							"CompressionType": "br",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 70401
+						},
+						{
+							"URL": "https://shell.cdn.office.net/shellux/o365/versionless/suiteux.shell.plus.3ab24d1aeef36ea50a83.js",
+							"CompressionType": "br",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 58374
+						},
+						{
+							"URL": "https://shell.cdn.office.net/shellux/o365/versionless/suiteux.shell.chat.596dc1589dac1d925a74.js",
+							"CompressionType": "br",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 9026
+						},
+						{
+							"URL": "https://shell.cdn.office.net/shellux/o365/versionless/en/shellstrings.67d7988e65d5484aaa0ad81759c844e1.json",
+							"CompressionType": "gzip",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 5066
+						},
+						{
+							"URL": "https://shell.cdn.office.net/shellux/o365/versionless/suiteux.shell.tokenfactoryiframe.f31f9e12f7fa3b3a06c6.js",
+							"CompressionType": "br",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 37465
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				},
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "statica.akamai.odsp.cdn.office.net",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/1033/initstrings.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 7343
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/init.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 89404
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/blank.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 903
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/theming.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 13192
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002//online/scripts/sposuitenav.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 9266
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/1033/strings.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 51349
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/sp.init.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 9278
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/1033/sp.res.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 11704
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/cui.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 72736
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/clienttemplates.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 50780
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/sp.ui.dialog.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 11069
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/sp.runtime.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 24544
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/sp.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 151184
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/core.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 135009
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/sp.core.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 23093
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/inplview.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 22836
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/dragdrop.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 31105
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/mquery.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 6632
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/sp.ribbon.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 43155
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/sp.ui.mylinksribbon.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1904
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/1033/sp.publishing.resources.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 5530
+						},
+						{
+							"URL": "https://statica.akamai.odsp.cdn.office.net/bld/_layouts/15/16.0.20614.12002/sp.ui.pub.ribbon.js",
+							"CompressionType": "gzip",
+							"DataType": "text/plain",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 16710
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "akamaihd.net",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "spoprod-a.akamaihd.net",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://spoprod-a.akamaihd.net/files/odsp-next-prod-webpack_2020-10-09-sts_20201009.002/require.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 11682
+						},
+						{
+							"URL": "https://spoprod-a.akamaihd.net/files/odsp-next-prod-webpack_2020-10-09-sts_20201009.002/splistwebpack/plt.react.chunk.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 38414
+						},
+						{
+							"URL": "https://spoprod-a.akamaihd.net/files/odsp-next-prod-webpack_2020-10-09-sts_20201009.002/splistwebpack/plt.office-ui-fabric-react.chunk.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 112170
+						},
+						{
+							"URL": "https://spoprod-a.akamaihd.net/files/odsp-next-prod-webpack_2020-10-09-sts_20201009.002/splistwebpack/en-us/plt.resx-plt.chunk.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 11367
+						},
+						{
+							"URL": "https://spoprod-a.akamaihd.net/files/odsp-next-prod-webpack_2020-10-09-sts_20201009.002/splistwebpack/plt.items-view.chunk.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 177624
+						},
+						{
+							"URL": "https://spoprod-a.akamaihd.net/files/odsp-next-prod-webpack_2020-10-09-sts_20201009.002/splistwebpack/plt.odsp-common.chunk.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 141408
+						},
+						{
+							"URL": "https://spoprod-a.akamaihd.net/files/odsp-next-prod-webpack_2020-10-09-sts_20201009.002/splistwebpack/splistwebpack.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 135568
+						},
+						{
+							"URL": "https://spoprod-a.akamaihd.net/files/odsp-next-prod-webpack_2020-10-09-sts_20201009.002/splistwebpack/plt.listviewdataprefetch.standalone.chunk.js",
+							"CompressionType": "gzip",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 29113
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "office.com",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "outlook.office.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://outlook.office.com/owa/SuiteServiceProxy.aspx?suiteServiceUserName=JeanMatthieu.Guerin@microfocus.com&suiteServiceReturnUrl=https://microfocusinternational.sharepoint.com/SitePages/Redirect.aspx&apiver=1",
+							"CompressionType": "",
+							"DataType": "",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 400,
+							"Size": 552
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				},
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "webshell.suite.office.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://webshell.suite.office.com/iframe/TokenFactoryIframe?origin=https://microfocusinternational.sharepoint.com&shsid=f2a42f1d-2369-4169-850b-bd554a02f743&apiver=oneshell&cshver=20201022.1&upn=JeanMatthieu.Guerin@microfocus.com",
+							"CompressionType": "",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 3192
+						},
+						{
+							"URL": "https://webshell.suite.office.com/iframe/TokenFactoryIframe",
+							"CompressionType": "",
+							"DataType": "text/html",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1478
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				},
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "config.fp.measure.office.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://config.fp.measure.office.com/conf/v2/o365se/fpconfig.min.json?monitorId=O365se",
+							"CompressionType": "",
+							"DataType": "application/json",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 1026
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "cloudflare.com",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/2.0",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "cdnjs.cloudflare.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.4/bluebird.min.js",
+							"CompressionType": "br",
+							"DataType": "application/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 20635
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		},
+		{
+			"DomainName": "softwaregrp.com",
+			"Domains": [
+				{
+					"HTTPVersion": "HTTP/1.1",
+					"IP": "",
+					"IncludeInScript": true,
+					"Name": "wsanalyticsbeacon.itcs.softwaregrp.com",
+					"Port": 443,
+					"Requests": [
+						{
+							"URL": "https://wsanalyticsbeacon.itcs.softwaregrp.com/beacon?id=30&loc=z&preventDefault=true",
+							"CompressionType": "",
+							"DataType": "text/javascript",
+							"DownloadTime": 0,
+							"EventId": 0,
+							"HttpStatus": 200,
+							"Size": 678
+						}
+					],
+					"SSLCipher": "N/A",
+					"SSLVersion": "N/A"
+				}
+			],
+			"IncludeInScript": true
+		}
+	],
+	"WebSocket": {
+		"IncludeInScript": false,
+		"IsScriptIncludeWebSocket": false
+	},
+	"NumberOfCorrelations": 0
+}
