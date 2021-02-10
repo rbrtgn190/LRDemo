@@ -16,8 +16,8 @@ general:
 
 tenant:
   host: https://loadrunner-cloud.saas.microfocus.com  # The host name of LRC.
-  user: "jeanmatthieu.guerin@microfocus.com"                                            # The username with which to log into LRC.
-  password: "sQlz31**$"                                        # The password with which to log into LRC.
+  user: "email"                                            # The username with which to log into LRC.
+  password: "password"                                        # The password with which to log into LRC.
   tenantId: 688301833                                         # The tenant id of the user.
   projectId: 157                                        # The id of the project on which the tests will run.
   sendEmail: true                                     # If true an email with the report will be sent at the end of the run.
