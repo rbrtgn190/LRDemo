@@ -1,0 +1,40 @@
+categories:
+  - name: AOS                                               #The name of the category, not used in code, this is for the user
+    enabled: true                                              #Allows the user to enable or disable all the rules in a category
+    rules:      
+      - name: t_authorization                                         #The name of the rule, will be used in the code the user writes to identify the rule. Must be unique across all categories
+        type: boundary                                          #The type of the rule. One of "boundary", "regexp", "json", "cookie", "html", "xpath"
+        enabled: true                                           #Allows the user to enable and disable particular rules
+        options:                                                #The options particular to this rule type
+           leftBoundary: "<ns2:t_authorization>"             #Left boundary of the boundary based extractor
+           rightBoundary: "</ns2:t_authorization>"                                  #Right boundary of the boundary based extractor
+           scope: "body"
+        appliers:
+          - type: simple                                        #The type of the applier. One of "simple", "boundary", "regexp" or "none" which prevent apply automatically
+            scope: all                                         #The scope that applier will be applied. One of "all", "url", "querystring", "headers", "body"
+            options:
+              fieldName: ["t_authorization"]                                                       #A list of rules
+      - name: token                                         #The name of the rule, will be used in the code the user writes to identify the rule. Must be unique across all categories
+        type: boundary                                          #The type of the rule. One of "boundary", "regexp", "json", "cookie", "html", "xpath"
+        enabled: true                                           #Allows the user to enable and disable particular rules
+        options:                                                #The options particular to this rule type
+           leftBoundary: "<ns2:token>"             #Left boundary of the boundary based extractor
+           rightBoundary: "</ns2:token>"                                  #Right boundary of the boundary based extractor
+           scope: "body"
+        appliers:
+          - type: simple                                        #The type of the applier. One of "simple", "boundary", "regexp" or "none" which prevent apply automatically
+            scope: all                                         #The scope that applier will be applied. One of "all", "url", "querystring", "headers", "body"
+            options:
+              fieldName: ["token"]   
+      - name: userId                                         #The name of the rule, will be used in the code the user writes to identify the rule. Must be unique across all categories
+        type: boundary                                          #The type of the rule. One of "boundary", "regexp", "json", "cookie", "html", "xpath"
+        enabled: true                                           #Allows the user to enable and disable particular rules
+        options:                                                #The options particular to this rule type
+           leftBoundary: "<ns2:userId>"             #Left boundary of the boundary based extractor
+           rightBoundary: "</ns2:userId>"                                  #Right boundary of the boundary based extractor
+           scope: "body"
+        appliers:
+          - type: simple                                        #The type of the applier. One of "simple", "boundary", "regexp" or "none" which prevent apply automatically
+            scope: all                                         #The scope that applier will be applied. One of "all", "url", "querystring", "headers", "body"
+            options:
+              fieldName: ["userId"]   
