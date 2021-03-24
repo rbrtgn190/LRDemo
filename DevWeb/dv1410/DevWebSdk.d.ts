@@ -1,6 +1,7 @@
-// Type definitions for [DevWeb SDK] [2020.3]
+// Type definitions for [DevWeb SDK] [2021.0]
 // Project: [DevWeb]
 // Definitions by: [DevWeb Team]
+
 
 declare namespace load {
     import FileEntry = load.MultipartBody.FileEntry;
@@ -465,6 +466,212 @@ declare namespace load {
         }
     }
 
+    export interface GrpcClientOptions {
+        /**
+         * The host of the gRPC server.
+         */
+        host: string,
+        /**
+         * When true, an unencrypted, plain connection is established with gRPC server.
+         */
+        isInsecure?: boolean,
+        /**
+         * The communication socket that is used for RPC connection. Can be one of ```tcp```, ```unix```. ```tcp``` is default value.
+         */
+        socket?: string,
+        /**
+         * When false, client verifies the server's certificate chain and host name during SSL connection. Default is ```true```.
+         */
+        ignoreBadCertificate?: boolean,
+        /**
+         * The file path to client side certificate file. The files must contain PEM encoded data.
+         */
+        certificateLocation?: string,
+        /**
+         * The file path to client side certificate key file. The files must contain PEM encoded data.
+         */
+        certificateKeyLocation?: string,
+        /**
+         * The object that contains all the default options that will be used as options for any client methods.
+         */
+        defaults?: object,
+    }
+
+    export interface UnaryRequestOptions {
+        /**
+         * A fully-qualified method name in 'package.Service/method' or 'package.Service.Method' format.
+         */
+        method: string,
+        /**
+         * The path to the protocol buffer .proto file.
+         */
+        protoFile: string,
+        /**
+         * The gRPC request ID.
+         */
+        id?: number,
+        /**
+         * A key value store that maps the header name to its value, gRPC metadata.
+         */
+        headers?: Object,
+        /**
+         * The body of the method call.
+         * If a JSON object is provided, it is converted to a data string automatically upon send. For example,
+         * If body equals ```{"foo":"bar", "bat":10}``` it is converted to ```'{"foo":"bar", "bat":10}'```.
+         */
+        body?: string | Object,
+        /**
+         *  The path to a file whose content will be used as the body for method call. This can be a path relative to the
+         * script directory or an absolute path. This property is only used if the _body_ property is not set.
+         */
+        bodyPath?: string,
+        /**
+         * When true, the _body_ property of the ````GrpcResponse```` will be populated. Otherwise, the _body_ property of the ````GrpcResponse```` will be set to ````null````.
+         */
+        returnBody?: boolean,
+        /**
+         * An array that holds the extractor object to apply on the response of the method call.
+         */
+        extractors?: Array<Object>,
+    }
+
+    export interface ClientStreamRequestOptions {
+        /**
+         * A fully-qualified method name in 'package.Service/method' or 'package.Service.Method' format.
+         */
+        method: string,
+        /**
+         * The path to the protocol buffer .proto file.
+         */
+        protoFile: string,
+        /**
+         * The gRPC request ID.
+         */
+        id?: number,
+        /**
+         * A key value store that maps the header name to its value, gRPC metadata.
+         */
+        headers?: Object,
+        /**
+         * The body of the method call.
+         * If a JSON object is provided, it is converted to a data string automatically upon send. For example,
+         * If body equals ```{"foo":"bar", "bat":10}``` it is converted to ```'{"foo":"bar", "bat":10}'```.
+         */
+        bodyArray?: Array<string | Object>,
+        /**
+         *  The path to a file whose content will be used as the body for method call. This can be a path relative to the
+         * script directory or an absolute path. This property is only used if the _body_ property is not set.
+         */
+        bodyPath?: string,
+        /**
+         * When true, the _body_ property of the ````GrpcResponse```` will be populated. Otherwise, the _body_ property of the ````GrpcResponse```` will be set to ````null````.
+         */
+        returnBody?: boolean,
+        /**
+         * An array that holds the extractor object to apply on the response of the method call.
+         */
+        extractors?: Array<Object>,
+    }
+
+    /**
+     * An object that creates a new client that can be used to make RPCs to a gRPC server.
+     *
+     * @export
+     * @class GrpcClient
+     */
+    export class GrpcClient {
+        /**
+         * Creates a new GrpcClient instance. The user may provide the _options_ argument.
+         * The options must include at least a "host" property which is mandatory, while all the other properties are optional.
+         * Alternatively, you can call the constructor with a string argument and then this argument will be the host.
+         */
+        constructor(options: GrpcClientOptions);
+
+        /**
+         * Creates new unary RPC request instance.
+         * The options must include at least a "method" and "protoFile" properties which is mandatory, while all the other properties are optional.
+         *
+         * @returns {GrpcUnaryRequest}
+         * @memberof GrpcClient
+         */
+        unaryRequest(options: UnaryRequestOptions): GrpcUnaryRequest;
+
+        /**
+         * Creates new client streaming RPC request instance.
+         * The options must include at least a "method" and "protoFile" properties which is mandatory, while all the other properties are optional.
+         *
+         * @returns {GrpcClientStreamRequest}
+         * @memberof GrpcClient
+         */
+        clientStreamRequest(options: ClientStreamRequestOptions): GrpcClientStreamRequest;
+    }
+
+    export class GrpcUnaryRequest {
+        /**
+         * gPPC unary method call. When called, the script execution is blocked until a response is returned. Returns the resulting _GrpcResponse_ object or
+         * throws an exception if an error occurs.
+         *
+         *
+         * @returns {GrpcResponse}
+         * @memberof UnaryMethod
+         */
+        sendSync(): GrpcResponse;
+    }
+
+    export class GrpcClientStreamRequest {
+        /**
+         * gPPC client stream method call. When called, the script execution is blocked until a response is returned. Returns the resulting _GrpcResponse_ object or
+         * throws an exception if an error occurs.
+         *
+         *
+         * @returns {GrpcResponse}
+         * @memberof ClientStreamMethod
+         */
+        sendSync(): GrpcResponse;
+    }
+
+    /**
+     * This object is returned as a gRPC methods call result. You do not need to create it on your own.
+
+     *
+     * @export
+     * @class GrpcResponse
+     */
+    export class GrpcResponse {
+        /**
+         * The status code of the response.
+         */
+        status: string;
+        /**
+         * A key value store of the gRPC metadata sent by the server.
+         */
+        headers: object;
+        /**
+         * The size (in bytes) of the response.
+         */
+        size: number;
+        /**
+         * The UNIX timestamp in milliseconds when the RPC call began.
+         */
+        startTime: number;
+        /**
+         *  The invoke roundtrip time in milliseconds.
+         */
+        duration: number;
+        /**
+         * The body of the response. Note that the body is available only if the method had the property _returnBody_ set to ````true````.
+         */
+        body: string;
+        /**
+         * The body of the response as an object (only applicable when the body is a valid json). Note that jsonBody is available only if the method had the property _returnBody_ set to ````true````.
+         */
+        jsonBody: object;
+        /**
+         * The results of the extractor applied on the response (refer to the full documentation for more information on the format of this object).
+         */
+        extractors: object;
+    }
+
     /**
      * Transactions are the means to measure the time it takes to execute certain, well defined, parts of the script.
      */
@@ -510,7 +717,7 @@ declare namespace load {
          * Calling _stop_ records the transaction duration in the _duration_ property.
          * @param status If set then the stopped transaction will have the given status.
          */
-        stop(status?: load.TransactionStatus)
+        stop(status?: load.TransactionStatus): void;
 
         /**
          * Sets the transaction _status_ and _duration_ to the given arguments.
@@ -520,14 +727,14 @@ declare namespace load {
          * @param status The status to set, must be one of "Passed"/"Failed" (from load.TransactionStatus).
          * @param duration The duration of the transaction given in milliseconds.
          */
-        set(status: load.TransactionStatus, duration: Number)
+        set(status: load.TransactionStatus, duration: Number): void;
 
         /**
          * Updates the _status_, _state_, and _duration_ properties of the transaction object.
          * The transaction must be either started or ended for the call to succeed.
          * Returns the transaction object for piping.
          */
-        update(): Transaction
+        update(): Transaction;
     }
 
     enum TransactionState {
@@ -566,6 +773,7 @@ declare namespace load {
         Headers,
         All
     }
+
     /**
      * A global configuration object that is used to supply various configuration data to the running Vuser.
      */
@@ -864,6 +1072,7 @@ declare namespace load {
          * Supported converters are: ```urlEncode```, ```urlDecode```, ```htmlEscape```, ```htmlUnescape```, ```base64Encode```, ```base64Decode```
          */
         converters?: string;
+
         /**
          * If defined, this function will be called before the ```WebResponse``` is returned by ```send``` or ```sendSync``` on the extracted value. The arguments are _value_ - the extracted value, _request_ - the ```WebRequest``` from which the value was extracted, and _response_ - the ```WebResponse``` before the transformation.
          * Note that the order in which the transformations are called is the same order in which the extractors appear within ```WebRequest``` _extractors_ property.
@@ -929,6 +1138,7 @@ declare namespace load {
          * Supported converters are: ```urlEncode```, ```urlDecode```, ```htmlEscape```, ```htmlUnescape```, ```base64Encode```, ```base64Decode```
          */
         converters?: string;
+
         /**
          *  If defined, this function will be called before the ```WebResponse``` is returned by ```send``` or ```sendSync``` on the extracted value. The arguments are _value_ - the extracted value, _request_ - the ```WebRequest``` from which the value was extracted, and _response_ - the ```WebResponse``` before the transformation.
          * Note that the order in which the transformations are called is the same order in which the extractors appear within ```WebRequest``` _extractors_ property.
@@ -960,6 +1170,7 @@ declare namespace load {
          * Supported converters are: ```urlEncode```, ```urlDecode```, ```htmlEscape```, ```htmlUnescape```, ```base64Encode```, ```base64Decode```
          */
         converters?: string;
+
         /**
          * If defined, this function will be called before the ```WebResponse``` is returned by ```send``` or ```sendSync``` on the extracted value. The arguments are _value_ - the extracted value, _request_ - the ```WebRequest``` from which the value was extracted, and _response_ - the ```WebResponse``` before the transformation.
          * Note that the order in which the transformations are called is the same order in which the extractors appear within ```WebRequest``` _extractors_ property.
@@ -1002,6 +1213,7 @@ declare namespace load {
          * Supported converters are: ```urlEncode```, ```urlDecode```, ```htmlEscape```, ```htmlUnescape```, ```base64Encode```, ```base64Decode```
          */
         converters?: string;
+
         /**
          * If defined, this function will be called before the ```WebResponse``` is returned by ```send``` or ```sendSync``` on the extracted value. The arguments are _value_ - the extracted value, _request_ - the ```WebRequest``` from which the value was extracted, and _response_ - the ```WebResponse``` before the transformation.
          * Note that the order in which the transformations are called is the same order in which the extractors appear within ```WebRequest``` _extractors_ property.
@@ -1054,6 +1266,7 @@ declare namespace load {
          * Supported converters are: ```urlEncode```, ```urlDecode```, ```htmlEscape```, ```htmlUnescape```, ```base64Encode```, ```base64Decode```
          */
         converters?: string;
+
         /**
          * If defined, this function will be called before the ```WebResponse``` is returned by ```send``` or ```sendSync``` on the extracted value. The arguments are _value_ - the extracted value, _request_ - the ```WebRequest``` from which the value was extracted, and _response_ - the ```WebResponse``` before the transformation.
          * Note that the order in which the transformations are called is the same order in which the extractors appear within ```WebRequest``` _extractors_ property.
@@ -1112,6 +1325,7 @@ declare namespace load {
          * Supported converters are: ```urlEncode```, ```urlDecode```, ```htmlEscape```, ```htmlUnescape```, ```base64Encode```, ```base64Decode```
          */
         converters?: string;
+
         /**
          * If defined, this function will be called before the ```WebResponse``` is returned by ```send``` or ```sendSync``` on the extracted value. The arguments are _value_ - the extracted value, _request_ - the ```WebRequest``` from which the value was extracted, and _response_ - the ```WebResponse``` before the transformation.
          * Note that the order in which the transformations are called is the same order in which the extractors appear within ```WebRequest``` _extractors_ property.
@@ -1184,7 +1398,7 @@ declare namespace load {
          * If defined, this function will be called before the ```WebResponse``` is returned by ```send``` or ```sendSync``` on the extracted value. The arguments are _value_ - the extracted value, _request_ - the ```WebRequest``` from which the value was extracted, and _response_ - the ```WebResponse``` before the transformation.
          * Note that the order in which the transformations are called is the same order in which the extractors appear within ```WebRequest``` _extractors_ property.
          */
-         transform?(value: string, request: WebRequest, response: WebResponse): string
+        transform?(value: string, request: WebRequest, response: WebResponse): string
     }
 
     /**
@@ -1304,6 +1518,34 @@ declare namespace load {
         custom?: string;
     }
 
+    export interface HashOptions {
+        /**
+         * The algorithm to use for the hash
+         */
+        algorithm: load.HashAlgorithm;
+
+        /**
+         * The encoding of the output
+         */
+        outputEncoding?: load.HashOutputEncoding;
+    }
+
+    export interface HmacOptions {
+        /**
+         * The algorithm to use for the hash
+         */
+        algorithm: load.HashAlgorithm;
+
+        /**
+         * The secret key to use with the hash function
+         */
+        secret: string;
+        /**
+         * The encoding of the output
+         */
+        outputEncoding?: load.HashOutputEncoding;
+    }
+
     enum HashAlgorithm {
         md5,
         sha1,
@@ -1328,7 +1570,7 @@ declare namespace load {
         hex
     }
 
-    export interface Utils {
+    export namespace utils {
         /**
          *Returns the substring within the source string between leftBoundary and rightBoundary. If leftBoundary is undefined then the beginning of the source string is used as the left boundary. If rightBoundary is undefined then the end of the source string is used as the right boundary. If either boundary is not found in the source string or the source string is invalid then null is returned.
          *
@@ -1338,7 +1580,7 @@ declare namespace load {
          * @returns {string}
          * @memberof utils
          */
-        getByBoundary(source: string, leftBoundary: string, rightBoundary: string): string
+        export function getByBoundary(source: string, leftBoundary: string, rightBoundary: string): string
 
         /**
          *Reports a data point with the given name and value to the results database. The reported value will be in the CustomDataPoints table in the results database. The timestamp and the reporting Vuser Id will be automatically added. Note that the value must be a number.
@@ -1347,7 +1589,7 @@ declare namespace load {
          * @param {number} value - The value of the datapoint (numeric).
          * @memberof utils
          */
-        reportDataPoint(name: string, value: number) : void
+        export function reportDataPoint(name: string, value: number): void
 
         /**
          *Returns the base64 encoding of value.
@@ -1357,7 +1599,7 @@ declare namespace load {
          * @returns {string}
          * @memberof utils
          */
-        base64Encode(value: string, options?: Base64Options) : string
+        export function base64Encode(value: string, options?: Base64Options): string
 
         /**
          *Returns the string represented by the base64 string value.
@@ -1367,7 +1609,7 @@ declare namespace load {
          * @returns {string}
          * @memberof utils
          */
-        base64Decode(value: string, options?: Base64Options) : string
+        export function base64Decode(value: string, options?: Base64Options): string
 
         /**
          *Returns a generated random string of _size_ size.
@@ -1377,7 +1619,7 @@ declare namespace load {
          * @returns {string}
          * @memberof utils
          */
-        randomString(size: number, options?: RandomStringOptions) : string
+        export function randomString(size: number, options?: RandomStringOptions): string
 
         /**
          *Returns a generated uuid v4.
@@ -1385,39 +1627,95 @@ declare namespace load {
          * @returns {string}
          * @memberof utils
          */
-        uuid() : string
+        export function uuid(): string
 
         /**
          *Returns cryptographic hash computation of _input_ string according to selected _algorithm_.
          *
-         * @param {string} algorithm
-         * @param {string} input
-         * @param {string} outputEncoding
-         * @returns {string}
+         * @param {string} algorithm - The hash algorithm
+         * @param {string} input - The input string to hash
+         * @param {string} outputEncoding - The encoding of the output
+         * @returns {string} - The given input hashed with the given algorithm and encoded with the given encoding
          * @memberof utils
          */
-        hash(algorithm: load.HashAlgorithm, input: string, outputEncoding?: load.HashOutputEncoding) : string
+        export function hash(algorithm: load.HashAlgorithm, input: string, outputEncoding?: load.HashOutputEncoding): string
+
+        /**
+         *Returns cryptographic hash computation of _input_ string according to selected _algorithm_.
+         *
+         * @param {string} input - The input string to hash
+         * @param {object} options - Options used to compute the hash value
+         * @returns {string} - The hashed input
+         * @memberof utils
+         */
+        export function hash(input: string, options: load.HashOptions): string
+
 
         /**
          *Returns cryptographic keyed hash computation of _input_ string according to selected _algorithm_.
          *
-         * @param {string} algorithm
-         * @param {string} secret
-         * @param {string} input
-         * @param {string} outputEncoding
-         * @returns {string}
+         * @param {string} algorithm - The hash algorithm
+         * @param {string} secret - The key to use with the hash algorithm
+         * @param {string} input - The input string to hash
+         * @param {string} outputEncoding - The encoding of the output
+         * @returns {string} - he given input hashed with the given algorithm and encoded with the given encoding protected by the given secret
          * @memberof utils
          */
-        hmac(algorithm: load.HashAlgorithm, secret: string, input: string, outputEncoding?: load.HashOutputEncoding) : string
-    }
+        export function hmac(algorithm: load.HashAlgorithm, secret: string, input: string, outputEncoding?: load.HashOutputEncoding): string
 
-    export var utils: Utils;
+        /**
+         *Returns cryptographic keyed hash computation of _input_ string according to selected _algorithm_.
+         *
+         * @param {string} input - The input string to hash
+         * @param {object} options - Options used to compute the hash value
+         * @returns {string} - The hashed input
+         * @memberof utils
+         */
+        export function hmac(input: string, options: load.HmacOptions): string
+
+        /**
+         *Returns a SAML encoded string of _value_.
+         *
+         * @param {string} value - The string to encode.
+         * @returns {string} - The deflated and base64 encoded value.
+         * @memberof utils
+         */
+        export function samlEncode(value: string): string
+
+        /**
+         * This class provides a mechanism to chain calls to other _utils_ function or custom functions that have one of the signatures:
+         * func(), func(value), func(value,options)
+         */
+        export class Chain {
+            /**
+             * It is possible to pass as many (function, options) pairs as needed. A _fn_ argument can be a name of a function
+             * on the _utils_ object or any other function that takes a value as its first argument and returns a value. If you don't have
+             * options to pass to a specific function omit the argument altogether.
+             * @param fn - The function to run in the chain
+             * @param options - Optional argument to the function
+             * @param functionsOptionsPairs - More functions and options as needed
+             */
+            constructor(fn: (value: string, options: object) => string, options?: object, ...functionsOptionsPairs)
+
+            /**
+             * Runs the chain on the given _value_.
+             * @param value - The initial value to run the chain on
+             */
+            run(value: any): any
+        }
+
+    }
 
     /**
      * While we don't allow changing the properties of the _load_ object, we have provided a global object for you
      * to store your data. You can access this object via the _load.global_ property.
      */
     export var global: Object;
+
+    /**
+     * An object that collects all the values extracted by all the extractors running in the script. If two extractors have the same name only the last one running will be saved.
+     */
+    export var extractors: Object;
 
     export interface VTSConnectOptions {
         /**
@@ -1444,7 +1742,7 @@ declare namespace load {
      * @export
      * @class VTS
      */
-    export function vtsConnect(options:VTSConnectOptions): VTSClient
+    export function vtsConnect(options: VTSConnectOptions): VTSClient
 
     export enum VTSPlacementType {
         sameRow,
@@ -1538,7 +1836,7 @@ declare namespace load {
          * @param values - The values of the columns to search. The values are separated by the delimiter.
          * @param delimiter - The character that separates the column names and values in the lists. If a string, rather than a single character, is passed in _delimiter_, the string as a whole is the _delimiter_.
          */
-        searchRows(columnNames: Array<string>, values: Array<string>, delimiter: string) : Object
+        searchRows(columnNames: Array<string>, values: Array<string>, delimiter: string): Object
     }
 
     /**
@@ -1787,12 +2085,12 @@ declare namespace load {
         /**
          * The executable file to run.
          */
-       command: string
+        command: string
 
         /**
          * If set to true a Promise will be returned. The Promise is resolved with the _ExecutionResult_ when the process exists.
          */
-       isAsync?: boolean
+        isAsync?: boolean
 
         /**
          * The command line arguments for the executable.
@@ -1864,6 +2162,6 @@ declare namespace load {
      * @param {Array<string>} args - The command line arguments for the executable.
      * @returns {ExecutionResult}
      */
-    export function exec(command: string, args: Array<string>) : ExecutionResult;
+    export function exec(command: string, args: Array<string>): ExecutionResult;
 
 }

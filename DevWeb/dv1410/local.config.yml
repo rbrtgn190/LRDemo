@@ -1,5 +1,10 @@
+name: devWeb
+version: 2021.0.0
+
 measurements:                       #Configuration for storing measurements
-  useSqliteDB: false                 #If true, all measurements is stored in local SQLite database
-  useInfluxDB: true                #If true, all measurements is send to InfluxDB instance
-  useProxyForInfluxDB: false        #Indicates whether to use proxy settings from rts.yml during connection to InfluxDB instance
-  influxDBURL: "http://localhost:8087?db=devwebdemo"                   #InfluxDB endpoint and database name (for example: http://myHost:8086?db=devWebDB)
+  adapters: ["influxDB"]              #Configuration for database adapters that is used for measurements. Available adapters are [sqlite, influxDB, influxDBV2].
+  useProxy: false                   #Indicates whether to use proxy settings from rts.yml during connection to measurements instance
+
+influxDB:                           #Configuration for InfluxDB adapter instance
+  url: "http://nimbusserver:8186"                           #The InfluxDB endpoint (for example: http://myHost:8086)
+  dbName: "LRD"                #The InfluxDB v1 database name

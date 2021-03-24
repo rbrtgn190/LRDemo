@@ -17,6 +17,7 @@
         "command": "${env:DEVWEB_PATH}/ProxyRecorder"
       },
       "args": [
+        "-ide=vscode",
         "-launchBrowser=chrome",
         "${cwd}/proxyrecorded.har"
       ],
@@ -40,6 +41,7 @@
       "args": [
         "-mode=har",
         "-level=pages",
+        "-ide=vscode",
         "${cwd}/proxyrecorded.har",
         "${cwd}"
       ],
@@ -63,6 +65,7 @@
       "args": [
         "-mode=swagger",
         "-level=pages",
+        "-ide=vscode",
         "${input:swaggerJson}",
         "${cwd}"
       ],
@@ -86,6 +89,7 @@
       "args": [
         "-mode=swagger",
         "-level=pages",
+        "-ide=vscode",
         "-har=${cwd}/proxyrecorded.har",
         "${input:swaggerJson}",
         "${cwd}"
@@ -136,45 +140,6 @@
       "problemMatcher": []
     },
     {
-      "label": "[LoadRunner Developer] Debug Single Vuser",
-      "type": "process",
-      "windows": {
-        "command": "${env:DEVWEB_PATH}\\DevWeb.exe"
-      },
-      "osx": {
-        "command": "${env:DEVWEB_PATH}/DevWeb"
-      },
-      "linux": {
-        "command": "${env:DEVWEB_PATH}/DevWeb"
-      },
-      "isBackground": true,
-      "presentation": {
-        "panel": "new"
-      },
-      "args": [
-        "-inspect",
-        "-ide=vscode",
-        "${workspaceRoot}"
-      ],
-      "problemMatcher": [
-        {
-          "pattern": [
-            {
-              "regexp": ".",
-              "file": 1,
-              "location": 2,
-              "message": 3
-            }
-          ],
-          "background": {
-            "activeOnStart": true,
-            "beginsPattern": ".",
-            "endsPattern": "."
-          }
-        }
-      ]
-    },
-    {
       "label": "[LoadRunner Developer] Run test on LoadRunner Cloud",
       "type": "process",
       "presentation": {
@@ -190,10 +155,7 @@
         "command": "${env:DEVWEB_PATH}/ScaLRD"
       },
       "args": [
-        "lrc",
-        "run",
-        "-report=LRC_Report.pdf",
-        "${cwd}"
+        "lrc", "-report=LRC_Report.pdf", "run" , "${cwd}"
       ],
       "problemMatcher": []
     },
@@ -213,10 +175,30 @@
         "command": "${env:DEVWEB_PATH}/ScaLRD"
       },
       "args": [
-        "lrc",
-        "continue",
-        "${input:runId}",
-        "${cwd}"
+        "lrc", "continue", "${input:runId}", "${cwd}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "[LoadRunner Developer] Get distribution list from LoadRunner Cloud",
+      "type": "process",
+      "presentation": {
+        "panel": "new"
+      },
+      "windows": {
+        "command": "${env:DEVWEB_PATH}\\ScaLRD.exe"
+      },
+      "osx": {
+        "command": "${env:DEVWEB_PATH}/ScaLRD"
+      },
+      "linux": {
+        "command": "${env:DEVWEB_PATH}/ScaLRD"
+      },
+      "args": [
+        "lrc", 
+        "-tenantId=688301833",
+        "-user=jeanmatthieu.guerin@microfocus.com",
+        "info", "locations", "${input:runId}"
       ],
       "problemMatcher": []
     },
@@ -237,9 +219,29 @@
       },
       "args": [
         "lre",
-        "run",
         "-report=${cwd}",
+        "run",
         "${cwd}"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "[LoadRunner Developer] Get test run results from LoadRunner Enterprise",
+      "type": "process",
+      "presentation": {
+        "panel": "new"
+      },
+      "windows": {
+        "command": "${env:DEVWEB_PATH}\\ScaLRD.exe"
+      },
+      "osx": {
+        "command": "${env:DEVWEB_PATH}/ScaLRD"
+      },
+      "linux": {
+        "command": "${env:DEVWEB_PATH}/ScaLRD"
+      },
+      "args": [
+        "lre", "-report=${cwd}", "continue", "${cwd}"
       ],
       "problemMatcher": []
     }
