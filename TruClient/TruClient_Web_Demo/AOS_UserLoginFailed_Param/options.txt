@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\jeang\Documents\demoLR\VUGen\TruClient_Web_Demo\AOS_UserLoginFailed
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\jeang\documents\demolr\vugen\truclient_web_demo\aos_userloginfailed\\logfile.log
+c:\users\jeang\documents\demolr\vugen\truclient_web_demo\aos_userloginfailed\\combined_AOS_UserLoginFailed.c
+c:\users\jeang\documents\demolr\vugen\truclient_web_demo\aos_userloginfailed\\pre_cci.c

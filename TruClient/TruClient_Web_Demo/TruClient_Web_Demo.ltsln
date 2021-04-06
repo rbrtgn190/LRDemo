@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 4.1.3.0-trunk
+Project("C3BBF735-4394-4D6E-9353-B1E6A7EABEB5") = "AOS_ItemSearchAddCart_Record", "AOS_ItemSearchAddCart_Record\AOS_ItemSearchAddCart_Record.usr", "C3BBF735-4394-4D6E-9353-B1E6A7EABEB5"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXGplYW5nXERvY3VtZW50c1xkZW1vTFJcVlVHZW5cVHJ1Q2xpZW50X1dlYl9EZW1vXEFPU19JdGVtU2VhcmNoQWRkQ2FydF9SZWNvcmRcQU9TX0l0ZW1TZWFyY2hBZGRDYXJ0X1JlY29yZC51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+QU9TX0l0ZW1TZWFyY2hBZGRDYXJ0X1JlY29yZC51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDE5LTA3LTExVDA5OjUyOjE2Ljk2Mjg0NjcrMDI6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("E0F8A6BD-197B-43CD-BBAC-241C320BC64D") = "AOS_UserLoginFailed_Param", "AOS_UserLoginFailed_Param\AOS_UserLoginFailed_Param.usr", "E0F8A6BD-197B-43CD-BBAC-241C320BC64D"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXGplYW5nXERvY3VtZW50c1xkZW1vTFJcVlVHZW5cVHJ1Q2xpZW50X1dlYl9EZW1vXEFPU19Vc2VyTG9naW5GYWlsZWRfUGFyYW1cQU9TX1VzZXJMb2dpbkZhaWxlZF9QYXJhbS51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+QU9TX1VzZXJMb2dpbkZhaWxlZF9QYXJhbS51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDE5LTA3LTExVDEzOjM0OjMyLjI3OTAwMDIrMDI6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("447F213F-7DF6-4C23-8435-860637DAC926") = "AOS_ItemSearchAddCart", "AOS_ItemSearchAddCart\AOS_ItemSearchAddCart.usr", "447F213F-7DF6-4C23-8435-860637DAC926"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXGplYW5nXERvY3VtZW50c1xkZW1vTFJcVlVHZW5cVHJ1Q2xpZW50X1dlYl9EZW1vXEFPU19JdGVtU2VhcmNoQWRkQ2FydFxBT1NfSXRlbVNlYXJjaEFkZENhcnQudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPkFPU19JdGVtU2VhcmNoQWRkQ2FydC51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDE5LTA3LTExVDEzOjMwOjE1LjUzNDE0NzMrMDI6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("DB0F09A1-3D52-457F-BAC4-8CA79A24E701") = "AOS_UserLoginFailed", "AOS_UserLoginFailed\AOS_UserLoginFailed.usr", "DB0F09A1-3D52-457F-BAC4-8CA79A24E701"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXGplYW5nXERvY3VtZW50c1xkZW1vTFJcVlVHZW5cVHJ1Q2xpZW50X1dlYl9EZW1vXEFPU19Vc2VyTG9naW5GYWlsZWRcQU9TX1VzZXJMb2dpbkZhaWxlZC51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+QU9TX1VzZXJMb2dpbkZhaWxlZC51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDE5LTA3LTExVDEzOjM0OjQ3LjUyNTgyMTcrMDI6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		C3BBF735-4394-4D6E-9353-B1E6A7EABEB5.Debug|Any CPU.Build.0 = Debug|Any CPU
+		C3BBF735-4394-4D6E-9353-B1E6A7EABEB5.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		C3BBF735-4394-4D6E-9353-B1E6A7EABEB5.Release|Any CPU.Build.0 = Release|Any CPU
+		C3BBF735-4394-4D6E-9353-B1E6A7EABEB5.Release|Any CPU.ActiveCfg = Release|Any CPU
+		E0F8A6BD-197B-43CD-BBAC-241C320BC64D.Debug|Any CPU.Build.0 = Debug|Any CPU
+		E0F8A6BD-197B-43CD-BBAC-241C320BC64D.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		E0F8A6BD-197B-43CD-BBAC-241C320BC64D.Release|Any CPU.Build.0 = Release|Any CPU
+		E0F8A6BD-197B-43CD-BBAC-241C320BC64D.Release|Any CPU.ActiveCfg = Release|Any CPU
+		447F213F-7DF6-4C23-8435-860637DAC926.Debug|Any CPU.Build.0 = Debug|Any CPU
+		447F213F-7DF6-4C23-8435-860637DAC926.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		447F213F-7DF6-4C23-8435-860637DAC926.Release|Any CPU.Build.0 = Release|Any CPU
+		447F213F-7DF6-4C23-8435-860637DAC926.Release|Any CPU.ActiveCfg = Release|Any CPU
+		DB0F09A1-3D52-457F-BAC4-8CA79A24E701.Debug|Any CPU.Build.0 = Debug|Any CPU
+		DB0F09A1-3D52-457F-BAC4-8CA79A24E701.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		DB0F09A1-3D52-457F-BAC4-8CA79A24E701.Release|Any CPU.Build.0 = Release|Any CPU
+		DB0F09A1-3D52-457F-BAC4-8CA79A24E701.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

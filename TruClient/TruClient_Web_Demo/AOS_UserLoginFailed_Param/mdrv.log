@@ -1,0 +1,28 @@
+Virtual User Script started at : 2019-07-11 13:32:44
+TruClient Replay (build 0324) for LoadRunner 12.63.0, build 0399. OS: Windows 10, Browser: Chromium 68.0.3440.106, initialized on 2019/07/11 at 13:32:44 (1562844764.398s)
+
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "Open AOS URL" started.
+t=00001711ms: Step 1: Navigate to "http://www.advantageonlineshopping.com" started    [MsgId: MMSG-205180]
+t=00003609ms: Step 1: Navigate to http://www.advantageonlineshopping.com successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "Open AOS URL" ended with a "Pass" status (Duration: 1.9090 Wasted Time: 0.6840).
+t=00004118ms: Step 6: Click on element (1)  started    [MsgId: MMSG-205180]
+t=00004582ms: Step 6: Click on element (1)  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00005091ms: Step 7: Click on username textbox started    [MsgId: MMSG-205180]
+t=00005856ms: Step 7: Click on username textbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00006367ms: Step 8: Type john in username textbox started    [MsgId: MMSG-205180]
+t=00007968ms: Step 8: Type john in username textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00008476ms: Step 9: Click on Password label started    [MsgId: MMSG-205180]
+t=00009190ms: Step 9: Click on Password label successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00009700ms: Step 10: Type ** in Password passwordbox started    [MsgId: MMSG-205180]
+t=00010716ms: Step 10: Type ** in Password passwordbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00011225ms: Step 11: Click on SIGN IN button started    [MsgId: MMSG-205180]
+t=00012160ms: Step 11: Click on SIGN IN button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00012174ms: Step 12: Verify Incorrect user name or...'s Visible Text contains Incorrect user name or password. started    [MsgId: MMSG-205180]
+t=00012842ms: Step 12: Verify Incorrect user name or...'s Visible Text contains Incorrect user name or password. successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00013352ms: Step 13: Click on CloseDark  started    [MsgId: MMSG-205180]
+t=00013919ms: Step 13: Click on CloseDark  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.
