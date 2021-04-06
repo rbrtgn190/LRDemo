@@ -1,0 +1,5 @@
+## UFT Developer
+# UFT Developer results folders
+RunResults/
+# UFT Developer Javascript SDK
+node_modules/
