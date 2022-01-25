@@ -1,0 +1,36 @@
+Virtual User Script started at : 2021-12-14 16:50:32
+TruClient Replay (build 0383) for LoadRunner Professional 2021.2.0, build 0495. OS: Windows 2019, Browser: Chromium 91.0.4472.77, initialized on 2021/12/14 at 16:50:32 (1639497032.065s)
+
+Selected Run-Time Settings:
+    Simulate a new user on each iteration...............: 1
+    Using system proxy settings
+    Check for newer versions of stored pages: 4 (Automatically)
+    Keep-Alive..........................................: 1
+    Proxy Keep-Alive....................................: 1
+    Keep-Alive timeout (ms).............................: 60000
+    HTTP Version........................................: 1.1
+    Proxy HTTP Version..................................: 1.1
+    DNS cache entries...................................: 20
+    Run-Time Settings file..............................: "C:\dev\LRDemo\TruClient\TruClient_save_data_to_VTS\TruClient_save_data_to_VTS\\default.cfg"
+    Vuser directory.....................................: "C:\dev\LRDemo\TruClient\TruClient_save_data_to_VTS\TruClient_save_data_to_VTS"
+    Vuser output directory..............................: "C:\dev\LRDemo\TruClient\TruClient_save_data_to_VTS\TruClient_save_data_to_VTS"
+End of selected Run-Time Settings
+
+Please refer to the ReadMe file in the LoadRunner Professional installation directory for notes about measurements and logging
+t=00000435ms: Step 1: Execute VTS.vtcConnectEx ("nimbusserver.aos.com", 4888, [userName], [password], [domain], [vtsName]) started    [MsgId: MMSG-205180]
+t=00000462ms: Request initiated for "https://nimbusserver.aos.com:4888/api/" (internal ID=0)    [MsgId: MMSG-204692]
+
+t=00000463ms: Request headers for "https://nimbusserver.aos.com:4888/api/" (347 byte(s)) (internal ID=1553)    [MsgId: MMSG-204699]
+		  POST https://nimbusserver.aos.com:4888/api/
+		  sec-ch-ua: "Chromium";v="91", " Not;A Brand";v="99"
+		  Accept: application/json, text/javascript, */*
+		  sec-ch-ua-mobile: ?0
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+		  Content-Type: application/x-www-form-urlencoded
+		  
+
+t=00000463ms: Request body for "https://nimbusserver.aos.com:4888/api/" (68 byte(s)) (internal ID=1553)    [MsgId: MMSG-204698]
+		  request:{"cmd":"handshake","version":"1.0","data":{"version":"1.0"}}
+Action was aborted.
+t=00032044ms: Step 1: Execute VTS.vtcConnectEx ("nimbusserver.aos.com", 4888, [userName], [password], [domain], [vtsName]) was stopped    [MsgId: MMSG-205180]
+Vuser 0 (thread 1360), ended OK."

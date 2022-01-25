@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\dev\LRDemo\TruClient\TruClient_save_data_to_VTS\TruClient_save_data_to_VTS
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\dev\lrdemo\truclient\truclient_save_data_to_vts\truclient_save_data_to_vts\\logfile.log
+c:\dev\lrdemo\truclient\truclient_save_data_to_vts\truclient_save_data_to_vts\\combined_TruClient_save_data_to_VTS.c
+c:\dev\lrdemo\truclient\truclient_save_data_to_vts\truclient_save_data_to_vts\\pre_cci.c

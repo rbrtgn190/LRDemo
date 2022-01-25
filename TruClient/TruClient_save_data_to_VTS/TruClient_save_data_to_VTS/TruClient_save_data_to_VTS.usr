@@ -2,13 +2,13 @@
 Type=TruClientWeb
 DefaultCfg=default.cfg
 MajorVersion=2021
-MinorVersion=1
+MinorVersion=2
 ParameterFile=
 GlobalParameterFile=
 NewFunctionHeader=1
 LastActiveAction=Action
 DevelopTool=Vugen
-LastModifyVer=2021.1.0.0
+LastModifyVer=2021.2.0.0
 ActiveTypes=TruClientWeb
 AdditionalTypes=TruClientWeb
 GenerateTypes=TruClientWeb
