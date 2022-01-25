@@ -1,0 +1,13 @@
+[t53]
+FileName1=t53.html
+URL1=http://ocsp.digicert.com/
+Total=2
+RequestHeaderFile=t53_RequestHeader.txt
+RequestBodyFile=t53_RequestBody.txt
+ResponseHeaderFile=t53_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_53.xml
+FileName2=t53_Proxy.json
+URL2=https://cevalogistics.cloud.com/Citrix/StoreWeb/Sso/Proxy?destination=https%3A%2F%2Fwsp.eu.iws.cloud.com%2Fuser-personalization%2FuserPreferences
+[ProtocolInfo]
+ProtocolId=QTWeb

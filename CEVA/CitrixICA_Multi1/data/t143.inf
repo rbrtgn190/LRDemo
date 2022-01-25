@@ -1,0 +1,13 @@
+[t143]
+FileName1=t143.html
+URL1=http://ocsp.digicert.com/
+Total=2
+RequestHeaderFile=t143_RequestHeader.txt
+RequestBodyFile=t143_RequestBody.txt
+ResponseHeaderFile=t143_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_143.xml
+FileName2=t143_stub.html
+URL2=https://radar.cedexis.com/1621860284/stub.js
+[ProtocolInfo]
+ProtocolId=QTWeb

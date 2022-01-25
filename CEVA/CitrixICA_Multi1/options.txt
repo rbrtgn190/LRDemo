@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\demo\Documents\VuGen\Scripts\CEVA\CitrixICA_Multi1
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\demo\documents\vugen\scripts\ceva\citrixica_multi1\\logfile.log
+c:\users\demo\documents\vugen\scripts\ceva\citrixica_multi1\\combined_CitrixICA_Multi1.c
+c:\users\demo\documents\vugen\scripts\ceva\citrixica_multi1\\pre_cci.c

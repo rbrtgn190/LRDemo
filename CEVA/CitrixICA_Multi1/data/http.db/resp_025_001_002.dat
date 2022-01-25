@@ -1,0 +1,12 @@
+[
+	{
+		"link": "/assets/workspace/workspace-ui-microapps/index-24cf3fbe55b4a738c76984475e7a9ce8f14e38d4.js",
+		"name": "@citrite/workspace-ui-microapps",
+		"requireRef": "pr_citriteworkspaceuimicroapps",
+		"spec": "v1",
+		"version": "1.0.0",
+		"custom": {
+			"stableMfeName": "microApps"
+		}
+	}
+]

@@ -1,0 +1,13 @@
+[t124]
+FileName1=t124.html
+URL1=http://oneocsp.microsoft.com/ocsp
+Total=2
+RequestHeaderFile=t124_RequestHeader.txt
+RequestBodyFile=t124_RequestBody.txt
+ResponseHeaderFile=t124_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_124.xml
+FileName2=t124_f32753567f64c1ddeec8.html
+URL2=https://ctx-ws-assets.cloud.com/assets/workspace/f32753567f64c1ddeec8.woff
+[ProtocolInfo]
+ProtocolId=QTWeb

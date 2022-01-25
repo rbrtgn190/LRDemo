@@ -1,0 +1,15 @@
+[t190]
+FileName1=t190.html
+URL1=https://cevalogistics.cloud.com/Citrix/StoreWeb/
+Total=4
+RequestHeaderFile=t190_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t190_ResponseHeader.txt
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_190.xml
+FileName2=t190_runtime.19e95931771d1af72911.html
+URL2=https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/runtime.19e95931771d1af72911.js
+FileName3=t190_react.2bd7a2cfd6f3a5c98233.html
+URL3=https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/react.2bd7a2cfd6f3a5c98233.js
+FileName4=t190_workspace.844d7d2c2fb233da9333.html
+URL4=https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/workspace.844d7d2c2fb233da9333.js

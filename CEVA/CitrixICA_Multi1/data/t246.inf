@@ -1,0 +1,11 @@
+[t246]
+FileName1=t246.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/telemetry/ad805fd5-ef60-46b4-959b-71038da5872d/health/Firefox/96.0.1/release/20220113185450?v=4
+Total=1
+RequestHeaderFile=t246_RequestHeader.txt
+RequestBodyFile=t246_RequestBody.txt
+ResponseHeaderFile=t246_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_246.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t239]
+FileName1=t239.json
+URL1=https://cevalogistics.cloud.com/Citrix/StoreWeb/Resources/GetLaunchStatus/YzRiNTlkNDQtYTg1MS00OGE3LWJlY2ItM2MxYmFiZjg3Y2Y1LkNhcmdvV2lzZSBMb2FkVGVzdA--
+Total=1
+RequestHeaderFile=t239_RequestHeader.txt
+RequestBodyFile=t239_RequestBody.txt
+ResponseHeaderFile=t239_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_239.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

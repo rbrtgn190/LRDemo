@@ -1,0 +1,9 @@
+[t132]
+FileName1=t132.html
+URL1=https://cevalogistics.cloud.com/Citrix/StoreWeb/
+Total=1
+RequestHeaderFile=t132_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t132_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_132.xml

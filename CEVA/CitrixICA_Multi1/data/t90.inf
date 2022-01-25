@@ -1,0 +1,11 @@
+[t90]
+FileName1=t90.json
+URL1=https://cevalogistics.cloud.com/Citrix/StoreWeb/Resources/GetLaunchStatus/YzRiNTlkNDQtYTg1MS00OGE3LWJlY2ItM2MxYmFiZjg3Y2Y1LkNhcmdvV2lzZSBMb2FkVGVzdA--
+Total=1
+RequestHeaderFile=t90_RequestHeader.txt
+RequestBodyFile=t90_RequestBody.txt
+ResponseHeaderFile=t90_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_90.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

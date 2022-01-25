@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 24 Jan 2022 10:13:30 GMT
+Content-Type: application/json
+Content-Length: 2
+Connection: keep-alive
+access-control-allow-origin: https://cevalogistics.cloud.com
+access-control-expose-headers: x-sentry-error, retry-after, x-sentry-rate-limits
+vary: Origin
+x-envoy-upstream-service-time: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+

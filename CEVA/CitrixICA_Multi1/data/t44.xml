@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthenticationStatus xmlns="http://citrix.com/delivery-services/webAPI/2-6/authStatus" xmlns:ext="http://citrix.com/delivery-services/webAPI/2-6/weblogoff" >
+  <Result>success</Result>
+  <AuthType>ExplicitForms</AuthType>
+  
+      <ext:webLogoffUrl>IdpLogoff/Logoff</ext:webLogoffUrl>
+  
+</AuthenticationStatus>

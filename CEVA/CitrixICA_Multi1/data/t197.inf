@@ -1,0 +1,11 @@
+[t197]
+FileName1=t197.txt
+URL1=https://cevalogistics.cloud.com/Citrix/StoreWeb/Authentication/GetUserDetails
+Total=1
+RequestHeaderFile=t197_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t197_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_197.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

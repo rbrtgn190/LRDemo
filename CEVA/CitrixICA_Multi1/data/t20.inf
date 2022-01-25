@@ -1,0 +1,15 @@
+[t20]
+FileName1=t20.json
+URL1=https://sentry.io/api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7
+Total=3
+RequestHeaderFile=t20_RequestHeader.txt
+RequestBodyFile=t20_RequestBody.txt
+ResponseHeaderFile=t20_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_20.xml
+FileName2=t20_pendo.html
+URL2=https://citrix-cloud-content.customer.pendo.io/agent/static/c51a876e-13e7-4d6e-78d0-f764775a736d/pendo.js
+FileName3=t20_main.css
+URL3=https://ctx-ws-assets.cloud.com/assets/workspace/workspace-ui-microapps/main.css
+[ProtocolInfo]
+ProtocolId=QTWeb

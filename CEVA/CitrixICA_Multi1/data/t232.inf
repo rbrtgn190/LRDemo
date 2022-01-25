@@ -1,0 +1,17 @@
+[t232]
+FileName1=t232.html
+URL1=http://ocsp.pki.goog/gts1c3
+Total=4
+RequestHeaderFile=t232_RequestHeader.txt
+RequestBodyFile=t232_RequestBody.txt
+ResponseHeaderFile=t232_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_232.xml
+FileName2=t232_s3FsTrO5-ja2v-fPqV76qtYMiV4.dom.json
+URL2=https://citrix-cloud-content.customer.pendo.io/guide-content/kFMPm1nfiIwqaF4vFsEKVWLHJoA/8bpP3QM2WAzPr389JUM9EKXgrGM/s3FsTrO5-ja2v-fPqV76qtYMiV4.dom.json?sha256=B8t6FzrcR-TtxpbLjpSon2a4NqSAiE-zIUzNnWwcNyU
+FileName3=t232_guide.5707702298738688.1594312707911.css
+URL3=https://pendo-static-6508245000126464.storage.googleapis.com/guide.5707702298738688.1594312707911.css
+FileName4=t232_myj5pASUnJTOWVGtMdLG0tQMB1Q.dom.json
+URL4=https://citrix-cloud-content.customer.pendo.io/guide-content/PNBNVZzd2ko9ogS_ocQCR2KYaoQ@8FQpm_vBJ97Ik5YZuqSx1v2Xeik/0of7absJyE9v90ROrQ9jHTiHLaw/myj5pASUnJTOWVGtMdLG0tQMB1Q.dom.json?sha256=pJQLCFoNCabVeHGHzSMo2aftKLWVbkaAdy3WxWJAq40
+[ProtocolInfo]
+ProtocolId=QTWeb

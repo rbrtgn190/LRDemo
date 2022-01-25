@@ -1,0 +1,15 @@
+[t87]
+FileName1=t87.html
+URL1=http://ocsp.digicert.com/
+Total=3
+RequestHeaderFile=t87_RequestHeader.txt
+RequestBodyFile=t87_RequestBody.txt
+ResponseHeaderFile=t87_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_87.xml
+FileName2=t87_country.json
+URL2=https://location.services.mozilla.com/v1/country?key=7e40f68c-7938-4c5d-9f95-e61647c213eb
+FileName3=t87_tiles.json
+URL3=https://contile.services.mozilla.com/v1/tiles
+[ProtocolInfo]
+ProtocolId=QTWeb

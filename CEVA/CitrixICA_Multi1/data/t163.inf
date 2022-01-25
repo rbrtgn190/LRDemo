@@ -1,0 +1,15 @@
+[t163]
+FileName1=t163.html
+URL1=http://ocsp.pki.goog/gts1c3
+Total=3
+RequestHeaderFile=t163_RequestHeader.txt
+RequestBodyFile=t163_RequestBody.txt
+ResponseHeaderFile=t163_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_163.xml
+FileName2=t163_guide.5707702298738688.1594312707911.css
+URL2=https://pendo-static-6508245000126464.storage.googleapis.com/guide.5707702298738688.1594312707911.css
+FileName3=t163_8gMRB6iJt1YHwppsW0ngSPM30wQ.dom.json
+URL3=https://citrix-cloud-content.customer.pendo.io/guide-content/rYjnSAsjlrJj7HNQkMXp-toWDRw@8FQpm_vBJ97Ik5YZuqSx1v2Xeik/6nIjNDAjySlbd8JMrNZ7HPT9jC0/8gMRB6iJt1YHwppsW0ngSPM30wQ.dom.json?sha256=v_S71ojeVV0JsUd-d9Uw7l8dNxGVP858NJZwqwZXjfM
+[ProtocolInfo]
+ProtocolId=QTWeb

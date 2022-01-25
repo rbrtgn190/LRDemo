@@ -1,0 +1,15 @@
+[t201]
+FileName1=t201.html
+URL1=https://cevalogistics.cloud.com/Citrix/StoreWeb/ExplicitAuth/Login
+Total=3
+RequestHeaderFile=t201_RequestHeader.txt
+RequestBodyFile=t201_RequestBody.txt
+ResponseHeaderFile=t201_ResponseHeader.txt
+ContentType=application/vnd.citrix.authenticateresponse-1+xml
+SnapshotXmlFile=snapshot_201.xml
+FileName2=t201_e86d2642f412b9493b14.html
+URL2=https://ctx-ws-assets.cloud.com/assets/workspace/e86d2642f412b9493b14.woff2
+FileName3=t201_f32753567f64c1ddeec8.html
+URL3=https://ctx-ws-assets.cloud.com/assets/workspace/f32753567f64c1ddeec8.woff
+[ProtocolInfo]
+ProtocolId=QTWeb

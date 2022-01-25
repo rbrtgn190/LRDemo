@@ -1,0 +1,11 @@
+[t206]
+FileName1=t206.htm
+URL1=https://accounts.cloud.com/core/connect/authorize/callback?client_id=3lnnAilQNhUSvIR09fRuNg%3D%3D&redirect_uri=https%3A%2F%2Faccounts-dsauthweb.cloud.com%2Foidc%2Frp&response_mode=form_post&response_type=code&scope=openid%20profile%20email%20ctx_principal_aliases%20ctx_universal%20cip_credentials&acr_values=tenant%3AtTI-xE0hYUaTHUoxjY46ig%20product%3Afd%20ticket_timeout%3A0.08%3A00%3A00&state=CfDJ8A4yPTlIR4tPmKNUxzs0HUCnc-3Ab-KMh1ELV_JwEX75Xl7qrJNPxTMBdUVlBqqiA_dxOQct-dGIEaMq-mRWjuAq7DwAQg0hwAEfiWVeflGyeun1coXdsD0fbQF2sMsKSvqDEZtsgKCzxkWZ_x3hKQmeARBx32dosT7stdAeWRt-xGLLYN1xCV_N2pmxMsTJSWmA4aKHvRL8RJXHk2u8Ux1N-36XQwA1fC01CkwyFuOa5TrQeH72TUlm3BlhIi2Hw8nI1Vl6bXQGqu06qYBEnMuTAmA5nYdlIX02PR2lt8UX
+Total=1
+RequestHeaderFile=t206_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t206_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_206.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

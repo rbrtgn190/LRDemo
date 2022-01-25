@@ -1,0 +1,15 @@
+[t102]
+FileName1=t102.html
+URL1=http://ocsp.pki.goog/gts1c3
+Total=3
+RequestHeaderFile=t102_RequestHeader.txt
+RequestBodyFile=t102_RequestBody.txt
+ResponseHeaderFile=t102_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_102.xml
+FileName2=t102.json
+URL2=https://firefox.settings.services.mozilla.com/v1/
+FileName3=t102_cfr-v1-en-US.json
+URL3=https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US
+[ProtocolInfo]
+ProtocolId=QTWeb

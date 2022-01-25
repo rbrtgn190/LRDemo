@@ -1,0 +1,17 @@
+[t142]
+FileName1=t142.json
+URL1=https://sentry.io/api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7
+Total=4
+RequestHeaderFile=t142_RequestHeader.txt
+RequestBodyFile=t142_RequestBody.txt
+ResponseHeaderFile=t142_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_142.xml
+FileName2=t142_1cb825ff043ef7521574.html
+URL2=https://ctx-ws-assets.cloud.com/assets/workspace/1cb825ff043ef7521574.woff2
+FileName3=t142_f6ebd504e3b19c186177.html
+URL3=https://ctx-ws-assets.cloud.com/assets/workspace/f6ebd504e3b19c186177.woff2
+FileName4=t142_Proxy.json
+URL4=https://cevalogistics.cloud.com/Citrix/StoreWeb/Sso/Proxy?destination=https%3A%2F%2Fwsp.eu.iws.cloud.com%2Fuser-personalization%2FuserPreferences
+[ProtocolInfo]
+ProtocolId=QTWeb

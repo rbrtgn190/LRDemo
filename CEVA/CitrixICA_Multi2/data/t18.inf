@@ -1,0 +1,17 @@
+[t18]
+FileName1=t18.html
+URL1=http://ocsp.digicert.com/
+Total=4
+RequestHeaderFile=t18_RequestHeader.txt
+RequestBodyFile=t18_RequestBody.txt
+ResponseHeaderFile=t18_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_18.xml
+FileName2=t18_9102.7b9cffbd2d5d96f128b9.html
+URL2=https://ctx-ws-assets.cloud.com/assets/workspace/9102.7b9cffbd2d5d96f128b9.js
+FileName3=t18_5638.71f35daac7835f4d7398.html
+URL3=https://ctx-ws-assets.cloud.com/assets/workspace/5638.71f35daac7835f4d7398.js
+FileName4=t18_8803.dba0b394959e74fd31e3.html
+URL4=https://ctx-ws-assets.cloud.com/assets/workspace/8803.dba0b394959e74fd31e3.js
+[ProtocolInfo]
+ProtocolId=QTWeb

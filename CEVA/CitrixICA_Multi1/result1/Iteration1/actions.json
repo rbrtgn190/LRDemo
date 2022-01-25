@@ -1,0 +1,178 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: cevalogistics.cloud.com",
+                "infFile": "t3.inf",
+                "time": 1643101209188
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: StoreWeb",
+                "infFile": "t4.inf",
+                "time": 1643101209622
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: StoreWeb_2",
+                "infFile": "t5.inf",
+                "time": 1643101209926
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: GetUserDetails",
+                "infFile": "t7.inf",
+                "time": 1643101210071
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: accounts-dsauthweb.cloud.com",
+                "infFile": "t16.inf",
+                "time": 1643101215273
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: ls",
+                "infFile": "t19.inf",
+                "time": 1643101215755
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: acs",
+                "infFile": "t23.inf",
+                "time": 1643101227046
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: rp",
+                "infFile": "t25.inf",
+                "time": 1643101227328
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: Bounce",
+                "infFile": "t26.inf",
+                "time": 1643101227642
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: StoreWeb_3",
+                "infFile": "t27.inf",
+                "time": 1643101227698
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: StoreWeb_4",
+                "infFile": "t28.inf",
+                "time": 1643101227922
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Submit Data: ResumeForms",
+                "infFile": "t29.inf",
+                "time": 1643101287933
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Submit Data: GetUserDetails_2",
+                "infFile": "t30.inf",
+                "time": 1643101288222
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Custom Request: List",
+                "infFile": "t31.inf",
+                "time": 1643101294044
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Custom Request: List_2",
+                "infFile": "t32.inf",
+                "time": 1643101300146
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Custom Request: GetDetectionTicket",
+                "infFile": "t33.inf",
+                "time": 1643101300320
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Custom Request: GetDetectionStatus",
+                "infFile": "t34.inf",
+                "time": 1643101300504
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Custom Request: GetDetectionStatus_2",
+                "infFile": "t35.inf",
+                "time": 1643101300674
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Custom Request: GetDetectionStatus_3",
+                "infFile": "t36.inf",
+                "time": 1643101301141
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Submit Data: GetLaunchStatus",
+                "infFile": "t37.inf",
+                "time": 1643101319590
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "LauchCWCtrx",
+                "rawStartTime": 1643101302151,
+                "rawEndTime": 1643101356006,
+                "thinkTime": 0.99983,
+                "wastedTime": 0.003889322280883789
+            },
+            {
+                "transactionName": "ctrx_Operate",
+                "rawStartTime": 1643101356025,
+                "rawEndTime": 1643101392679,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "ctrxForwarding",
+                "rawStartTime": 1643101392709,
+                "rawEndTime": 1643101393161,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "ctrxShipments",
+                "rawStartTime": 1643101393191,
+                "rawEndTime": 1643101396168,
+                "thinkTime": 1.998893,
+                "wastedTime": 0.004668474197387695
+            },
+            {
+                "transactionName": "ctrxFind",
+                "rawStartTime": 1643101396198,
+                "rawEndTime": 1643101406354,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "ctrxClickFirstShipmentID",
+                "rawStartTime": 1643101406374,
+                "rawEndTime": 1643101406965,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "ctrxgoToDescription",
+                "rawStartTime": 1643101406985,
+                "rawEndTime": 1643101467078,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            }
+        ]
+    }
+]

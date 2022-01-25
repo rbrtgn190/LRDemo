@@ -1,0 +1,11 @@
+[t262]
+FileName1=t262.html
+URL1=http://ocsp.pki.goog/gts1d4
+Total=1
+RequestHeaderFile=t262_RequestHeader.txt
+RequestBodyFile=t262_RequestBody.txt
+ResponseHeaderFile=t262_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_262.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

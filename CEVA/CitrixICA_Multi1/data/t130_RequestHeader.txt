@@ -1,0 +1,17 @@
+POST /oidc/rp HTTP/1.1
+Host: accounts-dsauthweb.cloud.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 710
+Origin: null
+DNT: 1
+Connection: keep-alive
+Cookie: prompt=login; regionSessionId=d2VzdGV1cm9wZTpiNzNlODhiYS0zYzBlLTQ4OTktOGUxYi0yMTgxYjJjZDZhY2E%3D; X-ATH-SessionId=b73e88ba-3c0e-4899-8e1b-2181b2cd6aca; cc.signin=OLeG5rE0ezMYEHlbLH58DSneHJxZVzG6i9luLhIBddg; consistencyToken=dGlyNjJkdDhidT0wOi0xIzEzNjE5NDE3O284eHZ6amU0dDA9MDotMSMzODc5NTUzMDtrZWkxa2ltMjhhPTE6LTEjMjEwOTA1Mzgx
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-site
+

@@ -1,0 +1,11 @@
+[t180]
+FileName1=t180.htm
+URL1=https://idp.cevalogistics.com/adfs/ls/?wa=wsignout1.0&SAMLRequest=fZHfS8MwEMf%2FlZD3%2Fkrr1oa2MthLYTqYugdfJLbXGkiTmkud%2BNebbghDwcdc7nP3%2FXAlilFNfGcGM7sDvM%2BAjjTbir5k8WrdQ1EEWcySIEsKFuQAEOQ5sC5N82L1CpQcwaI0uqIsjClpEGdoNDqhnS%2FFjAVxErDkMbnhacbT4pmSrd8gtXBn6s25CXkUyW4KW%2FgQygzSf7cYtmaMRNdjpDC6PYnqhHLQPmOy7DmAwAV%2FQrBEaumkUPILOuJ50%2FeU3Bu313u76R3YP0HWlyCfo9LIz%2F4Vna3mRqBErsUIyF3LHzZ3O%2B61%2BGSNM61RtC6Xbn62tFf8%2F7hAn3LRpfWP7gKFrTJzt3iW0dXY%2BvL6dZL6Gw%3D%3D&RelayState=UYZH9Qhb_MwPQmkvt1Y5tg%3D%3D
+Total=1
+RequestHeaderFile=t180_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t180_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_180.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

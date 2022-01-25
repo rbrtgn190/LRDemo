@@ -1,0 +1,13 @@
+[t107]
+FileName1=t107.html
+URL1=https://push.services.mozilla.com/
+Total=2
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_107.xml
+RequestHeaderFile=t107_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t107_ResponseHeader.txt
+FileName2=t107_runtime.19e95931771d1af72911.html
+URL2=https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/runtime.19e95931771d1af72911.js
+[ProtocolInfo]
+ProtocolId=QTWeb

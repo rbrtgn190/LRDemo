@@ -1,0 +1,13 @@
+[t85]
+FileName1=t85.html
+URL1=http://ocsp.digicert.com/
+Total=2
+RequestHeaderFile=t85_RequestHeader.txt
+RequestBodyFile=t85_RequestBody.txt
+ResponseHeaderFile=t85_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_85.xml
+FileName2=t85_update.xml
+URL2=https://aus5.mozilla.org/update/3/GMP/96.0.1/20220113185450/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0.17763.2183%20(x64)/default/default/update.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

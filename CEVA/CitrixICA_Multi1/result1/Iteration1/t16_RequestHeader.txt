@@ -1,0 +1,8 @@
+GET /tTI-xE0hYUaTHUoxjY46ig/oidc/webview/CfDJ8A4yPTlIR4tPmKNUxzs0HUCYWIgNogJFn7QeIpt4pYDyxKdxWDp83NDki9L8W9ohwCQeklmIiC2TaYI9vVF0OOydjqNqqpKa2MDOWCX0h2jtPAzoBMiOuzrdlTrzioizaQ?_id=webviewResponseId&_cx=&_rt=https%3A%2F%2Fcevalogistics.cloud.com%2FCitrix%2FStoreWeb%2FExplicitAuth%2FBounce&_cs=D5CCEC7FF63CBDC049F655601B333EEE&_ps=true HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.5
+Accept: */*
+Connection: Keep-Alive
+Host: accounts-dsauthweb.cloud.com
+

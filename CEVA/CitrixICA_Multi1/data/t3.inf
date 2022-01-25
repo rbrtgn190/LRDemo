@@ -1,0 +1,15 @@
+[t3]
+FileName1=t3.html
+URL1=http://ocsp.pki.goog/gts1c3
+Total=3
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=t3_RequestBody.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_3.xml
+FileName2=t3_success.txt
+URL2=http://detectportal.firefox.com/success.txt?ipv4
+FileName3=t3_threatListUpdates_fetch.html
+URL3=https://safebrowsing.googleapis.com/v4/threatListUpdates_fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARDepw0aAhgFVLMCUSICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABENGYChoCGAWTY-jyIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQptYJGgIYBRXmsJEiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARCzywoaAhgFa2i7jCICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECAaAhgFwwei7CICIAIoAQ==
+[ProtocolInfo]
+ProtocolId=QTWeb

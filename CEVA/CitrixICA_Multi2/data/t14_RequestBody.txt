@@ -1,0 +1,8 @@
+"{\"ping_info\":{\"seq\":93,\"start_time\":\"2022-01-21T16:38+01:00\",\"end_time\":\"2022-01-24"
+"T11:13+01:00\",\"reason\":\"active\"},\"client_info\":{\"telemetry_sdk_build\":\"42.1.0\",\"cl"
+"ient_id\":\"b1ab44f2-0f62-45fe-84c7-b52c9227bf44\",\"app_build\":\"20220113185450\",\"os\":\"W"
+"indows\",\"app_channel\":\"release\",\"os_version\":\"10.0\",\"architecture\":\"x86_64\",\"app"
+"_display_version\":\"96.0.1\",\"first_run_date\":\"2021-11-02+00:00\"},\"metrics\":{\"counter\""
+":{\"browser.engagement.active_ticks\":23,\"browser.engagement.uri_count\":15},\"labeled_counte"
+"r\":{\"glean.validation.pings_submitted\":{\"baseline\":1,\"metrics\":1}},\"datetime\":{\"glea"
+"n.validation.first_run_hour\":\"2021-11-02T08+00:00\"}}}"

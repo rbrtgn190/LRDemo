@@ -1,0 +1,13 @@
+[t115]
+FileName1=t115.json
+URL1=https://sentry.io/api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7
+Total=2
+RequestHeaderFile=t115_RequestHeader.txt
+RequestBodyFile=t115_RequestBody.txt
+ResponseHeaderFile=t115_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_115.xml
+FileName2=t115_favicon.png
+URL2=https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/favicon.png
+[ProtocolInfo]
+ProtocolId=QTWeb

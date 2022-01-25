@@ -1,0 +1,16 @@
+HTTP/1.1 304 Not Modified
+Date: Tue, 25 Jan 2022 09:00:09 GMT
+Connection: keep-alive
+Cache-Control: private
+Content-Encoding: gzip
+ETag: FcK1SfQscdPa51OWMn6CDd2/pln9uFXznlEZg3DzknI=
+X-StoreFront-UICanary: True_Default_100_19
+Request-Context: appId=cid-v1:1a5bd3ba-2b72-438f-b8ae-180b3ef34881
+X-StoreFront-InstanceId: c2a30055a8f9b4aaae3f2bcacb418e5b11b810ae_release-sfaas-167_J1_b1_44
+X-Citrix-Application: Receiver for Web
+X-Frame-Options: sameorigin
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+

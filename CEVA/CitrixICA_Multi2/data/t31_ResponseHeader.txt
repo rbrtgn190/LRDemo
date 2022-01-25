@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache,no-store
+Pragma: no-cache
+Content-Length: 32837
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Server: Microsoft-HTTPAPI/2.0
+Strict-Transport-Security: max-age = 31536000
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' https://ult-inwebo.com; img-src 'self' data: https://ult-inwebo.com;
+X-Frame-Options: allow-from https://ult-inwebo.com
+Date: Mon, 24 Jan 2022 10:13:16 GMT
+

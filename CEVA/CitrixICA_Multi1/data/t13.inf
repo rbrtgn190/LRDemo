@@ -1,0 +1,15 @@
+[t13]
+FileName1=t13.html
+URL1=http://ocsp.digicert.com/
+Total=3
+RequestHeaderFile=t13_RequestHeader.txt
+RequestBodyFile=t13_RequestBody.txt
+ResponseHeaderFile=t13_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_13.xml
+FileName2=t13_react.2bd7a2cfd6f3a5c98233.html
+URL2=https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/react.2bd7a2cfd6f3a5c98233.js
+FileName3=t13_workspace.844d7d2c2fb233da9333.html
+URL3=https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/workspace.844d7d2c2fb233da9333.js
+[ProtocolInfo]
+ProtocolId=QTWeb

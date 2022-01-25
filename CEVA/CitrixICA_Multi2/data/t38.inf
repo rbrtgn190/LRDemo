@@ -1,0 +1,13 @@
+[t38]
+FileName1=t38.html
+URL1=https://cevalogistics.cloud.com/Citrix/StoreWeb/
+Total=3
+RequestHeaderFile=t38_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t38_ResponseHeader.txt
+ContentType=binary/octet-stream
+SnapshotXmlFile=snapshot_38.xml
+FileName2=t38_e86d2642f412b9493b14.html
+URL2=https://ctx-ws-assets.cloud.com/assets/workspace/e86d2642f412b9493b14.woff2
+FileName3=t38_womkdccyy46o-c786167b-5dd1-509a-8071-272c84f57d92-logonLogo-l0nOmghv.png
+URL3=https://cips-iws-prod-weu-cip-cdn.azureedge.net/iwsprodweucip-container/womkdccyy46o-c786167b-5dd1-509a-8071-272c84f57d92-logonLogo-l0nOmghv

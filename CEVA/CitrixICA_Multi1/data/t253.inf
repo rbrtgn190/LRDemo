@@ -1,0 +1,11 @@
+[t253]
+FileName1=t253.txt
+URL1=https://cevalogistics.cloud.com/Citrix/StoreWeb/Home/KeepAlive
+Total=1
+RequestHeaderFile=t253_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t253_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_253.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

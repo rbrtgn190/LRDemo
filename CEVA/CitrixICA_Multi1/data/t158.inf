@@ -1,0 +1,13 @@
+[t158]
+FileName1=t158.html
+URL1=http://ocsp.pki.goog/gts1d4
+Total=2
+RequestHeaderFile=t158_RequestHeader.txt
+RequestBodyFile=t158_RequestBody.txt
+ResponseHeaderFile=t158_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_158.xml
+FileName2=t158_L0NpdHJpeC9TdG9yZS9yZXNvdXJjZXMvdjIvVkZWNVMwbFJja3h4T1cxRlZFRnhXVk5EU1hSdmRqZGFiM0JWUFEtLS9pbWFnZQ--.png
+URL2=https://cevalogistics.cloud.com/Citrix/StoreWeb/Resources/Icon/L0NpdHJpeC9TdG9yZS9yZXNvdXJjZXMvdjIvVkZWNVMwbFJja3h4T1cxRlZFRnhXVk5EU1hSdmRqZGFiM0JWUFEtLS9pbWFnZQ--?size=128
+[ProtocolInfo]
+ProtocolId=QTWeb

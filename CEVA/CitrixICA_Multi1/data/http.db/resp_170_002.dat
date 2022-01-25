@@ -1,0 +1,20 @@
+<html>
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+    <style type='text/css'>
+        body {
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body onload='document.forms[0].submit();'>
+    <form action='https://cevalogistics.cloud.com/Citrix/StoreWeb/ExplicitAuth/Bounce' method='post'>
+<input type=hidden name='_cx' value=''>
+<input type=hidden name='webviewResponseId' value='Dc9Bb4IwGIDh_8J5EyxoNm8sMKexZeoHTRsu2BrbCtYJBOyy_z6ub57L--sJK8_eyiOQDsyxJ3YbxGF7xcAQdmxOoG4IXAYMaUjWOCTuEk4mJA2OGGUjQ3nADdeccp2t9wNupgafmpvcEb1wjM7b3e2QH4_z6AAflhaFKlJVnEL1Q2GPKip6ua6fxGyvMlFaQjBkOhg3LnXExA5DHGXoLTp_8WXV5IFM4nfsbIeP2GWJWBDHUAbdg9PrWKG6w0apb4iXO0gNNulAXD6SZOO8F69_1NOo6rp7uyr90q-EsP2ta19lW_WdGs6nmahtL2fCNqVvtRSl_7h7f_8'>
+<input type=hidden name='_cs' value='440F01D1B9ADEA7AD8A954A1255BAB8A'>
+        <span id='If you are not automatically redirected click '></span>
+        <input id='Continue' type='submit' value='Continue'>
+        <span id='Trailing phrase after Continue button'></span>
+    </form>
+</body>
+</html>

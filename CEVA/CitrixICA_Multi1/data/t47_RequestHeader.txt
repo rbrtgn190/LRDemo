@@ -1,0 +1,24 @@
+POST /Citrix/StoreWeb/Authentication/GetUserDetails HTTP/1.1
+Host: cevalogistics.cloud.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+newrelic: eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjIwNDExMTQiLCJhcCI6IjY4NzkxMDI1NiIsImlkIjoiOThkOWEyNTg3Y2M1N2E4ZCIsInRyIjoiYTI2NWY4NjY5N2E5ZGQwZmQ4NDJlNGJlYmQzZjliZDAiLCJ0aSI6MTY0Mjc2MDQxMzQ3MiwidGsiOiIxODk4MDM3In19
+traceparent: 00-a265f86697a9dd0fd842e4bebd3f9bd0-98d9a2587cc57a8d-01
+tracestate: 1898037@nr=0-1-2041114-687910256-98d9a2587cc57a8d----1642760413472
+Content-Type: application/x-www-form-urlencoded
+Csrf-Token: DC8BE6C44D058E2151442C5F2B30CC4B
+X-Citrix-IsUsingHTTPS: Yes
+X-Requested-With: XMLHttpRequest
+Citrix-TransactionId: 6d1e946e-f318-49aa-955a-51af4daaa61e
+Origin: https://cevalogistics.cloud.com
+DNT: 1
+Connection: keep-alive
+Referer: https://cevalogistics.cloud.com/Citrix/StoreWeb/
+Cookie: CsrfToken=DC8BE6C44D058E2151442C5F2B30CC4B; CtxsAuthId=8DA475CE6D45BB4F2184719C397E2926; ASP.NET_SessionId=ifxmcp5lhyt3avqod2yoszvi; prompt=login; regionSessionId=d2VzdGV1cm9wZTphZmUxMzQ1Yi02Y2QxLTRhM2UtODZjOC1jZjJhNWY5ZWYxMDg%3D; X-ATH-SessionId=afe1345b-6cd1-4a3e-86c8-cf2a5f9ef108; cc.signin=13UQC6l5br4FPK-cewX2Kgv2tWPlEu6m_ntlioB2mwg; consistencyToken=dGlyNjJkdDhidT0wOi0xIzEzNTcxNDIwO284eHZ6amU0dDA9MDotMSMzODc1NzAyODtrZWkxa2ltMjhhPTA6LTEjMjEwNTMzNDM2; IS_WEBVIEW_LOGON=true
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Content-Length: 0
+

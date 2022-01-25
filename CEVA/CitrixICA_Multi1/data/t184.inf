@@ -1,0 +1,13 @@
+[t184]
+FileName1=t184.html
+URL1=http://r3.o.lencr.org/
+Total=2
+RequestHeaderFile=t184_RequestHeader.txt
+RequestBodyFile=t184_RequestBody.txt
+ResponseHeaderFile=t184_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_184.xml
+FileName2=t184_success.txt
+URL2=http://detectportal.firefox.com/success.txt?ipv4
+[ProtocolInfo]
+ProtocolId=QTWeb

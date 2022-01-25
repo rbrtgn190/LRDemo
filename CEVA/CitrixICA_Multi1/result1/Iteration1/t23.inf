@@ -1,0 +1,36 @@
+[t23]
+RequestBodyFile=t23_RequestBody.txt
+URL10=https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/workspace.e8571bc01ec461b5e625.js
+URL11=https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/react.2bd7a2cfd6f3a5c98233.js
+URL12=https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/runtime.d75f9d41de2cd5f39ff9.js
+SaveSnapshotResources=1
+FileName11=t3_1_react.UNK
+FileName10=t3_2_workspace.UNK
+FileName12=t3_0_runtime.UNK
+RequestHeaderFile=t23_RequestHeader.txt
+RawStepStartTime=1643101225242
+ContentType=text/html
+RawStepName=acs
+ResponseHeaderFile=t23_ResponseHeader.txt
+RawStepEndTime=1643101227043
+SnapshotXmlFile=snapshot_8.xml
+Total=12
+URL1=https://accounts.cloud.com/core/connect/authorize/callback?client_id=3lnnAilQNhUSvIR09fRuNg==&redirect_uri=https://accounts-dsauthweb.cloud.com/oidc/rp&response_mode=form_post&response_type=code&scope=openid profile email ctx_principal_aliases ctx_universal cip_credentials&acr_values=tenant:tTI-xE0hYUaTHUoxjY46ig product:fd ticket_timeout:0.08:00:00&state=CfDJ8A4yPTlIR4tPmKNUxzs0HUCjW_zM784Q_ji1G85rTL6yTqyANgN7MHwT2y6dT7aj40VVvU7aXfxxf9pnh6NG5fLOHYw8Mf4mwUden4_UJOev1m-Vw0vKNS_2_Dwkzauz1x3P-JAI1xgVv0Yf5m-Oi1K4Cp2PrpMdLKpfspyp7-F3kXbQyFLkeiI8NYzxvKqAfgRVaRhwGU3JIH_rTZ1HXfU9TZSy1LGJKo_SASovwZ6LioeA72ih9RdlkSkvMTy2afecra4fHg_7gIJJeFXpxSr6QfO2TzfyrL2RxocKKddD
+URL2=https://idp.cevalogistics.com/adfs/portal/css/style.css?id=A7618A91AF9831C8CDF5863B4179236EC332904F166B2A3D6BF41BE9F87FCC37
+URL3=https://idp.cevalogistics.com/adfs/portal/logo/logo.png?id=EEC3CF47FAFAD59C84F33C171B88CF72647BE58F226928DCC09E5D6FB3B7D80C
+URL4=https://ctx-ws-assets.cloud.com/assets/workspace/f32753567f64c1ddeec8.woff
+URL5=https://ctx-ws-assets.cloud.com/assets/workspace/e86d2642f412b9493b14.woff2
+FileName1=t23.html
+URL6=https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/favicon.png
+URL7=https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/spinner-teal.svg
+FileName3=t16_9_logo.png
+URL8=https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/workspace-vertical-logo-teal.svg
+URL9=https://ctx-ws-assets.cloud.com/assets/workspace/externals/sentry.6.13.2.min.js
+FileName2=t16_10_style.css
+FileName5=t9_7_e86d2642f412b9493b14.csar
+FileName4=t9_8_f32753567f64c1ddeec8.UNK
+FileName7=t4_5_spinner-teal.UNK
+FileName6=t5_6_favicon.png
+FileName9=t3_3_sentry.UNK
+FileName8=t4_4_workspace-vertical-logo-teal.UNK
+StepName=Submit Data: acs

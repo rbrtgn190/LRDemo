@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Mon, 24 Jan 2022 10:13:28 GMT
+Content-Type: application/xml; charset=utf-8
+Content-Length: 229
+Connection: keep-alive
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Content-Encoding: gzip
+Expires: -1
+Set-Cookie: CtxsAuthId=5524CBA0C2D32B563BCEA17AAFCE7142; path=/Citrix/StoreWeb/; secure; HttpOnly
+Request-Context: appId=cid-v1:1a5bd3ba-2b72-438f-b8ae-180b3ef34881
+X-StoreFront-InstanceId: c2a30055a8f9b4aaae3f2bcacb418e5b11b810ae_release-sfaas-167_J1_b1_44
+X-Citrix-Application: Receiver for Web
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+

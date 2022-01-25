@@ -1,0 +1,2092 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-moz",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-http-method-override",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-client-version",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-client-type",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-citrix-isusinghttps",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-citrix-am-labeltypes",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "x-citrix-am-credentialtypes",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "tracestate",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "traceparent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-version",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-protocol",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-key",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-websocket-extensions",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "pragma",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "newrelic",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-modified-since",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "dnt",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "date",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "csrf-token",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "content-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "citrix-wsp-proxy-url",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "citrix-transactionid",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "citrix-instanceid",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "citrix-customerid",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/svg+xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "binary/octet-stream"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-protobuf"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/vnd.citrix.endpoints+xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/vnd.citrix.authenticateresponse-1+xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/octet-stream"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/ocsp-response"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 48,
+    "RecordedBrowser": "Firefox",
+    "RecordingDate": "Jan-24-2022",
+    "RecordingDuration": 31157,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1643019182,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 1896146,
+    "TotalBytesSent": 136488,
+    "TotalRequests": 165,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "sentry.io",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "35.188.42.15",
+          "IncludeInScript": true,
+          "Name": "sentry.io",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 109,
+              "EventId": 997,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://sentry.io/api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 110,
+              "EventId": 995,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://sentry.io/api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 125,
+              "EventId": 928,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://sentry.io/api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 109,
+              "EventId": 922,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://sentry.io/api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 218,
+              "EventId": 868,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://sentry.io/api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 125,
+              "EventId": 655,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://sentry.io/api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 109,
+              "EventId": 653,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://sentry.io/api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 109,
+              "EventId": 639,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://sentry.io/api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 125,
+              "EventId": 546,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://sentry.io/api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 109,
+              "EventId": 489,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://sentry.io/api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "pendo.io",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "13.249.10.24",
+          "IncludeInScript": true,
+          "Name": "citrix-cloud-content.customer.pendo.io",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 32,
+              "EventId": 504,
+              "HttpStatus": 200,
+              "Size": 144618,
+              "URL": "https://citrix-cloud-content.customer.pendo.io/agent/static/c51a876e-13e7-4d6e-78d0-f764775a736d/pendo.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "ocsp.pki.goog",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.206.227",
+          "IncludeInScript": true,
+          "Name": "ocsp.pki.goog",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 16,
+              "EventId": 273,
+              "HttpStatus": 200,
+              "Size": 472,
+              "URL": "http://ocsp.pki.goog/gts1c3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 125,
+              "EventId": 167,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://ocsp.pki.goog/gts1c3"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.120.208.123",
+          "IncludeInScript": true,
+          "Name": "incoming.telemetry.mozilla.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 234,
+              "EventId": 318,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/messaging-system/undesired-events/1/113d7147-0fcb-4b22-91ee-5f9e912cee60"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 344,
+              "EventId": 304,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/6157b4cb-3b99-4d35-a600-98c91875b8bd"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 532,
+              "EventId": 255,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://incoming.telemetry.mozilla.org/submit/firefox-desktop/metrics/1/094b3c4e-c7ec-458b-b57b-a7ec3016c822"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "52.84.174.83",
+          "IncludeInScript": true,
+          "Name": "normandy.cdn.mozilla.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 125,
+              "EventId": 1058,
+              "HttpStatus": 200,
+              "Size": 598,
+              "URL": "https://normandy.cdn.mozilla.net/api/v1/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "13.32.145.32",
+          "IncludeInScript": true,
+          "Name": "content-signature-2.cdn.mozilla.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "binary/octet-stream",
+              "DownloadTime": 140,
+              "EventId": 179,
+              "HttpStatus": 200,
+              "Size": 5352,
+              "URL": "https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2022-03-01-08-35-12.chain"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "mozilla.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.213.76.57",
+          "IncludeInScript": true,
+          "Name": "shavar.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 516,
+              "EventId": 497,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "https://shavar.services.mozilla.com/downloads?client=navclient-auto-ffox&appver=96.0&pver=2.2"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "52.10.136.43",
+          "IncludeInScript": true,
+          "Name": "push.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 750,
+              "EventId": 270,
+              "HttpStatus": 101,
+              "Size": 0,
+              "URL": "https://push.services.mozilla.com/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "52.84.174.25",
+          "IncludeInScript": true,
+          "Name": "firefox.settings.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 363,
+              "HttpStatus": 200,
+              "Size": 1709,
+              "URL": "https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/normandy-recipes-capabilities/changeset?_expected=1642896072224&_since=%221642723273597%22"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 351,
+              "HttpStatus": 200,
+              "Size": 4271,
+              "URL": "https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/changeset?_expected=%221643014635935%22"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 125,
+              "EventId": 251,
+              "HttpStatus": 200,
+              "Size": 329,
+              "URL": "https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 246,
+              "HttpStatus": 200,
+              "Size": 920,
+              "URL": "https://firefox.settings.services.mozilla.com/v1/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.117.237.239",
+          "IncludeInScript": true,
+          "Name": "contile.services.mozilla.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 219,
+              "EventId": 161,
+              "HttpStatus": 200,
+              "Size": 662,
+              "URL": "https://contile.services.mozilla.com/v1/tiles"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "microsoft.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "131.253.33.203",
+          "IncludeInScript": true,
+          "Name": "oneocsp.microsoft.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 78,
+              "EventId": 673,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://oneocsp.microsoft.com/ocsp"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "lencr.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "96.17.206.28",
+          "IncludeInScript": true,
+          "Name": "r3.o.lencr.org",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 94,
+              "EventId": 118,
+              "HttpStatus": 200,
+              "Size": 5,
+              "URL": "http://r3.o.lencr.org/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.201.170",
+          "IncludeInScript": true,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 141,
+              "EventId": 184,
+              "HttpStatus": 200,
+              "Size": 80262,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARD5pw0aAhgFUoOoWCICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEN-YChoCGAUedgMWIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQu9YJGgIYBXTG7lkiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARDIywoaAhgFQbxejCICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECAaAhgFwwei7CICIAIoAQ=="
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "firefox.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.107.221.82",
+          "IncludeInScript": true,
+          "Name": "detectportal.firefox.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 47,
+              "EventId": 116,
+              "HttpStatus": 200,
+              "Size": 8,
+              "URL": "http://detectportal.firefox.com/success.txt?ipv4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 94,
+              "HttpStatus": 200,
+              "Size": 90,
+              "URL": "http://detectportal.firefox.com/canonical.html"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "digicert.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "93.184.220.29",
+          "IncludeInScript": true,
+          "Name": "ocsp.digicert.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 125,
+              "EventId": 952,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "http://ocsp.digicert.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 109,
+              "EventId": 745,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "http://ocsp.digicert.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 125,
+              "EventId": 700,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "http://ocsp.digicert.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 125,
+              "EventId": 472,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "http://ocsp.digicert.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 172,
+              "EventId": 181,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "http://ocsp.digicert.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 296,
+              "EventId": 175,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "http://ocsp.digicert.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 188,
+              "EventId": 159,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "http://ocsp.digicert.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 16,
+              "EventId": 149,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "http://ocsp.digicert.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 219,
+              "EventId": 127,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "http://ocsp.digicert.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "cloud.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "51.105.227.110",
+          "IncludeInScript": true,
+          "Name": "wsp.eu.iws.cloud.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/vnd.citrix.endpoints+xml",
+              "DownloadTime": 15,
+              "EventId": 956,
+              "HttpStatus": 200,
+              "Size": 350,
+              "URL": "https://wsp.eu.iws.cloud.com/user-personalization/endpoints"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "52.157.220.248",
+          "IncludeInScript": true,
+          "Name": "saml.cloud.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 719,
+              "EventId": 813,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://saml.cloud.com/saml/acs"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 438,
+              "EventId": 733,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://saml.cloud.com/saml/login?session=a4f6726e-7976-4564-ab07-7d22563d7315"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "99.86.94.39",
+          "IncludeInScript": true,
+          "Name": "ctx-ws-assets.cloud.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "binary/octet-stream",
+              "DownloadTime": 437,
+              "EventId": 1022,
+              "HttpStatus": 200,
+              "Size": 32688,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/f6ebd504e3b19c186177.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "binary/octet-stream",
+              "DownloadTime": 375,
+              "EventId": 1015,
+              "HttpStatus": 200,
+              "Size": 32588,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/1cb825ff043ef7521574.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "binary/octet-stream",
+              "DownloadTime": 407,
+              "EventId": 1009,
+              "HttpStatus": 200,
+              "Size": 32608,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/4ba4759c3e98938156d7.woff2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 964,
+              "HttpStatus": 200,
+              "Size": 18100,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/3369.a5944d6bc4cca698293d.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 962,
+              "HttpStatus": 200,
+              "Size": 1250,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/1937.b052b3869821645d36ef.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 960,
+              "HttpStatus": 200,
+              "Size": 1215,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/657.a1903cf1253b5d683a35.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 930,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/1832.22bc2554e6fbc9748f04.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 926,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/8148.b5f3fb7bd6cbbb131adb.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 924,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/9253.d92f1f6d4d25151742f9.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 920,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/7032.9986872c4ff8582862a9.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 918,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/8784.af23dc3a89c4ee264b8a.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 916,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/9128.aa95fb80d257f578d09e.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 914,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/4933.04f88ddf4aadc0e3ecfa.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 31,
+              "EventId": 912,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/2834.7edff6e875abd5b233cc.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 910,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/6724.fad10bcfca5388e10c52.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 908,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/5063.287c9f9aca2f4de9e890.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 906,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/8121.f4f028f849af0bfe6c35.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "binary/octet-stream",
+              "DownloadTime": 109,
+              "EventId": 884,
+              "HttpStatus": 200,
+              "Size": 32548,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/e86d2642f412b9493b14.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 94,
+              "EventId": 876,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/7284.fec36cac4f8237a26a2c.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 109,
+              "EventId": 874,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/5638.71f35daac7835f4d7398.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 109,
+              "EventId": 872,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/8803.dba0b394959e74fd31e3.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 866,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/7284.fec36cac4f8237a26a2c.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 864,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/8803.dba0b394959e74fd31e3.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 862,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/5638.71f35daac7835f4d7398.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 860,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/9102.7b9cffbd2d5d96f128b9.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 848,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/externals/sentry.6.13.2.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "binary/octet-stream",
+              "DownloadTime": 406,
+              "EventId": 710,
+              "HttpStatus": 200,
+              "Size": 40112,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/f32753567f64c1ddeec8.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "binary/octet-stream",
+              "DownloadTime": 359,
+              "EventId": 686,
+              "HttpStatus": 200,
+              "Size": 5792,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/e86d2642f412b9493b14.woff2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 16,
+              "EventId": 647,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/7284.fec36cac4f8237a26a2c.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 645,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/8803.dba0b394959e74fd31e3.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 643,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/5638.71f35daac7835f4d7398.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 32,
+              "EventId": 632,
+              "HttpStatus": 200,
+              "Size": 10719,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/7403.d739e0d24447a0163c1c.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 629,
+              "HttpStatus": 200,
+              "Size": 22580,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/AppShell.a5ef08195723deccb8a5.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 627,
+              "HttpStatus": 200,
+              "Size": 8725,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/3660.0caa62a1f9639bc8a54d.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 625,
+              "HttpStatus": 200,
+              "Size": 6704,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/9234.fe0b79db716f4395922f.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 622,
+              "HttpStatus": 200,
+              "Size": 13918,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/6907.8f5d44084defffbda844.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 620,
+              "HttpStatus": 200,
+              "Size": 9391,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/3925.6e800fbcc7336ab41514.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 618,
+              "HttpStatus": 200,
+              "Size": 7882,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/2500.7d8d2163b44c89c2d4e1.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 616,
+              "HttpStatus": 200,
+              "Size": 10312,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/1331.25c71b132c18a5a2ce9f.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 614,
+              "HttpStatus": 200,
+              "Size": 9575,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/5754.33cba4a71b61926e999b.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 610,
+              "HttpStatus": 200,
+              "Size": 12785,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/9662.4a16cd86fc9398dde469.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 608,
+              "HttpStatus": 200,
+              "Size": 4250,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/7148.1e5a1690a430387c1079.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 606,
+              "HttpStatus": 200,
+              "Size": 14635,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/1832.22bc2554e6fbc9748f04.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 604,
+              "HttpStatus": 200,
+              "Size": 3778,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/4905.8c0e6f6c158ed927aba8.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 602,
+              "HttpStatus": 200,
+              "Size": 5937,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/2664.a862b8d98cdf20f637f8.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 600,
+              "HttpStatus": 200,
+              "Size": 8430,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/120.11882f3b75dc2015e3f7.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 598,
+              "HttpStatus": 200,
+              "Size": 5171,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/299.28bf9e621347fff3a422.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 596,
+              "HttpStatus": 200,
+              "Size": 3650,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/2224.c7eb7fbca3704e887266.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 594,
+              "HttpStatus": 200,
+              "Size": 2573,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/7329.51b325a315c23ada037a.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 0,
+              "EventId": 592,
+              "HttpStatus": 200,
+              "Size": 4733,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/6102.1ca768e96cd3d9b03929.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 588,
+              "HttpStatus": 200,
+              "Size": 5977,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/8148.b5f3fb7bd6cbbb131adb.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 585,
+              "HttpStatus": 200,
+              "Size": 62781,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/7464.494652dadd22c502b6c2.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 582,
+              "HttpStatus": 200,
+              "Size": 1549,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/9253.d92f1f6d4d25151742f9.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 580,
+              "HttpStatus": 200,
+              "Size": 16083,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/7032.9986872c4ff8582862a9.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 578,
+              "HttpStatus": 200,
+              "Size": 1619,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/9128.aa95fb80d257f578d09e.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 575,
+              "HttpStatus": 200,
+              "Size": 24950,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/8784.af23dc3a89c4ee264b8a.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 569,
+              "HttpStatus": 200,
+              "Size": 29651,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/5956.a22b45877ef5952561a9.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 567,
+              "HttpStatus": 200,
+              "Size": 8642,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/9322.ceccbf26c51dc51cc0ff.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 32,
+              "EventId": 562,
+              "HttpStatus": 200,
+              "Size": 53355,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/9350.9280286916a2b955987e.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 560,
+              "HttpStatus": 200,
+              "Size": 4560,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/4760.ac106c61a0b705080270.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 558,
+              "HttpStatus": 200,
+              "Size": 1369,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/4933.04f88ddf4aadc0e3ecfa.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 556,
+              "HttpStatus": 200,
+              "Size": 5477,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/228.6af55df91eac33597041.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 550,
+              "HttpStatus": 200,
+              "Size": 42027,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/371.19788770111333a220d6.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 548,
+              "HttpStatus": 200,
+              "Size": 10435,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/6724.fad10bcfca5388e10c52.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 543,
+              "HttpStatus": 200,
+              "Size": 16946,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/9527.734e286c3f41788d09b2.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 538,
+              "HttpStatus": 200,
+              "Size": 24489,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/2834.7edff6e875abd5b233cc.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 536,
+              "HttpStatus": 200,
+              "Size": 2377,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/3409.6a10544c96f85d9364d0.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 533,
+              "HttpStatus": 200,
+              "Size": 4272,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/7715.483fb8294bc1fecfc06f.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 32,
+              "EventId": 531,
+              "HttpStatus": 200,
+              "Size": 20645,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/8121.f4f028f849af0bfe6c35.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 529,
+              "HttpStatus": 200,
+              "Size": 4276,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/5063.287c9f9aca2f4de9e890.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 15,
+              "EventId": 525,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/workspace-ui-microapps/main.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 517,
+              "HttpStatus": 200,
+              "Size": 109207,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/workspace-ui-microapps/index-24cf3fbe55b4a738c76984475e7a9ce8f14e38d4.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 422,
+              "EventId": 514,
+              "HttpStatus": 200,
+              "Size": 297,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/piral-static-feed/feed.json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 63,
+              "EventId": 493,
+              "HttpStatus": 200,
+              "Size": 4251,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/7284.fec36cac4f8237a26a2c.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 78,
+              "EventId": 487,
+              "HttpStatus": 200,
+              "Size": 3302,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/8803.dba0b394959e74fd31e3.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 79,
+              "EventId": 480,
+              "HttpStatus": 200,
+              "Size": 31325,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/5638.71f35daac7835f4d7398.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 93,
+              "EventId": 478,
+              "HttpStatus": 200,
+              "Size": 4474,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/9102.7b9cffbd2d5d96f128b9.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 442,
+              "HttpStatus": 200,
+              "Size": 14382,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/Login.06198f275826e1a2c4b3.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 15,
+              "EventId": 436,
+              "HttpStatus": 200,
+              "Size": 7779,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/7843.610d4b00a81fca13ad50.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 422,
+              "HttpStatus": 200,
+              "Size": 7451,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/3947.11d3b3c0fe4c52a24414.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 16,
+              "EventId": 373,
+              "HttpStatus": 200,
+              "Size": 22528,
+              "URL": "https://ctx-ws-assets.cloud.com/assets/workspace/externals/sentry.6.13.2.min.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "20.50.24.215",
+          "IncludeInScript": true,
+          "Name": "cevalogistics.cloud.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 547,
+              "EventId": 1036,
+              "HttpStatus": 200,
+              "Size": 571,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/Resources/List"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 531,
+              "EventId": 1007,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/Sso/Proxy?destination=https%3A%2F%2Fwsp.eu.iws.cloud.com%2Fuser-personalization%2FuserPreferences"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 562,
+              "EventId": 958,
+              "HttpStatus": 200,
+              "Size": 547,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/Resources/List"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 265,
+              "EventId": 936,
+              "HttpStatus": 200,
+              "Size": 377,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/Authentication/GetUserDetails"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/xml",
+              "DownloadTime": 1203,
+              "EventId": 904,
+              "HttpStatus": 200,
+              "Size": 229,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/ExplicitAuth/ResumeForms"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "",
+              "DownloadTime": 312,
+              "EventId": 870,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "",
+              "DownloadTime": 172,
+              "EventId": 838,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 141,
+              "EventId": 834,
+              "HttpStatus": 200,
+              "Size": 18564,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 422,
+              "EventId": 832,
+              "HttpStatus": 302,
+              "Size": 165,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/ExplicitAuth/Bounce"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/vnd.citrix.authenticateresponse-1+xml",
+              "DownloadTime": 328,
+              "EventId": 675,
+              "HttpStatus": 200,
+              "Size": 495,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/ExplicitAuth/Login"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 641,
+              "HttpStatus": 200,
+              "Size": 42,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/Authentication/GetUserDetails"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/png",
+              "DownloadTime": 46,
+              "EventId": 446,
+              "HttpStatus": 200,
+              "Size": 688,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/favicon.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 78,
+              "EventId": 438,
+              "HttpStatus": 200,
+              "Size": 7408,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/workspace-vertical-logo-teal.svg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 47,
+              "EventId": 434,
+              "HttpStatus": 200,
+              "Size": 496,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/spinner-teal.svg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "",
+              "DownloadTime": 47,
+              "EventId": 432,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 63,
+              "EventId": 320,
+              "HttpStatus": 200,
+              "Size": 39045,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/react.2bd7a2cfd6f3a5c98233.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 125,
+              "EventId": 313,
+              "HttpStatus": 200,
+              "Size": 338417,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/workspace.844d7d2c2fb233da9333.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 141,
+              "EventId": 284,
+              "HttpStatus": 200,
+              "Size": 8779,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/runtime.19e95931771d1af72911.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "",
+              "DownloadTime": 140,
+              "EventId": 253,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 177,
+              "HttpStatus": 200,
+              "Size": 18564,
+              "URL": "https://cevalogistics.cloud.com/Citrix/StoreWeb/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 151,
+              "HttpStatus": 302,
+              "Size": 171,
+              "URL": "https://cevalogistics.cloud.com/"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "52.137.26.29",
+          "IncludeInScript": true,
+          "Name": "accounts.cloud.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 390,
+              "EventId": 821,
+              "HttpStatus": 200,
+              "Size": 1162,
+              "URL": "https://accounts.cloud.com/core/connect/authorize/callback?client_id=3lnnAilQNhUSvIR09fRuNg%3D%3D&redirect_uri=https%3A%2F%2Faccounts-dsauthweb.cloud.com%2Foidc%2Frp&response_mode=form_post&response_type=code&scope=openid%20profile%20email%20ctx_principal_aliases%20ctx_universal%20cip_credentials&acr_values=tenant%3AtTI-xE0hYUaTHUoxjY46ig%20product%3Afd%20ticket_timeout%3A0.08%3A00%3A00&state=CfDJ8A4yPTlIR4tPmKNUxzs0HUCb_T2qqs3zqwAtv60A6JmiVoZdTEPKaZXLYLUBn2F2DKvMWhCDktOkX8ReNbjGjmnpB-hzVl8npi1X5-typDEY-03JUKz-iVyeCkk_Ji47bZF_OEZDc-AhQruB-9Ut3-XMaIAIiJaUPhegei-Si4Zog9B1VuKpYLWSgGCAWdYPA8bkuMelqQpJuSnDPDhOZ_T5CYsyFssMrVEpiG5mJei0Ix5hiE2LZrbGroDyf8nn6moLItq5CCqMlRpm-AxQCgAU5jVFhic7HdosOkMNex1o"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 656,
+              "EventId": 818,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://accounts.cloud.com/core/internalfederation/return?validate=e42a5e4f23e6140fe26497566d1de8ab"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 250,
+              "EventId": 723,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://accounts.cloud.com/core/internalfederation/redirect?session=a4f6726e-7976-4564-ab07-7d22563d7315&prompt=login"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 422,
+              "EventId": 721,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://accounts.cloud.com/core/login?ReturnUrl=%2Fcore%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D3lnnAilQNhUSvIR09fRuNg%253D%253D%26redirect_uri%3Dhttps%253A%252F%252Faccounts-dsauthweb.cloud.com%252Foidc%252Frp%26response_mode%3Dform_post%26response_type%3Dcode%26scope%3Dopenid%2520profile%2520email%2520ctx_principal_aliases%2520ctx_universal%2520cip_credentials%26acr_values%3Dtenant%253AtTI-xE0hYUaTHUoxjY46ig%2520product%253Afd%2520ticket_timeout%253A0.08%253A00%253A00%26state%3DCfDJ8A4yPTlIR4tPmKNUxzs0HUCb_T2qqs3zqwAtv60A6JmiVoZdTEPKaZXLYLUBn2F2DKvMWhCDktOkX8ReNbjGjmnpB-hzVl8npi1X5-typDEY-03JUKz-iVyeCkk_Ji47bZF_OEZDc-AhQruB-9Ut3-XMaIAIiJaUPhegei-Si4Zog9B1VuKpYLWSgGCAWdYPA8bkuMelqQpJuSnDPDhOZ_T5CYsyFssMrVEpiG5mJei0Ix5hiE2LZrbGroDyf8nn6moLItq5CCqMlRpm-AxQCgAU5jVFhic7HdosOkMNex1o"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 250,
+              "EventId": 719,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://accounts.cloud.com/core/connect/authorize?client_id=3lnnAilQNhUSvIR09fRuNg%3D%3D&redirect_uri=https%3A%2F%2Faccounts-dsauthweb.cloud.com%2Foidc%2Frp&response_mode=form_post&response_type=code&scope=openid%20profile%20email%20ctx_principal_aliases%20ctx_universal%20cip_credentials&acr_values=tenant%3AtTI-xE0hYUaTHUoxjY46ig%20product%3Afd%20ticket_timeout%3A0.08%3A00%3A00&prompt=login&state=CfDJ8A4yPTlIR4tPmKNUxzs0HUCb_T2qqs3zqwAtv60A6JmiVoZdTEPKaZXLYLUBn2F2DKvMWhCDktOkX8ReNbjGjmnpB-hzVl8npi1X5-typDEY-03JUKz-iVyeCkk_Ji47bZF_OEZDc-AhQruB-9Ut3-XMaIAIiJaUPhegei-Si4Zog9B1VuKpYLWSgGCAWdYPA8bkuMelqQpJuSnDPDhOZ_T5CYsyFssMrVEpiG5mJei0Ix5hiE2LZrbGroDyf8nn6moLItq5CCqMlRpm-AxQCgAU5jVFhic7HdosOkMNex1o"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "51.138.80.236",
+          "IncludeInScript": true,
+          "Name": "accounts-dsauthweb.cloud.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 125,
+              "EventId": 830,
+              "HttpStatus": 404,
+              "Size": 0,
+              "URL": "https://accounts-dsauthweb.cloud.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 250,
+              "EventId": 826,
+              "HttpStatus": 200,
+              "Size": 1092,
+              "URL": "https://accounts-dsauthweb.cloud.com/oidc/rp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 78,
+              "EventId": 704,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://accounts-dsauthweb.cloud.com/tTI-xE0hYUaTHUoxjY46ig/oidc/webview/CfDJ8A4yPTlIR4tPmKNUxzs0HUDRaoJXCOGo0ONgh6brFuc4pGL_6fskVSNeoHb6tVgEk8D1o1GtV3z2DYJiB-FT4_RUMstNIukVuiD8T3HdEw-ngeT1wsOI4Fvvs__J-kLpmw?_id=webviewResponseId&_cx=&_rt=https%3A%2F%2Fcevalogistics.cloud.com%2FCitrix%2FStoreWeb%2FExplicitAuth%2FBounce&_cs=1D4B8978389D762DE37A667B57625FE1&_ps=true"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "cevalogistics.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "194.26.68.75",
+          "IncludeInScript": true,
+          "Name": "idp.cevalogistics.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 125,
+              "EventId": 808,
+              "HttpStatus": 200,
+              "Size": 5953,
+              "URL": "https://idp.cevalogistics.com/adfs/ls/?SAMLRequest=nZNNb9swDIb%2FiqG7I9txl1ZIAmQJhgXoNiPxduhlUGS6FaAPT5TT7t9PspM2hy6HHk2%2BJJ%2BXlOfIterYqvdPZgd%2FekCfbDcL8rtosxuAMk%2Bns8MsLWeH2%2FQwvYH0U3F714ryTmRQkuQXOJTWLEgxyUiyRexha9Bz40MoK4o0y9OirPOM5VOWlw8k2YQJ0nA%2FVD153yGjVDbdRMCRK%2FsoQ1rgRFhNedMiVUhJ8sU6AQPjgrRcIcRZFUeUR3iNVM56K6z6LE0jzeOC9M4wy1EiM1wDMi%2FYfvXtngVWdhhFyL7WdZVWP%2FY1SVaI4CLY2hrsNbg9uKMU8HN3%2F4Ya9zURyvbNwBg%2FKRc4jD%2FKBtz3MGuUXzeGY3Ok3vXoSfKilUE2nOM6enfySZbzqGbD1t1F%2FfVyfnZJlu97mtOLtuOMjkVX201llRR%2Fk5VS9nntgPvgNOCH5dOz8PSIoBnOFTbp4cUna6s77iTGo2tppO71Gf9St1aBbgftR8xclQkmYusQjq%2Fm2bomvhYQgbN23GBnnT%2F5fo9nOeb%2B4%2B41e%2FkXLf8B&RelayState=wFE7BqZPSjWBmBBioyCYjw%3D%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=SH%2B0%2BMacA6LSwZFDGO3%2F6Xdlz4FdCvrsHG3%2BUXsCjQme44d6rH4Il5xh4B9OV9z6Yvf%2FISYh4NKdnXsv%2B%2BmufEDLbv9DSGHNCTiIBWlpxABrz%2BoVzN81QDzDe97f5xyj95hPnzi4EleNF%2FOcRDq2lybdGAyQAfMDwfDwzrDupXIxr9OydrJbwck9eEFpfVAIBv71fpcfLTiLXQgY8uIu9B%2FjTau38rmMnoFXRBVVFSa9DFNeWREaEMU3Zn2uu7KBbu9nePgGQfvyXxpYb7z9xBfs2nAm3uE%2Fif%2Fshm%2BcUDLqpYl7bM1gClBZ%2FEBvoBvIRASKGZcuyFtN0ZXu97As%2Fg%3D%3D&client-request-id=46eba8f4-4745-4a25-f15a-038001000003"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 172,
+              "EventId": 806,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://idp.cevalogistics.com/adfs/ls/?SAMLRequest=nZNNb9swDIb%2FiqG7I9txl1ZIAmQJhgXoNiPxduhlUGS6FaAPT5TT7t9PspM2hy6HHk2%2BJJ%2BXlOfIterYqvdPZgd%2FekCfbDcL8rtosxuAMk%2Bns8MsLWeH2%2FQwvYH0U3F714ryTmRQkuQXOJTWLEgxyUiyRexha9Bz40MoK4o0y9OirPOM5VOWlw8k2YQJ0nA%2FVD153yGjVDbdRMCRK%2FsoQ1rgRFhNedMiVUhJ8sU6AQPjgrRcIcRZFUeUR3iNVM56K6z6LE0jzeOC9M4wy1EiM1wDMi%2FYfvXtngVWdhhFyL7WdZVWP%2FY1SVaI4CLY2hrsNbg9uKMU8HN3%2F4Ya9zURyvbNwBg%2FKRc4jD%2FKBtz3MGuUXzeGY3Ok3vXoSfKilUE2nOM6enfySZbzqGbD1t1F%2FfVyfnZJlu97mtOLtuOMjkVX201llRR%2Fk5VS9nntgPvgNOCH5dOz8PSIoBnOFTbp4cUna6s77iTGo2tppO71Gf9St1aBbgftR8xclQkmYusQjq%2Fm2bomvhYQgbN23GBnnT%2F5fo9nOeb%2B4%2B41e%2FkXLf8B&RelayState=wFE7BqZPSjWBmBBioyCYjw%3D%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=SH%2B0%2BMacA6LSwZFDGO3%2F6Xdlz4FdCvrsHG3%2BUXsCjQme44d6rH4Il5xh4B9OV9z6Yvf%2FISYh4NKdnXsv%2B%2BmufEDLbv9DSGHNCTiIBWlpxABrz%2BoVzN81QDzDe97f5xyj95hPnzi4EleNF%2FOcRDq2lybdGAyQAfMDwfDwzrDupXIxr9OydrJbwck9eEFpfVAIBv71fpcfLTiLXQgY8uIu9B%2FjTau38rmMnoFXRBVVFSa9DFNeWREaEMU3Zn2uu7KBbu9nePgGQfvyXxpYb7z9xBfs2nAm3uE%2Fif%2Fshm%2BcUDLqpYl7bM1gClBZ%2FEBvoBvIRASKGZcuyFtN0ZXu97As%2Fg%3D%3D&client-request-id=46eba8f4-4745-4a25-f15a-038001000003"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 125,
+              "EventId": 774,
+              "HttpStatus": 200,
+              "Size": 197191,
+              "URL": "https://idp.cevalogistics.com/adfs/portal/illustration/illustration.png?id=137068B663E06A3EB22CADA0A2B2586B2B41CECFF707C24067AE391967B21E03"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 109,
+              "EventId": 767,
+              "HttpStatus": 404,
+              "Size": 315,
+              "URL": "https://idp.cevalogistics.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 125,
+              "EventId": 762,
+              "HttpStatus": 200,
+              "Size": 9824,
+              "URL": "https://idp.cevalogistics.com/adfs/portal/logo/logo.png?id=EEC3CF47FAFAD59C84F33C171B88CF72647BE58F226928DCC09E5D6FB3B7D80C"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 125,
+              "EventId": 757,
+              "HttpStatus": 200,
+              "Size": 31224,
+              "URL": "https://idp.cevalogistics.com/adfs/portal/css/style.css?id=A7618A91AF9831C8CDF5863B4179236EC332904F166B2A3D6BF41BE9F87FCC37"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 141,
+              "EventId": 749,
+              "HttpStatus": 200,
+              "Size": 32837,
+              "URL": "https://idp.cevalogistics.com/adfs/ls/?SAMLRequest=nZNNb9swDIb%2FiqG7I9txl1ZIAmQJhgXoNiPxduhlUGS6FaAPT5TT7t9PspM2hy6HHk2%2BJJ%2BXlOfIterYqvdPZgd%2FekCfbDcL8rtosxuAMk%2Bns8MsLWeH2%2FQwvYH0U3F714ryTmRQkuQXOJTWLEgxyUiyRexha9Bz40MoK4o0y9OirPOM5VOWlw8k2YQJ0nA%2FVD153yGjVDbdRMCRK%2FsoQ1rgRFhNedMiVUhJ8sU6AQPjgrRcIcRZFUeUR3iNVM56K6z6LE0jzeOC9M4wy1EiM1wDMi%2FYfvXtngVWdhhFyL7WdZVWP%2FY1SVaI4CLY2hrsNbg9uKMU8HN3%2F4Ya9zURyvbNwBg%2FKRc4jD%2FKBtz3MGuUXzeGY3Ok3vXoSfKilUE2nOM6enfySZbzqGbD1t1F%2FfVyfnZJlu97mtOLtuOMjkVX201llRR%2Fk5VS9nntgPvgNOCH5dOz8PSIoBnOFTbp4cUna6s77iTGo2tppO71Gf9St1aBbgftR8xclQkmYusQjq%2Fm2bomvhYQgbN23GBnnT%2F5fo9nOeb%2B4%2B41e%2FkXLf8B&RelayState=wFE7BqZPSjWBmBBioyCYjw%3D%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=SH%2B0%2BMacA6LSwZFDGO3%2F6Xdlz4FdCvrsHG3%2BUXsCjQme44d6rH4Il5xh4B9OV9z6Yvf%2FISYh4NKdnXsv%2B%2BmufEDLbv9DSGHNCTiIBWlpxABrz%2BoVzN81QDzDe97f5xyj95hPnzi4EleNF%2FOcRDq2lybdGAyQAfMDwfDwzrDupXIxr9OydrJbwck9eEFpfVAIBv71fpcfLTiLXQgY8uIu9B%2FjTau38rmMnoFXRBVVFSa9DFNeWREaEMU3Zn2uu7KBbu9nePgGQfvyXxpYb7z9xBfs2nAm3uE%2Fif%2Fshm%2BcUDLqpYl7bM1gClBZ%2FEBvoBvIRASKGZcuyFtN0ZXu97As%2Fg%3D%3D"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "cedexis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "45.54.49.5",
+          "IncludeInScript": true,
+          "Name": "radar.cedexis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 32,
+              "EventId": 1030,
+              "HttpStatus": 200,
+              "Size": 271,
+              "URL": "https://radar.cedexis.com/1621860284/stub.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 891,
+              "EventId": 1028,
+              "HttpStatus": 302,
+              "Size": 154,
+              "URL": "https://radar.cedexis.com/1/55156/radar.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "azureedge.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "13.107.246.42",
+          "IncludeInScript": true,
+          "Name": "cips-iws-prod-weu-cip-cdn.azureedge.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 281,
+              "EventId": 902,
+              "HttpStatus": 200,
+              "Size": 13717,
+              "URL": "https://cips-iws-prod-weu-cip-cdn.azureedge.net/iwsprodweucip-container/womkdccyy46o-c786167b-5dd1-509a-8071-272c84f57d92-logonLogo-l0nOmghv"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 682,
+              "HttpStatus": 200,
+              "Size": 13717,
+              "URL": "https://cips-iws-prod-weu-cip-cdn.azureedge.net/iwsprodweucip-container/womkdccyy46o-c786167b-5dd1-509a-8071-272c84f57d92-logonLogo-l0nOmghv"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "amazontrust.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "52.222.161.179",
+          "IncludeInScript": true,
+          "Name": "ocsp.sca1b.amazontrust.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 500,
+              "EventId": 500,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "http://ocsp.sca1b.amazontrust.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/ocsp-response",
+              "DownloadTime": 343,
+              "EventId": 365,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "http://ocsp.sca1b.amazontrust.com/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": true
+  },
+  "NumberOfCorrelations": 12
+}

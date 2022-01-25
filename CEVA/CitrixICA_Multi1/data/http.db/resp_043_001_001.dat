@@ -1,0 +1,774 @@
+ <!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1"/>
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <meta http-equiv="cache-control" content="no-cache,no-store"/>
+        <meta http-equiv="pragma" content="no-cache"/>
+        <meta http-equiv="expires" content="-1"/>
+        <meta name='mswebdialog-title' content='Connecting to CEVA Logistics Federation Services'/>
+
+        <title>Sign In</title>
+        <script type='text/javascript'>
+//<![CDATA[
+function LoginErrors(){this.userNameFormatError = 'Enter your user ID in the format \u0026quot;domain\\user\u0026quot; or \u0026quot;user@domain\u0026quot;.'; this.passwordEmpty = 'Enter your password.'; this.passwordTooLong = 'Password is too long (\u0026gt; 128 characters).';}; var maxPasswordLength = 128;
+//]]>
+</script>
+
+<script type='text/javascript'>
+//<![CDATA[
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+function InputUtil(errTextElementID, errDisplayElementID, errTextPasswordElementID, errPasswordDisplayElementID, errTextOptionElementID, errOptionDisplayElementID) {
+
+    if (!errTextElementID) errTextElementID = 'errorText';
+    if (!errTextPasswordElementID) errTextPasswordElementID = 'errorTextPassword';
+    if (!errTextOptionElementID) errTextOptionElementID = 'errorTextOption';
+    if (!errDisplayElementID)  errDisplayElementID = 'error'; 
+    if (!errPasswordDisplayElementID) errPasswordDisplayElementID = 'errorPassword';
+    if (!errOptionDisplayElementID) errOptionDisplayElementID = 'errorOption';
+
+    this.hasFocus = false;
+    this.errLabel = document.getElementById(errTextElementID);
+    this.errDisplay = document.getElementById(errDisplayElementID);
+    this.errPassLabel = document.getElementById(errTextPasswordElementID);
+    this.errPassDisplay = document.getElementById(errPasswordDisplayElementID);
+    this.errOptionLabel = document.getElementById(errTextOptionElementID);
+    this.errOptionDisplay = document.getElementById(errOptionDisplayElementID);
+};
+InputUtil.prototype.canDisplayError = function () {
+    return (this.errLabel && this.errDisplay) || (this.errPassLabel && this.errPassDisplay) || (this.errOptionLabel && this.errOptionDisplay);
+}
+InputUtil.prototype.checkError = function () {
+    if (!this.canDisplayError){
+        throw new Error ('Error element not present');
+    }
+
+    var hasUserError = false;
+    var hasPassError = false;
+    var hasOptionError = false;
+    var cause;
+
+    if (this.errLabel && this.errLabel.innerHTML) {
+        this.errDisplay.style.display = '';
+        cause = this.errLabel.getAttribute('for');
+        hasUserError = true;
+    }
+
+    if (this.errPassLabel && this.errPassLabel.innerHTML)
+    {
+        this.errPassDisplay.style.display = '';
+        cause = this.errPassLabel.getAttribute('for');
+        hasPassError = true;
+    }
+
+    if (this.errOptionLabel && this.errOptionLabel.innerHTML) {
+        this.errOptionDisplay.style.display = '';
+        cause = this.errOptionLabel.getAttribute('for');
+        hasOptionError = true;
+    }
+
+    if (cause) {
+        var causeNode = document.getElementById(cause);
+        if (causeNode && causeNode.value) {
+            causeNode.focus();
+            this.hasFocus = true;
+        }
+    }
+
+    if (!hasUserError) {
+        if (this.errLabel && this.errLabel.innerHTML) {
+            this.errDisplay.style.display = 'none';
+        }
+    }
+
+    if (!hasPassError) {
+        if (this.errPassLabel && this.errPassLabel.innerHTML) {
+            this.errPassDisplay.style.display = 'none';
+        }
+    }
+
+    if (!hasOptionError) {
+        if (this.errOptionLabel && this.errOptionLabel.innerHTML) {
+            this.errOptionDisplay.style.display = 'none';
+        }
+    }
+};
+InputUtil.prototype.clearError = function() {
+    if (!this.canDisplayError) {
+        throw new Error('Error element not present');
+    }
+
+    if (this.errLabel && this.errLabel.innerHTML) {
+        this.errLabel.innerHTML = '';
+        this.errDisplay.style.display = 'none';
+    }
+
+    if (this.errPassLabel && this.errPassLabel.innerHTML) {
+        this.errPassLabel.innerHTML = '';
+        this.errPassDisplay.style.display = 'none';
+    }
+
+    if (this.errOptionLabel && this.errOptionLabel.innerHTML) {
+        this.errOptionLabel.innerHTML = '';
+        this.errOptionDisplay.style.display = 'none';
+    }
+};
+InputUtil.prototype.setInitialFocus = function (input) {
+    if (this.hasFocus) return;
+    var node = document.getElementById(input);
+    if (node) {
+        if ((/^\s*$/).test(node.value)) {
+            node.focus();
+            this.hasFocus = true;
+        }
+    }
+};
+InputUtil.prototype.setError = function (input, errorMsg, password) {
+    if (!this.canDisplayError) {
+        throw new Error('Error element not present');
+    }
+    input.focus();
+
+    if (errorMsg) {
+        if (password) {
+            this.errPassLabel.innerHTML = errorMsg;
+            this.errPassDisplay.style.display = '';
+        } else {
+            this.errLabel.innerHTML = errorMsg;
+            this.errDisplay.style.display = '';
+        }
+    }
+
+    if (password) {
+        this.errPassLabel.setAttribute('for', input.id);
+        this.errPassDisplay.style.display = '';
+    } else {
+        this.errLabel.setAttribute('for', input.id);
+        this.errDisplay.style.display = '';
+    }
+};
+InputUtil.makePlaceholder = function (input) {
+    var ua = navigator.userAgent;
+
+    if (ua != null && 
+        (ua.match(/MSIE 9.0/) != null || 
+         ua.match(/MSIE 8.0/) != null ||
+         ua.match(/MSIE 7.0/) != null)) {
+        var node = document.getElementById(input);
+        if (node) {
+            var placeholder = node.getAttribute("placeholder");
+            if (placeholder != null && placeholder != '') {
+                var label = document.createElement('input');
+                label.type = "text";
+                label.value = placeholder;
+                label.readOnly = true;
+                label.style.position = 'absolute';
+                label.style.borderColor = 'transparent';
+                label.className = node.className + ' hint';
+                label.tabIndex = -1;
+                label.onfocus = function () { this.nextSibling.focus(); };
+
+                node.style.position = 'relative';
+                node.parentNode.style.position = 'relative';
+                node.parentNode.insertBefore(label, node);
+                node.onkeyup = function () { InputUtil.showHint(this); };
+                node.onblur = function () { InputUtil.showHint(this); };
+                node.style.background = 'transparent';
+
+                node.setAttribute("placeholder", "");
+                InputUtil.showHint(node);
+            }
+        }
+    }
+};
+InputUtil.focus = function (inputField) {
+    var node = document.getElementById(inputField);
+    if (node) node.focus();
+};
+InputUtil.hasClass = function(node, clsName) {
+    return node.className.match(new RegExp('(\\s|^)' + clsName + '(\\s|$)'));
+};
+InputUtil.addClass = function(node, clsName) {
+    if (!this.hasClass(node, clsName)) node.className += " " + clsName;
+};
+InputUtil.removeClass = function(node, clsName) {
+    if (this.hasClass(node, clsName)) {
+        var reg = new RegExp('(\\s|^)' + clsName + '(\\s|$)');
+        node.className = node.className.replace(reg, ' ');
+    }
+};
+InputUtil.showHint = function (node, gotFocus) {
+    if (node.value && node.value != '') {
+        node.previousSibling.style.display = 'none';
+    }
+    else {
+        node.previousSibling.style.display = '';
+    }
+};
+InputUtil.updatePlaceholder = function (input, placeholderText) {
+    var node = document.getElementById(input);
+    if (node) {
+        var ua = navigator.userAgent;
+        if (ua != null &&
+            (ua.match(/MSIE 9.0/) != null ||
+            ua.match(/MSIE 8.0/) != null ||
+            ua.match(/MSIE 7.0/) != null)) {
+            var label = node.previousSibling;
+            if (label != null) {
+                label.value = placeholderText;
+            }
+        }
+        else {
+            node.placeholder = placeholderText;
+        }
+    }
+};
+
+//]]>
+</script>
+
+<script type='text/javascript'>
+//<![CDATA[
+/* 
+ * Copyright (c) Microsoft Corporation.  All rights reserved.
+ *
+ * Description: Functions to perform login page pagination
+ * 
+ */
+
+PaginationUtil = {
+    /*
+     * Helper to extract a query parameter. Taken from Main_Browser.js
+     *
+     * param: Name of the parameter to extract.
+     * returns: The query parameter value if it PaginationUtil.exists otherwise it returns
+     *     an empty string.
+     */
+    ExtractQSParam: function (param) {
+        var sQS = document.location.search.toLowerCase();
+        if (sQS)
+            sQS = sQS.substr(1);
+        return PaginationUtil.ExtractToken(sQS, param.toLowerCase(), "&", "=", "");
+    },
+
+    /* 
+     *  Extract a specific token from a string.    
+     *
+     *  Args:
+     *      sString - the full string
+     *      sName   - the name of the token
+     *      sDelim  - the token delimiter (default '&')
+     *      sSep    - the name=value pair separator (default '=')
+     *
+     *  Returns: string
+     *      the value of the token if PaginationUtil.exists
+     *      null otherwise
+     */
+    ExtractToken: function (sString, sName, sDelim, sSep, sDefault) {
+        sDelim = PaginationUtil.valOrDefault(sDelim, "&");
+        sSep = PaginationUtil.valOrDefault(sSep, "=");
+        var value = PaginationUtil.valOrDefault(sDefault, null);
+
+        if (!sString)
+            return value;
+
+        var start = sString.indexOf(sName + sSep);
+
+        if (0 == start) {
+            start += sName.length + 1;
+        }
+        else if (0 < start) {
+            start = sString.indexOf(sDelim + sName + sSep);
+            if (0 < start) { start += sDelim.length + sName.length + 1; }
+        }
+
+        if (-1 != start) {
+            var end = sString.indexOf(sDelim, start);
+            if (-1 == end) { end = sString.length; }
+            value = sString.substring(start, end);
+        }
+
+        return value;
+    },
+
+    // Helper to handle supporting default values.
+    valOrDefault: function (oVal, oDefault) {
+        return ((PaginationUtil.exists(oVal)) ? oVal : oDefault);
+    },
+
+    // Helper for testing existence.
+    exists: function (v) {
+        return ((v) ? true : (v == 0 || v == false || v == ""));
+    }
+}
+
+PaginationManager = {
+
+    /*
+     * Initialize state
+     * 'options' is an object with extra options to use. An example:
+     * {
+     *    pages: ["usernamePage", "primaryOptionsPage", "passwordPage"],     // required
+     *    currentPageIndex: 0                                                // optional - default 0 
+     * }
+     */
+    Initialize: function (options) {
+        this.options = options || { pages: ["usernamePage", "primaryOptionsPage", "passwordPage"], currentPageIndex: 0 };
+        this.debugMode = PaginationUtil.ExtractQSParam('debugMode').toLowerCase();
+
+        var pageElements = [];
+        for (var i = 0; i < this.options.pages.length; i++) {
+            pageElements.push(document.getElementById(this.options.pages[i]));
+        }
+
+        this.options.pages = pageElements;
+        this.initializePageDisplayedElements();
+    },
+
+    initializePageDisplayedElements: function() {
+        _self = this;
+
+        // Hide the back button on pages that can't go back
+        if (_self.options.pages && _self.options.pages[0]) {
+            var passwordBack = document.getElementById("backButtonArea");
+            var optionsBack = document.getElementById("optionsBackButtonArea");
+
+            if (passwordBack && _self.options.pages[0].id === "passwordPage") {
+                passwordBack.style.display = "none";
+                var submitButton = document.getElementById("submitButton");
+                if (submitButton && submitButton.classList) {
+                    submitButton.classList.remove("rightHalfWidthButton");
+                }
+            }
+
+            if (optionsBack && _self.options.pages[0].id === "primaryOptionsPage") {
+                optionsBack.style.display = "none";
+            }
+        }
+
+        // Hide all pages, and display the start page 
+        _self.adjustElementDisplay(_self.options.pages, "none");
+        _self.adjustElementDisplay([_self.options.pages[_self.options.currentPageIndex]], "block");
+        _self.setFocus();
+    },
+
+    adjustElementDisplay: function (elementList, display)
+    {
+        for ( var i = 0; i < elementList.length; i++ )
+        {
+            if ( elementList[i] && elementList[i].style )
+            {
+                elementList[i].style.display = display;
+            }
+        }
+    },
+
+    isValidIndex: function (index, arrayLength) {
+        if (arrayLength <= 0 || index < 0) {
+            return false;
+        }
+        
+        if (index <= arrayLength - 1) {
+            return true;
+        }
+    },
+
+    displayPage: function (args) {
+        var _self = this;
+        if (_self.options.pages && _self.options.pages.length > 0) {
+            var exp = 0;
+            if (args && args.backwards) {
+                exp = 1;
+            }
+            var pageToHideIndex = _self.options.currentPageIndex;
+            if (_self.isValidIndex(_self.options.currentPageIndex + Math.pow(-1, exp), _self.options.pages.length)) {
+                _self.options.currentPageIndex = _self.options.currentPageIndex + Math.pow(-1, exp);
+                _self.redrawPages(pageToHideIndex, _self.options.currentPageIndex);
+            } else {
+                if (_self.debugMode && console && console.log) {
+                    console.log("[ADFS]: Attempted to navigate to an invalid page index");
+                }
+            }
+        }
+    },
+
+    updatePagesWithUsername: function (username) {
+        var idBanner = document.getElementById("identityBanner");
+        var formUsernameInput = document.getElementById("userNameInputHolder");
+        var optionsUsernameInput = document.getElementById("userNameInputOptionsHolder");
+        var idBannerOptionsPage = document.getElementById("identityBannerOptions");
+        var kmsiHolder = document.getElementById("kmsiHolder");
+        var kmsiInput = document.getElementById("kmsiInput");
+        
+        if (idBanner) {
+            idBanner.innerText = username;
+        }
+
+        if (idBannerOptionsPage) {
+            idBannerOptionsPage.innerText = username;
+        }
+
+        if (formUsernameInput) {
+            formUsernameInput.value = username;
+        }
+
+        if (optionsUsernameInput) {
+            optionsUsernameInput.value = username;
+        }
+
+        if (kmsiInput && kmsiHolder) {
+            kmsiHolder.value = kmsiInput.value;
+        }
+    },
+
+    validateAndNext: function () {
+        var u = new InputUtil();
+        var e = new LoginErrors();
+
+        var userName = document.getElementById(Login.userNameInput);
+
+        if (!userName.value || !userName.value.match('[@\\\\]')) {
+            u.setError(userName, e.userNameFormatError);
+            return false;
+        }
+
+        _self.updatePagesWithUsername(userName.value);
+        u.clearError();
+
+        if (_self.options.currentPageIndex + 1 >= _self.options.pages.length) {
+            // POST back to ADFS since there are no more pages to go to 
+            document.forms['loginFormPaginated'].submit();
+            return true;
+        } else {
+            _self.displayNextPage();
+        }
+        
+        return true;
+    },
+
+    displayNextPage: function () {
+        _self = this;
+        _self.displayPage({ backwards: false });
+    },
+
+    displayPreviousPage: function () {
+        _self = this;
+        var u = new InputUtil();
+        u.clearError();
+        _self.displayPage({ backwards: true });
+    },
+
+    redrawPages: function (pageToHideIndex, pageToShowIndex) {
+        _self = this;
+        _self.adjustElementDisplay([_self.options.pages[pageToHideIndex]], "none");
+        _self.adjustElementDisplay([_self.options.pages[pageToShowIndex]], "block");
+        _self.setFocus();
+    },
+
+    setFocus: function () {
+        var usernameInput = document.getElementById(Login.userNameInput);
+        var passwordInput = document.getElementById(Login.passwordInput);
+        var optionInput = document.getElementsByClassName("optionButton");
+        
+        if (usernameInput && _self.options.pages[_self.options.currentPageIndex] && _self.options.pages[_self.options.currentPageIndex].id === "usernamePage") {
+            usernameInput.focus();
+        } else if (passwordInput && _self.options.pages[_self.options.currentPageIndex] && _self.options.pages[_self.options.currentPageIndex].id === "passwordPage") {
+            passwordInput.focus();
+        } 
+        else if (optionInput && optionInput.length > 0 && _self.options.pages[_self.options.currentPageIndex] && _self.options.pages[_self.options.currentPageIndex].id === "primaryOptionsPage") {
+            optionInput[0].focus();
+        } 
+    }
+};
+
+var paginationManager = PaginationManager;
+
+
+//]]>
+</script>
+
+<script type='text/javascript'>
+//<![CDATA[
+LoginManager = {
+    initialize: function () {
+        var u = new InputUtil();
+
+        this.userNameInput = 'userNameInput';
+        this.userNameInputHolder = 'userNameInputHolder';
+        this.passwordInput = 'passwordInput';
+
+        u.checkError();
+        u.setInitialFocus(Login.userNameInput);
+        u.setInitialFocus(Login.passwordInput);
+    },
+
+    submitLoginRequest: function () {
+        var u = new InputUtil();
+        var e = new LoginErrors();
+
+        var userName = document.getElementById(Login.userNameInput);
+        var userNamePaginated = document.getElementById(Login.userNameInputHolder);
+        var password = document.getElementById(Login.passwordInput);
+
+        if (!userName && userNamePaginated) {
+            userName = userNamePaginated;
+        }
+
+        if (!userName.value || !userName.value.match('[@\\\\]')) {
+            u.setError(userName, e.userNameFormatError);
+            return false;
+        }
+
+        if (!password.value) {
+            u.setError(password, e.passwordEmpty, true);
+            return false;
+        }
+
+        if (password.value.length > maxPasswordLength) {
+            u.setError(password, e.passwordTooLong, true);
+            return false;
+        }
+
+        document.forms['loginForm'].submit();
+        return false;
+    }
+};
+var Login = LoginManager;
+Login.initialize();
+InputUtil.makePlaceholder(Login.userNameInput);
+InputUtil.makePlaceholder(Login.passwordInput);
+//]]>
+</script>
+
+
+        
+        <link rel="stylesheet" type="text/css" href="/adfs/portal/css/style.css?id=A7618A91AF9831C8CDF5863B4179236EC332904F166B2A3D6BF41BE9F87FCC37" /><style>.illustrationClass {background-image:url(/adfs/portal/illustration/illustration.png?id=137068B663E06A3EB22CADA0A2B2586B2B41CECFF707C24067AE391967B21E03);}</style>
+
+    </head>
+    <body dir="ltr" class="body">
+    <div id="noScript" style="position:static; width:100%; height:100%; z-index:100">
+        <h1>JavaScript required</h1>
+        <p>JavaScript is required. This web browser does not support JavaScript or JavaScript in this web browser is not enabled.</p>
+        <p>To find out if your web browser supports JavaScript or to enable JavaScript, see web browser help.</p>
+    </div>
+    <script type="text/javascript" language="JavaScript">
+         document.getElementById("noScript").style.display = "none";
+    </script>
+    <div id="fullPage">
+        <div id="brandingWrapper" class="float">
+            <div id="branding"></div>
+        </div>
+        <div id="contentWrapper" class="float">
+            <div id="content">
+                <div id="header">
+                    <img class='logoImage' id='companyLogo' src='/adfs/portal/logo/logo.png?id=EEC3CF47FAFAD59C84F33C171B88CF72647BE58F226928DCC09E5D6FB3B7D80C' alt='CEVA Logistics Federation Services'/>
+                </div>
+                <main>
+                    <div id="workArea">
+                        
+    <div id="authArea" class="groupMargin">
+        
+        
+        <div id="loginArea">
+    <div id="usernamePage">        
+    <div id="loginMessage" class="groupMargin">Sign in</div>
+    <form method="post" id="loginFormPaginated" class="paginatedPageForm" autocomplete="off" novalidate="novalidate" onKeyPress="if (event && event.keyCode == 13) event.preventDefault();" action="/adfs/ls/?SAMLRequest=nVNNb%2BIwEP0rke%2FBJF2gtQCJBa2K1G4jyO6hl5VxJq0lf6Qeh3b%2Ffe0EKIeWQw85eObNvPdmJlPkWjVs0fpns4GXFtAn69WM%2FMtG43rEd5O0qm%2Fq9AdMJun11WicXt%2Fk4%2B6rd0OS%2FAWH0poZyQfhtUZsYW3Qc%2BNDaJjn6TBL86zMRuxqyLL8kSSrwCAN913Vs%2FcNMkpl1QwE7LmyTzKkBQ6E1ZRXNVKFlCS%2FrBPQaZyRmiuEyFVwRLmHU6Rw1lth1U9pKmmeZqR1hlmOEpnhGpB5wbaL%2BzsWtLJdD0J2W5ZFWjxsS5IsEMFFYUtrsNXgtuD2UsCfzd2H1DivgVC2rTqN8Um5wI5%2BLytwvwNXD79sDPvmSL1r0ZPkTSuDrFvHZenNwSeZTyOadVN3Z%2FWXy%2FnRJZl%2F7mlKz9r2HA2Lrtarwiop%2FicLpezr0gH3wWmQH4ZPj8DDEUHVrStM0sObT5ZWN9xJjEvX0kjd6qP8c9xSBXUbqL9j5iJMMBFbh3C8mlfrqngtIILO0nGDjXX%2B4PszPfM%2B94W7U%2Fb8L5q%2FAw%3D%3D&RelayState=rpu_uW4snlnZ_jUMnwg0sA%3D%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=UuVUowBYCy3cf3n3dnqj%2FpmUkpnnHAzBHrZxIcJTEU1cEO3l%2BDLYnmUzj6XBJPfYkDvEdIz%2BG7T8ql17tn33SFm3y0LqW22nNvgHjQ3vgXa010BajS24Gej4igj07xudEmiGj%2BqTmkYIQYd%2Fa4uZa4LOylwUB1PyUNdhOxNo2gIZkBQyRqvQdiJLArZ3mbIPvEBzRyW%2BK2FnNXpKm1dSEARJ2gYY7G58M46LduDo5fEu4eBvjCj7YXjDEMKGYPUfblLj0Up0O8bTrahCAuCIs4hwFTuIcymPNgpMJjXZTWIAt9YA9I%2FvCwDH2FL2ViXK0IN1bV6m6Heixg0Y0DoiYQ%3D%3D&client-request-id=5e0a0cc9-fef2-4403-5f0d-088001000049">
+        <div id="formsAuthenticationArea">
+            <div id="userNameArea">
+                <label id="userNameInputLabel" for="userNameInput" class="hidden">User Account</label>
+                <input id="userNameInput" name="UserName" type="email" value="" tabindex="1" class="text textPaginated fullWidth" onKeyPress="if (event && event.keyCode == 13) paginationManager.validateAndNext();"
+                       spellcheck="false" placeholder="someone@example.com" autocomplete="off"/>
+            </div>
+            <div id="error" class="fieldMargin error errorUsernamePaginated smallText">
+                <span id="errorText" for="" class="errorText" aria-live="assertive" role="alert"></span>
+            </div>
+            <div id="introduction" class="groupMargin signInIntroduction">
+                
+            </div>
+            <div id="kmsiArea" class="kmsiAreaPaginated" style="display:''">
+                <input type="checkbox" name="Kmsi" id="kmsiInput" value="true" tabindex="2"/>
+                <label for="kmsiInput">Keep me signed in</label>
+            </div>
+        </div>
+    </form>
+    <div id="nextButtonArea">
+        <span id="nextButton" class="next" tabindex="0" role="button"
+              onKeyPress="if (event && (event.keyCode == 32 || event.keyCode == 13)) paginationManager.validateAndNext();"
+              onclick="return paginationManager.validateAndNext();">Next</span>
+    </div>
+</div>
+
+    
+    <div id="passwordPage">
+    <div id="passwordBannerContainer" class="bannerContainer">
+        <div id="backButton" class="back" tabindex="0" role="button"
+                onKeyPress="if (event && (event.keyCode == 32 || event.keyCode == 13)) paginationManager.displayPreviousPage();"
+                onclick="return paginationManager.displayPreviousPage();"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAAGgrv1cAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABsUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHQi/6oAAAAjdFJOUwAIGDk6Ozw9PkBQUlNUVVZ4gIePt7m6u7y9vsvQ0tPU1dbX/DkTUQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAIlJREFUKFOdj9kSgyAMRa/YVrta0O6LVv7/H4142wFbZzqch+QEAgR8MEM6Dkm4usjlESsXdy6+O747FbNw3lCAttJkKZUJj43KKbybkd8pwuJJEWYNRVCWT2oNJDbhcs//VSSqvdECsstjTfWZn+ot1Sc9vApqwN7+QP4osxtrJqaP20JZUuIAOno0CHuPLa6MAAAAAElFTkSuQmCC"></div>        
+        <div id="identityBanner" class="identityBanner"></div>
+    </div>
+    <div id="formsAuthenticationAreaPassword">
+        <form method="post" id="loginForm" autocomplete="off" class="paginatedPageForm" novalidate="novalidate" onKeyPress="if (event && event.keyCode == 13) return Login.submitLoginRequest();" action="/adfs/ls/?SAMLRequest=nVNNb%2BIwEP0rke%2FBJF2gtQCJBa2K1G4jyO6hl5VxJq0lf6Qeh3b%2Ffe0EKIeWQw85eObNvPdmJlPkWjVs0fpns4GXFtAn69WM%2FMtG43rEd5O0qm%2Fq9AdMJun11WicXt%2Fk4%2B6rd0OS%2FAWH0poZyQfhtUZsYW3Qc%2BNDaJjn6TBL86zMRuxqyLL8kSSrwCAN913Vs%2FcNMkpl1QwE7LmyTzKkBQ6E1ZRXNVKFlCS%2FrBPQaZyRmiuEyFVwRLmHU6Rw1lth1U9pKmmeZqR1hlmOEpnhGpB5wbaL%2BzsWtLJdD0J2W5ZFWjxsS5IsEMFFYUtrsNXgtuD2UsCfzd2H1DivgVC2rTqN8Um5wI5%2BLytwvwNXD79sDPvmSL1r0ZPkTSuDrFvHZenNwSeZTyOadVN3Z%2FWXy%2FnRJZl%2F7mlKz9r2HA2Lrtarwiop%2FicLpezr0gH3wWmQH4ZPj8DDEUHVrStM0sObT5ZWN9xJjEvX0kjd6qP8c9xSBXUbqL9j5iJMMBFbh3C8mlfrqngtIILO0nGDjXX%2B4PszPfM%2B94W7U%2Fb8L5q%2FAw%3D%3D&RelayState=rpu_uW4snlnZ_jUMnwg0sA%3D%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=UuVUowBYCy3cf3n3dnqj%2FpmUkpnnHAzBHrZxIcJTEU1cEO3l%2BDLYnmUzj6XBJPfYkDvEdIz%2BG7T8ql17tn33SFm3y0LqW22nNvgHjQ3vgXa010BajS24Gej4igj07xudEmiGj%2BqTmkYIQYd%2Fa4uZa4LOylwUB1PyUNdhOxNo2gIZkBQyRqvQdiJLArZ3mbIPvEBzRyW%2BK2FnNXpKm1dSEARJ2gYY7G58M46LduDo5fEu4eBvjCj7YXjDEMKGYPUfblLj0Up0O8bTrahCAuCIs4hwFTuIcymPNgpMJjXZTWIAt9YA9I%2FvCwDH2FL2ViXK0IN1bV6m6Heixg0Y0DoiYQ%3D%3D&client-request-id=5e0a0cc9-fef2-4403-5f0d-088001000049">
+            <input id="userNameInputHolder" name="UserName" value="" type="hidden"/>
+            <input id="kmsiHolder" name="Kmsi" value="" type="hidden"/>
+            <input id="formsAuthMethod" type="hidden" name="AuthMethod" value="FormsAuthentication"/>
+            <div id="passwordArea">
+                <label id="passwordInputLabel" for="passwordInput" class="hidden">Password</label>
+                <input id="passwordInput" name="Password" type="password" tabindex="1" class="text textPaginated fullWidth"
+                       placeholder="Password" autocomplete="off"/>
+            </div>
+            <span id="submitButton" class="submit submitPaginated" tabindex="0" role="button"
+                  onKeyPress="if (event && (event.keyCode == 32 || event.keyCode == 13)) Login.submitLoginRequest();"
+                  onclick="return Login.submitLoginRequest();">Sign in</span>
+        </form>
+        <div id="errorPassword" class="fieldMargin error smallText">
+            <span id="errorTextPassword" for="" class="errorText" aria-live="assertive" role="alert"></span>
+        </div>
+    </div>
+</div>
+
+
+    <script type="text/javascript">
+        var options = {
+            pages: ["usernamePage","passwordPage"],
+            currentPageIndex: 0
+        };
+        paginationManager.Initialize(options);
+    </script>
+</div>
+
+    </div>
+
+                    </div>
+                </main>
+                <div id="footerPlaceholder"></div>
+            </div>
+            <footer id="footer">
+                <div id="footerLinks" class="floatReverse">
+                    <div><span id="copyright">&#169; 2018 Microsoft</span></div>
+                </div>
+            </footer>
+        </div>     
+    </div>
+    <script type='text/javascript'>
+//<![CDATA[
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+
+// This file contains several workarounds on inconsistent browser behaviors that administrators may customize.
+"use strict";
+
+// iPhone email friendly keyboard does not include "\" key, use regular keyboard instead.
+// Note change input type does not work on all versions of all browsers.
+if (navigator.userAgent.match(/iPhone/i) != null) {
+    var emails = document.querySelectorAll("input[type='email']");
+    if (emails) {
+        for (var i = 0; i < emails.length; i++) {
+            emails[i].type = 'text';
+        }
+    }
+}
+
+// In the CSS file we set the ms-viewport to be consistent with the device dimensions, 
+// which is necessary for correct functionality of immersive IE. 
+// However, for Windows 8 phone we need to reset the ms-viewport's dimension to its original
+// values (auto), otherwise the viewport dimensions will be wrong for Windows 8 phone.
+// Windows 8 phone has agent string 'IEMobile 10.0'
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var msViewportStyle = document.createElement("style");
+    msViewportStyle.appendChild(
+        document.createTextNode(
+            "@-ms-viewport{width:auto!important}"
+        )
+    );
+    msViewportStyle.appendChild(
+        document.createTextNode(
+            "@-ms-viewport{height:auto!important}"
+        )
+    );
+    document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+}
+
+// If the innerWidth is defined, use it as the viewport width.
+if (window.innerWidth && window.outerWidth && window.innerWidth !== window.outerWidth) {
+    var viewport = document.querySelector("meta[name=viewport]");
+    viewport.setAttribute('content', 'width=' + window.innerWidth + ', initial-scale=1.0, user-scalable=1');
+}
+
+// Gets the current style of a specific property for a specific element.
+function getStyle(element, styleProp) {
+    var propStyle = null;
+
+    if (element && element.currentStyle) {
+        propStyle = element.currentStyle[styleProp];
+    }
+    else if (element && window.getComputedStyle) {
+        propStyle = document.defaultView.getComputedStyle(element, null).getPropertyValue(styleProp);
+    }
+
+    return propStyle;
+}
+
+// The script below is used for downloading the illustration image 
+// only when the branding is displaying. This script work together
+// with the code in PageBase.cs that sets the html inline style
+// containing the class 'illustrationClass' with the background image.
+var computeLoadIllustration = function () {
+    var branding = document.getElementById("branding");
+    var brandingDisplay = getStyle(branding, "display");
+    var brandingWrapperDisplay = getStyle(document.getElementById("brandingWrapper"), "display");
+
+    if (brandingDisplay && brandingDisplay !== "none" &&
+        brandingWrapperDisplay && brandingWrapperDisplay !== "none") {
+        var newClass = "illustrationClass";
+
+        if (branding.classList && branding.classList.add) {
+            branding.classList.add(newClass);
+        } else if (branding.className !== undefined) {
+            branding.className += " " + newClass;
+        }
+        if (window.removeEventListener) {
+            window.removeEventListener('load', computeLoadIllustration, false);
+            window.removeEventListener('resize', computeLoadIllustration, false);
+        }
+        else if (window.detachEvent) {
+            window.detachEvent('onload', computeLoadIllustration);
+            window.detachEvent('onresize', computeLoadIllustration);
+        }
+    }
+};
+
+if (window.addEventListener) {
+    window.addEventListener('resize', computeLoadIllustration, false);
+    window.addEventListener('load', computeLoadIllustration, false);
+}
+else if (window.attachEvent) {
+    window.attachEvent('onresize', computeLoadIllustration);
+    window.attachEvent('onload', computeLoadIllustration);
+}
+
+// Function to change illustration image. Usage example below.
+function SetIllustrationImage(imageUri) {
+    var illustrationImageClass = '.illustrationClass {background-image:url(' + imageUri + ');}';
+
+    var css = document.createElement('style');
+    css.type = 'text/css';
+
+    if (css.styleSheet) css.styleSheet.cssText = illustrationImageClass;
+    else css.appendChild(document.createTextNode(illustrationImageClass));
+
+    document.getElementsByTagName("head")[0].appendChild(css);
+}
+
+// Example to change illustration image on HRD page after adding the image to active theme:
+// PSH> Set-AdfsWebTheme -TargetName <activeTheme> -AdditionalFileResource @{uri='/adfs/portal/images/hrd.jpg';path='.\hrd.jpg'}
+//
+//if (typeof HRD != 'undefined') {
+//    SetIllustrationImage('/adfs/portal/images/hrd.jpg');
+//}
+//]]>
+</script>
+
+
+    </body>
+</html> 
+

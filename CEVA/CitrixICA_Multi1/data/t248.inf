@@ -1,0 +1,13 @@
+[t248]
+FileName1=t248.txt
+URL1=https://cevalogistics.cloud.com/Citrix/StoreWeb/Home/KeepAlive
+Total=2
+RequestHeaderFile=t248_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t248_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_248.xml
+FileName2=t248_tiles.json
+URL2=https://contile.services.mozilla.com/v1/tiles
+[ProtocolInfo]
+ProtocolId=QTWeb

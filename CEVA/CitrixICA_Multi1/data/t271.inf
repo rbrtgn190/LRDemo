@@ -1,0 +1,11 @@
+[t271]
+FileName1=t271.htm
+URL1=https://idp.cevalogistics.com/adfs/ls/?wa=wsignout1.0&SAMLRequest=fZFNa8MwDIb%2FivE9SePGZTVNRqGXQrdC93HYZWiO0hkcO7OcdezXz2kZjA12tKxHeh%2B0IujtoHb%2B6Md4wLcRKbLtpubP2FUtQrnIrpYasqpsZbaco8yqCjqtK%2FEiF4KzRwxkvKu5yGecbYlG3DqK4GIqzYTIZmUmyvtSKinUXD5xtkkbjIN4pl5jHEgVhWmHXOM7WH806VtTrn1fQNtRYam4PkF9InN0KWM57Tkg0IQ%2FEAZmnIkGrPnEliXedx1ntz7u3T6su4jhTxB5CfLRW0fq7F%2FzMTjlgQwpBz2SilrdrW92KmmpIfjotbe8WU3d6mwZfvD%2F40Ap5aTLm2%2FdCcq19WM7ea6KH2Oby%2BvXSZov&RelayState=dLVyXYGQB7uzQ1uKZiMAew%3D%3D
+Total=1
+RequestHeaderFile=t271_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t271_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_271.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

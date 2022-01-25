@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 4.1.3.0
+Project("E8C4EC31-A1A4-45DF-8AD2-EE6386830D85") = "CitrixICA_Multi1", "CitrixICA_Multi1\CitrixICA_Multi1.usr", "E8C4EC31-A1A4-45DF-8AD2-EE6386830D85"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXGRlbW9cRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcQ0VWQVxDaXRyaXhJQ0FfTXVsdGkxXENpdHJpeElDQV9NdWx0aTEudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPkM6XFVzZXJzXGRlbW9cRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcQ0VWQVxDaXRyaXhJQ0FfTXVsdGkxXENpdHJpeElDQV9NdWx0aTEudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMi0wMS0yMVQxMToxNzoyNC42MjI3ODcyKzAxOjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Project("00D1577B-95DD-4D98-9388-8C815F06D2FB") = "CitrixICA_Multi2", "CitrixICA_Multi2\CitrixICA_Multi2.usr", "00D1577B-95DD-4D98-9388-8C815F06D2FB"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXGRlbW9cRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcQ0VWQVxDaXRyaXhJQ0FfTXVsdGkyXENpdHJpeElDQV9NdWx0aTIudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPkM6XFVzZXJzXGRlbW9cRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcQ0VWQVxDaXRyaXhJQ0FfTXVsdGkyXENpdHJpeElDQV9NdWx0aTIudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMi0wMS0yNFQxMToxMjo1NS42NTU2NDE3KzAxOjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = False
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		E8C4EC31-A1A4-45DF-8AD2-EE6386830D85.Debug|Any CPU.Build.0 = Debug|Any CPU
+		E8C4EC31-A1A4-45DF-8AD2-EE6386830D85.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		E8C4EC31-A1A4-45DF-8AD2-EE6386830D85.Release|Any CPU.Build.0 = Release|Any CPU
+		E8C4EC31-A1A4-45DF-8AD2-EE6386830D85.Release|Any CPU.ActiveCfg = Release|Any CPU
+		00D1577B-95DD-4D98-9388-8C815F06D2FB.Debug|Any CPU.Build.0 = Debug|Any CPU
+		00D1577B-95DD-4D98-9388-8C815F06D2FB.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		00D1577B-95DD-4D98-9388-8C815F06D2FB.Release|Any CPU.Build.0 = Release|Any CPU
+		00D1577B-95DD-4D98-9388-8C815F06D2FB.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

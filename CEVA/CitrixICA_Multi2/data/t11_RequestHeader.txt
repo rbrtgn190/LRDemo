@@ -1,0 +1,19 @@
+POST /submit/firefox-desktop/metrics/1/094b3c4e-c7ec-458b-b57b-a7ec3016c822 HTTP/1.1
+Host: incoming.telemetry.mozilla.org
+User-Agent: Glean/42.1.0 (Rust on Windows)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+content-type: application/json; charset=utf-8
+date: Mon, 24 Jan 2022 10:13:05 GMT
+content-encoding: gzip
+content-length: 1613
+x-client-type: Glean
+x-client-version: 42.1.0
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Pragma: no-cache
+Cache-Control: no-cache
+

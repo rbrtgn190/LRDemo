@@ -1,0 +1,13 @@
+[t19]
+FileName1=t19.json
+URL1=https://sentry.io/api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7
+Total=2
+RequestHeaderFile=t19_RequestHeader.txt
+RequestBodyFile=t19_RequestBody.txt
+ResponseHeaderFile=t19_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_19.xml
+FileName2=t19_7284.fec36cac4f8237a26a2c.html
+URL2=https://ctx-ws-assets.cloud.com/assets/workspace/7284.fec36cac4f8237a26a2c.js
+[ProtocolInfo]
+ProtocolId=QTWeb

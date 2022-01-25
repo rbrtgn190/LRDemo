@@ -1,0 +1,13 @@
+[t47]
+FileName1=t47.json
+URL1=https://cevalogistics.cloud.com/Citrix/StoreWeb/Resources/List
+Total=2
+RequestHeaderFile=t47_RequestHeader.txt
+RequestBodyFile=t47_RequestBody.txt
+ResponseHeaderFile=t47_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_47.xml
+FileName2=t47.json
+URL2=https://normandy.cdn.mozilla.net/api/v1/
+[ProtocolInfo]
+ProtocolId=QTWeb

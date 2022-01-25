@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache,no-store
+Pragma: no-cache
+Content-Length: 5953
+Content-Type: text/html; charset=utf-8
+Expires: -1
+Server: Microsoft-HTTPAPI/2.0
+Strict-Transport-Security: max-age = 31536000
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' https://ult-inwebo.com; img-src 'self' data: https://ult-inwebo.com;
+P3P: ADFS doesn't have P3P policy, please contact your site's admin for more details
+Set-Cookie: MSISAuth=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; expires=Sat, 22 Jan 2022 15:30:30 GMT; path=/adfs; HttpOnly; Secure; SameSite=None
+Set-Cookie: MSISAuth1=F8z2fYrA6NWNzS31ZTYtkg==; expires=Sat, 22 Jan 2022 15:30:30 GMT; path=/adfs; HttpOnly; Secure; SameSite=None
+Set-Cookie: MSISAuth=; expires=Thu, 20 Jan 2022 15:30:30 GMT; path=/adfs/ls; Secure; SameSite=None
+Set-Cookie: MSISAuth1=; expires=Thu, 20 Jan 2022 15:30:30 GMT; path=/adfs/ls; Secure; SameSite=None
+Set-Cookie: MSISAuthenticated=MS8yMS8yMDIyIDM6MzA6MzAgUE0=; path=/adfs; HttpOnly; Secure; SameSite=None
+Set-Cookie: MSISLoopDetectionCookie=MjAyMi0wMS0yMToxNTozMDozMFpcMQ==; path=/adfs; HttpOnly; Secure; SameSite=None
+Date: Fri, 21 Jan 2022 15:30:29 GMT
+

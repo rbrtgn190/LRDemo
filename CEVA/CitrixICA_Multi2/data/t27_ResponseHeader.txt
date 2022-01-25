@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Content-Length: 5
+Content-Type: application/ocsp-response
+X-Powered-By: ASP.NET
+x-content-type-options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: BD8E410BF3034B07983010488F4B696E Ref B: VIEEDGE3107 Ref C: 2022-01-24T10:13:11Z
+Date: Mon, 24 Jan 2022 10:13:10 GMT
+

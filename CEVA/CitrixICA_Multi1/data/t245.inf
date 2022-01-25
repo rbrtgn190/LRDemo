@@ -1,0 +1,11 @@
+[t245]
+FileName1=t245.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/telemetry/618fe1b8-456c-44e7-899a-25432930e47b/event/Firefox/96.0.1/release/20220113185450?v=4
+Total=1
+RequestHeaderFile=t245_RequestHeader.txt
+RequestBodyFile=t245_RequestBody.txt
+ResponseHeaderFile=t245_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_245.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

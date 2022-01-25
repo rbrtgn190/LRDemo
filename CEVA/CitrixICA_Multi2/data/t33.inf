@@ -1,0 +1,11 @@
+[t33]
+FileName1=t33.htm
+URL1=https://accounts.cloud.com/core/connect/authorize/callback?client_id=3lnnAilQNhUSvIR09fRuNg%3D%3D&redirect_uri=https%3A%2F%2Faccounts-dsauthweb.cloud.com%2Foidc%2Frp&response_mode=form_post&response_type=code&scope=openid%20profile%20email%20ctx_principal_aliases%20ctx_universal%20cip_credentials&acr_values=tenant%3AtTI-xE0hYUaTHUoxjY46ig%20product%3Afd%20ticket_timeout%3A0.08%3A00%3A00&state=CfDJ8A4yPTlIR4tPmKNUxzs0HUCb_T2qqs3zqwAtv60A6JmiVoZdTEPKaZXLYLUBn2F2DKvMWhCDktOkX8ReNbjGjmnpB-hzVl8npi1X5-typDEY-03JUKz-iVyeCkk_Ji47bZF_OEZDc-AhQruB-9Ut3-XMaIAIiJaUPhegei-Si4Zog9B1VuKpYLWSgGCAWdYPA8bkuMelqQpJuSnDPDhOZ_T5CYsyFssMrVEpiG5mJei0Ix5hiE2LZrbGroDyf8nn6moLItq5CCqMlRpm-AxQCgAU5jVFhic7HdosOkMNex1o
+Total=1
+RequestHeaderFile=t33_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t33_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_33.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

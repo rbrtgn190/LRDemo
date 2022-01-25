@@ -1,0 +1,11 @@
+[t188]
+FileName1=t188.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/5dcb9658-4ef8-4f63-bab7-71e5e82d7202
+Total=1
+RequestHeaderFile=t188_RequestHeader.txt
+RequestBodyFile=t188_RequestBody.txt
+ResponseHeaderFile=t188_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_188.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

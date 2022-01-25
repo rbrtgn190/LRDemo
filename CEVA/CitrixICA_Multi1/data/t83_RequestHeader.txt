@@ -1,0 +1,17 @@
+POST /ehgeneral/publishers/womkdccyy46o.ath-sub.3ba2c1f9-b331-40d8-9b22-9e98ff025d77/messages?api-version=2014-01 HTTP/1.1
+Host: citrixanalyticseheu-alias.servicebus.windows.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json;charset=utf-8
+Authorization: SharedAccessSignature sr=https%3A%2F%2Fcitrixanalyticseheu-alias.servicebus.windows.net%2Fehgeneral%2Fpublishers%2Fwomkdccyy46o.ath-sub.3ba2c1f9-b331-40d8-9b22-9e98ff025d77%2Fmessages%3Fapi-version%3D2014-01&sig=2R3dpZ13xyps5Irrr2jK0jg2cHL43K5yqUbiYitxJA4%3D&se=1645093817&skn=dirsvc_send
+Content-Length: 727
+Origin: https://cevalogistics.cloud.com
+DNT: 1
+Connection: keep-alive
+Referer: https://cevalogistics.cloud.com/
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+

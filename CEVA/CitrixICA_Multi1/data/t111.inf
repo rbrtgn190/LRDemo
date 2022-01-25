@@ -1,0 +1,15 @@
+[t111]
+FileName1=t111.html
+URL1=http://ocsp.sca1b.amazontrust.com/
+Total=3
+RequestHeaderFile=t111_RequestHeader.txt
+RequestBodyFile=t111_RequestBody.txt
+ResponseHeaderFile=t111_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_111.xml
+FileName2=t111_sentry.6.13.2.min.html
+URL2=https://ctx-ws-assets.cloud.com/assets/workspace/externals/sentry.6.13.2.min.js
+FileName3=t111_3947.11d3b3c0fe4c52a24414.html
+URL3=https://ctx-ws-assets.cloud.com/assets/workspace/3947.11d3b3c0fe4c52a24414.js
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,17 @@
+[t12]
+FileName1=t12.html
+URL1=http://ocsp.digicert.com/
+Total=4
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=t12_RequestBody.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_12.xml
+FileName2=t12_tiles.json
+URL2=https://contile.services.mozilla.com/v1/tiles
+FileName3=t12_cfr-v1-en-US.json
+URL3=https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US
+FileName4=t12.json
+URL4=https://normandy.cdn.mozilla.net/api/v1/
+[ProtocolInfo]
+ProtocolId=QTWeb

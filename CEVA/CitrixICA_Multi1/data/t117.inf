@@ -1,0 +1,17 @@
+[t117]
+FileName1=t117.html
+URL1=https://shavar.services.mozilla.com/downloads?client=navclient-auto-ffox&appver=96.0&pver=2.2
+Total=4
+RequestHeaderFile=t117_RequestHeader.txt
+RequestBodyFile=t117_RequestBody.txt
+ResponseHeaderFile=t117_ResponseHeader.txt
+ContentType=application/octet-stream
+SnapshotXmlFile=snapshot_117.xml
+FileName2=t117_feed.json
+URL2=https://ctx-ws-assets.cloud.com/assets/workspace/piral-static-feed/feed.json
+FileName3=t117_index-24cf3fbe55b4a738c76984475e7a9ce8f14e38d4.html
+URL3=https://ctx-ws-assets.cloud.com/assets/workspace/workspace-ui-microapps/index-24cf3fbe55b4a738c76984475e7a9ce8f14e38d4.js
+FileName4=t117_main.css
+URL4=https://ctx-ws-assets.cloud.com/assets/workspace/workspace-ui-microapps/main.css
+[ProtocolInfo]
+ProtocolId=QTWeb

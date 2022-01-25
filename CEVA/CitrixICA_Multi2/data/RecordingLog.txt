@@ -1,0 +1,2034 @@
+[API Trapper      (2c84:2ce4)] Recording in 64-bit mode: C:\Program Files\Mozilla Firefox\firefox.exe
+[API Trapper      (27f4:271c)] Recording in 64-bit mode: C:\Program Files\Mozilla Firefox\firefox.exe
+[Network Analyzer (27f4: d10)] ------------------------------------------------------------------------------------------
+[Network Analyzer (27f4: d10)] Load Network Traffic Analyzers:
+[Network Analyzer (27f4: d10)]     Analyzer Module: Citrix_ICA (value=)
+[Network Analyzer (27f4: d10)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (27f4: d10)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (27f4: d10)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (27f4: d10)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (27f4: d10)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (27f4: d10)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (27f4: d10)]     Analyzer Module: local_server (value=)
+[Network Analyzer (27f4: d10)] ------------------------------------------------------------------------------------------
+[Network Analyzer (27f4: 704)] Address lookup for nimbusclient = 192.168.1.37
+[API Trapper      (2da0:1460)] Recording in 64-bit mode: C:\Program Files\Mozilla Firefox\firefox.exe
+[Network Analyzer (27f4: d10)] Establish Listener @ 127.0.0.1:58647
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 127.0.0.1:58647   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 15 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 20.50.24.215:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 34.117.237.239:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4:2c1c)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 143.204.226.112:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 52.222.174.89:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 216.58.209.234:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:25e4)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 52.41.252.32:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 34.107.221.82:80   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /canonical.html"   
+[Network Analyzer (27f4: 704)]   (Sid:  9) Client -> Server @ : 301 bytes (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 143.204.226.112:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  9) Server -> Client : 302 bytes  (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 4 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 93.184.220.29:80   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 96.17.206.28:80   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /"   
+[Network Analyzer (27f4: 704)]   (Sid: 13) Client -> Server @ : 423 bytes (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /"   
+[Network Analyzer (27f4: 704)]   (Sid: 12) Client -> Server @ : 424 bytes (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 34.107.221.82:80   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /success.txt?ipv4"   
+[Network Analyzer (27f4: 704)]   (Sid: 14) Client -> Server @ : 303 bytes (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 14) Server -> Client : 220 bytes  (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 13) Server -> Client : 225 bytes  (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:2c1c)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4:2424)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (27f4:1824)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (27f4:25a8)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "GET /v1/tiles"   
+[Network Analyzer (27f4: 704)]   (Sid:  4) Client -> Server @ : 333 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (27f4:295c)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: 704)]   (Sid: 12) Server -> Client : 765 bytes  (Service=HTTP)
+[Network Analyzer (27f4:2fdc)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 93.184.220.29:80   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (27f4:25a8)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 4 bytes 
+[Web Request      (27f4: 704)] "POST /"   
+[Network Analyzer (27f4: 704)]   (Sid: 15) Client -> Server @ : 424 bytes (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4:25e4)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Web Request      (27f4: 704)] "GET /"   
+[Network Analyzer (27f4: 704)]   (Sid:  3) Client -> Server @ : 447 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 93.184.220.29:80   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "POST /"   
+[Network Analyzer (27f4: 704)]   (Sid: 16) Client -> Server @ : 424 bytes (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4:2764)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: 704)]   (Sid: 16) Server -> Client : 799 bytes  (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  3) Server -> Client : 560 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 142.250.74.227:80   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 15) Server -> Client : 765 bytes  (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  4) Server -> Client : 987 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  4) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 93.184.220.29:80   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /"   
+[Network Analyzer (27f4: 704)]   (Sid: 18) Client -> Server @ : 424 bytes (Service=HTTP)
+[Web Request      (27f4: 704)] "POST /gts1c3"   
+[Network Analyzer (27f4: 704)]   (Sid: 17) Client -> Server @ : 427 bytes (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 93.184.220.29:80   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /"   
+[Network Analyzer (27f4: 704)]   (Sid: 19) Client -> Server @ : 424 bytes (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /Citrix/StoreWeb/"   
+[Network Analyzer (27f4: 704)]   (Sid:  3) Client -> Server @ : 463 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 17) Server -> Client : 231 bytes  (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:2424)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:2764)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "GET /"   
+[Network Analyzer (27f4: 704)]   (Sid:  8) Client -> Server @ : 606 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /chains/remote-settings.content-signature.mozilla.org-2022-03-01-08-35-12.chain"   
+[Network Analyzer (27f4: 704)]   (Sid:  6) Client -> Server @ : 413 bytes (SSL)(Service=HTTP)
+[Web Request      (27f4: 704)] "POST /submit/firefox-desktop/metrics/1/094b3c4e-c7ec-458b-b57b-a7ec3016c822"   
+[Network Analyzer (27f4: 704)]   (Sid: 10) Client -> Server @ : 2180 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:1824)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARD5pw0aAhgFUoOoWCICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEN-YChoCGAUedgMWIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQu9YJGgIYBXTG7lkiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARDIywoaAhgFQbxejCICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECAaAhgFwwei7CICIAIoAQ=="   
+[Network Analyzer (27f4: 704)]   (Sid:  7) Client -> Server @ : 813 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 18) Server -> Client : 764 bytes  (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  3) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  6) Server -> Client : 5858 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 19) Server -> Client : 764 bytes  (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  3) Server -> Client : 2863 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4:2fdc)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4:295c)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 926 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Web Request      (27f4: 704)] "GET /v1/"   
+[Network Analyzer (27f4: 704)]   (Sid:  5) Client -> Server @ : 337 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Web Request      (27f4: 704)] "GET /v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US"   
+[Network Analyzer (27f4: 704)]   (Sid: 11) Client -> Server @ : 445 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  5) Server -> Client : 1545 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  7) Server -> Client : 646 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /Citrix/StoreWeb/"   
+[Network Analyzer (27f4: 704)]   (Sid:  3) Client -> Server @ : 524 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 11) Server -> Client : 1145 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  3) Server -> Client : 645 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 10) Server -> Client : 620 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "POST /submit/firefox-desktop/baseline/1/6157b4cb-3b99-4d35-a600-98c91875b8bd"   
+[Network Analyzer (27f4: 704)]   (Sid: 10) Client -> Server @ : 944 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  8) Server -> Client : 129 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 142.250.74.227:80   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "POST /gts1c3"   
+[Network Analyzer (27f4: 704)]   (Sid: 20) Client -> Server @ : 427 bytes (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /Citrix/StoreWeb/assets/workspace/runtime.19e95931771d1af72911.js"   
+[Network Analyzer (27f4: 704)]   (Sid:  3) Client -> Server @ : 456 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 20) Server -> Client : 702 bytes  (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  8) WebSocket handshake detected, switching connection type from HTTP to WebSocket
+[Network Analyzer (27f4: 704)]   (Sid:  8) Client -> Server @ : 117 bytes (SSL)(Service=WEBS)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 20.50.24.215:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 4 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 20.50.24.215:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 34.120.208.123:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  3) Server -> Client : 9292 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:2ccc)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 99.86.94.38:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (27f4:2ccc)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /submit/messaging-system/undesired-events/1/113d7147-0fcb-4b22-91ee-5f9e912cee60"   
+[Network Analyzer (27f4: 704)]   (Sid: 23) Client -> Server @ : 916 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 10) Server -> Client : 620 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:1dd0)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:1dd0)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /Citrix/StoreWeb/assets/workspace/workspace.844d7d2c2fb233da9333.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 22) Client -> Server @ : 458 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  8) Server -> Client : 170 bytes (SSL) (Service=WEBS)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4:1c2c)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 143.204.226.112:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:1c2c)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /Citrix/StoreWeb/assets/workspace/react.2bd7a2cfd6f3a5c98233.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 21) Client -> Server @ : 454 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 23) Server -> Client : 620 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 21) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 21) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:23b4)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid: 21) Server -> Client : 6791 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4:2c94)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 11252 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:2c94)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /v1/buckets/monitor/collections/changes/changeset?_expected=%221643014635935%22"   
+[Network Analyzer (27f4: 704)]   (Sid: 25) Client -> Server @ : 415 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 25) Server -> Client : 5030 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 52.84.186.118:80   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /"   
+[Network Analyzer (27f4: 704)]   (Sid: 26) Client -> Server @ : 433 bytes (Service=HTTP)
+[Web Request      (27f4: 704)] "GET /v1/buckets/main/collections/normandy-recipes-capabilities/changeset?_expected=1642896072224&_since=%221642723273597%22"   
+[Network Analyzer (27f4: 704)]   (Sid: 25) Client -> Server @ : 500 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 25) Server -> Client : 2398 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 26) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:23b4)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/externals/sentry.6.13.2.min.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 24) Client -> Server @ : 421 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 6667 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 34.217.152.155:443   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 35.188.42.15:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 143.204.226.33:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/3947.11d3b3c0fe4c52a24414.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 24) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 7974 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /Citrix/StoreWeb/"   
+[Network Analyzer (27f4: 704)]   (Sid: 22) Client -> Server @ : 873 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /Citrix/StoreWeb/assets/workspace/workspace-vertical-logo-teal.svg"   
+[Network Analyzer (27f4: 704)]   (Sid: 21) Client -> Server @ : 478 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /Citrix/StoreWeb/assets/workspace/spinner-teal.svg"   
+[Network Analyzer (27f4: 704)]   (Sid:  3) Client -> Server @ : 462 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 99.86.94.38:443   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 99.86.94.38:443   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 99.86.94.38:443   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 99.86.94.38:443   (Service=)  (Sid= 33)  PROXIED!
+[Web Request      (27f4: 704)] "GET /assets/workspace/7843.610d4b00a81fca13ad50.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 24) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 645 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  3) Server -> Client : 999 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 8302 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 21) Server -> Client : 7912 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 99.86.94.38:443   (Service=)  (Sid= 34)  PROXIED!
+[Web Request      (27f4: 704)] "GET /assets/workspace/Login.06198f275826e1a2c4b3.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 24) Client -> Server @ : 436 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 14905 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:  80)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:  80)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /downloads?client=navclient-auto-ffox&appver=96.0&pver=2.2"   
+[Network Analyzer (27f4: 704)]   (Sid: 27) Client -> Server @ : 1237 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /Citrix/StoreWeb/assets/workspace/favicon.png"   
+[Network Analyzer (27f4: 704)]   (Sid: 22) Client -> Server @ : 457 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: cb4)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 1187 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "POST /"   
+[Network Analyzer (27f4: 704)]   (Sid: 12) Client -> Server @ : 424 bytes (Service=HTTP)
+[Network Analyzer (27f4:1674)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /"   
+[Network Analyzer (27f4: 704)]   (Sid: 26) Client -> Server @ : 433 bytes (Service=HTTP)
+[Network Analyzer (27f4: b0c)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: b0c)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/9102.7b9cffbd2d5d96f128b9.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 33) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4:28c8)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:28c8)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/5638.71f35daac7835f4d7398.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 435 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 12) Server -> Client : 765 bytes  (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: cb4)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"   
+[Network Analyzer (27f4: 704)]   (Sid: 28) Client -> Server @ : 971 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4:2a7c)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:2a7c)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/8803.dba0b394959e74fd31e3.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 31) Client -> Server @ : 435 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 33) Server -> Client : 5002 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 4f0)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 15470 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 4f0)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/7284.fec36cac4f8237a26a2c.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 30) Client -> Server @ : 435 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: e8c)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 99.86.94.38:443   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 31) Server -> Client : 3830 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 28) Server -> Client : 413 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: e8c)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 30) Server -> Client : 4773 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:2bcc)]   (Sid: 35) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:2bcc)]   (Sid: 35) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/piral-static-feed/feed.json"   
+[Network Analyzer (27f4: 704)]   (Sid: 35) Client -> Server @ : 485 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 27) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 27) Connection Terminated (by Server)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 26) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:1674)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /agent/static/c51a876e-13e7-4d6e-78d0-f764775a736d/pendo.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 29) Client -> Server @ : 448 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 29) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 29) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 29) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 29) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 29) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 29) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 29) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 29) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 29) Server -> Client : 14573 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 35) Server -> Client : 678 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 35) Server -> Client : 297 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/workspace-ui-microapps/index-24cf3fbe55b4a738c76984475e7a9ce8f14e38d4.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 463 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 11433 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/workspace-ui-microapps/main.css"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 436 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 459 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"   
+[Network Analyzer (27f4: 704)]   (Sid: 28) Client -> Server @ : 976 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 35.188.42.15:443   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/8121.f4f028f849af0bfe6c35.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/5063.287c9f9aca2f4de9e890.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 24) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/3409.6a10544c96f85d9364d0.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 33) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/7715.483fb8294bc1fecfc06f.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 30) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/2834.7edff6e875abd5b233cc.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 31) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 4799 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/9527.734e286c3f41788d09b2.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 34) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 30) Server -> Client : 4800 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 4790 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 33) Server -> Client : 509 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 33) Server -> Client : 2384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 31) Server -> Client : 8634 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 33) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 34) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 34) Server -> Client : 1091 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/6724.fad10bcfca5388e10c52.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 24) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/371.19788770111333a220d6.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 418 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 28) Server -> Client : 413 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 10936 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 509 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 12578 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 13081 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/228.6af55df91eac33597041.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 33) Client -> Server @ : 418 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/4760.ac106c61a0b705080270.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 31) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/4933.04f88ddf4aadc0e3ecfa.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 30) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 33) Server -> Client : 6005 bytes (SSL) (Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/9350.9280286916a2b955987e.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 34) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 30) Server -> Client : 1890 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 31) Server -> Client : 5082 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 34) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 34) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 34) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 34) Server -> Client : 4732 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/9322.ceccbf26c51dc51cc0ff.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 24) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/5956.a22b45877ef5952561a9.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 9165 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 509 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 9682 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 3600 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/8784.af23dc3a89c4ee264b8a.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 31) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/9128.aa95fb80d257f578d09e.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 33) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/7032.9986872c4ff8582862a9.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 30) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/9253.d92f1f6d4d25151742f9.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 34) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 31) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 31) Server -> Client : 9088 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 33) Server -> Client : 2140 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 30) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 34) Server -> Client : 2070 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 30) Server -> Client : 221 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/7464.494652dadd22c502b6c2.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 24) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/8148.b5f3fb7bd6cbbb131adb.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 6505 bytes (SSL) (Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/6102.1ca768e96cd3d9b03929.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 33) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/7329.51b325a315c23ada037a.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 31) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 14160 bytes (SSL) (Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/2224.c7eb7fbca3704e887266.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 30) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/299.28bf9e621347fff3a422.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 34) Client -> Server @ : 418 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 33) Server -> Client : 5261 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 31) Server -> Client : 3094 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 30) Server -> Client : 4178 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 34) Server -> Client : 5699 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/120.11882f3b75dc2015e3f7.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 24) Client -> Server @ : 418 bytes (SSL)(Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/2664.a862b8d98cdf20f637f8.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:14c8)]   (Sid: 36) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 8953 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 6465 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/4905.8c0e6f6c158ed927aba8.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 33) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/7148.1e5a1690a430387c1079.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 31) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/1832.22bc2554e6fbc9748f04.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 30) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/9662.4a16cd86fc9398dde469.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 34) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 33) Server -> Client : 4306 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 30) Server -> Client : 15164 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 31) Server -> Client : 4778 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 34) Server -> Client : 13314 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/5754.33cba4a71b61926e999b.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 24) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/1331.25c71b132c18a5a2ce9f.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:14c8)]   (Sid: 36) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/3925.6e800fbcc7336ab41514.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 33) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/2500.7d8d2163b44c89c2d4e1.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 31) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 10098 bytes (SSL) (Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/6907.8f5d44084defffbda844.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 30) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 10841 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 31) Server -> Client : 8411 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 33) Server -> Client : 9908 bytes (SSL) (Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/9234.fe0b79db716f4395922f.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 34) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 30) Server -> Client : 14447 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 33) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"   
+[Network Analyzer (27f4: 704)]   (Sid: 36) Client -> Server @ : 971 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/3660.0caa62a1f9639bc8a54d.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 24) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 34) Server -> Client : 7233 bytes (SSL) (Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/7403.d739e0d24447a0163c1c.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 9248 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/AppShell.a5ef08195723deccb8a5.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 33) Client -> Server @ : 423 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 33) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 33) Server -> Client : 6726 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 11236 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "POST /Citrix/StoreWeb/Authentication/GetUserDetails"   
+[Network Analyzer (27f4: 704)]   (Sid: 22) Client -> Server @ : 1096 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 36) Server -> Client : 413 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 816 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"   
+[Network Analyzer (27f4: 704)]   (Sid: 28) Client -> Server @ : 976 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"   
+[Network Analyzer (27f4: 704)]   (Sid: 36) Client -> Server @ : 971 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/5638.71f35daac7835f4d7398.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 522 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/8803.dba0b394959e74fd31e3.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 24) Client -> Server @ : 522 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 429 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 430 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/7284.fec36cac4f8237a26a2c.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 34) Client -> Server @ : 522 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 34) Server -> Client : 429 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "POST /Citrix/StoreWeb/ExplicitAuth/Login"   
+[Network Analyzer (27f4: 704)]   (Sid: 22) Client -> Server @ : 1654 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 28) Server -> Client : 413 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 36) Server -> Client : 413 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 13.107.213.42:443   (Service=)  (Sid= 37)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 53c)]   (Sid: 37) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 131.253.33.203:80   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /ocsp"   
+[Network Analyzer (27f4: 704)]   (Sid: 38) Client -> Server @ : 435 bytes (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 38) Server -> Client : 329 bytes  (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 1079 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 53c)]   (Sid: 37) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "GET /iwsprodweucip-container/womkdccyy46o-c786167b-5dd1-509a-8071-272c84f57d92-logonLogo-l0nOmghv"   
+[Network Analyzer (27f4: 704)]   (Sid: 37) Client -> Server @ : 504 bytes (SSL)(Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/e86d2642f412b9493b14.woff2"   
+[Network Analyzer (27f4: 704)]   (Sid: 35) Client -> Server @ : 507 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: 704)]   (Sid: 37) Server -> Client : 14525 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 35) Server -> Client : 677 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 35) Server -> Client : 5792 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 35) Connection Terminated (by Client)
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 99.86.94.38:443   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:1868)]   (Sid: 39) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 51.138.80.236:443   (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:1868)]   (Sid: 39) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (27f4: 704)] "GET /assets/workspace/f32753567f64c1ddeec8.woff"   
+[Network Analyzer (27f4: 704)]   (Sid: 39) Client -> Server @ : 506 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4:2d34)]   (Sid: 40) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /"   
+[Network Analyzer (27f4: 704)]   (Sid: 12) Client -> Server @ : 424 bytes (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 37) Connection Terminated (by Client)
+[Network Analyzer (27f4: 704)]   (Sid: 12) Server -> Client : 765 bytes  (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:2d34)]   (Sid: 40) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /tTI-xE0hYUaTHUoxjY46ig/oidc/webview/CfDJ8A4yPTlIR4tPmKNUxzs0HUDRaoJXCOGo0ONgh6brFuc4pGL_6fskVSNeoHb6tVgEk8D1o1GtV3z2DYJiB-FT4_RUMstNIukVuiD8T3HdEw-ngeT1wsOI4Fvvs__J-kLpmw?_id=webviewResponseId&_cx=&_rt=https%3A%2F%2Fcevalogistics.cloud.com%2FCitrix%2FStoreWeb%2FExplicitAuth%2FBounce&_cs=1D4B8978389D762DE37A667B57625FE1&_ps=true"   
+[Network Analyzer (27f4: 704)]   (Sid: 40) Client -> Server @ : 823 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 40) Server -> Client : 1089 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 39) Server -> Client : 2396 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 39) Server -> Client : 15104 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 52.137.26.29:443   (Service=)  (Sid= 41)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 39) Server -> Client : 9592 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 39) Server -> Client : 13697 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: fc8)]   (Sid: 41) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: fc8)]   (Sid: 41) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /core/connect/authorize?client_id=3lnnAilQNhUSvIR09fRuNg%3D%3D&redirect_uri=https%3A%2F%2Faccounts-dsauthweb.cloud.com%2Foidc%2Frp&response_mode=form_post&response_type=code&scope=openid%20profile%20email%20ctx_principal_aliases%20ctx_universal%20cip_credentials&acr_values=tenant%3AtTI-xE0hYUaTHUoxjY46ig%20product%3Afd%20ticket_timeout%3A0.08%3A00%3A00&prompt=login&state=CfDJ8A4yPTlIR4tPmKNUxzs0HUCb_T2qqs3zqwAtv60A6JmiVoZdTEPKaZXLYLUBn2F2DKvMWhCDktOkX8ReNbjGjmnpB-hzVl8npi1X5-typDEY-03JUKz-iVyeCkk_Ji47bZF_OEZDc-AhQruB-9Ut3-XMaIAIiJaUPhegei-Si4Zog9B1VuKpYLWSgGCAWdYPA8bkuMelqQpJuSnDPDhOZ_T5CYsyFssMrVEpiG5mJei0Ix5hiE2LZrbGroDyf8nn6moLItq5CCqMlRpm-AxQCgAU5jVFhic7HdosOkMNex1o"   
+[Network Analyzer (27f4: 704)]   (Sid: 41) Client -> Server @ : 1161 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 41) Server -> Client : 1818 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /core/login?ReturnUrl=%2Fcore%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3D3lnnAilQNhUSvIR09fRuNg%253D%253D%26redirect_uri%3Dhttps%253A%252F%252Faccounts-dsauthweb.cloud.com%252Foidc%252Frp%26response_mode%3Dform_post%26response_type%3Dcode%26scope%3Dopenid%2520profile%2520email%2520ctx_principal_aliases%2520ctx_universal%2520cip_credentials%26acr_values%3Dtenant%253AtTI-xE0hYUaTHUoxjY46ig%2520product%253Afd%2520ticket_timeout%253A0.08%253A00%253A00%26state%3DCfDJ8A4yPTlIR4tPmKNUxzs0HUCb_T2qqs3zqwAtv60A6JmiVoZdTEPKaZXLYLUBn2F2DKvMWhCDktOkX8ReNbjGjmnpB-hzVl8npi1X5-typDEY-03JUKz-iVyeCkk_Ji47bZF_OEZDc-AhQruB-9Ut3-XMaIAIiJaUPhegei-Si4Zog9B1VuKpYLWSgGCAWdYPA8bkuMelqQpJuSnDPDhOZ_T5CYsyFssMrVEpiG5mJei0Ix5hiE2LZrbGroDyf8nn6moLItq5CCqMlRpm-AxQCgAU5jVFhic7HdosOkMNex1o"   
+[Network Analyzer (27f4: 704)]   (Sid: 41) Client -> Server @ : 1429 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 41) Server -> Client : 3480 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /core/internalfederation/redirect?session=a4f6726e-7976-4564-ab07-7d22563d7315&prompt=login"   
+[Network Analyzer (27f4: 704)]   (Sid: 41) Client -> Server @ : 2670 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 41) Server -> Client : 523 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 52.157.220.248:443   (Service=)  (Sid= 42)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:2a3c)]   (Sid: 42) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:2a3c)]   (Sid: 42) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /saml/login?session=a4f6726e-7976-4564-ab07-7d22563d7315"   
+[Network Analyzer (27f4: 704)]   (Sid: 42) Client -> Server @ : 758 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 42) Server -> Client : 1959 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 194.26.68.75:443   (Service=)  (Sid= 43)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:2f14)]   (Sid: 43) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "POST /"   
+[Network Analyzer (27f4: 704)]   (Sid: 12) Client -> Server @ : 424 bytes (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 12) Server -> Client : 764 bytes  (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:2f14)]   (Sid: 43) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /adfs/ls/?SAMLRequest=nZNNb9swDIb%2FiqG7I9txl1ZIAmQJhgXoNiPxduhlUGS6FaAPT5TT7t9PspM2hy6HHk2%2BJJ%2BXlOfIterYqvdPZgd%2FekCfbDcL8rtosxuAMk%2Bns8MsLWeH2%2FQwvYH0U3F714ryTmRQkuQXOJTWLEgxyUiyRexha9Bz40MoK4o0y9OirPOM5VOWlw8k2YQJ0nA%2FVD153yGjVDbdRMCRK%2FsoQ1rgRFhNedMiVUhJ8sU6AQPjgrRcIcRZFUeUR3iNVM56K6z6LE0jzeOC9M4wy1EiM1wDMi%2FYfvXtngVWdhhFyL7WdZVWP%2FY1SVaI4CLY2hrsNbg9uKMU8HN3%2F4Ya9zURyvbNwBg%2FKRc4jD%2FKBtz3MGuUXzeGY3Ok3vXoSfKilUE2nOM6enfySZbzqGbD1t1F%2FfVyfnZJlu97mtOLtuOMjkVX201llRR%2Fk5VS9nntgPvgNOCH5dOz8PSIoBnOFTbp4cUna6s77iTGo2tppO71Gf9St1aBbgftR8xclQkmYusQjq%2Fm2bomvhYQgbN23GBnnT%2F5fo9nOeb%2B4%2B41e%2FkXLf8B&RelayState=wFE7BqZPSjWBmBBioyCYjw%3D%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=SH%2B0%2BMacA6LSwZFDGO3%2F6Xdlz4FdCvrsHG3%2BUXsCjQme44d6rH4Il5xh4B9OV9z6Yvf%2FISYh4NKdnXsv%2B%2BmufEDLbv9DSGHNCTiIBWlpxABrz%2BoVzN81QDzDe97f5xyj95hPnzi4EleNF%2FOcRDq2lybdGAyQAfMDwfDwzrDupXIxr9OydrJbwck9eEFpfVAIBv71fpcfLTiLXQgY8uIu9B%2FjTau38rmMnoFXRBVVFSa9DFNeWREaEMU3Zn2uu7KBbu9nePgGQfvyXxpYb7z9xBfs2nAm3uE%2Fif%2Fshm%2BcUDLqpYl7bM1gClBZ%2FEBvoBvIRASKGZcuyFtN0ZXu97As%2Fg%3D%3D"   
+[Network Analyzer (27f4: 704)]   (Sid: 43) Client -> Server @ : 1562 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 43) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 43) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 43) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 43) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 43) Server -> Client : 4277 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /adfs/portal/css/style.css?id=A7618A91AF9831C8CDF5863B4179236EC332904F166B2A3D6BF41BE9F87FCC37"   
+[Network Analyzer (27f4: 704)]   (Sid: 43) Client -> Server @ : 1596 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 194.26.68.75:443   (Service=)  (Sid= 44)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 43) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 43) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 43) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 43) Server -> Client : 9914 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Web Request      (27f4: 704)] "GET /adfs/portal/logo/logo.png?id=EEC3CF47FAFAD59C84F33C171B88CF72647BE58F226928DCC09E5D6FB3B7D80C"   
+[Network Analyzer (27f4: 704)]   (Sid: 43) Client -> Server @ : 1603 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 43) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 43) Server -> Client : 3056 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /favicon.ico"   
+[Network Analyzer (27f4: 704)]   (Sid: 43) Client -> Server @ : 1521 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 194.26.68.75:443   (Service=)  (Sid= 45)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 43) Server -> Client : 492 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 43) Connection Terminated (by Server)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:1664)]   (Sid: 44) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:1664)]   (Sid: 44) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 4 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:28fc)]   (Sid: 45) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:28fc)]   (Sid: 45) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /adfs/portal/illustration/illustration.png?id=137068B663E06A3EB22CADA0A2B2586B2B41CECFF707C24067AE391967B21E03"   
+[Network Analyzer (27f4: 704)]   (Sid: 45) Client -> Server @ : 1619 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 1379 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 44) Connection Terminated (by Client)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "POST /adfs/ls/?SAMLRequest=nZNNb9swDIb%2FiqG7I9txl1ZIAmQJhgXoNiPxduhlUGS6FaAPT5TT7t9PspM2hy6HHk2%2BJJ%2BXlOfIterYqvdPZgd%2FekCfbDcL8rtosxuAMk%2Bns8MsLWeH2%2FQwvYH0U3F714ryTmRQkuQXOJTWLEgxyUiyRexha9Bz40MoK4o0y9OirPOM5VOWlw8k2YQJ0nA%2FVD153yGjVDbdRMCRK%2FsoQ1rgRFhNedMiVUhJ8sU6AQPjgrRcIcRZFUeUR3iNVM56K6z6LE0jzeOC9M4wy1EiM1wDMi%2FYfvXtngVWdhhFyL7WdZVWP%2FY1SVaI4CLY2hrsNbg9uKMU8HN3%2F4Ya9zURyvbNwBg%2FKRc4jD%2FKBtz3MGuUXzeGY3Ok3vXoSfKilUE2nOM6enfySZbzqGbD1t1F%2FfVyfnZJlu97mtOLtuOMjkVX201llRR%2Fk5VS9nntgPvgNOCH5dOz8PSIoBnOFTbp4cUna6s77iTGo2tppO71Gf9St1aBbgftR8xclQkmYusQjq%2Fm2bomvhYQgbN23GBnnT%2F5fo9nOeb%2B4%2B41e%2FkXLf8B&RelayState=wFE7BqZPSjWBmBBioyCYjw%3D%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=SH%2B0%2BMacA6LSwZFDGO3%2F6Xdlz4FdCvrsHG3%2BUXsCjQme44d6rH4Il5xh4B9OV9z6Yvf%2FISYh4NKdnXsv%2B%2BmufEDLbv9DSGHNCTiIBWlpxABrz%2BoVzN81QDzDe97f5xyj95hPnzi4EleNF%2FOcRDq2lybdGAyQAfMDwfDwzrDupXIxr9OydrJbwck9eEFpfVAIBv71fpcfLTiLXQgY8uIu9B%2FjTau38rmMnoFXRBVVFSa9DFNeWREaEMU3Zn2uu7KBbu9nePgGQfvyXxpYb7z9xBfs2nAm3uE%2Fif%2Fshm%2BcUDLqpYl7bM1gClBZ%2FEBvoBvIRASKGZcuyFtN0ZXu97As%2Fg%3D%3D&client-request-id=46eba8f4-4745-4a25-f15a-038001000003"   
+[Network Analyzer (27f4: 704)]   (Sid: 45) Client -> Server @ : 3015 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 3965 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /adfs/ls/?SAMLRequest=nZNNb9swDIb%2FiqG7I9txl1ZIAmQJhgXoNiPxduhlUGS6FaAPT5TT7t9PspM2hy6HHk2%2BJJ%2BXlOfIterYqvdPZgd%2FekCfbDcL8rtosxuAMk%2Bns8MsLWeH2%2FQwvYH0U3F714ryTmRQkuQXOJTWLEgxyUiyRexha9Bz40MoK4o0y9OirPOM5VOWlw8k2YQJ0nA%2FVD153yGjVDbdRMCRK%2FsoQ1rgRFhNedMiVUhJ8sU6AQPjgrRcIcRZFUeUR3iNVM56K6z6LE0jzeOC9M4wy1EiM1wDMi%2FYfvXtngVWdhhFyL7WdZVWP%2FY1SVaI4CLY2hrsNbg9uKMU8HN3%2F4Ya9zURyvbNwBg%2FKRc4jD%2FKBtz3MGuUXzeGY3Ok3vXoSfKilUE2nOM6enfySZbzqGbD1t1F%2FfVyfnZJlu97mtOLtuOMjkVX201llRR%2Fk5VS9nntgPvgNOCH5dOz8PSIoBnOFTbp4cUna6s77iTGo2tppO71Gf9St1aBbgftR8xclQkmYusQjq%2Fm2bomvhYQgbN23GBnnT%2F5fo9nOeb%2B4%2B41e%2FkXLf8B&RelayState=wFE7BqZPSjWBmBBioyCYjw%3D%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=SH%2B0%2BMacA6LSwZFDGO3%2F6Xdlz4FdCvrsHG3%2BUXsCjQme44d6rH4Il5xh4B9OV9z6Yvf%2FISYh4NKdnXsv%2B%2BmufEDLbv9DSGHNCTiIBWlpxABrz%2BoVzN81QDzDe97f5xyj95hPnzi4EleNF%2FOcRDq2lybdGAyQAfMDwfDwzrDupXIxr9OydrJbwck9eEFpfVAIBv71fpcfLTiLXQgY8uIu9B%2FjTau38rmMnoFXRBVVFSa9DFNeWREaEMU3Zn2uu7KBbu9nePgGQfvyXxpYb7z9xBfs2nAm3uE%2Fif%2Fshm%2BcUDLqpYl7bM1gClBZ%2FEBvoBvIRASKGZcuyFtN0ZXu97As%2Fg%3D%3D&client-request-id=46eba8f4-4745-4a25-f15a-038001000003"   
+[Network Analyzer (27f4: 704)]   (Sid: 45) Client -> Server @ : 4871 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 7271 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 45) Server -> Client : 1919 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "POST /saml/acs"   
+[Network Analyzer (27f4: 704)]   (Sid: 42) Client -> Server @ : 6341 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 42) Server -> Client : 825 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "GET /core/internalfederation/return?validate=e42a5e4f23e6140fe26497566d1de8ab"   
+[Network Analyzer (27f4: 704)]   (Sid: 41) Client -> Server @ : 2734 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 41) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 41) Server -> Client : 1379 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /core/connect/authorize/callback?client_id=3lnnAilQNhUSvIR09fRuNg%3D%3D&redirect_uri=https%3A%2F%2Faccounts-dsauthweb.cloud.com%2Foidc%2Frp&response_mode=form_post&response_type=code&scope=openid%20profile%20email%20ctx_principal_aliases%20ctx_universal%20cip_credentials&acr_values=tenant%3AtTI-xE0hYUaTHUoxjY46ig%20product%3Afd%20ticket_timeout%3A0.08%3A00%3A00&state=CfDJ8A4yPTlIR4tPmKNUxzs0HUCb_T2qqs3zqwAtv60A6JmiVoZdTEPKaZXLYLUBn2F2DKvMWhCDktOkX8ReNbjGjmnpB-hzVl8npi1X5-typDEY-03JUKz-iVyeCkk_Ji47bZF_OEZDc-AhQruB-9Ut3-XMaIAIiJaUPhegei-Si4Zog9B1VuKpYLWSgGCAWdYPA8bkuMelqQpJuSnDPDhOZ_T5CYsyFssMrVEpiG5mJei0Ix5hiE2LZrbGroDyf8nn6moLItq5CCqMlRpm-AxQCgAU5jVFhic7HdosOkMNex1o"   
+[Network Analyzer (27f4: 704)]   (Sid: 41) Client -> Server @ : 4656 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 41) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 41) Server -> Client : 1978 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 41) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /oidc/rp"   
+[Network Analyzer (27f4: 704)]   (Sid: 40) Client -> Server @ : 1595 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 40) Server -> Client : 1490 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "GET /favicon.ico"   
+[Network Analyzer (27f4: 704)]   (Sid: 40) Client -> Server @ : 759 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /Citrix/StoreWeb/ExplicitAuth/Bounce"   
+[Network Analyzer (27f4: 704)]   (Sid: 22) Client -> Server @ : 1697 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 40) Server -> Client : 377 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 731 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /Citrix/StoreWeb/"   
+[Network Analyzer (27f4: 704)]   (Sid: 22) Client -> Server @ : 1159 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 2862 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /Citrix/StoreWeb/"   
+[Network Analyzer (27f4: 704)]   (Sid: 22) Client -> Server @ : 1220 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 40) Connection Terminated (by Client)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 645 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/externals/sentry.6.13.2.min.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 858 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 429 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "POST /api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"   
+[Network Analyzer (27f4: 704)]   (Sid: 28) Client -> Server @ : 971 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/9102.7b9cffbd2d5d96f128b9.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 856 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/5638.71f35daac7835f4d7398.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 24) Client -> Server @ : 872 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 429 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/8803.dba0b394959e74fd31e3.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 34) Client -> Server @ : 872 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 430 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/7284.fec36cac4f8237a26a2c.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 31) Client -> Server @ : 872 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 34) Server -> Client : 429 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "GET /Citrix/StoreWeb/"   
+[Network Analyzer (27f4: 704)]   (Sid: 22) Client -> Server @ : 1522 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 31) Server -> Client : 429 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 28) Server -> Client : 413 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 644 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/5638.71f35daac7835f4d7398.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 856 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/8803.dba0b394959e74fd31e3.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 24) Client -> Server @ : 856 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/7284.fec36cac4f8237a26a2c.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 34) Client -> Server @ : 856 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 430 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 429 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 34) Server -> Client : 429 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 13.107.213.42:443   (Service=)  (Sid= 46)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/e86d2642f412b9493b14.woff2"   
+[Network Analyzer (27f4: 704)]   (Sid: 39) Client -> Server @ : 507 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "POST /Citrix/StoreWeb/ExplicitAuth/ResumeForms"   
+[Network Analyzer (27f4: 704)]   (Sid: 22) Client -> Server @ : 2020 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 39) Server -> Client : 685 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 39) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 39) Server -> Client : 16164 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:2c9c)]   (Sid: 46) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:2c9c)]   (Sid: 46) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /iwsprodweucip-container/womkdccyy46o-c786167b-5dd1-509a-8071-272c84f57d92-logonLogo-l0nOmghv"   
+[Network Analyzer (27f4: 704)]   (Sid: 46) Client -> Server @ : 504 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 46) Server -> Client : 14525 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 831 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"   
+[Network Analyzer (27f4: 704)]   (Sid: 36) Client -> Server @ : 976 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"   
+[Network Analyzer (27f4: 704)]   (Sid: 28) Client -> Server @ : 971 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/8121.f4f028f849af0bfe6c35.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 856 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/5063.287c9f9aca2f4de9e890.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 24) Client -> Server @ : 856 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 429 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 430 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/2834.7edff6e875abd5b233cc.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 34) Client -> Server @ : 856 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/6724.fad10bcfca5388e10c52.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 854 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 429 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 34) Server -> Client : 429 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/4933.04f88ddf4aadc0e3ecfa.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 856 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/9128.aa95fb80d257f578d09e.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 24) Client -> Server @ : 856 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 429 bytes (SSL) (Service=HTTP)
+[Web Request      (27f4: 704)] "GET /assets/workspace/8784.af23dc3a89c4ee264b8a.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 34) Client -> Server @ : 856 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 430 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/7032.9986872c4ff8582862a9.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 31) Client -> Server @ : 856 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/9253.d92f1f6d4d25151742f9.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 856 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 34) Server -> Client : 429 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/8148.b5f3fb7bd6cbbb131adb.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 24) Client -> Server @ : 856 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 31) Server -> Client : 429 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 36) Server -> Client : 413 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 429 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 430 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 28) Server -> Client : 413 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/1832.22bc2554e6fbc9748f04.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 856 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 429 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "POST /Citrix/StoreWeb/Authentication/GetUserDetails"   
+[Network Analyzer (27f4: 704)]   (Sid: 22) Client -> Server @ : 1609 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 867 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "POST /Citrix/StoreWeb/Resources/List"   
+[Network Analyzer (27f4: 704)]   (Sid: 22) Client -> Server @ : 1646 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 51.105.227.110:443   (Service=)  (Sid= 47)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: c64)]   (Sid: 47) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "POST /"   
+[Network Analyzer (27f4: 704)]   (Sid: 12) Client -> Server @ : 424 bytes (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 12) Server -> Client : 764 bytes  (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: c64)]   (Sid: 47) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /user-personalization/endpoints"   
+[Network Analyzer (27f4: 704)]   (Sid: 47) Client -> Server @ : 468 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 47) Server -> Client : 691 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "GET /Citrix/StoreWeb/Sso/Proxy?destination=https%3A%2F%2Fwsp.eu.iws.cloud.com%2Fuser-personalization%2FuserPreferences"   
+[Network Analyzer (27f4: 704)]   (Sid: 21) Client -> Server @ : 1746 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 1165 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/657.a1903cf1253b5d683a35.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 32) Client -> Server @ : 752 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/1937.b052b3869821645d36ef.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 24) Client -> Server @ : 753 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/3369.a5944d6bc4cca698293d.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 34) Client -> Server @ : 753 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 32) Server -> Client : 1736 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 24) Server -> Client : 1772 bytes (SSL) (Service=HTTP)
+[Web Request      (27f4: 704)] "POST /api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"   
+[Network Analyzer (27f4: 704)]   (Sid: 36) Client -> Server @ : 976 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 34) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 34) Server -> Client : 2245 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "POST /api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7"   
+[Network Analyzer (27f4: 704)]   (Sid: 28) Client -> Server @ : 971 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/4ba4759c3e98938156d7.woff2"   
+[Network Analyzer (27f4: 704)]   (Sid: 39) Client -> Server @ : 507 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 99.86.94.38:443   (Service=)  (Sid= 48)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 99.86.94.38:443   (Service=)  (Sid= 49)  PROXIED!
+[Network Analyzer (27f4:2e4c)]   (Sid: 48) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid: 36) Server -> Client : 413 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 28) Server -> Client : 413 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 45.54.49.5:443   (Service=)  (Sid= 50)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:2e4c)]   (Sid: 48) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/1cb825ff043ef7521574.woff2"   
+[Network Analyzer (27f4: 704)]   (Sid: 48) Client -> Server @ : 507 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 5a8)]   (Sid: 50) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 5a8)]   (Sid: 50) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /1/55156/radar.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 50) Client -> Server @ : 385 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4:2b94)]   (Sid: 49) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:2b94)]   (Sid: 49) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /assets/workspace/f6ebd504e3b19c186177.woff2"   
+[Network Analyzer (27f4: 704)]   (Sid: 49) Client -> Server @ : 507 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 21) Server -> Client : 645 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 39) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 39) Server -> Client : 1116 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 39) Server -> Client : 592 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 39) Server -> Client : 2896 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 39) Server -> Client : 12297 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 48) Server -> Client : 677 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 48) Server -> Client : 8415 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 48) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 48) Server -> Client : 1448 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 48) Server -> Client : 168 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 48) Server -> Client : 6173 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 49) Server -> Client : 677 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 49) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 49) Server -> Client : 439 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 49) Server -> Client : 2896 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 49) Server -> Client : 12969 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid: 50) Server -> Client : 431 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /1621860284/stub.js"   
+[Network Analyzer (27f4: 704)]   (Sid: 50) Client -> Server @ : 387 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 50) Server -> Client : 656 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Web Request      (27f4: 704)] "POST /Citrix/StoreWeb/Resources/List"   
+[Network Analyzer (27f4: 704)]   (Sid: 22) Client -> Server @ : 1682 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 22) Server -> Client : 1061 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 52.84.174.83:443   (Service=)  (Sid= 51)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:1278)]   (Sid: 51) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:1278)]   (Sid: 51) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Web Request      (27f4: 704)] "GET /api/v1/"   
+[Network Analyzer (27f4: 704)]   (Sid: 51) Client -> Server @ : 341 bytes (SSL)(Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid: 51) Server -> Client : 1403 bytes (SSL) (Service=HTTP)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 3 bytes 
+[Network Analyzer (27f4: d10)] Address lookup for nimbusclient = 192.168.1.37
+[Network Analyzer (27f4: d10)] Request Connection: Remote Server @ 34.98.75.36:443   (Service=)  (Sid= 52)  PROXIED!
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4:29fc)]   (Sid: 52) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 1 bytes 
+[Network Analyzer (27f4: 704)]   (Sid:  2) Client -> Server @ : 2 bytes 
+[Network Analyzer (27f4:29fc)]   (Sid: 52) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)

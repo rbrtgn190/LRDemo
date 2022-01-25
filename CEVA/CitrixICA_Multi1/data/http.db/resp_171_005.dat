@@ -1,0 +1,8 @@
+482
+<html><head><base target='_self'/></head><body><form method='post' action='https://accounts-dsauthweb.cloud.com/oidc/rp'><input type='hidden' name='code' value='NTEwYzYyMzI2ZTJkMTY2MzY1NTlmNTgwMTE3NGM3Nzg3MzI3NmM4YWYxY2U0ZjZiZWZiOGQwMmYxYTFiZjUzNi5zYW1sLnRUSS14RTBoWVVhVEhVb3hqWTQ2aWcudGlyNjJkdDhidT0wOi0xIzEzNjAzMTA4O284eHZ6amU0dDA9MzotMSMzODc5NzY2OTtrZWkxa2ltMjhhPTA6LTEjMjEwNzUxNDIz' />
+<input type='hidden' name='scope' value='openid profile email ctx_principal_aliases ctx_universal cip_credentials' />
+<input type='hidden' name='state' value='CfDJ8A4yPTlIR4tPmKNUxzs0HUDiU6UbPxxZIMK04gIgP5vfsj7pGb_nR1MYtJcTdllsdYtExlGPUF5OWcP1JxceJviMSEAyoPaW3ar7-kF5JZ7hVxeTcJqy4fusXw4xZ3CZ_t3uTRKG1T5_lOIE4KyHrTg16ghDY9xnhXdGIEE0Rjjb-sCe9buq6PSU59FRw3GuixId1C1XtPqH3y84gL4TbTzuMOEUXPU3IlgBWK9g74otiBqJd9zfwVFlC8Odxeh0EmvnkSmO4YG0YD15_XJzosy09pB9I0tAOhRacXiOovSc' />
+<input type='hidden' name='session_state' value='NgArAs938ZZIw-kKVtSShB2xaSZc-AGuuhfGNTZkSsU.a390a77fbf1e8e196e829ff960032f11' />
+<noscript><button>Click to continue</button></noscript></form><script>window.addEventListener('load', function(){document.forms[0].submit();});</script></body></html>
+0
+

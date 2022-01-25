@@ -1,0 +1,15 @@
+[t28]
+FileName1=t28.html
+URL1=https://cevalogistics.cloud.com/Citrix/StoreWeb/ExplicitAuth/Login
+Total=3
+RequestHeaderFile=t28_RequestHeader.txt
+RequestBodyFile=t28_RequestBody.txt
+ResponseHeaderFile=t28_ResponseHeader.txt
+ContentType=application/vnd.citrix.authenticateresponse-1+xml
+SnapshotXmlFile=snapshot_28.xml
+FileName2=t28_womkdccyy46o-c786167b-5dd1-509a-8071-272c84f57d92-logonLogo-l0nOmghv.png
+URL2=https://cips-iws-prod-weu-cip-cdn.azureedge.net/iwsprodweucip-container/womkdccyy46o-c786167b-5dd1-509a-8071-272c84f57d92-logonLogo-l0nOmghv
+FileName3=t28_e86d2642f412b9493b14.html
+URL3=https://ctx-ws-assets.cloud.com/assets/workspace/e86d2642f412b9493b14.woff2
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<updates>
+    <addons>
+        <addon id="gmp-gmpopenh264" URL="http://ciscobinary.openh264.org/openh264-win64-2e1774ab6dc6c43debb0b5b628bdf122a391d521.zip" hashFunction="sha512" hashValue="06511f1f6c6d44d076b3c593528c26a602348d9c41689dbf5ff716b671c3ca5756b12cb2e5869f836dedce27b1a5cfe79b93c707fd01f8e84b620923bb61b5f1" size="453023" version="1.8.1.1"/>
+        <addon id="gmp-widevinecdm" URL="https://redirector.gvt1.com/edgedl/widevine-cdm/4.10.2391.0-win-x64.zip" hashFunction="sha512" hashValue="81b2329d38a9370afc490db805a05c4b506b113ebd00f4e488bca97fd96267d92cb477e3a635880464ca66ed32f448e46ad3645f6af072547b5f09100db2bf74" size="6537814" version="4.10.2391.0"/>
+    </addons>
+</updates>

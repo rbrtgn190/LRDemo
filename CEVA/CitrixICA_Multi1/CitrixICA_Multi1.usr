@@ -1,0 +1,75 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2021
+MinorVersion=2
+ActiveTypes=Citrix_ICA,QTWeb
+GenerateTypes=Citrix_ICA,QTWeb
+AdditionalTypes=Citrix_ICA,QTWeb
+DevelopTool=Vugen
+LastModifyVer=2021.2.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2021.2.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[ExtraFiles]
+custom_body_variables.txt=
+globals.h=
+lrw_custom_body.h=
+WebSocketBuffer.h=
+WebSocketCB.c=
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="LauchCWCtrx__*delimiter*__ctrx_Operate__*delimiter*__ctrxForwarding__*delimiter*__ctrxShipments__*delimiter*__ctrxFind__*delimiter*__ctrxClickFirstShipmentID__*delimiter*__ctrxgoToDescription__*delimiter*__weblogout"
+[StateManagement]
+LastReplayStatus=2
+[ActiveReplay]
+LastReplayedRunName=
+ActiveRunName=
+[Transactions]
+LauchCWCtrx=
+ctrx_Operate=
+ctrxForwarding=
+ctrxShipments=
+ctrxFind=
+ctrxClickFirstShipmentID=
+ctrxgoToDescription=
+weblogout=
+[ExtraFilesToParse]
+WebSocketCB.c=

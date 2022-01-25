@@ -1,0 +1,17 @@
+[t16]
+FileName1=t16.html
+URL1=http://ocsp.sca1b.amazontrust.com/
+Total=4
+RequestHeaderFile=t16_RequestHeader.txt
+RequestBodyFile=t16_RequestBody.txt
+ResponseHeaderFile=t16_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_16.xml
+FileName2=t16_sentry.6.13.2.min.html
+URL2=https://ctx-ws-assets.cloud.com/assets/workspace/externals/sentry.6.13.2.min.js
+FileName3=t16.json
+URL3=https://classify-client.services.mozilla.com/api/v1/classify_client/
+FileName4=t16_3947.11d3b3c0fe4c52a24414.html
+URL4=https://ctx-ws-assets.cloud.com/assets/workspace/3947.11d3b3c0fe4c52a24414.js
+[ProtocolInfo]
+ProtocolId=QTWeb

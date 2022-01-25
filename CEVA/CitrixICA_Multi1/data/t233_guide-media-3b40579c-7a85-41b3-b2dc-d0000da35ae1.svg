@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group Copy</title>
+    <g id="Guide-Center-/-Brand-Update-11/20" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Guide-Center-|-Main---Hover" transform="translate(-661.000000, -427.000000)" stroke="#FFFFFF">
+            <g id="Group-3" transform="translate(596.000000, 428.000000)">
+                <g id="Group-Copy" transform="translate(66.000000, 0.000000)">
+                    <g id="Group-4" fill="#05758A">
+                        <circle id="Oval" cx="28" cy="28" r="28"></circle>
+                    </g>
+                    <g id="Stroke-2563-+-Stroke-2564" transform="translate(12.000000, 12.000000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <polygon id="Stroke-2563" fill="#FFFFFF" points="14.4516129 25.8064516 14.4516129 17.5483871 6.19354839 17.5483871 22.7096774 9.29032258"></polygon>
+                        <path d="M32,16 C32,24.8375172 24.8358621,32 16,32 C7.16248276,32 0,24.8375172 0,16 C0,7.16413793 7.16248276,0 16,0 C24.8358621,0 32,7.16413793 32,16 L32,16 Z" id="Stroke-2564"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+[t135]
+FileName1=t135.xml
+URL1=https://cevalogistics.cloud.com/Citrix/StoreWeb/ExplicitAuth/ResumeForms
+Total=1
+RequestHeaderFile=t135_RequestHeader.txt
+RequestBodyFile=t135_RequestBody.txt
+ResponseHeaderFile=t135_ResponseHeader.txt
+ContentType=application/xml
+SnapshotXmlFile=snapshot_135.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

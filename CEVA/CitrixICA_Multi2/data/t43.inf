@@ -1,0 +1,13 @@
+[t43]
+FileName1=t43.html
+URL1=http://ocsp.digicert.com/
+Total=2
+RequestHeaderFile=t43_RequestHeader.txt
+RequestBodyFile=t43_RequestBody.txt
+ResponseHeaderFile=t43_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_43.xml
+FileName2=t43_endpoints.html
+URL2=https://wsp.eu.iws.cloud.com/user-personalization/endpoints
+[ProtocolInfo]
+ProtocolId=QTWeb

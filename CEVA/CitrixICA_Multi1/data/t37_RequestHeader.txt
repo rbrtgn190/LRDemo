@@ -1,0 +1,18 @@
+POST /adfs/ls/?SAMLRequest=nVPBbtswDP0VQXdHdpIui5AEyBIMC9B2RuLtsMugSXQrQJZcUU67v59kJ20ObQ67GBD5yPceSS9QNKbl6y482j08dYCB7LZL%2BntS3IhP07nMbmaQZ9NiOsvEJH4%2B1%2FWsKObFVClByU%2FwqJ1d0vEop2SH2MHOYhA2xFA%2BHmd5kY2Lqsh5MeeT2S9KtpFBWxH6qscQWuSMadWOJByFcQ86piWOpGuYUDUyg4ySr85L6DUuaS0MQuIqBaI%2Bwmuk9C446cwXbZW2D0vaecudQI3cigaQB8kP67tbHrXyPwMI%2BbeqKrPy%2B6GiZI0IPgnbOItdA%2F4A%2Fqgl%2FNjfvklN8xpJ4zrVa0xPJiT29EetwN9HrgF%2B3RgOzZEF32Gg5KUxFnm%2FjuvS25NPulokNO%2Bn7i%2Fqr5eLs0u6et%2FTgl20HThanlzttqUzWv4la2Pc88aDCNFplB%2BHz87A0xGB6tcVJxngJZCNa1rhNaalN9rqpmvO8i9xGxPV7aH%2BHzNXYZLL1DqG09U8O6%2FStYCMOisvLLbOh5Pv9%2FSshtwH7l6zl3%2FR6h8%3D&RelayState=Xt7YG0yC87TzUw1PLshLMA%3D%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=aaJU1hpmsY7B3Pp5uyVbKzmgZVn%2BcHy39cbVyx3HVwVU%2ByagBGgL695X8UPydWHcpq43cvF1yg2%2FjJFydvUP6Oidiwe%2Be8fU3sHyGYemJ%2BZOztYzy9BiTYqpCIL%2B4LbbhRJj33rQO5IalC%2B%2BazleFEEbWFLwjEieOh8uvbgZgSTtVKmZgKHoBA4VdUqVgAux0W26RAyz3ClsgkqbQZDcVAcSjo%2BIQO0pZ1pL%2BuLWL4GkF3y33rDA3%2Bd2sejxXjffhlec0IuUXp5H%2Fc4MYbLfGYObXav1jn3O0moSqEN%2FJzKX6NvD6GktQjp2BmYrMMNCGchnIPlDnVCJkDJFEeqV5A%3D%3D&client-request-id=61e7927d-b020-45e4-195e-0780010000e5 HTTP/1.1
+Host: idp.cevalogistics.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 109
+Origin: https://idp.cevalogistics.com
+DNT: 1
+Connection: keep-alive
+Referer: https://idp.cevalogistics.com/adfs/ls/?SAMLRequest=nVPBbtswDP0VQXdHdpIui5AEyBIMC9B2RuLtsMugSXQrQJZcUU67v59kJ20ObQ67GBD5yPceSS9QNKbl6y482j08dYCB7LZL%2BntS3IhP07nMbmaQZ9NiOsvEJH4%2B1%2FWsKObFVClByU%2FwqJ1d0vEop2SH2MHOYhA2xFA%2BHmd5kY2Lqsh5MeeT2S9KtpFBWxH6qscQWuSMadWOJByFcQ86piWOpGuYUDUyg4ySr85L6DUuaS0MQuIqBaI%2Bwmuk9C446cwXbZW2D0vaecudQI3cigaQB8kP67tbHrXyPwMI%2BbeqKrPy%2B6GiZI0IPgnbOItdA%2F4A%2Fqgl%2FNjfvklN8xpJ4zrVa0xPJiT29EetwN9HrgF%2B3RgOzZEF32Gg5KUxFnm%2FjuvS25NPulokNO%2Bn7i%2Fqr5eLs0u6et%2FTgl20HThanlzttqUzWv4la2Pc88aDCNFplB%2BHz87A0xGB6tcVJxngJZCNa1rhNaalN9rqpmvO8i9xGxPV7aH%2BHzNXYZLL1DqG09U8O6%2FStYCMOisvLLbOh5Pv9%2FSshtwH7l6zl3%2FR6h8%3D&RelayState=Xt7YG0yC87TzUw1PLshLMA%3D%3D&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=aaJU1hpmsY7B3Pp5uyVbKzmgZVn%2BcHy39cbVyx3HVwVU%2ByagBGgL695X8UPydWHcpq43cvF1yg2%2FjJFydvUP6Oidiwe%2Be8fU3sHyGYemJ%2BZOztYzy9BiTYqpCIL%2B4LbbhRJj33rQO5IalC%2B%2BazleFEEbWFLwjEieOh8uvbgZgSTtVKmZgKHoBA4VdUqVgAux0W26RAyz3ClsgkqbQZDcVAcSjo%2BIQO0pZ1pL%2BuLWL4GkF3y33rDA3%2Bd2sejxXjffhlec0IuUXp5H%2Fc4MYbLfGYObXav1jn3O0moSqEN%2FJzKX6NvD6GktQjp2BmYrMMNCGchnIPlDnVCJkDJFEeqV5A%3D%3D
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+

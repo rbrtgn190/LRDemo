@@ -1,0 +1,10 @@
+GET /Citrix/StoreWeb/ HTTP/1.1
+Referer: https://cevalogistics.cloud.com/Citrix/StoreWeb/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.5
+Accept: */*
+Connection: Keep-Alive
+Host: cevalogistics.cloud.com
+If-None-Match: FcK1SfQscdPa51OWMn6CDd2/pln9uFXznlEZg3DzknI=
+

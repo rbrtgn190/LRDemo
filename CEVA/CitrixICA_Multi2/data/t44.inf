@@ -1,0 +1,17 @@
+[t44]
+FileName1=t44.json
+URL1=https://cevalogistics.cloud.com/Citrix/StoreWeb/Resources/List
+Total=4
+RequestHeaderFile=t44_RequestHeader.txt
+RequestBodyFile=t44_RequestBody.txt
+ResponseHeaderFile=t44_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_44.xml
+FileName2=t44_657.a1903cf1253b5d683a35.html
+URL2=https://ctx-ws-assets.cloud.com/assets/workspace/657.a1903cf1253b5d683a35.js
+FileName3=t44_1937.b052b3869821645d36ef.html
+URL3=https://ctx-ws-assets.cloud.com/assets/workspace/1937.b052b3869821645d36ef.js
+FileName4=t44_3369.a5944d6bc4cca698293d.html
+URL4=https://ctx-ws-assets.cloud.com/assets/workspace/3369.a5944d6bc4cca698293d.js
+[ProtocolInfo]
+ProtocolId=QTWeb

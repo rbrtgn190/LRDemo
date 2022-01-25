@@ -1,0 +1,7 @@
+"{\"sent_at\":\"2022-01-21T10:20:18.780Z\",\"sdk\":{\"name\":\"sentry.javascript.browser\",\"ve"
+"rsion\":\"6.13.2\"}}\n"
+"{\"type\":\"session\"}\n"
+"{\"sid\":\"ad9d8974e8ee46cdb8c84f0a3736f776\",\"init\":true,\"started\":\"2022-01-21T10:20:18."
+"779Z\",\"timestamp\":\"2022-01-21T10:20:18.779Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\""
+"release\":\"3a28a4950f\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows "
+"NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0\"}}"

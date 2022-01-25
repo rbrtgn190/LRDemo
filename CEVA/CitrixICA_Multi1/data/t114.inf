@@ -1,0 +1,13 @@
+[t114]
+FileName1=t114.html
+URL1=http://ocsp.sca1b.amazontrust.com/
+Total=2
+RequestHeaderFile=t114_RequestHeader.txt
+RequestBodyFile=t114_RequestBody.txt
+ResponseHeaderFile=t114_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_114.xml
+FileName2=t114_pendo.html
+URL2=https://citrix-cloud-content.customer.pendo.io/agent/static/c51a876e-13e7-4d6e-78d0-f764775a736d/pendo.js
+[ProtocolInfo]
+ProtocolId=QTWeb

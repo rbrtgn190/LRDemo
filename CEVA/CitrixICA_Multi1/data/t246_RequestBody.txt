@@ -1,0 +1,7 @@
+"{\"type\":\"health\",\"id\":\"ad805fd5-ef60-46b4-959b-71038da5872d\",\"creationDate\":\"2022-0"
+"1-21T15:37:48.419Z\",\"version\":4,\"application\":{\"architecture\":\"x86-64\",\"buildId\":\""
+"20220113185450\",\"name\":\"Firefox\",\"version\":\"96.0.1\",\"displayVersion\":\"96.0.1\",\"v"
+"endor\":\"Mozilla\",\"platformVersion\":\"96.0.1\",\"xpcomAbi\":\"x86_64-msvc\",\"channel\":\""
+"release\"},\"payload\":{\"os\":{\"name\":\"WINNT\",\"version\":\"10.0\"},\"reason\":\"immediat"
+"e\",\"sendFailure\":{\"eTerminated\":1}},\"clientId\":\"672cfb6d-f61c-4f22-b43d-108f28e82080\""
+"}"

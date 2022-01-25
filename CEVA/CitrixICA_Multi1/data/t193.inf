@@ -1,0 +1,13 @@
+[t193]
+FileName1=t193.html
+URL1=http://ocsp.digicert.com/
+Total=2
+RequestHeaderFile=t193_RequestHeader.txt
+RequestBodyFile=t193_RequestBody.txt
+ResponseHeaderFile=t193_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_193.xml
+FileName2=t193_9102.7b9cffbd2d5d96f128b9.html
+URL2=https://ctx-ws-assets.cloud.com/assets/workspace/9102.7b9cffbd2d5d96f128b9.js
+[ProtocolInfo]
+ProtocolId=QTWeb

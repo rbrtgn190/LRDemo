@@ -1,0 +1,13 @@
+[t51]
+FileName1=t51.html
+URL1=http://ocsp.digicert.com/
+Total=2
+RequestHeaderFile=t51_RequestHeader.txt
+RequestBodyFile=t51_RequestBody.txt
+ResponseHeaderFile=t51_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_51.xml
+FileName2=t51_endpoints.html
+URL2=https://wsp.eu.iws.cloud.com/user-personalization/endpoints
+[ProtocolInfo]
+ProtocolId=QTWeb

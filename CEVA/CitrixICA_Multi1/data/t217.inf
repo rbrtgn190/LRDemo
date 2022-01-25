@@ -1,0 +1,13 @@
+[t217]
+FileName1=t217.html
+URL1=http://ocsp.digicert.com/
+Total=2
+RequestHeaderFile=t217_RequestHeader.txt
+RequestBodyFile=t217_RequestBody.txt
+ResponseHeaderFile=t217_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_217.xml
+FileName2=t217_endpoints.html
+URL2=https://wsp.eu.iws.cloud.com/user-personalization/endpoints
+[ProtocolInfo]
+ProtocolId=QTWeb

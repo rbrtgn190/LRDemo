@@ -1,0 +1,13 @@
+[t267]
+FileName1=t267.json
+URL1=https://cevalogistics.cloud.com/Citrix/StoreWeb/Sessions/Disconnect
+Total=2
+RequestHeaderFile=t267_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t267_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_267.xml
+FileName2=t267_1102480f35b518b91e0a.png
+URL2=https://ctx-ws-assets.cloud.com/assets/workspace/1102480f35b518b91e0a.png
+[ProtocolInfo]
+ProtocolId=QTWeb

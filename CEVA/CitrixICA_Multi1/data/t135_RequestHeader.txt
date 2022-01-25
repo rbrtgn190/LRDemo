@@ -1,0 +1,26 @@
+POST /Citrix/StoreWeb/ExplicitAuth/ResumeForms HTTP/1.1
+Host: cevalogistics.cloud.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+newrelic: eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjIwNDExMTQiLCJhcCI6IjY4NzkxMDI1NiIsImlkIjoiMDg0YmMxYTNhY2NmZTk2YSIsInRyIjoiM2Q2NGM5MDNkZjRkNTg3ZmZiMDViOTYyNTNlNGNjYTAiLCJ0aSI6MTY0Mjc3OTAzMjU5NSwidGsiOiIxODk4MDM3In19
+traceparent: 00-3d64c903df4d587ffb05b96253e4cca0-084bc1a3accfe96a-01
+tracestate: 1898037@nr=0-1-2041114-687910256-084bc1a3accfe96a----1642779032595
+Content-Type: application/x-www-form-urlencoded
+Csrf-Token: 4FE251ED500CB875C39524A95EA24E66
+X-Citrix-IsUsingHTTPS: Yes
+X-Requested-With: XMLHttpRequest
+Citrix-TransactionId: d3129f59-5a5b-42e6-bc08-b978c32e2483
+X-Citrix-AM-CredentialTypes: none, username, domain, password, newpassword, passcode, savecredentials, textcredential, webview
+X-Citrix-AM-LabelTypes: none, plain, heading, information, warning, error, confirmation, image
+Content-Length: 32
+Origin: https://cevalogistics.cloud.com
+DNT: 1
+Connection: keep-alive
+Referer: https://cevalogistics.cloud.com/Citrix/StoreWeb/
+Cookie: CsrfToken=4FE251ED500CB875C39524A95EA24E66; ASP.NET_SessionId=vwmwo3knxqk4rntnzpkckvkc; WSUI-PendingLogins=[{%22challenge%22:%22reason=%5C%22notoken%5C%22%2C%20location=%5C%22Authentication/GetAuthMethods%5C%22%22%2C%22locationAfterLogin%22:{%22pathname%22:%22/home%22%2C%22search%22:%22%22%2C%22hash%22:%22%22}}]; prompt=login; regionSessionId=d2VzdGV1cm9wZTpiNzNlODhiYS0zYzBlLTQ4OTktOGUxYi0yMTgxYjJjZDZhY2E%3D; X-ATH-SessionId=b73e88ba-3c0e-4899-8e1b-2181b2cd6aca; cc.signin=OLeG5rE0ezMYEHlbLH58DSneHJxZVzG6i9luLhIBddg; consistencyToken=dGlyNjJkdDhidT0wOi0xIzEzNjE5NDE3O284eHZ6amU0dDA9MDotMSMzODc5NTUzMDtrZWkxa2ltMjhhPTE6LTEjMjEwOTA1Mzgx
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+

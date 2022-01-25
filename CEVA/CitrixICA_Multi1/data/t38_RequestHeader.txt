@@ -1,0 +1,18 @@
+POST /saml/acs HTTP/1.1
+Host: saml.cloud.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 5575
+Origin: https://idp.cevalogistics.com
+DNT: 1
+Connection: keep-alive
+Referer: https://idp.cevalogistics.com/
+Cookie: X-ATH-SessionId=afe1345b-6cd1-4a3e-86c8-cf2a5f9ef108; cc.signin=13UQC6l5br4FPK-cewX2Kgv2tWPlEu6m_ntlioB2mwg; saml-session=59df4e77-2dff-4bbb-b587-bdb9065012d4
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: cross-site
+

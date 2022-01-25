@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Date: Fri, 21 Jan 2022 15:30:07 GMT
+Content-Type: text/html
+Content-Length: 18564
+Connection: keep-alive
+Cache-Control: private
+Content-Encoding: gzip
+ETag: cPT4ettdW8XIyf1NV/+rbdPZ6rfKbr27nQawb3nKuJw=
+X-StoreFront-UICanary: False_Default_70_19
+Request-Context: appId=cid-v1:1a5bd3ba-2b72-438f-b8ae-180b3ef34881
+X-StoreFront-InstanceId: c2a30055a8f9b4aaae3f2bcacb418e5b11b810ae_release-sfaas-167_J1_b1_44
+X-Citrix-Application: Receiver for Web
+X-Frame-Options: sameorigin
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+

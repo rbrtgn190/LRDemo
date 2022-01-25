@@ -1,0 +1,8 @@
+"{\"experiments\":{\"bug-1690367-rollout-moving-webrtc-networking-functionality-into-i-release-"
+"87-100\":{\"branch\":\"active\"},\"bug-1712189-rollout-keep-firefox-up-to-date-even-when-it-is"
+"-not-ru-release-90-94\":{\"branch\":\"active\"},\"bug-1732206-rollout-fission-release-rollout-"
+"release-94-95\":{\"branch\":\"active\"},\"bug-1750257-rollout-pref-off-networkcookiesamesitesc"
+"hemeful-in-release-96-96\":{\"branch\":\"active\"}},\"locale\":\"en-US\",\"version\":\"96.0.1\""
+",\"release_channel\":\"release\",\"event\":\"ASR_RS_NO_MESSAGES\",\"message_id\":\"n/a\",\"eve"
+"nt_context\":\"whats-new-panel\",\"addon_version\":\"20220113185450\",\"impression_id\":\"{16c"
+"effee-5b47-402e-9dd4-9001d880e6e8}\"}"

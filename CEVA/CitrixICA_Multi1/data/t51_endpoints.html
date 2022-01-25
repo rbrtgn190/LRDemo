@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<endpoints xmlns="http://citrix.com/deliveryservices/1-0/endpoints">
+  <endpoint id="GetUserPreferences">
+    <capabilities />
+    <url>https://wsp.eu.iws.cloud.com/user-personalization/userPreferences</url>
+  </endpoint>
+  <endpoint id="SetDataFormats">
+    <capabilities />
+    <url>https://wsp.eu.iws.cloud.com/user-personalization/userPreferences/dataFormats</url>
+  </endpoint>
+  <endpoint id="OwnProfilePicture">
+    <capabilities>
+      <capability>UploadProfilePicture</capability>
+      <capability>DeleteOwnProfilePicture</capability>
+    </capabilities>
+    <url>https://wsp.eu.iws.cloud.com/user-personalization/userPreferences/profilePicture</url>
+  </endpoint>
+  <endpoint id="OwnProfilePictureAsRequestBody">
+    <capabilities>
+      <capability>UploadProfilePicture</capability>
+    </capabilities>
+    <url>https://wsp.eu.iws.cloud.com/user-personalization/userPreferences/profilePicture/body</url>
+  </endpoint>
+  <endpoint id="OwnProfilePictureLimitations">
+    <capabilities>
+      <capability>GetOwnProfilePictureLimitations</capability>
+    </capabilities>
+    <url>https://wsp.eu.iws.cloud.com/user-personalization/userPreferences/profilePicture/limitations</url>
+  </endpoint>
+  <endpoint id="OwnProfilePictureAsRequestBodyLimitations">
+    <capabilities>
+      <capability>GetOwnProfilePictureAsRequestBodyLimitations</capability>
+    </capabilities>
+    <url>https://wsp.eu.iws.cloud.com/user-personalization/userPreferences/profilePicture/body/limitations</url>
+  </endpoint>
+</endpoints>

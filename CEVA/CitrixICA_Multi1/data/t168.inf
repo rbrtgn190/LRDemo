@@ -1,0 +1,11 @@
+[t168]
+FileName1=t168.xml
+URL1=https://citrixanalyticseheu-alias.servicebus.windows.net/ehgeneral/publishers/womkdccyy46o.ath-sub.3ba2c1f9-b331-40d8-9b22-9e98ff025d77/messages?api-version=2014-01
+Total=1
+RequestHeaderFile=t168_RequestHeader.txt
+RequestBodyFile=t168_RequestBody.txt
+ResponseHeaderFile=t168_ResponseHeader.txt
+ContentType=application/xml
+SnapshotXmlFile=snapshot_168.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

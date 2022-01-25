@@ -1,0 +1,11 @@
+[t38]
+FileName1=t38.htm
+URL1=https://accounts.cloud.com/core/connect/authorize/callback?client_id=3lnnAilQNhUSvIR09fRuNg%3D%3D&redirect_uri=https%3A%2F%2Faccounts-dsauthweb.cloud.com%2Foidc%2Frp&response_mode=form_post&response_type=code&scope=openid%20profile%20email%20ctx_principal_aliases%20ctx_universal%20cip_credentials&acr_values=tenant%3AtTI-xE0hYUaTHUoxjY46ig%20product%3Afd%20ticket_timeout%3A0.08%3A00%3A00&state=CfDJ8A4yPTlIR4tPmKNUxzs0HUDAOLVBn2V_8u_egluVgdapjXuHjrPpxZ_M6vHg410r6NbaWxiQqYu3ooOUBWV7lkj12mMMfpRCp9Qd0qJjqN9s93DAYHf5uCocTgSlIhyxAwr7Oc4hJgzxw8tbCbm0MIw2wcg0bHxs5tQ4k0WNqT8lw1SsmfscY7HMk8Wk9WjeWmL5PiFo_LimBWbvPX8RMN-bSZxdaE2d2HtPraPBHhSAf94yIZ9X0fRFncFQeTmWAOkMl6sDuuS_WihiTJASBrHkI3CBfaaxNirDdGocvzQD
+Total=1
+RequestHeaderFile=t38_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t38_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_38.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

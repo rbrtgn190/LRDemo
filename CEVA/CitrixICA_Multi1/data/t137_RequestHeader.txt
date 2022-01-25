@@ -1,0 +1,16 @@
+POST /api/1240805/envelope/?sentry_key=f0991d8614b44e51a323bf43213cfc22&sentry_version=7 HTTP/1.1
+Host: sentry.io
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://cevalogistics.cloud.com/
+Content-Type: text/plain;charset=UTF-8
+Origin: https://cevalogistics.cloud.com
+Content-Length: 429
+DNT: 1
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+

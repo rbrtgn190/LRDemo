@@ -1,0 +1,13 @@
+[t13]
+FileName1=t13.html
+URL1=http://ocsp.pki.goog/gts1c3
+Total=2
+RequestHeaderFile=t13_RequestHeader.txt
+RequestBodyFile=t13_RequestBody.txt
+ResponseHeaderFile=t13_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_13.xml
+FileName2=t13_runtime.19e95931771d1af72911.html
+URL2=https://cevalogistics.cloud.com/Citrix/StoreWeb/assets/workspace/runtime.19e95931771d1af72911.js
+[ProtocolInfo]
+ProtocolId=QTWeb
