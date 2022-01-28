@@ -1,0 +1,14 @@
+[parameter:timestamp]
+Format="%c"
+GenerateNewVal="EachOccurrence"
+Offset=""
+OffsetUI="0"
+OriginalValue="time"
+ParamName="timestamp"
+Type="Time"
+WorkingDaysOn="0"
+[parameter:vuserid]
+Format="%s"
+OriginalValue="vu"
+ParamName="vuserid"
+Type="Userid"
