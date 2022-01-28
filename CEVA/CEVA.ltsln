@@ -18,6 +18,22 @@ Project("00D1577B-95DD-4D98-9388-8C815F06D2FB") = "CitrixICA_Multi2", "CitrixICA
 		Value = False
 	EndProjectSection
 EndProject
+Project("9CAC5E8F-5F73-43BC-B9D6-FB48BAF1FE20") = "CitrixICA1", "CitrixICA1\CitrixICA1.usr", "9CAC5E8F-5F73-43BC-B9D6-FB48BAF1FE20"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXGRlbW9cRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcQ0VWQVxDaXRyaXhJQ0ExXENpdHJpeElDQTEudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPkM6XFVzZXJzXGRlbW9cRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcQ0VWQVxDaXRyaXhJQ0ExXENpdHJpeElDQTEudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMi0wMS0yOFQxMDoxNzowMS4wNjE3Njc1KzAxOjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("96ECA244-0510-4C48-93B6-ECCD18DE5D1E") = "CitrixICA3", "CitrixICA3\CitrixICA3.usr", "96ECA244-0510-4C48-93B6-ECCD18DE5D1E"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXGRlbW9cRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcQ0VWQVxDaXRyaXhJQ0EzXENpdHJpeElDQTMudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPkM6XFVzZXJzXGRlbW9cRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcQ0VWQVxDaXRyaXhJQ0EzXENpdHJpeElDQTMudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMi0wMS0yOFQxMTozMzo1My45MDY4MzQzKzAxOjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,5 +48,13 @@ Global
 		00D1577B-95DD-4D98-9388-8C815F06D2FB.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		00D1577B-95DD-4D98-9388-8C815F06D2FB.Release|Any CPU.Build.0 = Release|Any CPU
 		00D1577B-95DD-4D98-9388-8C815F06D2FB.Release|Any CPU.ActiveCfg = Release|Any CPU
+		9CAC5E8F-5F73-43BC-B9D6-FB48BAF1FE20.Debug|Any CPU.Build.0 = Debug|Any CPU
+		9CAC5E8F-5F73-43BC-B9D6-FB48BAF1FE20.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		9CAC5E8F-5F73-43BC-B9D6-FB48BAF1FE20.Release|Any CPU.Build.0 = Release|Any CPU
+		9CAC5E8F-5F73-43BC-B9D6-FB48BAF1FE20.Release|Any CPU.ActiveCfg = Release|Any CPU
+		96ECA244-0510-4C48-93B6-ECCD18DE5D1E.Debug|Any CPU.Build.0 = Debug|Any CPU
+		96ECA244-0510-4C48-93B6-ECCD18DE5D1E.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		96ECA244-0510-4C48-93B6-ECCD18DE5D1E.Release|Any CPU.Build.0 = Release|Any CPU
+		96ECA244-0510-4C48-93B6-ECCD18DE5D1E.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 EndGlobal
