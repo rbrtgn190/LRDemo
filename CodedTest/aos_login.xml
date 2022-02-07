@@ -2,7 +2,7 @@
 <loadTest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <IsCloudBurst>false</IsCloudBurst>
   <UseCloudBurstElasticIps>false</UseCloudBurstElasticIps>
-  <IsLTExists>false</IsLTExists>
+  <IsLTExists>true</IsLTExists>
   <IsValid>true</IsValid>
   <RequestedMachinesCount>0</RequestedMachinesCount>
   <Controller xsi:type="VirtualHost">
@@ -39,6 +39,7 @@
   <LoadTestInvalidity />
   <IsPercentageMode>false</IsPercentageMode>
   <ID>197</ID>
+  <Name>aos_login</Name>
   <Groups>
     <Group>
       <CloudBurstTemplateId>0</CloudBurstTemplateId>
@@ -263,6 +264,7 @@
   <MonitorProfileUniqueIDs />
   <MonitorOfwUniqueIDs />
   <Duration>0</Duration>
+  <SLADefinitions>&lt;SLA Version='1.0'&gt;&lt;TxList&gt;&lt;Tx&gt;Action_Transaction&lt;/Tx&gt;&lt;Tx&gt;AOS_URL&lt;/Tx&gt;&lt;Tx&gt;Login&lt;/Tx&gt;&lt;Tx&gt;Logout&lt;/Tx&gt;&lt;Tx&gt;Password&lt;/Tx&gt;&lt;Tx&gt;sigh_in&lt;/Tx&gt;&lt;Tx&gt;Username&lt;/Tx&gt;&lt;Tx&gt;vuser_end_Transaction&lt;/Tx&gt;&lt;Tx&gt;vuser_init_Transaction&lt;/Tx&gt;&lt;/TxList&gt;&lt;SLARules&gt;&lt;TrackingPeriodType&gt;Default&lt;/TrackingPeriodType&gt;&lt;TrackingPeriodValue/&gt;&lt;TrackingPeriodTimeScale/&gt;&lt;RulesGroup Type='ComplexLoad'&gt;&lt;Name&gt;Complex Load Based Rules&lt;/Name&gt;&lt;ComplexLoadRule Name='transaction_response_time_Logout'&gt;&lt;Measurement&gt;transaction_response_time&lt;/Measurement&gt;&lt;SubMeasurement&gt;Logout&lt;/SubMeasurement&gt;&lt;CriteriaMeasurement&gt;None&lt;/CriteriaMeasurement&gt;&lt;CalcDirection&gt;less_than_equal&lt;/CalcDirection&gt;&lt;ThresholdsCollection&gt;&lt;Threshold&gt;&lt;StartLoadValue&gt;NegativeInfinity&lt;/StartLoadValue&gt;&lt;EndLoadValue&gt;PositiveInfinity&lt;/EndLoadValue&gt;&lt;ThresholdValue&gt;1.000&lt;/ThresholdValue&gt;&lt;/Threshold&gt;&lt;/ThresholdsCollection&gt;&lt;/ComplexLoadRule&gt;&lt;ComplexLoadRule Name='transaction_response_time_Password'&gt;&lt;Measurement&gt;transaction_response_time&lt;/Measurement&gt;&lt;SubMeasurement&gt;Password&lt;/SubMeasurement&gt;&lt;CriteriaMeasurement&gt;None&lt;/CriteriaMeasurement&gt;&lt;CalcDirection&gt;less_than_equal&lt;/CalcDirection&gt;&lt;ThresholdsCollection&gt;&lt;Threshold&gt;&lt;StartLoadValue&gt;NegativeInfinity&lt;/StartLoadValue&gt;&lt;EndLoadValue&gt;PositiveInfinity&lt;/EndLoadValue&gt;&lt;ThresholdValue&gt;1.000&lt;/ThresholdValue&gt;&lt;/Threshold&gt;&lt;/ThresholdsCollection&gt;&lt;/ComplexLoadRule&gt;&lt;ComplexLoadRule Name='transaction_response_time_Username'&gt;&lt;Measurement&gt;transaction_response_time&lt;/Measurement&gt;&lt;SubMeasurement&gt;Username&lt;/SubMeasurement&gt;&lt;CriteriaMeasurement&gt;None&lt;/CriteriaMeasurement&gt;&lt;CalcDirection&gt;less_than_equal&lt;/CalcDirection&gt;&lt;ThresholdsCollection&gt;&lt;Threshold&gt;&lt;StartLoadValue&gt;NegativeInfinity&lt;/StartLoadValue&gt;&lt;EndLoadValue&gt;PositiveInfinity&lt;/EndLoadValue&gt;&lt;ThresholdValue&gt;1.000&lt;/ThresholdValue&gt;&lt;/Threshold&gt;&lt;/ThresholdsCollection&gt;&lt;/ComplexLoadRule&gt;&lt;ComplexLoadRule Name='transaction_response_time_Login'&gt;&lt;Measurement&gt;transaction_response_time&lt;/Measurement&gt;&lt;SubMeasurement&gt;Login&lt;/SubMeasurement&gt;&lt;CriteriaMeasurement&gt;None&lt;/CriteriaMeasurement&gt;&lt;CalcDirection&gt;less_than_equal&lt;/CalcDirection&gt;&lt;ThresholdsCollection&gt;&lt;Threshold&gt;&lt;StartLoadValue&gt;NegativeInfinity&lt;/StartLoadValue&gt;&lt;EndLoadValue&gt;PositiveInfinity&lt;/EndLoadValue&gt;&lt;ThresholdValue&gt;1.000&lt;/ThresholdValue&gt;&lt;/Threshold&gt;&lt;/ThresholdsCollection&gt;&lt;/ComplexLoadRule&gt;&lt;ComplexLoadRule Name='transaction_response_time_sigh_in'&gt;&lt;Measurement&gt;transaction_response_time&lt;/Measurement&gt;&lt;SubMeasurement&gt;sigh_in&lt;/SubMeasurement&gt;&lt;CriteriaMeasurement&gt;None&lt;/CriteriaMeasurement&gt;&lt;CalcDirection&gt;less_than_equal&lt;/CalcDirection&gt;&lt;ThresholdsCollection&gt;&lt;Threshold&gt;&lt;StartLoadValue&gt;NegativeInfinity&lt;/StartLoadValue&gt;&lt;EndLoadValue&gt;PositiveInfinity&lt;/EndLoadValue&gt;&lt;ThresholdValue&gt;1.000&lt;/ThresholdValue&gt;&lt;/Threshold&gt;&lt;/ThresholdsCollection&gt;&lt;/ComplexLoadRule&gt;&lt;ComplexLoadRule Name='transaction_response_time_AOS_URL'&gt;&lt;Measurement&gt;transaction_response_time&lt;/Measurement&gt;&lt;SubMeasurement&gt;AOS_URL&lt;/SubMeasurement&gt;&lt;CriteriaMeasurement&gt;None&lt;/CriteriaMeasurement&gt;&lt;CalcDirection&gt;less_than_equal&lt;/CalcDirection&gt;&lt;ThresholdsCollection&gt;&lt;Threshold&gt;&lt;StartLoadValue&gt;NegativeInfinity&lt;/StartLoadValue&gt;&lt;EndLoadValue&gt;PositiveInfinity&lt;/EndLoadValue&gt;&lt;ThresholdValue&gt;1.000&lt;/ThresholdValue&gt;&lt;/Threshold&gt;&lt;/ThresholdsCollection&gt;&lt;/ComplexLoadRule&gt;&lt;/RulesGroup&gt;&lt;/SLARules&gt;&lt;/SLA&gt;</SLADefinitions>
   <HostDistributionMode>AssignLoadGeneratorsToGroupsManually</HostDistributionMode>
   <RequestedNumOfVusers>3</RequestedNumOfVusers>
   <RequestedNumOfVusersForLicense>3</RequestedNumOfVusersForLicense>
@@ -271,7 +273,68 @@
   <MonitorProfiles />
   <MonitorsOverFirewall />
   <NetworkVirtualizationSettings>
-    <VirtualLocations />
+    <VirtualLocations>
+      <VirtualLocation>
+        <ID>1009</ID>
+        <Name>Satellite</Name>
+        <Description>Client-server communication is via satellite.</Description>
+        <XML>&lt;location id="395E095B-5B0A-42E0-8E8E-923EA9944F71" name="Satellite"&gt;&lt;emulation&gt;&lt;modes&gt;&lt;mode type="custom"&gt;&lt;params&gt;&lt;param name="latency"&gt;600&lt;/param&gt;&lt;param name="packet_loss"&gt;0&lt;/param&gt;&lt;param name="bandwidthDown"&gt;2000&lt;/param&gt;&lt;param name="bandwidthUp"&gt;1000&lt;/param&gt;&lt;/params&gt;&lt;/mode&gt;&lt;/modes&gt;&lt;/emulation&gt;&lt;configuration version="2.0"&gt;&lt;settings&gt;&lt;setting type="settings"&gt;&lt;params&gt;&lt;param name="capture_packets"&gt;false&lt;/param&gt;&lt;param name="shared_bandwidth"&gt;true&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;setting type="ip_filter"&gt;&lt;params&gt;&lt;param name="mode"&gt;exclude&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;/settings&gt;&lt;/configuration&gt;&lt;description&gt;Client-server communication is via satellite.&lt;/description&gt;&lt;/location&gt;</XML>
+      </VirtualLocation>
+      <VirtualLocation>
+        <ID>1008</ID>
+        <Name>AUS to US EC</Name>
+        <Description>Client located in Australia. Server located on US - East Coast.</Description>
+        <XML>&lt;location id="89249DC8-3B26-432F-9A68-C3C5F2093887" name="AUS to US EC"&gt;&lt;emulation&gt;&lt;modes&gt;&lt;mode type="custom"&gt;&lt;params&gt;&lt;param name="latency"&gt;120&lt;/param&gt;&lt;param name="packet_loss"&gt;0.5&lt;/param&gt;&lt;param name="bandwidthDown"&gt;4000&lt;/param&gt;&lt;param name="bandwidthUp"&gt;2000&lt;/param&gt;&lt;/params&gt;&lt;/mode&gt;&lt;/modes&gt;&lt;/emulation&gt;&lt;configuration version="2.0"&gt;&lt;settings&gt;&lt;setting type="settings"&gt;&lt;params&gt;&lt;param name="capture_packets"&gt;false&lt;/param&gt;&lt;param name="shared_bandwidth"&gt;true&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;setting type="ip_filter"&gt;&lt;params&gt;&lt;param name="mode"&gt;exclude&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;/settings&gt;&lt;/configuration&gt;&lt;description&gt;Client located in Australia. Server located on US - East Coast.&lt;/description&gt;&lt;/location&gt;</XML>
+      </VirtualLocation>
+      <VirtualLocation>
+        <ID>1007</ID>
+        <Name>London to US EC</Name>
+        <Description>Client located in London. Server located on US - East Coast.</Description>
+        <XML>&lt;location id="F0AB3E0C-4D41-4B1F-B9D0-81F4ABB132FC" name="London to US EC"&gt;&lt;emulation&gt;&lt;modes&gt;&lt;mode type="custom"&gt;&lt;params&gt;&lt;param name="latency"&gt;55&lt;/param&gt;&lt;param name="packet_loss"&gt;0&lt;/param&gt;&lt;param name="bandwidthDown"&gt;10000&lt;/param&gt;&lt;param name="bandwidthUp"&gt;4000&lt;/param&gt;&lt;/params&gt;&lt;/mode&gt;&lt;/modes&gt;&lt;/emulation&gt;&lt;configuration version="2.0"&gt;&lt;settings&gt;&lt;setting type="settings"&gt;&lt;params&gt;&lt;param name="capture_packets"&gt;false&lt;/param&gt;&lt;param name="shared_bandwidth"&gt;true&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;setting type="ip_filter"&gt;&lt;params&gt;&lt;param name="mode"&gt;exclude&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;/settings&gt;&lt;/configuration&gt;&lt;description&gt;Client located in London. Server located on US - East Coast.&lt;/description&gt;&lt;/location&gt;</XML>
+      </VirtualLocation>
+      <VirtualLocation>
+        <ID>1006</ID>
+        <Name>India to US EC</Name>
+        <Description>Client located in India. Server located on US - East Coast.</Description>
+        <XML>&lt;location id="C1727DF3-F02B-449B-ACFF-456DB5824831" name="India to US EC"&gt;&lt;emulation&gt;&lt;modes&gt;&lt;mode type="custom"&gt;&lt;params&gt;&lt;param name="latency"&gt;160&lt;/param&gt;&lt;param name="packet_loss"&gt;0.5&lt;/param&gt;&lt;param name="bandwidthDown"&gt;5000&lt;/param&gt;&lt;param name="bandwidthUp"&gt;2000&lt;/param&gt;&lt;/params&gt;&lt;/mode&gt;&lt;/modes&gt;&lt;/emulation&gt;&lt;configuration version="2.0"&gt;&lt;settings&gt;&lt;setting type="settings"&gt;&lt;params&gt;&lt;param name="capture_packets"&gt;false&lt;/param&gt;&lt;param name="shared_bandwidth"&gt;true&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;setting type="ip_filter"&gt;&lt;params&gt;&lt;param name="mode"&gt;exclude&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;/settings&gt;&lt;/configuration&gt;&lt;description&gt;Client located in India. Server located on US - East Coast.&lt;/description&gt;&lt;/location&gt;</XML>
+      </VirtualLocation>
+      <VirtualLocation>
+        <ID>1005</ID>
+        <Name>China to US EC</Name>
+        <Description>Client located in China. Server located on US - East Coast.</Description>
+        <XML>&lt;location id="33280316-F852-4469-BA72-6827E9CBBAE3" name="China to US EC"&gt;&lt;emulation&gt;&lt;modes&gt;&lt;mode type="custom"&gt;&lt;params&gt;&lt;param name="latency"&gt;210&lt;/param&gt;&lt;param name="packet_loss"&gt;1&lt;/param&gt;&lt;param name="bandwidthDown"&gt;4000&lt;/param&gt;&lt;param name="bandwidthUp"&gt;2000&lt;/param&gt;&lt;/params&gt;&lt;/mode&gt;&lt;/modes&gt;&lt;/emulation&gt;&lt;configuration version="2.0"&gt;&lt;settings&gt;&lt;setting type="settings"&gt;&lt;params&gt;&lt;param name="capture_packets"&gt;false&lt;/param&gt;&lt;param name="shared_bandwidth"&gt;true&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;setting type="ip_filter"&gt;&lt;params&gt;&lt;param name="mode"&gt;exclude&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;/settings&gt;&lt;/configuration&gt;&lt;description&gt;Client located in China. Server located on US - East Coast.&lt;/description&gt;&lt;/location&gt;</XML>
+      </VirtualLocation>
+      <VirtualLocation>
+        <ID>1004</ID>
+        <Name>2.5G Busy</Name>
+        <Description>2.5 generation mobile network, poor communication quality, individual bandwidth.</Description>
+        <XML>&lt;location id="4755CD65-17FC-483D-AC2A-3C1400838FB4" name="2.5G Busy"&gt;&lt;emulation&gt;&lt;modes&gt;&lt;mode type="custom"&gt;&lt;params&gt;&lt;param name="latency"&gt;300&lt;/param&gt;&lt;param name="packet_loss"&gt;0.5&lt;/param&gt;&lt;param name="bandwidthDown"&gt;128&lt;/param&gt;&lt;param name="bandwidthUp"&gt;56&lt;/param&gt;&lt;/params&gt;&lt;/mode&gt;&lt;/modes&gt;&lt;/emulation&gt;&lt;configuration version="2.0"&gt;&lt;settings&gt;&lt;setting type="settings"&gt;&lt;params&gt;&lt;param name="capture_packets"&gt;false&lt;/param&gt;&lt;param name="shared_bandwidth"&gt;false&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;setting type="ip_filter"&gt;&lt;params&gt;&lt;param name="mode"&gt;exclude&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;/settings&gt;&lt;/configuration&gt;&lt;description&gt;2.5 generation mobile network, poor communication quality, individual bandwidth.&lt;/description&gt;&lt;/location&gt;</XML>
+      </VirtualLocation>
+      <VirtualLocation>
+        <ID>1003</ID>
+        <Name>3G Busy</Name>
+        <Description>3rd generation mobile network, poor communication quality, individual bandwidth.</Description>
+        <XML>&lt;location id="369A359C-FE6B-4DA9-9716-B278BCE528E1" name="3G Busy"&gt;&lt;emulation&gt;&lt;modes&gt;&lt;mode type="custom"&gt;&lt;params&gt;&lt;param name="latency"&gt;200&lt;/param&gt;&lt;param name="packet_loss"&gt;0.5&lt;/param&gt;&lt;param name="bandwidthDown"&gt;384&lt;/param&gt;&lt;param name="bandwidthUp"&gt;128&lt;/param&gt;&lt;/params&gt;&lt;/mode&gt;&lt;/modes&gt;&lt;/emulation&gt;&lt;configuration version="2.0"&gt;&lt;settings&gt;&lt;setting type="settings"&gt;&lt;params&gt;&lt;param name="capture_packets"&gt;false&lt;/param&gt;&lt;param name="shared_bandwidth"&gt;false&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;setting type="ip_filter"&gt;&lt;params&gt;&lt;param name="mode"&gt;exclude&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;/settings&gt;&lt;/configuration&gt;&lt;description&gt;3rd generation mobile network, poor communication quality, individual bandwidth.&lt;/description&gt;&lt;/location&gt;</XML>
+      </VirtualLocation>
+      <VirtualLocation>
+        <ID>1002</ID>
+        <Name>3G Typical</Name>
+        <Description>3rd generation mobile network, fair communication quality, individual bandwidth.</Description>
+        <XML>&lt;location id="81C98456-EAAB-4554-921D-4FFD2E258847" name="3G Typical"&gt;&lt;emulation&gt;&lt;modes&gt;&lt;mode type="custom"&gt;&lt;params&gt;&lt;param name="latency"&gt;120&lt;/param&gt;&lt;param name="packet_loss"&gt;0&lt;/param&gt;&lt;param name="bandwidthDown"&gt;512&lt;/param&gt;&lt;param name="bandwidthUp"&gt;256&lt;/param&gt;&lt;/params&gt;&lt;/mode&gt;&lt;/modes&gt;&lt;/emulation&gt;&lt;configuration version="2.0"&gt;&lt;settings&gt;&lt;setting type="settings"&gt;&lt;params&gt;&lt;param name="capture_packets"&gt;false&lt;/param&gt;&lt;param name="shared_bandwidth"&gt;false&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;setting type="ip_filter"&gt;&lt;params&gt;&lt;param name="mode"&gt;exclude&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;/settings&gt;&lt;/configuration&gt;&lt;description&gt;3rd generation mobile network, fair communication quality, individual bandwidth.&lt;/description&gt;&lt;/location&gt;</XML>
+      </VirtualLocation>
+      <VirtualLocation>
+        <ID>1001</ID>
+        <Name>3G Good</Name>
+        <Description>3rd generation mobile network, good communication quality, individual bandwidth.</Description>
+        <XML>&lt;location id="EE550FDB-49F2-4596-9602-D196653EB210" name="3G Good"&gt;&lt;emulation&gt;&lt;modes&gt;&lt;mode type="custom"&gt;&lt;params&gt;&lt;param name="latency"&gt;80&lt;/param&gt;&lt;param name="packet_loss"&gt;0&lt;/param&gt;&lt;param name="bandwidthDown"&gt;2000&lt;/param&gt;&lt;param name="bandwidthUp"&gt;512&lt;/param&gt;&lt;/params&gt;&lt;/mode&gt;&lt;/modes&gt;&lt;/emulation&gt;&lt;configuration version="2.0"&gt;&lt;settings&gt;&lt;setting type="settings"&gt;&lt;params&gt;&lt;param name="capture_packets"&gt;false&lt;/param&gt;&lt;param name="shared_bandwidth"&gt;false&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;setting type="ip_filter"&gt;&lt;params&gt;&lt;param name="mode"&gt;exclude&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;/settings&gt;&lt;/configuration&gt;&lt;description&gt;3rd generation mobile network, good communication quality, individual bandwidth.&lt;/description&gt;&lt;/location&gt;</XML>
+      </VirtualLocation>
+      <VirtualLocation>
+        <ID>1000</ID>
+        <Name>4G Good</Name>
+        <Description>4th generation mobile network, good communication quality, individual bandwidth.</Description>
+        <XML>&lt;location id="638EA376-033C-45F8-8A85-5A5EEBC4E82E" name="4G Good"&gt;&lt;emulation&gt;&lt;modes&gt;&lt;mode type="custom"&gt;&lt;params&gt;&lt;param name="latency"&gt;40&lt;/param&gt;&lt;param name="packet_loss"&gt;0&lt;/param&gt;&lt;param name="bandwidthDown"&gt;10000&lt;/param&gt;&lt;param name="bandwidthUp"&gt;7500&lt;/param&gt;&lt;/params&gt;&lt;/mode&gt;&lt;/modes&gt;&lt;/emulation&gt;&lt;configuration version="2.0"&gt;&lt;settings&gt;&lt;setting type="settings"&gt;&lt;params&gt;&lt;param name="capture_packets"&gt;false&lt;/param&gt;&lt;param name="shared_bandwidth"&gt;false&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;setting type="ip_filter"&gt;&lt;params&gt;&lt;param name="mode"&gt;exclude&lt;/param&gt;&lt;/params&gt;&lt;/setting&gt;&lt;/settings&gt;&lt;/configuration&gt;&lt;description&gt;4th generation mobile network, good communication quality, individual bandwidth.&lt;/description&gt;&lt;/location&gt;</XML>
+      </VirtualLocation>
+    </VirtualLocations>
     <NetworkVirtualizationState>Disabled</NetworkVirtualizationState>
     <IsNVAnalyticsEnabled>false</IsNVAnalyticsEnabled>
   </NetworkVirtualizationSettings>
@@ -283,6 +346,8 @@
   </Topology>
   <TopologyUniqueID>0</TopologyUniqueID>
   <TopologyMonitorSetName>Default</TopologyMonitorSetName>
+  <Domain>DEFAULT</Domain>
+  <Project>advantageonlineshopping</Project>
   <Diagnostics>
     <ID>0</ID>
     <IsEnabled>false</IsEnabled>
@@ -365,4 +430,9 @@
     <MaxRunsInReport>10</MaxRunsInReport>
     <ActionOnMaxRunsReachedOption>RollOver</ActionOnMaxRunsReachedOption>
   </AutomaticTrendingSettings>
+  <DynamicHostsProperties>
+    <IsCloudBurst>false</IsCloudBurst>
+    <UseCloudBurstElasticIps>false</UseCloudBurstElasticIps>
+  </DynamicHostsProperties>
+</loadTest>
 </loadTest>
