@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-16"?>
+<loadTest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IsCloudBurst>false</IsCloudBurst>
+  <UseCloudBurstElasticIps>false</UseCloudBurstElasticIps>
+  <IsLTExists>false</IsLTExists>
+  <IsValid>true</IsValid>
+  <RequestedMachinesCount>0</RequestedMachinesCount>
+  <Controller xsi:type="VirtualHost">
+    <ID>0</ID>
+    <Purpose xsi:nil="true" />
+    <Purposes>
+      <Purposes>Controller</Purposes>
+      <PurposesList>
+        <string>Controller</string>
+      </PurposesList>
+    </Purposes>
+    <Demand>
+      <Purpose xsi:nil="true" />
+      <ID>0</ID>
+      <Name>Controller</Name>
+      <Context />
+      <Purposes>
+        <Purposes>Controller</Purposes>
+        <PurposesList>
+          <string>Controller</string>
+        </PurposesList>
+      </Purposes>
+      <AllocationType>Auto</AllocationType>
+      <ElasticAllocationType>None</ElasticAllocationType>
+      <Filter />
+      <HostProperties />
+    </Demand>
+    <Name>Dedicated</Name>
+    <IsOnCloud>false</IsOnCloud>
+    <UseRDP>false</UseRDP>
+    <Version />
+    <ActualHostID>0</ActualHostID>
+  </Controller>
+  <LoadTestInvalidity />
+  <IsPercentageMode>false</IsPercentageMode>
+  <ID>197</ID>
+  <Groups>
+    <Group>
+      <CloudBurstTemplateId>0</CloudBurstTemplateId>
+      <HasRTS>true</HasRTS>
+      <ID>1</ID>
+      <Name>aos</Name>
+      <ScriptUniqueID>2</ScriptUniqueID>
+      <IsScriptExists>true</IsScriptExists>
+      <IsNoiseScript>false</IsNoiseScript>
+      <IsNoiseScriptExists>true</IsNoiseScriptExists>
+      <ScriptName>Web_Login_Logout</ScriptName>
+      <VUsersNumber>3</VUsersNumber>
+      <Hosts>
+        <HostBase xsi:type="ActualHost">
+          <ID>1103</ID>
+          <Purpose xsi:nil="true" />
+          <Purposes>
+            <Purposes>Load Generator</Purposes>
+            <PurposesList>
+              <string>Load Generator</string>
+            </PurposesList>
+          </Purposes>
+          <Demand>
+            <Purpose xsi:nil="true" />
+            <ID>1103</ID>
+            <Name>Actual Host</Name>
+            <Context />
+            <Purposes>
+              <Purposes>Load Generator</Purposes>
+              <PurposesList>
+                <string>Load Generator</string>
+              </PurposesList>
+            </Purposes>
+            <AllocationType>Manual</AllocationType>
+            <ElasticAllocationType>None</ElasticAllocationType>
+            <Filter>HOST_PROP1[];HOST_LOCATION_ID[Default];State[Idle];Name[lg-1]</Filter>
+            <HostProperties>
+              <HostProperty HOST_PROP1="" />
+              <HostProperty HOST_LOCATION_ID="Default" />
+              <HostProperty State="Idle" />
+              <HostProperty Name="lg-1" />
+            </HostProperties>
+          </Demand>
+          <Name>lg-1</Name>
+          <IsOnCloud>false</IsOnCloud>
+          <UseRDP>false</UseRDP>
+          <RealPurpose xsi:nil="true" />
+          <Platform>Windows</Platform>
+          <Location>Default</Location>
+          <Condition>Operational</Condition>
+          <IsController>false</IsController>
+          <IsLG>true</IsLG>
+          <IsDP>false</IsDP>
+          <SSLEnabled>false</SSLEnabled>
+          <UnixLoginName />
+          <UnixLoginPassword />
+          <IsOverFW>false</IsOverFW>
+          <MIListener>None</MIListener>
+          <LogicalName />
+          <Context />
+          <RealPurposes>
+            <Purposes>Load Generator</Purposes>
+            <PurposesList>
+              <string>Load Generator</string>
+            </PurposesList>
+          </RealPurposes>
+          <RecoveryAttempt>0</RecoveryAttempt>
+          <IsDeleted>false</IsDeleted>
+          <RoutingTableStatus>NotInitialized</RoutingTableStatus>
+        </HostBase>
+      </Hosts>
+      <GroupInvalidity />
+      <RunTimeSettings>[General]!@##@!automatic_nested_transactions=1!@##@!AutomaticTransactions=1!@##@!DefaultRunLogic=default.usp!@##@!Encoding=ANSI!@##@!XlBridgeTimeout=120!@##@![Iterations]!@##@!IterationPace=IterationASAP!@##@!NumOfIterations=1!@##@!RandomMax=90!@##@!RandomMin=60!@##@!StartEvery=60!@##@![Log]!@##@!AutoLog=0!@##@!AutoLogBufferSize=1!@##@!IncludeEnvInfo=1!@##@!LogDetail=0!@##@!LogOptions=LogDisabled!@##@!MsgClassData=0!@##@!MsgClassFull=0!@##@!MsgClassParameters=0!@##@!PrintTimeStamp=0!@##@![ThinkTime]!@##@!Factor=1!@##@!Limit=1!@##@!LimitFlag=0!@##@!Options=RECORDED!@##@![WEB]!@##@!AnalogMode=0!@##@!BrowserAcceptEncoding=gzip, deflate!@##@!BrowserAcceptLanguage=en-US,en;q=0.9!@##@!BrowserType=Microsoft Internet Explorer 4.0!@##@!CustomUserAgent=Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36!@##@!EnableChecks=0!@##@!HttpVer=1.1!@##@!KeepAlive=1!@##@!LogFileWrite=0!@##@!LogFileWriteTraceToFile=0!@##@!MaxConnections=0!@##@!NavigatorBrowserLanguage=en-US!@##@!NavigatorSystemLanguage=en-US!@##@!NavigatorUserLanguage=en-US!@##@!ProxyAutoConfigScriptURL=!@##@!ProxyBypass=!@##@!ProxyHTTPHost=proxy.mfdemoportal.com!@##@!ProxyHTTPPort=8088!@##@!ProxyHTTPSHost=proxy.mfdemoportal.com!@##@!ProxyHTTPSPort=8088!@##@!ProxyNoLocal=1!@##@!ProxyPassword=!@##@!ProxyUseAutoConfigScript=0!@##@!ProxyUseBrowser=0!@##@!ProxyUseProxy=0!@##@!ProxyUseProxyServer=1!@##@!ProxyUserName=!@##@!ProxyUseSame=1!@##@!RecorderWinCodePage=1252!@##@!ResetContext=1!@##@!SaveSnapshotResources=1!@##@!ScreenAvailHeight=1160!@##@!ScreenAvailWidth=1920!@##@!ScreenHeight=1200!@##@!ScreenWidth=1920!@##@!SearchForImages=1!@##@!StartRecordingGMT=2019/11/04 09:44:48!@##@!StartRecordingIsDst=0!@##@!SupportCharset=None!@##@!UseBrowserAgent=0!@##@!UseCustomAgent=1!@##@!UseDataFormatExtensions=0!@##@!UserHomePage=!@##@!UTF8InputOutput=0!@##@!WebRecorderVersion=10!@##@!</RunTimeSettings>
+      <RunLogic>[Profile Actions]!@##@!MercIniTreeFather=""!@##@!MercIniTreeSectionName="Profile Actions"!@##@!Profile Actions name=vuser_init,Action,vuser_end!@##@![RunLogicEndRoot]!@##@!MercIniTreeFather=""!@##@!MercIniTreeSectionName="RunLogicEndRoot"!@##@!MercIniTreeSons="vuser_end"!@##@!Name="End"!@##@!RunLogicActionOrder="vuser_end"!@##@!RunLogicActionType="VuserEnd"!@##@!RunLogicNumOfIterations="1"!@##@!RunLogicObjectKind="Group"!@##@!RunLogicRunMode="Sequential"!@##@![RunLogicEndRoot:vuser_end]!@##@!MercIniTreeFather="RunLogicEndRoot"!@##@!MercIniTreeSectionName="vuser_end"!@##@!Name="vuser_end"!@##@!RunLogicActionType="VuserEnd"!@##@!RunLogicObjectKind="Action"!@##@![RunLogicErrorHandlerRoot]!@##@!MercIniTreeFather=""!@##@!MercIniTreeSectionName="RunLogicErrorHandlerRoot"!@##@!MercIniTreeSons="vuser_errorhandler"!@##@!Name="ErrorHandler"!@##@!RunLogicActionOrder="vuser_errorhandler"!@##@!RunLogicActionType="VuserErrorHandler"!@##@!RunLogicNumOfIterations="1"!@##@!RunLogicObjectKind="Group"!@##@!RunLogicRunMode="Sequential"!@##@![RunLogicErrorHandlerRoot:vuser_errorhandler]!@##@!MercIniTreeFather="RunLogicErrorHandlerRoot"!@##@!MercIniTreeSectionName="vuser_errorhandler"!@##@!Name="vuser_errorhandler"!@##@!RunLogicActionType="VuserErrorHandler"!@##@!RunLogicObjectKind="Action"!@##@![RunLogicInitRoot]!@##@!MercIniTreeFather=""!@##@!MercIniTreeSectionName="RunLogicInitRoot"!@##@!MercIniTreeSons="vuser_init"!@##@!Name="Init"!@##@!RunLogicActionOrder="vuser_init"!@##@!RunLogicActionType="VuserInit"!@##@!RunLogicNumOfIterations="1"!@##@!RunLogicObjectKind="Group"!@##@!RunLogicRunMode="Sequential"!@##@![RunLogicInitRoot:vuser_init]!@##@!MercIniTreeFather="RunLogicInitRoot"!@##@!MercIniTreeSectionName="vuser_init"!@##@!Name="vuser_init"!@##@!RunLogicActionType="VuserInit"!@##@!RunLogicObjectKind="Action"!@##@![RunLogicRunRoot]!@##@!MercIniTreeFather=""!@##@!MercIniTreeSectionName="RunLogicRunRoot"!@##@!MercIniTreeSons="Action"!@##@!Name="Run"!@##@!RunLogicActionOrder="Action"!@##@!RunLogicActionType="VuserRun"!@##@!RunLogicNumOfIterations="1"!@##@!RunLogicObjectKind="Group"!@##@!RunLogicRunMode="Sequential"!@##@![RunLogicRunRoot:Action]!@##@!MercIniTreeFather="RunLogicRunRoot"!@##@!MercIniTreeSectionName="Action"!@##@!Name="Action"!@##@!RunLogicActionType="VuserRun"!@##@!RunLogicObjectKind="Action"!@##@!</RunLogic>
+      <VUserPercentage>100</VUserPercentage>
+      <VUsersCount>0</VUsersCount>
+      <UseVudsForAddGroup>false</UseVudsForAddGroup>
+      <IsNVAnalyticsEnabled>false</IsNVAnalyticsEnabled>
+      <VuserAtActiveStateCount>0</VuserAtActiveStateCount>
+    </Group>
+  </Groups>
+  <DockerImageId>0</DockerImageId>
+  <DynamicMemoryLimit xsi:nil="true" />
+  <DynamicCpuLimit xsi:nil="true" />
+  <DockerContImageId>0</DockerContImageId>
+  <DynamicContMemoryLimit xsi:nil="true" />
+  <DynamicContCpuLimit xsi:nil="true" />
+  <Scheduler>
+    <ID>0</ID>
+    <Data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;LoadTest&gt;
+  &lt;Schedulers&gt;
+    &lt;CurrentSchedulerId&gt;0&lt;/CurrentSchedulerId&gt;
+    &lt;StartMode&gt;
+      &lt;StartModeType&gt;Immediately&lt;/StartModeType&gt;
+      &lt;StartModes&gt;
+        &lt;Immediately /&gt;
+        &lt;DelayAfterLTStart&gt;0&lt;/DelayAfterLTStart&gt;
+        &lt;StartAt&gt;2022-02-07T17:19:37.0030045+01:00&lt;/StartAt&gt;
+      &lt;/StartModes&gt;
+    &lt;/StartMode&gt;
+    &lt;Scheduler ID="0"&gt;
+      &lt;Name&gt;Scheduler&lt;/Name&gt;
+      &lt;Manual&gt;
+        &lt;SchedulersMode&gt;Classic&lt;/SchedulersMode&gt;
+        &lt;SchedulerType&gt;Global&lt;/SchedulerType&gt;
+        &lt;Global&gt;
+          &lt;Scheduling&gt;
+            &lt;IsDefaultScheduler&gt;true&lt;/IsDefaultScheduler&gt;
+            &lt;IsClassicScheduler&gt;true&lt;/IsClassicScheduler&gt;
+            &lt;DynamicScheduling&gt;
+              &lt;RampUpAll&gt;
+                &lt;StartCondition&gt;
+                  &lt;PrevAction /&gt;
+                &lt;/StartCondition&gt;
+                &lt;Batch&gt;
+                  &lt;Count&gt;1&lt;/Count&gt;
+                  &lt;Interval&gt;15&lt;/Interval&gt;
+                &lt;/Batch&gt;
+              &lt;/RampUpAll&gt;
+              &lt;Duration&gt;
+                &lt;StartCondition&gt;
+                  &lt;PrevAction /&gt;
+                &lt;/StartCondition&gt;
+                &lt;RunFor&gt;300&lt;/RunFor&gt;
+              &lt;/Duration&gt;
+              &lt;StopAll&gt;
+                &lt;StartCondition&gt;
+                  &lt;PrevAction /&gt;
+                &lt;/StartCondition&gt;
+              &lt;/StopAll&gt;
+            &lt;/DynamicScheduling&gt;
+          &lt;/Scheduling&gt;
+        &lt;/Global&gt;
+        &lt;Groups&gt;
+          &lt;InitAllBeforeStart&gt;false&lt;/InitAllBeforeStart&gt;
+          &lt;GroupScheduler&gt;
+            &lt;GroupName&gt;aos&lt;/GroupName&gt;
+            &lt;StartupMode&gt;
+              &lt;StartAtScenarioBegining /&gt;
+            &lt;/StartupMode&gt;
+            &lt;Scheduling&gt;
+              &lt;IsDefaultScheduler&gt;true&lt;/IsDefaultScheduler&gt;
+              &lt;IsClassicScheduler&gt;true&lt;/IsClassicScheduler&gt;
+              &lt;RunUntilComplete&gt;
+                &lt;RunAll&gt;
+                  &lt;StartCondition&gt;
+                    &lt;PrevAction /&gt;
+                  &lt;/StartCondition&gt;
+                &lt;/RunAll&gt;
+              &lt;/RunUntilComplete&gt;
+            &lt;/Scheduling&gt;
+          &lt;/GroupScheduler&gt;
+        &lt;/Groups&gt;
+      &lt;/Manual&gt;
+    &lt;/Scheduler&gt;
+  &lt;/Schedulers&gt;
+&lt;/LoadTest&gt;</Data>
+  </Scheduler>
+  <Hosts>
+    <HostBase xsi:type="ActualHost">
+      <ID>1103</ID>
+      <Purpose xsi:nil="true" />
+      <Purposes>
+        <Purposes>Load Generator</Purposes>
+        <PurposesList>
+          <string>Load Generator</string>
+        </PurposesList>
+      </Purposes>
+      <Demand>
+        <Purpose xsi:nil="true" />
+        <ID>1103</ID>
+        <Name>Actual Host</Name>
+        <Context />
+        <Purposes>
+          <Purposes>Load Generator</Purposes>
+          <PurposesList>
+            <string>Load Generator</string>
+          </PurposesList>
+        </Purposes>
+        <AllocationType>Manual</AllocationType>
+        <ElasticAllocationType>None</ElasticAllocationType>
+        <Filter>HOST_PROP1[];HOST_LOCATION_ID[Default];State[Idle];Name[lg-1]</Filter>
+        <HostProperties>
+          <HostProperty HOST_PROP1="" />
+          <HostProperty HOST_LOCATION_ID="Default" />
+          <HostProperty State="Idle" />
+          <HostProperty Name="lg-1" />
+        </HostProperties>
+      </Demand>
+      <Name>lg-1</Name>
+      <IsOnCloud>false</IsOnCloud>
+      <UseRDP>false</UseRDP>
+      <RealPurpose xsi:nil="true" />
+      <Platform>Windows</Platform>
+      <Location>Default</Location>
+      <Condition>Operational</Condition>
+      <IsController>false</IsController>
+      <IsLG>true</IsLG>
+      <IsDP>false</IsDP>
+      <SSLEnabled>false</SSLEnabled>
+      <UnixLoginName />
+      <UnixLoginPassword />
+      <IsOverFW>false</IsOverFW>
+      <MIListener>None</MIListener>
+      <LogicalName />
+      <Context />
+      <RealPurposes>
+        <Purposes>Load Generator</Purposes>
+        <PurposesList>
+          <string>Load Generator</string>
+        </PurposesList>
+      </RealPurposes>
+      <RecoveryAttempt>0</RecoveryAttempt>
+      <IsDeleted>false</IsDeleted>
+      <RoutingTableStatus>NotInitialized</RoutingTableStatus>
+    </HostBase>
+  </Hosts>
+  <UseIPSpoofing>false</UseIPSpoofing>
+  <PauseSchedulerBeforeStart>false</PauseSchedulerBeforeStart>
+  <StopLTWhenSchedulerEnds>true</StopLTWhenSchedulerEnds>
+  <MonitorProfileUniqueIDs />
+  <MonitorOfwUniqueIDs />
+  <Duration>0</Duration>
+  <HostDistributionMode>AssignLoadGeneratorsToGroupsManually</HostDistributionMode>
+  <RequestedNumOfVusers>3</RequestedNumOfVusers>
+  <RequestedNumOfVusersForLicense>3</RequestedNumOfVusersForLicense>
+  <SchedulerType>1</SchedulerType>
+  <ScenarioType>SCENARIO_TYPE_VUSERS</ScenarioType>
+  <MonitorProfiles />
+  <MonitorsOverFirewall />
+  <NetworkVirtualizationSettings>
+    <VirtualLocations />
+    <NetworkVirtualizationState>Disabled</NetworkVirtualizationState>
+    <IsNVAnalyticsEnabled>false</IsNVAnalyticsEnabled>
+  </NetworkVirtualizationSettings>
+  <Topology>
+    <ID>0</ID>
+    <Name />
+    <Description />
+    <Exists>true</Exists>
+  </Topology>
+  <TopologyUniqueID>0</TopologyUniqueID>
+  <TopologyMonitorSetName>Default</TopologyMonitorSetName>
+  <Diagnostics>
+    <ID>0</ID>
+    <IsEnabled>false</IsEnabled>
+    <IsMonitorServerRequestEnabled>false</IsMonitorServerRequestEnabled>
+    <IsJ2EELanOverFW>false</IsJ2EELanOverFW>
+    <DistributionPercentage>-1</DistributionPercentage>
+    <IsUsingHttps>false</IsUsingHttps>
+    <Distribution>
+      <DiagnosticsDistribution>
+        <IsMediatorOverFirewall>false</IsMediatorOverFirewall>
+        <DiagnosticsTypeID>1</DiagnosticsTypeID>
+        <Distribution>0</Distribution>
+        <MediatorID>0</MediatorID>
+        <IsActive>true</IsActive>
+        <SpecificXML />
+      </DiagnosticsDistribution>
+      <DiagnosticsDistribution>
+        <IsMediatorOverFirewall>false</IsMediatorOverFirewall>
+        <MediatorName />
+        <DiagnosticsTypeID>2</DiagnosticsTypeID>
+        <Distribution>0</Distribution>
+        <MediatorID>-1</MediatorID>
+        <IsActive>false</IsActive>
+        <SpecificXML />
+      </DiagnosticsDistribution>
+      <DiagnosticsDistribution>
+        <IsMediatorOverFirewall>false</IsMediatorOverFirewall>
+        <MediatorName />
+        <DiagnosticsTypeID>3</DiagnosticsTypeID>
+        <Distribution>0</Distribution>
+        <MediatorID>-1</MediatorID>
+        <IsActive>false</IsActive>
+        <SpecificXML>&lt;Data&gt;&lt;/Data&gt;</SpecificXML>
+      </DiagnosticsDistribution>
+      <DiagnosticsDistribution>
+        <IsMediatorOverFirewall>false</IsMediatorOverFirewall>
+        <MediatorName />
+        <DiagnosticsTypeID>4</DiagnosticsTypeID>
+        <Distribution>0</Distribution>
+        <MediatorID>-1</MediatorID>
+        <IsActive>false</IsActive>
+        <SpecificXML>&lt;Data&gt;&lt;/Data&gt;</SpecificXML>
+      </DiagnosticsDistribution>
+      <DiagnosticsDistribution>
+        <IsMediatorOverFirewall>false</IsMediatorOverFirewall>
+        <MediatorName />
+        <DiagnosticsTypeID>5</DiagnosticsTypeID>
+        <Distribution>0</Distribution>
+        <MediatorID>-1</MediatorID>
+        <IsActive>false</IsActive>
+        <SpecificXML>&lt;Data&gt;&lt;/Data&gt;</SpecificXML>
+      </DiagnosticsDistribution>
+      <DiagnosticsDistribution>
+        <IsMediatorOverFirewall>false</IsMediatorOverFirewall>
+        <MediatorName />
+        <DiagnosticsTypeID>6</DiagnosticsTypeID>
+        <Distribution>0</Distribution>
+        <MediatorID>-1</MediatorID>
+        <IsActive>false</IsActive>
+        <SpecificXML>&lt;Data&gt;&lt;Elem Server="" Name="" UserName="" password="" Client_Num="0" System_Num="0" RouterString="" IsEnabled="1" /&gt;&lt;/Data&gt;</SpecificXML>
+      </DiagnosticsDistribution>
+    </Distribution>
+  </Diagnostics>
+  <UsingVuds>false</UsingVuds>
+  <VudsAmount xsi:nil="true" />
+  <CurrentRunId>0</CurrentRunId>
+  <MaxConcurrentVusers xsi:nil="true" />
+  <AnalysisTemplateResourceId>0</AnalysisTemplateResourceId>
+  <CollateVuserLogs>true</CollateVuserLogs>
+  <IsRuntimeCollate>false</IsRuntimeCollate>
+  <IsUploadRawResults>false</IsUploadRawResults>
+  <IsUploadToOneAnalysis>false</IsUploadToOneAnalysis>
+  <DisableDefaultMonitors>false</DisableDefaultMonitors>
+  <AutomaticTrendingSettings>
+    <Enabled>false</Enabled>
+    <ReportId>0</ReportId>
+    <TrendRangeOption>CompleteRun</TrendRangeOption>
+    <StartTime>0</StartTime>
+    <EndTime>0</EndTime>
+    <MaxRunsInReport>10</MaxRunsInReport>
+    <ActionOnMaxRunsReachedOption>RollOver</ActionOnMaxRunsReachedOption>
+  </AutomaticTrendingSettings>
+</loadTest>
