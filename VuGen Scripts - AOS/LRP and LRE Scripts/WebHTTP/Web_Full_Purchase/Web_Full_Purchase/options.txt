@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\dev\LRDemo\VuGen Scripts - AOS\LRP and LRE Scripts\WebHTTP\Web_Full_Purchase\Web_Full_Purchase
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\dev\lrdemo\vugen scripts - aos\lrp and lre scripts\webhttp\web_full_purchase\web_full_purchase\\logfile.log
+c:\dev\lrdemo\vugen scripts - aos\lrp and lre scripts\webhttp\web_full_purchase\web_full_purchase\\combined_Web_Full_Purchase.c
+c:\dev\lrdemo\vugen scripts - aos\lrp and lre scripts\webhttp\web_full_purchase\web_full_purchase\\pre_cci.c

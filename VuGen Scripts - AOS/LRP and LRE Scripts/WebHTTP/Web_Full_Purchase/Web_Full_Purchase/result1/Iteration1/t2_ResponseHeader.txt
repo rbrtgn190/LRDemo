@@ -1,0 +1,14 @@
+HTTP/1.1 200 
+Server: nginx/1.18.0 (Ubuntu)
+Date: Thu, 06 Oct 2022 15:06:52 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Accept-Ranges: bytes
+ETag: W/"10827-1641810512000"
+Last-Modified: Mon, 10 Jan 2022 10:28:32 GMT
+Cache-Control: max-age=0
+Expires: Thu, 06 Oct 2022 15:06:52 GMT
+vary: accept-encoding
+Content-Encoding: gzip
+

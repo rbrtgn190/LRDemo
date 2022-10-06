@@ -1,0 +1,89 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Custom Request: ListAccounts",
+                "infFile": "t1.inf",
+                "time": 1665068811887
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: {URL}",
+                "infFile": "t2.inf",
+                "time": 1665068813270
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: ALL",
+                "infFile": "t3.inf",
+                "time": 1665068813364
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: GetAccountConfigurationRequest",
+                "infFile": "t4.inf",
+                "time": 1665068813473
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: categories",
+                "infFile": "t6.inf",
+                "time": 1665068813691
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: search",
+                "infFile": "t7.inf",
+                "time": 1665068813871
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: popularProducts.json",
+                "infFile": "t8.inf",
+                "time": 1665068813963
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: home-page.html",
+                "infFile": "t9.inf",
+                "time": 1665068814142
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: all_data",
+                "infFile": "t11.inf",
+                "time": 1665068814563
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: AccountLoginRequest",
+                "infFile": "t12.inf",
+                "time": 1665068814761
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: 741696325",
+                "infFile": "t14.inf",
+                "time": 1665068814919
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "URL",
+                "rawStartTime": 1665068811889,
+                "rawEndTime": 1665068814565,
+                "thinkTime": 0.0,
+                "wastedTime": 0.12135696411132813
+            },
+            {
+                "transactionName": "Login",
+                "rawStartTime": 1665068814593,
+                "rawEndTime": 1665068814920,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008962631225585938
+            }
+        ]
+    }
+]
