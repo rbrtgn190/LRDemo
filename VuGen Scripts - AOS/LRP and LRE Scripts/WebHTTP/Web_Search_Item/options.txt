@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\dev\LRDemo\VuGen Scripts - AOS\LRP and LRE Scripts\WebHTTP\Web_Search_Item
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\dev\lrdemo\vugen scripts - aos\lrp and lre scripts\webhttp\web_search_item\\logfile.log
+c:\dev\lrdemo\vugen scripts - aos\lrp and lre scripts\webhttp\web_search_item\\combined_Web_Search_Item.c
+c:\dev\lrdemo\vugen scripts - aos\lrp and lre scripts\webhttp\web_search_item\\pre_cci.c

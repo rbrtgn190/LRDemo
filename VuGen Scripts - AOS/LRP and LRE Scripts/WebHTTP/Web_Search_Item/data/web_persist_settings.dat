@@ -1,0 +1,11 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2018/11/13 14:39:38
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2018/11/13 14:41:39
+StartRecordingIsDst_2=0
+[UserHomePage]
+UserHomePage=http://download.hpswdemoportal.com/landing.html
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko
+[Security]
+UsingPersistForAuthentication=1

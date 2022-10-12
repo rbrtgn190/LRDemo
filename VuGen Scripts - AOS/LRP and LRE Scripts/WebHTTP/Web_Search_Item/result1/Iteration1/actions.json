@@ -1,0 +1,86 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: www.advantageonlineshopping.com",
+                "infFile": "t1.inf",
+                "time": 1646909590363
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: ALL",
+                "infFile": "t2.inf",
+                "time": 1646909590462
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: ALL_2",
+                "infFile": "t3.inf",
+                "time": 1646909590562
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: GetAccountConfigurationRequest",
+                "infFile": "t4.inf",
+                "time": 1646909590687
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: GetAccountConfigurationRequest_2",
+                "infFile": "t5.inf",
+                "time": 1646909590789
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: categories",
+                "infFile": "t6.inf",
+                "time": 1646909590959
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: search",
+                "infFile": "t7.inf",
+                "time": 1646909591135
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: all_data",
+                "infFile": "t8.inf",
+                "time": 1646909591526
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: popularProducts.json",
+                "infFile": "t9.inf",
+                "time": 1646909591619
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: home-page.html",
+                "infFile": "t10.inf",
+                "time": 1646909591802
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: iecompatviewlist.xml",
+                "infFile": "t11.inf",
+                "time": 1646909591869
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: search-page.html",
+                "infFile": "t12.inf",
+                "time": 1646909591966
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: product-page.html",
+                "infFile": "t13.inf",
+                "time": 1646909592152
+            }
+        ],
+        "transactions": []
+    }
+]

@@ -1,3 +1,0 @@
-userID,userPWD
-Mercury,Mercury
-baduser,badpassword
