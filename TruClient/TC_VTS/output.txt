@@ -1,0 +1,19 @@
+Virtual User Script started at : 2021-12-09 18:50:02
+TruClient Replay (build 0267) for LoadRunner Professional 2021.1.0, build 0351. OS: Windows 2019, Browser: Chromium 88.0.4324.150, initialized on 2021/12/09 at 18:49:46 (1639072186.429s)
+t=00016566ms: Step 1: Evaluate JavaScript code TC.vtcConnect("nimbusser...aos.com","4888") started    [MsgId: MMSG-205180]
+t=00016569ms: Warning -205179: The TC.vtcConnect API is deprecated because it is synchronous. Use the asynchronous API TCA.vtcConnect instead. For details, see https://admhelp.microfocus.com/tc/en/2021.1.0/Content/TruClient/procedures/Async_API_Example.htm.    [MsgId: MWAR-205179]
+t=00016789ms: Step 1: Evaluate JavaScript code TC.vtcConnect("nimbusser...aos.com","4888") successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Warning: The "vuser_init" section contains step(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations.
+Running Vuser...
+Starting iteration 1.
+t=00017303ms: Step 1: Evaluate JavaScript code var vendeur = TC.vtcSear...eur, "Standard") started    [MsgId: MMSG-205180]
+t=00017313ms: Warning -205179: The TC.vtcSearchRow API is deprecated because it is synchronous. Use the asynchronous API TCA.vtcSearchRow instead. For details, see https://admhelp.microfocus.com/tc/en/2021.1.0/Content/TruClient/procedures/Async_API_Example.htm.    [MsgId: MWAR-205179]
+t=00017334ms: Warning -205179: The TC.log API is deprecated because it is synchronous. Use the asynchronous API TCA.log instead. For details, see https://admhelp.microfocus.com/tc/en/2021.1.0/Content/TruClient/procedures/Async_API_Example.htm.    [MsgId: MWAR-205179]
+t=00017335ms: [object Object]    [MsgId: MMSG-205180]
+t=00017538ms: Step 1: Evaluate JavaScript code var vendeur = TC.vtcSear...eur, "Standard") successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+t=00017559ms: Step 1: Evaluate JavaScript code TC.vtcDisconnect() started    [MsgId: MMSG-205180]
+t=00017561ms: Warning -205179: The TC.vtcDisconnect API is deprecated because it is synchronous. Use the asynchronous API TCA.vtcDisconnect instead. For details, see https://admhelp.microfocus.com/tc/en/2021.1.0/Content/TruClient/procedures/Async_API_Example.htm.    [MsgId: MWAR-205179]
+t=00017769ms: Step 1: Evaluate JavaScript code TC.vtcDisconnect() successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Vuser Terminated.

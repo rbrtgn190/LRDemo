@@ -1,0 +1,20 @@
+Virtual User Script started at : 2022-10-12 15:07:08
+TruClient Replay (build 0383) for LoadRunner Professional 2021.2.0, build 0495. OS: Windows 2019, Browser: Chromium 91.0.4472.77, initialized on 2022/10/12 at 15:07:08 (1665580028.498s)
+t=00000559ms: Step 2: Execute VTS.vtcConnect ("nimbusserver.aos.com", 4888, [vtsName]) started    [MsgId: MMSG-205180]
+t=00000596ms: Step 2: Execute VTS.vtcConnect ("nimbusserver.aos.com", 4888, [vtsName]) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Warning: The "vuser_init" section contains step(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations.
+Running Vuser...
+Starting iteration 1.
+t=00001045ms: Step 2: Execute VTS.vtcSearchRow ("Vendeur", "Titi", ";", [vtsName]) started    [MsgId: MMSG-205180]
+t=00001067ms: Step 2: Execute VTS.vtcSearchRow ("Vendeur", "Titi", ";", [vtsName]) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00001073ms: Step 3: Execute TC.log (vVendeur, "Standard") started    [MsgId: MMSG-205180]
+t=00001077ms: [object Object]    [MsgId: MMSG-205180]
+t=00001078ms: Step 3: Execute TC.log ([object Object], "Standard") successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00001083ms: Step 4: Execute TC.outputMessage (eval(vVendeur)) started    [MsgId: MMSG-205180]
+t=00001087ms: [object Object]    [MsgId: MMSG1]
+t=00001092ms: Step 4: Execute TC.outputMessage ([object Object]) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+t=00001184ms: Step 2: Execute VTS.vtcDisconnect ([vtsName]) started    [MsgId: MMSG-205180]
+t=00001243ms: Step 2: Execute VTS.vtcDisconnect ([vtsName]) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Vuser Terminated.
