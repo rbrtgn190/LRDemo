@@ -1,0 +1,13 @@
+[DATA_POINT]
+1="HTTP_200"
+2="dom_interactive [http://advantageonlineshopping.com/]"
+3="dom_content_loaded [http://advantageonlineshopping.com/]"
+4="page_load [http://advantageonlineshopping.com/]"
+5="mic_recv"
+[END_TRANSACTION]
+1="http://advantageonlineshopping.com/"
+2="http://advantageonlineshopping.com/css/images/Down_arrow.svg"
+3="http://advantageonlineshopping.com/css/main.min.css"
+4="http://advantageonlineshopping.com/vendor/requirejs/require.js"
+5="http://advantageonlineshopping.com/css/images/favicon.ico"
+6="http://advantageonlineshopping.com/main.min.js"

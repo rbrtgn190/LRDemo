@@ -3,11 +3,7 @@ Type=TruClientWeb
 DefaultCfg=default.cfg
 MajorVersion=2021
 MinorVersion=2
-<<<<<<< HEAD
-ParameterFile=TC_VTS.prm
-=======
 ParameterFile=
->>>>>>> 290786e (sync from nimbusclient 2021r7)
 GlobalParameterFile=
 NewFunctionHeader=1
 LastActiveAction=Action
