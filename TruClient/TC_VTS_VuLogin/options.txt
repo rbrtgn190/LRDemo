@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\demo\Documents\VuGen\Scripts\TC_VTS_VuLogin
+-IC:\dev\LRDemo\TruClient\TC_VTS_VuLogin
 -IC:\LREHost\include
--ec:\users\demo\documents\vugen\scripts\tc_vts_vulogin\\logfile.log
-c:\users\demo\documents\vugen\scripts\tc_vts_vulogin\\combined_TC_VTS_VuLogin.c
-c:\users\demo\documents\vugen\scripts\tc_vts_vulogin\\pre_cci.c
+-ec:\dev\lrdemo\truclient\tc_vts_vulogin\\logfile.log
+c:\dev\lrdemo\truclient\tc_vts_vulogin\\combined_TC_VTS_VuLogin.c
+c:\dev\lrdemo\truclient\tc_vts_vulogin\\pre_cci.c
