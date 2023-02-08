@@ -5,3 +5,14 @@ results/
 codegen/
 # DevWeb log
 lr?_uploader.log
+
+*.sdf
+combined_*.c
+ThumbnailsCache.tmp
+*.bak
+pre_cci.c
+*.ci
+*.idx
+*.c.pickle
+mdrv_cmd.txt
+options.txt

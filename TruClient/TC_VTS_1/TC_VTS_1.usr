@@ -1,60 +1,70 @@
 [General]
-Type=Multi
+Type=TruClientWeb
 DefaultCfg=default.cfg
+MajorVersion=2022
+MinorVersion=1
 ParameterFile=
 GlobalParameterFile=
 NewFunctionHeader=1
-RunType=cci
-ActionLogicExt=action_logic
 LastActiveAction=Action
-MajorVersion=2022
-MinorVersion=1
-ActiveTypes=QTWeb
-GenerateTypes=QTWeb
-AdditionalTypes=QTWeb
 DevelopTool=Vugen
 LastModifyVer=2022.1.0.0
+ActiveTypes=TruClientWeb
+AdditionalTypes=TruClientWeb
+GenerateTypes=TruClientWeb
 ParamLeftBrace={
 ParamRightBrace=}
 ScriptLanguage=C
-LastCodeGenerationVer=12.60.0.971
+RunType=cci
+LastCodeGenerationVer=2022.1.0.0
 DisableRegenerate=0
-Encoding=ANSI
+Encoding=
 Description=
 ScriptLocale=en-US
-DFERebrandFlag=Done
 [Actions]
 vuser_init=vuser_init.c
 Action=Action.c
+Lib-View=Lib-View.c
 vuser_end=vuser_end.c
-[RunLogicFiles]
-Default Profile=default.usp
+[VisibleActions]
+Lib-View=1
+vuser_init=1
+Action=1
+vuser_end=1
 [VuserProfiles]
 Profiles=Default Profile
 [CfgFiles]
-Default Profile=default.cfg
+"Default Profile"=default.cfg
+[RunLogicFiles]
+"Default Profile"=default.usp
 [ExtraFiles]
+C-functions.c=
 globals.h=
-[Modified Actions]
-vuser_init=0
-Action=1
-vuser_end=0
+JS-functions.js=
+[Interpreters]
+vuser_init=no
+Action=no
+Lib-View=no
+vuser_end=no
 [Recorded Actions]
 vuser_init=0
-Action=1
+Action=0
+Lib-View=1
+vuser_end=0
+[Modified Actions]
+vuser_init=0
+Action=0
+Lib-View=0
 vuser_end=0
 [Replayed Actions]
 vuser_init=1
 Action=1
+Lib-View=1
 vuser_end=1
-[Interpreters]
-vuser_init=cci
-Action=cci
-vuser_end=cci
 [TransactionsOrder]
 Order=
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
-LastReplayedRunName=result1
-ActiveRunName=result1
+LastReplayedRunName=
+ActiveRunName=
