@@ -1,4 +1,4 @@
-# 1 "c:\\users\\demo\\documents\\vugen\\scripts\\tc_vts_vulogin\\\\combined_TC_VTS_VuLogin.c"
+# 1 "c:\\dev\\lrdemo\\truclient\\tc_vts_vulogin\\\\combined_TC_VTS_VuLogin.c"
 # 1 "C:\\LREHost\\include/lrun.h" 1
  
  
@@ -968,7 +968,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\demo\\documents\\vugen\\scripts\\tc_vts_vulogin\\\\combined_TC_VTS_VuLogin.c" 2
+# 1 "c:\\dev\\lrdemo\\truclient\\tc_vts_vulogin\\\\combined_TC_VTS_VuLogin.c" 2
 
 # 1 "C:\\LREHost\\include/SharedParameter.h" 1
 
@@ -1136,7 +1136,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\demo\\documents\\vugen\\scripts\\tc_vts_vulogin\\\\combined_TC_VTS_VuLogin.c" 2
+# 2 "c:\\dev\\lrdemo\\truclient\\tc_vts_vulogin\\\\combined_TC_VTS_VuLogin.c" 2
 
 # 1 "globals.h" 1
 
@@ -1155,7 +1155,7 @@ extern VTCERR2  lrvtc_noop();
 
 # 2 "globals.h" 2
 
-# 3 "c:\\users\\demo\\documents\\vugen\\scripts\\tc_vts_vulogin\\\\combined_TC_VTS_VuLogin.c" 2
+# 3 "c:\\dev\\lrdemo\\truclient\\tc_vts_vulogin\\\\combined_TC_VTS_VuLogin.c" 2
 
 # 1 "C-functions.c" 1
  
@@ -1169,5 +1169,5 @@ void main()
 {
 	
 }
-# 4 "c:\\users\\demo\\documents\\vugen\\scripts\\tc_vts_vulogin\\\\combined_TC_VTS_VuLogin.c" 2
+# 4 "c:\\dev\\lrdemo\\truclient\\tc_vts_vulogin\\\\combined_TC_VTS_VuLogin.c" 2
 

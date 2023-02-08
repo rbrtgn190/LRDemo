@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"OutputFileHashSum":"F57504DA4DA1B8FF328C221D4CA0FF797A056F1F9EFD5DC34D77DF17CC801C1F","Converted":true,"OutputModifyDate":"2022-10-26T13:17:30.0292659Z","Metadatas":[{"CategoryName":"VuGen.Replay","Offset":1600,"Length":189,"TypeId":1},{"CategoryName":"VuGen.Replay","Offset":1807,"Length":21,"TypeId":2},{"CategoryName":"VuGen.Replay","Offset":1829,"Length":19,"TypeId":2}],"MetadataTypes":[{"CategoryName":"VuGen.Replay","MetadataTypeName":"HP.LR.Vugen.Warning","Id":1},{"CategoryName":"VuGen.Replay","MetadataTypeName":"HP.LR.Vugen.Iteration","Id":2}]}
+=======
+{"OutputFileHashSum":"AEB854B679FC8EA8EB5E4F6ABAC25449A7603CA56BFBE8D236A9C235007C74B5","Converted":true,"OutputModifyDate":"2022-10-31T10:28:01.0918221Z","Metadatas":[],"MetadataTypes":[{"CategoryName":"VuGen.Replay","MetadataTypeName":"Utt.Debugger.Warning","Id":1},{"CategoryName":"VuGen.Replay","MetadataTypeName":"HP.LR.Vugen.Iteration","Id":2},{"CategoryName":"VuGen.Replay","MetadataTypeName":"Utt.Debugger.Error","Id":3}]}
+>>>>>>> edfbc49847ae5f1f50cd07da3f8716493ee9a6c1

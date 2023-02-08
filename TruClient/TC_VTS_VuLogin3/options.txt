@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\demo\Documents\VuGen\Scripts\TC_VTS_VuLogin2
+-IC:\LREHost\include
+-ec:\users\demo\documents\vugen\scripts\tc_vts_vulogin2\\logfile.log
+c:\users\demo\documents\vugen\scripts\tc_vts_vulogin2\\combined_TC_VTS_VuLogin2.c
+c:\users\demo\documents\vugen\scripts\tc_vts_vulogin2\\pre_cci.c
