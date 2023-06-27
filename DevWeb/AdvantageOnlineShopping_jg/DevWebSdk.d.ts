@@ -2,7 +2,7 @@
 // Project: [DevWeb]
 // Definitions by: [DevWeb Team]
 
-declare namespace load {
+declare namespace loadi {
     import FileEntry = load.MultipartBody.FileEntry;
     import StringEntry = load.MultipartBody.StringEntry;
 
