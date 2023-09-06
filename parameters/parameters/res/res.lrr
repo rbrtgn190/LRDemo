@@ -1,0 +1,33 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2023.0.0.0
+Path=C:\dev\LRDemo\parameters\parametersSC.lrs
+Subject=parametersSC
+Result_file=C:\dev\LRDemo\parameters\parameters\res\res.lrr
+Description=
+ResultName=res
+Time_Zone=0
+Start_time=1690881231
+Daylight_Bias=0
+Stop_time=1690881306
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 12 Vusers simultaneously; Run for 00:01:00 (HH:MM:SS); Stop all Vusers simultaneously
+Load Behavior=Initialize each Vuser just before it runs
+Global Schedule=ST12;R60;SP12;
+[Scripts]
+parameters=C:\dev\LRDemo\parameters\parameters\parameters.usr
+[Scripts_types]
+parameters=Multi+QTWeb

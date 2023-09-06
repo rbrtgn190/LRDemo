@@ -1,0 +1,20 @@
+Virtual User Script started at: 01/08/2023 08:43:04
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 2019; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\dev\LRDemo\parameters\parameters\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(6): Notify: Parameter Substitution: parameter "myParam" =  "Value1"
+Group: None, vuser id: -1, scenario id 0, param : Value1
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 932), ended OK."
