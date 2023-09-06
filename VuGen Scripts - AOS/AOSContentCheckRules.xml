@@ -1,0 +1,51 @@
+﻿<?xml version='1.0' encoding="utf-8" ?>
+
+<!DOCTYPE AED [
+
+ 
+
+ 
+<!ELEMENT Text (#PCDATA)>
+
+ 
+<!ELEMENT Prefix (#PCDATA)>
+
+ 
+<!ELEMENT Suffix (#PCDATA)>
+
+ 
+<!ELEMENT Rule ((Text,Prefix?,Suffix?)|(Prefix,Suffix))>
+<!ATTLIST Rule
+	Name			CDATA				#REQUIRED
+	Level			(disabled|error)	'error'
+	FailIfNotFound	(true|false)		'false'
+	MatchCase		(true|false)		'true'
+	UseText			(true|false)		'true'
+	Type			(std|alert)			#IMPLIED
+	>
+
+ 
+<!ELEMENT Application (Rule*)>
+<!ATTLIST Application
+	Name		CDATA			#REQUIRED
+	Enabled		(true|false)	'true'
+	StampTime	CDATA			#REQUIRED
+	StampHost	CDATA			#REQUIRED
+	>
+
+ 
+<!ELEMENT AED (Application*)>
+<!ATTLIST AED
+	LrVersion				CDATA					#IMPLIED
+	FileVersionInstallation	CDATA					#IMPLIED
+	Saved					(true|false)			'false'
+	>
+
+]>
+<AED><Application Name="AOS" Enabled="true" StampTime="1693995989" StampHost="">
+    <Rule Name="FailedLogin" FailIfNotFound="false" MatchCase="false" UseText="true" Level="error">
+      <Text>Incorrect user name or password</Text>
+    </Rule>
+  </Application>
+  
+</AED>
