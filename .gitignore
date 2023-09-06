@@ -16,3 +16,7 @@ pre_cci.c
 *.c.pickle
 mdrv_cmd.txt
 options.txt
+
+## LOGS
+*.log
+
