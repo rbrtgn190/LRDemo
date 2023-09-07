@@ -1,0 +1,9 @@
+GET http://nimbusserver.aos.com:8002/catalog/api/v1/categories HTTP/1.1
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Referer: http://nimbusserver.aos.com:8000/
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; _ga=GA1.2.1932473989.1694013852; _gid=GA1.2.1886878836.1694013852; _gat=1
+Host: nimbusserver.aos.com:8002
+

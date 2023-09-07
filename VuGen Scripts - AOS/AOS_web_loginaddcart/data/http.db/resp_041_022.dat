@@ -1,0 +1,29 @@
+const copyButtonLabel = "Copy Code";
+
+
+let blocks = document.querySelectorAll(".codeSnippetBody pre");
+
+blocks.forEach((e) => {
+  if (navigator.clipboard) {
+    let button = document.createElement("button");
+button.setAttribute("id", "copycode");
+
+    button.innerText = copyButtonLabel;
+    e.appendChild(button);
+
+    button.addEventListener("click", async () => {
+      await copyCode(e);
+    });
+  }
+});
+function replaceSps(str) {
+  var re = new RegExp(String.fromCharCode(160), "g");
+  return str.replace(re, " ");
+}
+
+async function copyCode(e) {
+  let code = e.querySelector("code");
+  let text = code.innerText;
+  text = replaceSps(text);
+  await navigator.clipboard.writeText(text);
+}

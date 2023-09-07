@@ -1,0 +1,64 @@
+
+function MyFunction(){
+
+$(document).ready(function() {
+		
+			var modal = document.getElementById("myModal");
+		
+			modal.style.display = "block";
+			
+			window.onclick = function(event) {
+			if (event.target == modal) {
+			modal.style.display = "none";
+			}
+				}
+});				
+
+setShareLinks();
+
+function socialWindow(url) {
+    var left = (screen.width - 570) / 2;
+    var top = (screen.height - 570) / 2;
+    var params = "menubar=no,toolbar=no,status=no,width=570,height=570,top=" + top + ",left=" + left;
+    window.open(url, "NewWindow", params);
+}
+
+function setShareLinks() {
+    var pageUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+    var tweet = encodeURIComponent($("meta[property='og:description']").attr("content"));
+    $(".social-share.facebook").on("click", function() {
+        url = "https://www.facebook.com/sharer.php?u=" + pageUrl;
+        socialWindow(url);
+    });
+    $(".social-share.twitter").on("click", function() {
+        url = "https://twitter.com/intent/tweet?url=" + pageUrl + "&text=" + tweet;
+        socialWindow(url);
+    });
+ $(".social-share.linkedin").on("click", function() {
+    url = "https://www.linkedin.com/shareArticle?mini=true&url=" + pageUrl;
+    socialWindow(url);
+  });
+    $(".social-share.email").on("click", function() {
+ebody = document.title + '\r\n' + '\r\n'+ pageUrl  ;
+ebody = encodeURIComponent(ebody);
+    document.location.href="mailto:?subject=[Shared Help Topic]: " + document.title +" | ADM Help Centers &body=" + ebody;
+  
+});
+ $(".linkcopy").on("click", function() {
+
+        var dummy = document.createElement('input');
+        text = window.location.protocol + "//" + window.location.host + window.location.pathname;
+        document.body.appendChild(dummy);
+        dummy.value = text;
+        dummy.select();
+        document.execCommand('copy');
+        document.body.removeChild(dummy);
+        
+    	
+   });
+
+}
+}
+		
+
+			

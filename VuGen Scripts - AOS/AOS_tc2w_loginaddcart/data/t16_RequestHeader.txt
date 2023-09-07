@@ -1,0 +1,9 @@
+GET http://nimbusserver.aos.com:8000/app/views/product-page.html HTTP/1.1
+Accept: text/html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Referer: http://nimbusserver.aos.com:8000/
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.1932473989.1694013852; _gid=GA1.2.1886878836.1694013852; _gat=1; _ga_56EMNRF2S2=GS1.2.1694013855.1.1.1694013870.45.0.0
+Host: nimbusserver.aos.com:8000
+

@@ -1,0 +1,12 @@
+[hosts]
+nimbusserver.aos.com=
+clientservices.googleapis.com=
+update.googleapis.com=
+www.google-analytics.com=
+content-autofill.googleapis.com=
+accounts.google.com=
+www.googletagmanager.com=
+translate.googleapis.com=
+analytics.google.com=
+stats.g.doubleclick.net=
+optimizationguide-pa.googleapis.com=

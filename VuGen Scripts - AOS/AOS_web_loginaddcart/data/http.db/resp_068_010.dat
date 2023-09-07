@@ -1,0 +1,79 @@
+﻿/**
+ * path MUST be in format: lang-code/version/PathToFile
+ * path assumes all paths use the same baseURL
+ * PathToFile is the path to the file that loads the specific language and version and can include subfolders
+ * order counts ... langs per version will appear in order specified here
+ * every entry must be followed by a comma EXCEPT the last entry
+ **/
+var vlmBaseURL = 'http://admhelp.microfocus.com/vugen/';
+var vlmLatest = '2023-2023-r1';
+var vlmPaths = [
+	'ja/2023-2023-r1/help/WebHelp/Content/Resources/_TopNav/_TopNav_Home.htm',
+	'de/2023-2023-r1/index.html',
+	'zh-CN/2023-2023-r1/help/WebHelp/Content/Resources/_TopNav/_TopNav_Home.htm',
+	'en/2023-2023-r1/help/WebHelp/Content/Resources/_TopNav/_TopNav_Home.htm',
+	'ja/2022-2022-r2/help/WebHelp/Content/Resources/_TopNav/_TopNav_Home.htm',
+	'de/2022-2022-r2/index.html',
+	'zh-CN/2022-2022-r2/help/WebHelp/Content/Resources/_TopNav/_TopNav_Home.htm',
+	'en/2022-2022-r2/help/WebHelp/Content/Resources/_TopNav/_TopNav_Home.htm',
+	'en/2021_R2/help/WebHelp/Content/Resources/_TopNav/_TopNav_Home.htm',
+	'ja/2021-2021_R1/WebHelp_ja/Default.htm',
+	'de/2021-2021_R1/index.html',
+	'zh-CN/2021-2021_R1/WebHelp_cn/Default.htm',
+	'en/2021-2021_R1/help/WebHelp/Content/Resources/_TopNav/_TopNav_Home.htm',
+	'en/2020_SP2-SP3/help/WebHelp/Content/Resources/_TopNav/_TopNav_Home.htm',
+	'ja/2020-2020_SP1/jp-Index.htm',
+	'de/2020-2020_SP1/de-Index.htm',
+	'zh-CN/2020-2020_SP1/zhCN-Index.htm',
+	'en/2020-2020_SP1/help/WebHelp/Content/Resources/_TopNav/_TopNav_Home.htm',
+	'ja/12.60-12.63/jp-Index.htm',
+	'de/12.60-12.63/de-Index.htm',
+	'zh-CN/12.60-12.63/zhCN-Index.htm',
+	'en/12.60-12.63/help/WebHelp/Content/Resources/_TopNav/_TopNav_Home.htm',
+	'en/Earlier/index.html'
+	];
+	
+var vlmLabels = {
+  '2023-2023-r1':'2023-2023 R1',
+  '2022-2022-r2':'2022-2022 R2',
+  '2021_R2':'2021 R2',
+  '2021-2021_R1':'2021-2021 R1',
+  '2020_SP2-SP3':'2020 SP2-SP3',
+  '2020-2020_SP1':'2020-2020 SP1',
+  '12.60-12.63':'12.60-12.63',
+  'Earlier':'Earlier' 
+ };
+
+var vlmPathsExt = [
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: true },
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: false },
+  { enableCludo: false }
+];
+var vlmLangs = {
+	'ja': '日本語',
+	'de': 'Deutsch',
+	'zh-CN': '中文',
+	'en': 'English'
+};
+
+

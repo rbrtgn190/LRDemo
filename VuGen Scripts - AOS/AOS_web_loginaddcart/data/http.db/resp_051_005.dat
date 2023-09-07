@@ -1,0 +1,230 @@
+﻿/*<meta />*/
+
+/* This header may be removed before distributing to customers. 
+
+FILE:        _rsc_fonts.css
+DESCRIPTION: Font declarations for Inter (MF) fonts
+LEVEL        CSS Level 3
+
+*/
+
+@font-face
+{
+	font-family: 'FontIcons';
+	font-weight: normal;
+	font-style: normal;
+	src: url('_rsc_icons/_rsc_icons.eot'); /* IE9 Compat Modes */
+	src: url('_rsc_icons/_rsc_icons.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('_rsc_icons/_rsc_icons.woff') format('woff'),
+	url('_rsc_icons/_rsc_icons.ttf') format('truetype');
+			
+}
+
+@font-face
+{
+	font-family: 'InterRegular';
+	font-weight: normal;
+	font-style: normal;
+	
+   		src:
+		url('_rsc_fonts/Inter-Regular.woff2') format('woff2'),
+		url('_rsc_fonts/Inter-Regular.ttf') format('truetype');
+	
+} 
+
+
+/* Added by Penny for semibold*/
+@font-face
+{
+	font-family: 'InterRegular';
+	font-weight: bold;
+	font-style: normal;
+    
+   
+    	src:
+		url('_rsc_fonts/Inter-SemiBold.woff2') format('woff2'),
+		url('_rsc_fonts/Inter-SemiBold.ttf') format('truetype');
+	
+} 
+
+@font-face
+{
+	font-family: 'InterRegular';
+	font-weight: bold;
+	font-style: italic;
+   
+    	src:
+		url('_rsc_fonts/Inter-SemiBoldItalic.woff2') format('woff2'),
+		url('_rsc_fonts/Inter-SemiBoldItalic.ttf') format('truetype');
+
+} 
+
+@font-face
+{
+    font-family:'InterSemi';
+    font-weight: normal;
+    font-style: normal;
+ 
+    	src:url('_rsc_fonts/Inter-SemiBold.woff') format('woff'),
+		url('_rsc_fonts/Inter-SemiBold.woff2') format('woff2');
+
+} 
+
+/* Added by Penny for italic*/
+@font-face
+{
+	font-family: 'InterRegular';
+	font-weight: normal;
+	font-style: italic;
+	
+  		src:url('_rsc_fonts/Inter-Italic.woff') format('woff'),
+		url('_rsc_fonts/Inter-Italic.woff2') format('woff2'),
+		url('_rsc_fonts/Inter-Italic.ttf') format('truetype');
+	
+} 
+
+
+/* End of added by Penny */
+
+
+@font-face
+{
+	font-family: 'InterBold';
+	font-weight: bold;
+	font-style: normal;
+	
+		src:url('_rsc_fonts/Inter-Bold.woff') format('woff'),
+		url('_rsc_fonts/Inter-Bold.woff2') format('woff2'),
+		url('_rsc_fonts/Inter-Bold.ttf') format('truetype');
+	
+	
+} 
+
+
+@font-face
+{
+	font-family: 'InterBlack';
+	font-weight: black;
+	font-style: normal;
+	
+		src:url('_rsc_fonts/Inter-Black.woff') format('woff'),
+		url('_rsc_fonts/Inter-Black.woff2') format('woff2'),
+		url('_rsc_fonts/Inter-Black.ttf') format('truetype');
+}	
+
+
+@font-face
+{
+	font-family: 'InterMedium';
+	font-weight: normal;
+	font-style: normal;
+    
+   		src:
+		url('_rsc_fonts/Inter-Medium.woff2') format('woff2'),
+		url('_rsc_fonts/Inter-Medium.ttf') format('truetype');
+	
+} 
+
+
+@font-face
+{
+	font-family: 'InterSemibold';
+	font-weight: normal;
+	font-style: normal;
+    
+   	src:url('_rsc_fonts/Inter-Semibold.woff') format('woff'),	
+	url('_rsc_fonts/Inter-Semibold.woff2') format('woff2'),
+	url('_rsc_fonts/Inter-Semibold.ttf') format('truetype');
+	
+} 
+
+
+
+@font-face
+{
+	font-family: 'InterBoldItalic';
+	font-weight: bold;
+	font-style: italic;
+    
+		src:url('_rsc_fonts/Inter-BoldItalic.woff') format('woff'),
+		url('_rsc_fonts/Inter-BoldItalic.woff2') format('woff2'),
+		url('_rsc_fonts/Inter-BoldItalic.ttf') format('truetype');
+	
+} 
+
+
+@font-face
+{
+	font-family: 'InterBlackItalic';
+	font-weight: 900;
+	font-style: italic;
+    
+		src:url('_rsc_fonts/Inter-BlackItalic.woff') format('woff'),
+		url('_rsc_fonts/Inter-BlackItalic.woff2') format('woff2'),
+		url('_rsc_fonts/Inter-BlackItalic.ttf') format('truetype');
+	
+} 
+
+
+@font-face
+{
+	font-family: 'InterMediumItalic';
+	font-weight: 500;
+	font-style: italic;
+    
+		src:url('_rsc_fonts/Inter-MediumItalic.woff') format('woff'),
+		url('_rsc_fonts/Inter-MediumItalic.woff2') format('woff2'),
+		url('_rsc_fonts/Inter-MediumItalic.ttf') format('truetype');
+	
+}
+
+@font-face
+{
+	font-family: 'InterLightItalic';
+	font-weight: 300;
+	font-style: italic;
+    
+		src:url('_rsc_fonts/Inter-LightItalic.woff') format('woff'),
+		url('_rsc_fonts/Inter-LightItalic.woff2') format('woff2'),
+		url('_rsc_fonts/Inter-LightItalic.ttf') format('truetype');
+	
+} 
+
+
+
+@font-face
+{
+	font-family: 'InterThinItalic';
+	font-weight: 100;
+	font-style: italic;
+    
+		src:url('_rsc_fonts/Inter-ThinItalic.woff') format('woff'),
+		url('_rsc_fonts/Inter-ThinItalic.woff2') format('woff2'),
+		url('_rsc_fonts/Inter-ThinItalic.ttf') format('truetype');
+	
+} 
+
+
+
+@font-face
+{
+	font-family: 'InterLight';
+	font-weight: 300;
+	font-style: normal;
+	
+		src:url('_rsc_fonts/Inter-Light.woff') format('woff '),
+		url('_rsc_fonts/Inter-Light.woff2') format('woff2'),
+url('_rsc_fonts/Inter-Light.ttf') format('truetype');		
+	}
+
+@font-face
+{
+	font-family: 'InterThin';
+	font-weight: 100;
+	font-style: normal;
+	
+		src:url('_rsc_fonts/Inter-Thin.woff') format('woff'),
+		url('_rsc_fonts/Inter-Thin.woff2') format('woff2'),
+		url('_rsc_fonts/Inter-Thin.ttf') format('truetype');
+	
+} 

@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 4.1.3.0
+Project("88ABDD61-8911-4E2D-9B3F-6F05EC2931F8") = "AOS_web_loginaddcart", "AOS_web_loginaddcart\AOS_web_loginaddcart.usr", "88ABDD61-8911-4E2D-9B3F-6F05EC2931F8"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XGRldlxMUkRlbW9cVnVHZW4gU2NyaXB0cyAtIEFPU1xBT1Nfd2ViX2xvZ2luYWRkY2FydFxBT1Nfd2ViX2xvZ2luYWRkY2FydC51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+QU9TX3dlYl9sb2dpbmFkZGNhcnQudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMy0wOS0wNlQxMjozNDoyMy40MTg1NDIyKzAyOjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("6D1E65F7-68AA-4EF1-AF79-4871322A4666") = "AOS_tc_loginaddcart", "AOS_tc_loginaddcart\AOS_tc_loginaddcart.usr", "6D1E65F7-68AA-4EF1-AF79-4871322A4666"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XGRldlxMUkRlbW9cVnVHZW4gU2NyaXB0cyAtIEFPU1xBT1NfdGNfbG9naW5hZGRjYXJ0XEFPU190Y19sb2dpbmFkZGNhcnQudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPkM6XGRldlxMUkRlbW9cVnVHZW4gU2NyaXB0cyAtIEFPU1xBT1NfdGNfbG9naW5hZGRjYXJ0XEFPU190Y19sb2dpbmFkZGNhcnQudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMy0wOS0wNlQxNDozOTo0Ni44MTI4MjMrMDI6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("A14BDFEC-6B98-411D-BFC5-A98D560CA66A") = "TruClient1", "TruClient1\TruClient1.usr", "A14BDFEC-6B98-411D-BFC5-A98D560CA66A"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XGRldlxMUkRlbW9cVnVHZW4gU2NyaXB0cyAtIEFPU1xUcnVDbGllbnQxXFRydUNsaWVudDEudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPkM6XGRldlxMUkRlbW9cVnVHZW4gU2NyaXB0cyAtIEFPU1xUcnVDbGllbnQxXFRydUNsaWVudDEudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMy0wOS0wNlQxNjoyNjo1Ny41NTk0NjczKzAyOjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("640FB311-7219-4513-BBBA-43654975A4C0") = "AOS_tc2w_loginaddcart", "AOS_tc2w_loginaddcart\AOS_tc2w_loginaddcart.usr", "640FB311-7219-4513-BBBA-43654975A4C0"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XGRldlxMUkRlbW9cVnVHZW4gU2NyaXB0cyAtIEFPU1xBT1NfdGMyd19sb2dpbmFkZGNhcnRcQU9TX3RjMndfbG9naW5hZGRjYXJ0LnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5DOlxkZXZcTFJEZW1vXFZ1R2VuIFNjcmlwdHMgLSBBT1NcQU9TX3RjMndfbG9naW5hZGRjYXJ0XEFPU190YzJ3X2xvZ2luYWRkY2FydC51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDIzLTA5LTA2VDE3OjIzOjU5LjExOTg2NTIrMDI6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("E4DD7251-13D4-45D0-951A-D958DE889163") = "Create_Account_AOS_TruClient", "Create_Account_AOS_TruClient\Create_Account_AOS_TruClient.usr", "E4DD7251-13D4-45D0-951A-D958DE889163"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XGRldlxMUkRlbW9cVnVHZW4gU2NyaXB0cyAtIEFPU1xDcmVhdGVfQWNjb3VudF9BT1NfVHJ1Q2xpZW50XENyZWF0ZV9BY2NvdW50X0FPU19UcnVDbGllbnQudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPkNyZWF0ZV9BY2NvdW50X0FPU19UcnVDbGllbnQudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMy0wOS0wNlQxNzozMjowNy4zNDA0NzEzKzAyOjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		88ABDD61-8911-4E2D-9B3F-6F05EC2931F8.Debug|Any CPU.Build.0 = Debug|Any CPU
+		88ABDD61-8911-4E2D-9B3F-6F05EC2931F8.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		88ABDD61-8911-4E2D-9B3F-6F05EC2931F8.Release|Any CPU.Build.0 = Release|Any CPU
+		88ABDD61-8911-4E2D-9B3F-6F05EC2931F8.Release|Any CPU.ActiveCfg = Release|Any CPU
+		6D1E65F7-68AA-4EF1-AF79-4871322A4666.Debug|Any CPU.Build.0 = Debug|Any CPU
+		6D1E65F7-68AA-4EF1-AF79-4871322A4666.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		6D1E65F7-68AA-4EF1-AF79-4871322A4666.Release|Any CPU.Build.0 = Release|Any CPU
+		6D1E65F7-68AA-4EF1-AF79-4871322A4666.Release|Any CPU.ActiveCfg = Release|Any CPU
+		A14BDFEC-6B98-411D-BFC5-A98D560CA66A.Debug|Any CPU.Build.0 = Debug|Any CPU
+		A14BDFEC-6B98-411D-BFC5-A98D560CA66A.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		A14BDFEC-6B98-411D-BFC5-A98D560CA66A.Release|Any CPU.Build.0 = Release|Any CPU
+		A14BDFEC-6B98-411D-BFC5-A98D560CA66A.Release|Any CPU.ActiveCfg = Release|Any CPU
+		640FB311-7219-4513-BBBA-43654975A4C0.Debug|Any CPU.Build.0 = Debug|Any CPU
+		640FB311-7219-4513-BBBA-43654975A4C0.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		640FB311-7219-4513-BBBA-43654975A4C0.Release|Any CPU.Build.0 = Release|Any CPU
+		640FB311-7219-4513-BBBA-43654975A4C0.Release|Any CPU.ActiveCfg = Release|Any CPU
+		E4DD7251-13D4-45D0-951A-D958DE889163.Debug|Any CPU.Build.0 = Debug|Any CPU
+		E4DD7251-13D4-45D0-951A-D958DE889163.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		E4DD7251-13D4-45D0-951A-D958DE889163.Release|Any CPU.Build.0 = Release|Any CPU
+		E4DD7251-13D4-45D0-951A-D958DE889163.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

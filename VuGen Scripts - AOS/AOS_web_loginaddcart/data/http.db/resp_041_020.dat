@@ -1,0 +1,98 @@
+﻿
+/* Styles for extras.js
+*/
+
+#StickyBar {
+    z-index: 1000;
+    max-width: 340px;
+    min-width: 300px;
+    /* min-height: 115px; */
+    min-height: 85px;
+    font-family: OpenSans, arial, "sans-serif";
+    padding: 10px 20px;
+    padding-right: 5px;
+    background-color: white;
+    box-shadow: 1px 1px 3.92px 0.08px rgba(66,66,66,0.4);
+    overflow: hidden;
+    position: fixed;
+    color: #293138;
+    top: 100px;
+    right: 20px;
+    right: 0px,;
+    /* left: 1280px; */
+    /* right: 10px; */
+    display: none;
+    /* left: 0; */
+    text-align: left;
+    font-size: 12px;
+    line-height: 1;
+    /* font-weight: bold; */
+    margin-right: -15px;
+}
+#StickyBar div {
+    padding: 2px 0 0;
+}
+#StickyBar a {
+    color: #0073e7;
+    display: inline-block; 
+    font-family: InterRegular;
+    font-size: 13.5px;
+	padding-bottom:15px;
+
+    /*padding: 0 10px;
+	margin-left:40px;*/
+}
+
+#StickyBar a[target="_blank"]::after {
+    content: "";
+	}
+	
+	#StickyBar a:hover 
+	{
+	  text-decoration:none;
+	}
+#StickyBar a#StickyButton {
+    display: inline-block;
+    position: absolute;
+    font-family: InterMedium;
+    /* font-weight: bold; */
+    bottom: 8px;
+    width: 71px;
+    height: 32px;
+    background-color: rgba(12, 127, 239, 0.05);
+    right: 8px;
+    color: #0073e7;
+    font-size: 12.5px;
+    /* background: #ffffff; */
+    text-decoration: none;
+    cursor: pointer;
+	padding-top:4px;
+    /* padding: 2px 20px; */
+    float: right;
+    /* border-radius: 20px; */
+    /* margin-left:4px; */
+    text-align: center;
+    line-height: 2.1;
+    vertical-align: -webkit-baseline-middle;
+    /* vertical-align: middle; */
+}
+#StickyBar a#StickyButton:hover {
+    
+}
+#stickytext{
+display:flex;
+flex-direction:column}
+
+	
+#sticky{
+	/* width:33.9px; */
+	height: 36px;
+	float:left;
+	padding-right: 8px;
+	padding-top: 5px;
+} 
+#stickybigtext{
+	font-size:15px;
+	margin-bottom:12px;
+	margin-top:2px;
+}

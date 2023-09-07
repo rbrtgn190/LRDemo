@@ -1,0 +1,12 @@
+HTTP/1.1 200 
+Date: Wed, 06 Sep 2023 15:24:31 GMT
+Expires: Wed, 06 Sep 2023 15:24:32 GMT
+vary: accept-encoding
+Last-Modified: Mon, 10 Jan 2022 10:28:32 GMT
+Keep-Alive: timeout=20
+ETag: W/"8805-1641810512000"
+Accept-Ranges: bytes
+Cache-Control: max-age=0
+Content-Encoding: gzip
+Content-Type: text/html
+

@@ -1,0 +1,83 @@
+Virtual User Script started at : 2023-09-06 17:33:19
+TruClient Replay (build 0151) for LoadRunner Professional 2023.0.0, build 0628. OS: Windows 2019, Browser: Chromium 108.0.5359.125, initialized on 2023/09/06 at 17:33:19 (1694014399,557s)
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "AOS_URL" started.
+t=00001595ms: Step 1: Navigate to URL started    [MsgId: MMSG-205180]
+t=00003103ms: Step 1: Navigate to http://nimbusserver.aos.com:8000 successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "AOS_URL" ended with a "Pass" status (Duration: 1,5140 Wasted Time: 0,4930).
+Notify: Transaction "Create_Account" started.
+Notify: Transaction "Login_window" started.
+t=00003617ms: Step 3: Click on element (1)  started    [MsgId: MMSG-205180]
+t=00004042ms: Step 3: Click on element (1)  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "Login_window" ended with a "Pass" status (Duration: 0,4300 Wasted Time: 0,2490).
+Notify: Transaction "New_Account_link" started.
+t=00004554ms: Step 4: Click on CREATE NEW ACCOUNT link started    [MsgId: MMSG-205180]
+t=00005304ms: Step 4: Click on CREATE NEW ACCOUNT link successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "New_Account_link" ended with a "Pass" status (Duration: 0,7560 Wasted Time: 0,5770).
+Notify: Transaction "Account_info" started.
+t=00005815ms: Step 5: Click on Username label started    [MsgId: MMSG-205180]
+t=00008114ms: Step 5: Click on Username label successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00008624ms: Step 6: Type davidm1 in NOTICEThis is a demo... textbox started    [MsgId: MMSG-205180]
+t=00010743ms: Step 6: Type davidm1 in NOTICEThis is a demo... textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00011247ms: Step 7: Click on Email label started    [MsgId: MMSG-205180]
+t=00013553ms: Step 7: Click on Email label successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00014064ms: Step 8: Type david1@gmail.com in *Username  Use 5 character... textbox started    [MsgId: MMSG-205180]
+t=00019895ms: Step 8: Type david1@gmail.com in *Username  Use 5 character... textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00020407ms: Step 9: Click on Password label started    [MsgId: MMSG-205180]
+t=00022724ms: Step 9: Click on Password label successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00023232ms: Step 10: Type ******** in NOTICEThis is a demo... passwordbox started    [MsgId: MMSG-205180]
+t=00025991ms: Step 10: Type ******** in NOTICEThis is a demo... passwordbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00026495ms: Step 11: Click on Confirm password label started    [MsgId: MMSG-205180]
+t=00028814ms: Step 11: Click on Confirm password label successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00029319ms: Step 12: Type ******** in *Password  Use 4 character... passwordbox started    [MsgId: MMSG-205180]
+t=00032447ms: Step 12: Type ******** in *Password  Use 4 character... passwordbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00032951ms: Step 13: Click on First Name label started    [MsgId: MMSG-205180]
+t=00035256ms: Step 13: Click on First Name label successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00035767ms: Step 14: Type David in NOTICEThis is a demo... textbox started    [MsgId: MMSG-205180]
+t=00038526ms: Step 14: Type David in NOTICEThis is a demo... textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00039030ms: Step 15: Click on First Name  Use 2 character... textbox started    [MsgId: MMSG-205180]
+t=00041350ms: Step 15: Click on First Name  Use 2 character... textbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00041854ms: Step 16: Type Morgan in First Name  Use 2 character... textbox started    [MsgId: MMSG-205180]
+t=00043758ms: Step 16: Type Morgan in First Name  Use 2 character... textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00044264ms: Step 17: Click on NOTICEThis is a demo... textbox started    [MsgId: MMSG-205180]
+t=00046585ms: Step 17: Click on NOTICEThis is a demo... textbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00047095ms: Step 18: Type 529987145 in NOTICEThis is a demo... textbox started    [MsgId: MMSG-205180]
+t=00050631ms: Step 18: Type 529987145 in NOTICEThis is a demo... textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00051143ms: Step 19: Select United States from NOTICEThis is a demo... listbox started    [MsgId: MMSG-205180]
+t=00053291ms: Step 19: Select United States from NOTICEThis is a demo... listbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00053800ms: Step 20: Click on AfganistanAlbaniaAlgeriaAmerican... textbox started    [MsgId: MMSG-205180]
+t=00056099ms: Step 20: Click on AfganistanAlbaniaAlgeriaAmerican... textbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00056607ms: Step 21: Type New york in AfganistanAlbaniaAlgeriaAmerican... textbox started    [MsgId: MMSG-205180]
+t=00059487ms: Step 21: Type New york in AfganistanAlbaniaAlgeriaAmerican... textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00059999ms: Step 22: Click on NOTICEThis is a demo... textbox started    [MsgId: MMSG-205180]
+t=00062318ms: Step 22: Click on NOTICEThis is a demo... textbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00062823ms: Step 23: Type 768 9th. Avenue in NOTICEThis is a demo... textbox started    [MsgId: MMSG-205180]
+t=00068894ms: Step 23: Type 768 9th. Avenue in NOTICEThis is a demo... textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00069399ms: Step 24: Click on State / Province / Region label started    [MsgId: MMSG-205180]
+t=00071719ms: Step 24: Click on State / Province / Region label successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00072231ms: Step 25: Type New York in Address  Use maximum... textbox started    [MsgId: MMSG-205180]
+t=00075334ms: Step 25: Type New York in Address  Use maximum... textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00075839ms: Step 26: Click on NOTICEThis is a demo... textbox started    [MsgId: MMSG-205180]
+t=00078162ms: Step 26: Click on NOTICEThis is a demo... textbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00078671ms: Step 27: Type 5521495 in NOTICEThis is a demo... textbox started    [MsgId: MMSG-205180]
+t=00081583ms: Step 27: Type 5521495 in NOTICEThis is a demo... textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "Account_info" ended with a "Pass" status (Duration: 75,7700 Wasted Time: 41,7320).
+Notify: Transaction "Agreement_AOS" started.
+t=00082097ms: Step 28: Click on I agree to the www.Advan...eShopping.com... checkbox started    [MsgId: MMSG-205180]
+t=00084220ms: Step 28: Click on I agree to the www.Advan...eShopping.com... checkbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "Agreement_AOS" ended with a "Pass" status (Duration: 2,1270 Wasted Time: 2,0990).
+Notify: Transaction "Register_Account" started.
+t=00084728ms: Step 29: Click on REGISTER button started    [MsgId: MMSG-205180]
+t=00085521ms: Step 29: Click on REGISTER button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "Create_Account" ended with a "Pass" status (Duration: 81,9080 Wasted Time: 47,0980).
+Notify: Transaction "Register_Account" ended with a "Pass" status (Duration: 0,7990 Wasted Time: 0,4140).
+Notify: Transaction "Home_page" started.
+t=00086031ms: Step 30: Click on HOME link started    [MsgId: MMSG-205180]
+t=00168272ms: Error -205177: Step 30: Click on HOME link failed - Target object was not found. Identification Method: Automatic       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+Notify: Transaction "Home_page" ended with a "Fail" status (Duration: 81,9130).
+Notify: Transaction "Home_page" has 1 error message(s).
+Notify: The 1st error message associated with transaction "Home_page" is "Error -205177: Step 30: Click on HOME link failed - Target object was not found. Identification Method: Automatic"
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

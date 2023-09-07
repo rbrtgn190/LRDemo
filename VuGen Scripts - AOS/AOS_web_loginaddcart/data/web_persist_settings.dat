@@ -1,0 +1,19 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2023/09/05 14:21:35
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2023/09/05 15:28:22
+StartRecordingIsDst_2=0
+StartRecordingGMT_3=2023/09/05 15:32:09
+StartRecordingIsDst_3=0
+StartRecordingGMT_4=2023/09/05 15:52:17
+StartRecordingIsDst_4=0
+StartRecordingGMT_5=2023/09/05 16:09:54
+StartRecordingIsDst_5=0
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+[Security]
+UsingPersistForAuthentication=1
+UserName_5_1=davidm
+Password_5_1=Passw0rd
+Realm_5_1=nimbusserver.aos.com:8002
+EventId_5_1=2342

@@ -1,0 +1,2 @@
+)]}'
+{"response":{"server":"prod","protocol":"3.1","daystart":{"elapsed_seconds":30737,"elapsed_days":6091},"app":[{"appid":"njkcecfgjklpakiaknffokgoafimlggp","cohort":"1::","status":"ok","cohortname":"","ping":{"status":"ok"},"updatecheck":{"_esbAllowlist":"true","status":"noupdate"}},{"appid":"nmmhkkegccagdldgiimedpiccmgmieda","cohort":"1::","status":"ok","cohortname":"","ping":{"status":"ok"},"updatecheck":{"_esbAllowlist":"true","status":"noupdate"}}]}}

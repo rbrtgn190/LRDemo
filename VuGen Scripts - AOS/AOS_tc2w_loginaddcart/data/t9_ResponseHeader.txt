@@ -1,0 +1,12 @@
+HTTP/1.1 200 
+Expires: 0
+Cache-control: no-store
+Set-Cookie: JSESSIONID=8C0083850F93ED62C4C2DD7F6298B967; Path=/order; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+vary: accept-encoding
+Content-Encoding: gzip
+Content-Type: application/json
+Date: Wed, 06 Sep 2023 15:24:29 GMT
+

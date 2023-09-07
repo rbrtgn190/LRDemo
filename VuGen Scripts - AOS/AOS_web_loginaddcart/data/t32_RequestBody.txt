@@ -1,0 +1,4 @@
+"{\"seaddress\":{\"addressLine1\":\"768 9th. Avenue\",\"addressLine2\":\"\",\"city\":\"New york"
+"\",\"country\":\"us\",\"postalCode\":5521495,\"state\":\"New York\"},\"secustomerName\":\"Davi"
+"d Morgan\",\"secustomerPhone\":529987145,\"senumberOfProducts\":1,\"setransactionType\":\"SHIP"
+"PING_COST\",\"sessionId\":\"9D6B9FA529F6123C25CFB50307B5DBB5\"}"

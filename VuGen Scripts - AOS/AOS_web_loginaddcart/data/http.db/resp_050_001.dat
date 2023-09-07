@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins__TopNav_Skin" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-toc-path="Use VuGen|[%=System.LinkedTitle%]|[%=System.LinkedTitle%]|[%=System.LinkedTitle%]|[%=System.LinkedTitle%]" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-medium="non-print">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta property="og:image" content="https://admhelp.microfocus.com/resources/help.png &#xD;&#xA;" />
+        <meta property="og:description" content=" [Shared Help Topic] ADM Help Centers" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="twitter:image" content="https://admhelp.microfocus.com/resources/help.png" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:width" content="382" />
+        <meta property="og:image" content="https://admhelp.microfocus.com/resources/help.png" />
+        <meta property="og:description" content="[Shared Help Topic] ADM Help Centers" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../Skins/Favicons/browserconfig.xml" />
+        <meta name="page-type" content="other" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" />
+        <meta charset="utf-8" />
+        <meta http-equiv="cache-control" content="max-age=0" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="-1" />
+        <meta http-equiv="expires" content="Tue, 01 Jan 1980 11:00:00 GMT" />
+        <meta http-equiv="pragma" content="no-cache" /><title>Server Entry - Traffic Filtering dialog box</title>
+        <!-- Google Tag Manager -->
+        <!-- End Google Tag Manager -->
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/_rsc_SuperDocs.css" rel="stylesheet" type="text/css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.share-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.expand-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.print-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.needs-pie
+{
+	behavior: url('../../../Resources/Scripts/PIE.htc');
+}
+
+</style>
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript" src="../../Resources/_TopNav/_TopNav_ImageMapResizer.js">
+        </script>
+        <script type="text/javascript" src="../../Resources/_TopNav/_TopNav_Script.min.js">
+        </script>
+        <script type="text/javascript" src="../../Resources/MasterPages/_rscC_extras.js">
+        </script>
+        <script type="text/javascript">/*<![CDATA[*/(function(w,d,s,l,i){if(location.protocol.toLowerCase().indexOf('file:')===0)return;w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-NJ9842');/*]]>*/</script>
+        <script type="text/javascript" src="../../../Skins/Default/Scripts/_TopNav_Toolbar.js">
+        </script>
+    </head>
+    <body id="TopNav" class="other">
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-left" role="navigation" id="offCanvas" data-off-canvas="" data-position="left" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-left is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" role="banner" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 640px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../Resources/_TopNav/_TopNav_Home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="2" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div id="contentBody">
+                                        <div class="row">
+                                            <div id="proxy-topic-toolbar" class="hidden">
+                                                <div class="buttons popup-container clearfix topicToolbarProxy _Skins__TopNav_Toolbar mc-component nocontent" style="mc-topic-toolbar-items: PreviousTopic NextTopic ExpandAll RemoveHighlight Print;">
+                                                    <div class="button-group-container-left">
+                                                        <button class="button needs-pie share-button" onclick="MyFunction()" title="Share page">
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
+                                                        </button>
+                                                        <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all dropdowns" title="Expand all dropdowns" data-state1-title="Expand all dropdowns">
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper" aria-label="Expand all">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
+                                                        </button>
+                                                        <button class="button needs-pie remove-highlight-button" title="Remove all search highlights">
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
+                                                        </button>
+                                                        <button class="button needs-pie print-button" title="Print the current topic">
+                                                            <div>
+                                                                <div role="img" class="button-icon-wrapper" aria-label="Print">
+                                                                    <div class="button-icon"> </div>
+                                                                </div>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="myModal" class="modal">
+                                                <!-- Modal content -->
+                                                <div class="modal-content"><span onclick="document.getElementById('myModal').style.display='none'" class="close"><img src="../../Resources/_TopNav/Images/_TopNav_ic-close.png" /></span>
+                                                    <p class="modal-intro">Share this page
+                        </p>
+                                                    <hr width="100%" size="0" align="center" />
+                                                    <ul class="share-content">
+                                                        <li class="social-share facebook">
+                                                            <img src="../../Resources/_TopNav/Images/_TopNav_facebook.png" title="Facebook" alt="Share page on Facebook" />
+                                                        </li>
+                                                        <li class="social-share twitter">
+                                                            <img src="../../Resources/_TopNav/Images/_TopNav_twitter.png" title="Twitter" alt="Share page on Twitter" />
+                                                        </li>
+                                                        <li class="social-share linkedin">
+                                                            <img src="../../Resources/_TopNav/Images/_TopNav_linkedin.png" title="LinkedIn" alt="Share page on LinkedIn" />
+                                                        </li>
+                                                        <li class="social-share email">
+                                                            <img src="../../Resources/_TopNav/Images/_TopNav_mail.png" title="Email" alt="Email" />
+                                                        </li>
+                                                        <li class="linkcopy">
+                                                            <img src="../../Resources/_TopNav/Images/_TopNav_copylink.png" title="Copy link" alt="Copy link" />
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!-- <div id="hp-toc-tree" class="hidden">
+                    <MadCap:menuProxy style="mc-toc-depth: -1;mc-context-sensitive: False;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" />
+                </div> -->
+                                            <div id="proxy-menu" class="hide-for-small medium-offset-1 medium-4 columns">
+                                                <ul class="nocontent menu mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/VuGenSA_TopNav.js" data-mc-side-menu="True" data-mc-max-depth="1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                                </ul>
+                                            </div>
+                                            <div id="proxy-content" class="small-12 medium-7 columns">
+                                                <div id="proxy-breadcrumbs" class="hidden">
+                                                    <div class="nocontent">
+                                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="5" data-mc-toc="True"><span class="MCBreadcrumbsPrefix"> </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="proxy-body"><a id="top"></a>
+                                                    <div role="main" id="mc-main-content">
+                                                        <h1><a name="aanchor378"></a>
+                                                            <MadCap:concept term="VuGen" />Server Entry - Traffic Filtering dialog box</h1>
+                                                        <p>Enables you to define a new entry for traffic filtering.</p>
+                                                        <div align="left">
+                                                            <table id="wp87756table87754" style="margin-left: 0;margin-right: auto;width: 100%;">
+                                                                <col />
+                                                                <col />
+                                                                <tr align="left" valign="top">
+                                                                    <td><b>To access</b>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div><b>Record &gt; Recording Options &gt; Network &gt; Mapping and Filtering &gt; New Entry / Edit Entry</b> in the <b>Traffic filtering</b> section.</div>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                        <p>User interface elements are described below:</p>
+                                                        <div align="left">
+                                                            <table id="wp87780table87778" style="margin-left: 0;margin-right: auto;width: 100%;">
+                                                                <col />
+                                                                <col />
+                                                                <tr align="center" valign="top">
+                                                                    <th>
+                                                                        <div>UI Element</div>
+                                                                    </th>
+                                                                    <th>
+                                                                        <div>Description</div>
+                                                                    </th>
+                                                                </tr>
+                                                                <tr align="left" valign="top">
+                                                                    <td><b>Target server</b>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div>The IP address or host name of the target server for which this entry applies. You can use an asterisk (*) as a wildcard to include, for example, multiple servers in a single domain.</div>
+                                                                        <div><b>Default value:</b> All Servers.</div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr align="left" valign="top">
+                                                                    <td><b>Regular Expression</b>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div>Indicates that the <b>Target server</b> string is a regular expression. You can use a regular expression to define an "all but one" filter. For example, you can filter out all servers that do not contain "acme.com" with the following expression: ^(?!,*\.acme\.com).</div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr align="left" valign="top">
+                                                                    <td><b>Port</b>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div>The ports to which the filtering should be applied:</div>
+                                                                        <div><b>All ports</b>, <b>Specific port</b>, or <b>Port range</b>.</div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr align="left" valign="top">
+                                                                    <td><b>Filtering level</b>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div>Where to apply the filtering:</div>
+                                                                        <ul>
+                                                                            <li> <b>Recording.</b> Filter the selected entries when during recording.</li>
+                                                                            <li><b>Code generation.</b> Filter the selected entries during code generation only. If you enable this option, you will be able to retrieve excluded traffic at a later stage, by modifying the traffic filters before regenerating a script. For details, select <b>Record &gt; Regenerate Script</b> and click <b>Options</b>.</li>
+                                                                        </ul>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                        <p>
+                                                            <img src="../../Resources/_TopNav/Images/_TopNav_mt-back-to-top.png" /> <a href="#top" class="BackToTop">Back to top</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="extras">
+                                    </div>
+                                    <div class="footer">
+                                        <div class="footer-inner">
+                                            <table id="highlights">
+                                                <tr>
+                                                    <td> Explore  <!--Localizeable--><p class="spacer">&#160;</p><p class="footerlink"><a href="../../Resources/_TopNav/_TopNav_Home.htm">Help Center Home</a></p><p class="footerlink"><a href="http://admhelp.microfocus.com/" target="_blank">More ADM Help Centers</a></p><p class="footerlink" data-mc-conditions="project_conditions.LoadRunner,project_conditions.VuGen"><a href="../../Download-Help-Center.htm" class="MCXref xref">Download Help Centers</a></p></td>
+                                                    <td> Connect  <!--Localizeable--><p class="spacer">&#160;</p><p class="footerlink"><a href="https://www.microfocus.com/en-us/services/enterprise-information-data-management" target="_blank">Education Services</a></p><p class="footerlink"><a href="https://community.microfocus.com/adtd/loadrunner/" target="_blank">Community &amp; Blogs</a></p><p class="footerlink" data-mc-conditions="project_conditions.VuGen"><a href="https://www.microfocus.com/en-us/products/loadrunner-professional/overview" target="_blank">Try VuGen</a></p><p class="footerlink">&#160;
+<a href="https://www.linkedin.com/groups/69884/" target="_blank"><svg class="social" xmlns="http://www.w3.org/2000/svg" data-svg="youtube"><path d="M5.77,17.89 L5.77,7.17 L2.21,7.17 L2.21,17.89 L5.77,17.89 L5.77,17.89 Z M3.99,5.71 C5.23,5.71 6.01,4.89 6.01,3.86 C5.99,2.8 5.24,2 4.02,2 C2.8,2 2,2.8 2,3.85 C2,4.88 2.77,5.7 3.97,5.7 L3.99,5.7 L3.99,5.71 L3.99,5.71 Z" /><path d="M7.75,17.89 L11.31,17.89 L11.31,11.9 C11.31,11.58 11.33,11.26 11.43,11.03 C11.69,10.39 12.27,9.73 13.26,9.73 C14.55,9.73 15.06,10.71 15.06,12.15 L15.06,17.89 L18.62,17.89 L18.62,11.74 C18.62,8.45 16.86,6.92 14.52,6.92 C12.6,6.92 11.75,7.99 11.28,8.73 L11.3,8.73 L11.3,7.17 L7.75,7.17 C7.79,8.17 7.75,17.89 7.75,17.89 L7.75,17.89 L7.75,17.89 Z" /></svg></a>&#160;
+	
+    <a href="https://twitter.com/OpenText" target="_blank"><svg class="social" xmlns="http://www.w3.org/2000/svg" data-svg="twitter"><path d="M19,4.74 C18.339,5.029 17.626,5.229 16.881,5.32 C17.644,4.86 18.227,4.139 18.503,3.28 C17.79,3.7 17.001,4.009 16.159,4.17 C15.485,3.45 14.526,3 13.464,3 C11.423,3 9.771,4.66 9.771,6.7 C9.771,6.99 9.804,7.269 9.868,7.539 C6.795,7.38 4.076,5.919 2.254,3.679 C1.936,4.219 1.754,4.86 1.754,5.539 C1.754,6.82 2.405,7.95 3.397,8.61 C2.79,8.589 2.22,8.429 1.723,8.149 L1.723,8.189 C1.723,9.978 2.997,11.478 4.686,11.82 C4.376,11.899 4.049,11.939 3.713,11.939 C3.475,11.939 3.245,11.919 3.018,11.88 C3.49,13.349 4.852,14.419 6.469,14.449 C5.205,15.429 3.612,16.019 1.882,16.019 C1.583,16.019 1.29,16.009 1,15.969 C2.635,17.019 4.576,17.629 6.662,17.629 C13.454,17.629 17.17,12 17.17,7.129 C17.17,6.969 17.166,6.809 17.157,6.649 C17.879,6.129 18.504,5.478 19,4.74" /></svg></a> &#160;
+	
+    <a href="https://www.youtube.com/@opentext" target="_blank"><svg class="social" xmlns="http://www.w3.org/2000/svg" data-svg="youtube"><path d="M15,4.1c1,0.1,2.3,0,3,0.8c0.8,0.8,0.9,2.1,0.9,3.1C19,9.2,19,10.9,19,12c-0.1,1.1,0,2.4-0.5,3.4c-0.5,1.1-1.4,1.5-2.5,1.6 c-1.2,0.1-8.6,0.1-11,0c-1.1-0.1-2.4-0.1-3.2-1c-0.7-0.8-0.7-2-0.8-3C1,11.8,1,10.1,1,8.9c0-1.1,0-2.4,0.5-3.4C2,4.5,3,4.3,4.1,4.2 C5.3,4.1,12.6,4,15,4.1z M8,7.5v6l5.5-3L8,7.5z" /></svg></a>&#160;
+	
+    <![CDATA[	
+		]]></p></td>
+                                                    <td> Contact  <!--Localizeable--><p class="spacer">&#160;</p><!--<p class="footerlink"><a href="mailto:[%=_rscC_Basic_Variables._rsc_Product_IE_Team_PDL%]?subject=Feedback on [%=_rscC_Basic_Variables._rsc_Book_Title%] ([%=_rscC_Basic_Variables._rsc_Product_Name%] [%=_rscC_Basic_Variables._rsc_Product_Version%])" title="Send your doc feedback to [%=_rscC_Basic_Variables._rsc_Product_IE_Team_PDL%]" alt="Send your doc feedback to [%=_rscC_Basic_Variables._rsc_Product_IE_Team_PDL%]">Send Documentation Feedback&#160;</a>
+		</p>--><p class="footerlink"><a href="javascript:sendFeedback();" class="avoidPrint">Send Help Center Feedback</a></p><!-- Localizable --><div id="hp-feedbackDiv" class="hp-feedbackDiv"><div class="hp-feedbackDivClose"><a href="javascript:closeFeedback();" id="hp-feedbackClose"><img src="../../Resources/_TopNav/Images/_TopNav_ic-close.png" /></a></div><div class="hp-feedbackDivContent"><!-- Localizable --><h1 class="feedback hp-feedbackDivHeader">Send Help Center Feedback</h1><p class="hp-feedbackDivBody">Let us know how we can improve your Help Center experience.</p><p class="hp-feedbackDivBody">Send your email to: <a name="hp-feedbackOpen" id="hp-feedbackOpen">docteam@microfocus.com</a></p><img src="../../Resources/_TopNav/Images/_TopNav_ic-email.png" /><!-- Localizable --><div style="display:none;" id="hp-feedbackBody">Add your Help Center feedback:</div><!-- Localizable --></div></div><div id="hp-feedbackDimmedDiv"></div><div style="display:none;" id="hp-feedback-variables" productName="Virtual User Generator" productVersion="2023-2023 R1" commentsEmailAddress="docteam@microfocus.com" productAcronym="VuGen" topicTitle="Server Entry - Traffic Filtering dialog box" skinLine1="Virtual User Generator Help Center" skinLine2=""><script src="../../Resources/_TopNav/_TopNav_Feedback.js"></script></div><p class="footerlink"><a href="https://www.microfocus.com/support" target="_blank">Get Support</a></p><p class="footerlink"><a href="https://community.microfocus.com/adtd/loadrunner/i/lrideas" target="_blank">Idea Exchange</a></p></td>
+                                                </tr>
+                                            </table>
+                                            <table id="copyright">
+                                                <tr>
+                                                    <td>
+                                                        <p class="svg-logo">
+                                                            <svg width="100" viewBox="0 0 94 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M12.3902 10.2652C12.3902 13.2225 10.7143 16.4298 6.22897 16.4298C2.95738 16.4423 -1.41019e-07 14.5667 -1.41019e-07 10.2652C-1.41019e-07 6.68268 2.23036 3.92547 6.64794 4.16931C11.3489 4.43815 12.3902 8.13319 12.3902 10.2652ZM3.99862 8.0144C3.5992 8.68664 3.40019 9.46188 3.42563 10.2464C3.42563 12.0596 4.30668 13.7039 6.21049 13.7039C8.1143 13.7039 8.94606 12.1909 8.94606 10.3965C8.9888 9.87875 8.92667 9.35761 8.76349 8.86515C8.60031 8.3727 8.33955 7.91934 7.99724 7.53298C7.72906 7.29012 7.41257 7.10861 7.06921 7.00073C6.72586 6.89286 6.36366 6.86116 6.00717 6.90776C5.60645 6.89902 5.21041 6.9965 4.85816 7.19058C4.50592 7.38465 4.20965 7.66861 3.99862 8.0144V8.0144Z" fill="white" />
+                                                                <path d="M42.5311 5.48762C42.8403 5.09633 43.2319 4.78018 43.6771 4.56229C44.3439 4.2948 45.0549 4.15899 45.7719 4.16216C46.4817 4.1405 47.186 4.29503 47.8236 4.61231C49.0558 5.23753 49.3454 6.31291 49.3454 8.13229V16.1351H45.9752V9.56404C46.0332 8.97587 45.9809 8.38187 45.8212 7.81343C45.687 7.5252 45.4695 7.28526 45.1977 7.12554C44.9258 6.96583 44.6125 6.89392 44.2994 6.91937C42.5126 6.91937 42.5126 8.37613 42.5126 9.83289V16.1351H39.1055V4.46226H42.5311V5.48762Z" fill="white" />
+                                                                <path d="M37.4907 13.1171C37.1764 13.7861 36.1783 16.4308 31.7484 16.4308C28.3228 16.4308 25.9199 14.305 25.9199 10.4724C25.9199 7.64643 27.2877 4.17022 31.8408 4.17022C32.6003 4.10729 33.3643 4.21097 34.0808 4.47419C34.7974 4.73742 35.4497 5.15404 35.9935 5.69575C37.4968 7.33382 37.5831 9.61587 37.6262 10.9413H29.3887C29.3887 12.3981 30.1835 13.8549 32.0133 13.8549C33.8432 13.8549 34.4778 12.6044 34.9276 11.7916L37.4907 13.1171ZM34.1143 8.79058C34.0923 8.18495 33.8759 7.60319 33.4982 7.13375C33.0445 6.71861 32.4516 6.49497 31.8408 6.50853C31.5169 6.50728 31.1962 6.57445 30.8992 6.70577C30.6022 6.83708 30.3354 7.02968 30.1157 7.2713C29.749 7.71047 29.512 8.24576 29.4318 8.81559L34.1143 8.79058Z" fill="white" />
+                                                                <path d="M84.7718 6.88296H87.033V4.46336H84.8026V2H81.4263V4.45711H80.8718L79.3253 6.88296H81.4078V12.4412C81.4078 13.5603 81.4078 14.3918 81.8945 15.0858C82.6216 16.1612 83.9031 16.23 85.0737 16.23C85.6732 16.2197 86.2708 16.159 86.8605 16.0487V13.3602L85.6282 13.404C84.7225 13.404 84.7225 12.7788 84.7472 12.0848L84.7718 6.88296Z" fill="white" />
+                                                                <path d="M51.0452 2H54.4216V4.45711H57.9334L56.387 6.88296H54.3784V12.066C54.3784 12.785 54.3784 13.3852 55.2595 13.3852L56.4917 13.3415V16.0299C55.9021 16.1403 55.3045 16.2009 54.705 16.2112C53.5343 16.2112 52.2405 16.1424 51.5258 15.0671C51.0637 14.3731 51.0391 13.5415 51.0391 12.4224L51.0452 2Z" fill="white" />
+                                                                <path d="M90.1569 6.88249H89.7379V4.81927H88.9678V4.46289H90.9085V4.81927H90.1507L90.1569 6.88249ZM93.4285 6.88249H93.0157V5.38821V4.89429L92.8986 5.30068L92.4119 6.88249H92.036L91.5555 5.30068L91.4323 4.90054V5.38821V6.88249H91.0318V4.46289H91.5986L92.2147 6.37606L92.8 4.46289H93.3669L93.4285 6.88249Z" fill="white" />
+                                                                <path d="M68.5491 13.1218L67.933 14.1346C67.3169 15.035 66.1894 16.4229 62.924 16.4229C59.4983 16.4229 57.2002 14.2972 57.2002 10.4646C57.2002 7.63862 58.568 4.1624 63.1211 4.1624C63.8806 4.09948 64.6446 4.20315 65.3611 4.46638C66.0776 4.72961 66.7299 5.14622 67.2738 5.68794C68.7771 7.32601 68.8634 9.60806 68.9065 10.9335H60.669C60.669 12.3903 61.359 13.847 63.1889 13.847C65.0188 13.847 65.5794 12.5966 65.9984 11.7838L68.5491 13.1218ZM65.3638 8.78902C65.3417 8.18339 65.1254 7.60163 64.7477 7.13219C64.2939 6.71705 63.7011 6.49341 63.0903 6.50697C62.7663 6.50572 62.4457 6.57289 62.1487 6.70421C61.8517 6.83552 61.5848 7.02812 61.3652 7.26974C60.9985 7.70891 60.7614 8.2442 60.6813 8.81403L65.3638 8.78902Z" fill="white" />
+                                                                <path d="M80.1566 16.1361L75.93 9.99022L79.4542 4.45703H75.585L73.9215 7.07045L72.1286 4.45703H68.2593L72.0608 9.99022L68.1484 16.1361H72.0177L74.0694 12.91L76.2874 16.1361H80.1566Z" fill="white" />
+                                                                <path d="M17.0601 5.48909C17.4296 5.04694 17.8951 4.69772 18.4199 4.46883C18.9448 4.23994 19.5148 4.13761 20.0852 4.16988C22.9132 4.16988 24.8971 6.34564 24.8971 10.2408C24.8971 12.6353 24.0346 16.4242 19.9682 16.4242C19.4182 16.4372 18.8723 16.3256 18.3703 16.0974C17.8683 15.8691 17.4228 15.5301 17.0663 15.105V20.0004H13.6406V4.46373H17.0663L17.0601 5.48909ZM19.3582 6.85832C19.0206 6.85686 18.6872 6.9352 18.3846 7.08712C18.082 7.23905 17.8183 7.46039 17.6146 7.73362C17.105 8.48478 16.8557 9.38648 16.9061 10.297C16.8425 11.2651 17.1344 12.2228 17.7255 12.9855C17.9175 13.2074 18.1532 13.3861 18.4175 13.51C18.6817 13.6338 18.9686 13.7001 19.2596 13.7045C20.917 13.7045 21.644 11.9351 21.644 10.222C21.644 8.78399 21.2251 7.25846 19.8326 6.92709C19.6779 6.88491 19.5184 6.86389 19.3582 6.86457V6.85832Z" fill="white" />
+                                                            </svg>
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="lastUpdated">Last updated <span class="mc-variable _rscC_Basic_Variables._rsc_LastUpdatedDate variable">August 20, 2023</span></p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p><a class="copyright" href="https://www.microfocus.com/legal#web-welcome" target="_blank">Terms of Use</a>&#160;|&#160;<a class="copyright" href="https://www.opentext.com/about/privacy" target="_blank">Privacy</a></p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p><a class="copyright" href="../../Resources/MasterPages/_rsc_Legal_Notices.htm#1">© <span class="mc-variable _rscC_Basic_Variables._rsc_Copyright_Date_Range variable">2023</span>&#160;<span class="mc-variable _rscB_Branding_Variables._rsc_Copyright_Name_Short variable">Open Text</span></a>
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <!-- www.Cludo.com search start JS -->
+                                    <!--[if lte IE 9]>
+        <script src="https://api.cludo.com/scripts/xdomain.js" slave="https//api.cludo.com/proxy.html"></script>
+        <![endif]-->
+                                    <script>/* <![CDATA[ */
+          var CludoSearch, filterCategory, engineId;
+          (function () {
+            var oid = setInterval(function() {
+              if (!$('#online-url').length) return;
+              clearInterval(oid);
+
+              var onlineURL = $('#online-url').text();
+			  filterCategory = $('#filter-category').text().split(',');
+                           engineId = $('#engine-id').text();
+              if (location.href.indexOf(onlineURL) !== 0) {
+                setFlareSearch();
+                return;
+              }
+
+              var attempt=0;
+              var lid = setInterval(function() {
+                attempt++;
+                if (window.TopNav.Config.enableCludo==undefined && attempt<50) return;
+                clearInterval(lid);
+
+                if (window.TopNav.Config.enableCludo==undefined)
+                  window.TopNav.Config.enableCludo = (window.TopNav.Config.enableCludoDefault) ? window.TopNav.Config.enableCludoDefault : true;
+                if (window.TopNav.Config.enableCludo)
+                  setCludoSearch();
+                else
+                  setFlareSearch();
+              }, 100);
+            }, 100);
+          })();
+          
+          function importScript(sSrc, fOnload) {
+            var oScript = document.createElement("script");
+            oScript.type = "text\/javascript";
+            oScript.onerror = function(oError) {
+              throw new URIError("The script " + oError.target.src + " is not accessible.");
+            };
+            if (fOnload) {oScript.onload = fOnload;}
+            (document.head || document.getElementsByTagName("head")[0]).appendChild(oScript);
+            oScript.src = sSrc;
+          }
+          function setButtonType(el) {
+            el.replaceWith(function() {
+              return this.outerHTML.replace('div','button');
+            });
+          }
+          function setFlareSearch() {
+            if ($('html.searchTopic').length) {
+              var idTips = setInterval(function () {
+                if (document.querySelector('#results-heading')) {
+                  clearInterval(idTips);
+                  $('<br>')
+                    .appendTo('#results-heading');
+                  $('#about-search')
+                    .appendTo('#results-heading');
+                }
+              }, 100);
+              $('#flare-search-results').removeClass('hidden');
+            }
+          }
+          function setCludoSearch()  {
+			if ($('body').hasClass('home')) {
+			$('.search-area-bar .search').attr('id', 'cludo-search-adm');
+			$('.search-area-bar button').remove();
+			setButtonType($('.search-area-bar .search-submit'));
+
+			$('button.search-submit').addClass('custom-submit');
+			$('button.search-submit').removeClass('search-submit');
+			} else {
+			$('.nav-search.row .search').attr('id', 'cludo-search-adm');
+			$('.nav-search.row button').remove();
+			$('.nav-search-row .search-submit').click(function(e){e.preventDefault();});
+			setButtonType($('.nav-search.row .search-submit'));
+
+			$('button.search-submit').addClass('custom-submit');
+			$('button.search-submit').removeClass('search-submit');
+			}
+            if ($('html.searchTopic').length) $('#cludo-search-results').removeClass('hidden');
+
+            var oStyle = document.createElement("link");
+            oStyle.rel  = 'stylesheet';
+            oStyle.type = 'text/css';
+            oStyle.href = 'https://customer.cludo.com/assets/697/'+engineId+'/cludo-search.min.css';
+            (document.head || document.getElementsByTagName("head")[0]).appendChild(oStyle);
+            importScript('https://customer.cludo.com/scripts/bundles/search-script.min.js', function() {
+              importScript('https://customer.cludo.com/assets/697/'+engineId+'/cludo-search.min.js', function() {
+                var cludoSettings = {
+                  customerId: 697,
+                  engineId: engineId,
+                  initFacets: { "Category": filterCategory },
+                  searchInputs: ["cludo-search-form", "cludo-search-adm", "cludo-search-mobile-form"],
+                  initSearchBoxText: "",
+                  language: "en",
+                  facets: ["Category", "TopCategory", "SubCategory", "HostSite"],
+                  loading: "<img src='//customer.cludo.com/img/Rolling.svg' alt='Loading' class='cludo-loading' role='progressbar' />",
+                  sortOrder: {},
+                  disableAutocomplete: false,
+                };
+                var searchUrl = location.href;
+                searchUrl = searchUrl.substr(0, searchUrl.indexOf('Content')) + 'Content/Resources/_TopNav/Search.htm';
+                cludoSettings.searchUrl = searchUrl;
+                CludoSearch = new Cludo(cludoSettings);
+                CludoSearch.init();
+              });
+            });
+          }
+        /* ]]> */</script>
+                                    <script src="../../Resources/_TopNav/venobox.min.js" type="text/javascript">
+                                    </script>
+                                    <script>/* <![CDATA[ */ $(document).ready(function(){
+			$('.venobox').venobox(); 
+		});
+			/* ]]> */</script>
+                                    <!-- www.Cludo.com Search body init script end -->
+                                    <!-- TopNav Search Code -->
+                                    <div class="hidden"><span id="online-url" class="mc-variable _rscC_Basic_Variables.OnlineURL variable">https://admhelp.microfocus.com</span><span id="filter-category" class="mc-variable _rscC_Basic_Variables.SearchEngineFilterCategory variable">VuGen,LoadRunner Professional,LoadRunner Developer</span><span id="engine-id" class="mc-variable _TopNav_Variables.SearchEngineId variable">8942</span>
+                                        <script src="../../Resources/_TopNav/_TopNav_copyC.js">
+                                        </script>
+                                    </div>
+                                    <div class="hidden"><a id="about-search" href="../../Resources/_TopNav/_TopNav_aboutSearch.htm">Tips to improve your search results...</a>
+                                        <!--<img id="feedback-header" src="Images/_TopNav_feedback_header.png" />
+            <img id="feedback-image" src="Images/_TopNav_feedback_image.png" />
+            <img id="feedback-image" src="Images/_TopNav_ic-close-responsive.png" />-->
+                                        <img id="search-responsive" src="../../Resources/_TopNav/Images/_TopNav_ic-search-white.png" />
+                                        <img id="search-responsive-back" src="../../Resources/_TopNav/Images/_TopNav_ic-search-back.png" />
+                                        <img id="search-responsive-clear" src="../../Resources/_TopNav/Images/_TopNav_ic-search-clear-blue.png" />
+                                        <img id="search-clear" src="../../Resources/_TopNav/Images/_TopNav_ic-search-clear.png" />
+                                        <img id="search-drop" src="../../Resources/_TopNav/Images/_TopNav_ic-drop.png" /><span id="hp-help-name" class="mc-variable _rscC_Basic_Variables._rsc_Product_Name_Skin_Line1 variable">Virtual User Generator Help Center</span><span class="_rscC_Basic_Variables._rsc_Product_Name_Skin_Line2 mc-variable"></span><span id="hp-help-short-name" class="mc-variable _rscC_Basic_Variables._rsc_Product_Name_Short variable">VuGen Help</span><span id="hp-help-version" class="mc-variable _rscC_Basic_Variables._rsc_Product_Version variable">2023-2023 R1</span><span id="hp-search-all" class="mc-variable _TopNav_Variables.SearchFilterAll variable">All</span><span id="hp-view-local" class="mc-variable _TopNav_Variables.SettingViewLocal variable">View Local Help Center</span><span id="hp-view-online" class="mc-variable _TopNav_Variables.SettingViewOnline variable">View Online Help Center</span><span id="hp-back-alt" class="mc-variable _TopNav_Variables.ToolbarBackAltText variable">back</span><span id="hp-back-tooltip" class="mc-variable _TopNav_Variables.ToolbarBackTooltip variable">Go back in browser history</span><span id="hp-forward-alt" class="mc-variable _TopNav_Variables.ToolbarForwardAltText variable">forward</span><span id="hp-forward-tooltip" class="mc-variable _TopNav_Variables.ToolbarForwardTooltip variable">Go forward in browser history</span><span id="hp-highlights-tooltip" class="mc-variable _TopNav_Variables.ToolbarHighlightsTooltip variable">Remove search highlights</span><span id="hp-next-alt" class="mc-variable _TopNav_Variables.ToolbarNextAltText variable">next topic</span><span id="hp-next-tooltip" class="mc-variable _TopNav_Variables.ToolbarNextTooltip variable">Go to next topic</span><span id="hp-previous-alt" class="mc-variable _TopNav_Variables.ToolbarPreviousAltText variable">previous topic</span><span id="hp-previous-tooltip" class="mc-variable _TopNav_Variables.ToolbarPreviousTooltip variable">Go to previous topic</span><span id="hp-print-tooltip" class="mc-variable _TopNav_Variables.ToolbarPrintTooltip variable">Print the current topic</span><span id="hp-version-label" class="mc-variable _rscC_Basic_Variables.VersionLabel variable">Version:</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

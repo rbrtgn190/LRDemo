@@ -1,0 +1,8 @@
+[t20]
+FileName1=t20_seed.html
+URL1=https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=116
+Total=2
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_20.xml
+FileName2=t20_main.min.html
+URL2=http://nimbusserver.aos.com:8000/main.min.js

@@ -1,0 +1,79 @@
+﻿/*******************************************************************
+		* EDIT THE VARIABLES BELOW AS REQUIRED*
+		********************************************************************/
+var stickyEnable = false;/* Switch popup on or off*/ 
+var expiryPeriod = "Wed, 17 Jan 2080 23:59:59 GMT";
+var stickyText = "New release of <product name><version number>";/* Do not remove quotation marks*/
+var stickyLinktext = "Learn what's new"; /* text for link. Do not remove quotation marks*/
+var stickyPath = "https://<URL>";/*Add the URL for the link to your What's New topic. Do not remove quotation marks*/
+var cname = "Product_Version";/* Create a unique cookie name for your popup. Do not include spaces, tabs, or the following characters ( ) < > @ , ; : \ " / [ ] ? = { }          */ 
+		
+
+
+		/*******************************************************************
+		* DO NOT EDIT THE SECTION BELOW*
+		********************************************************************/
+var codeBlock = '<div id="StickyBar">' +
+			
+	'<a id="StickyButton">Got it </a>' +
+	'<div id="stickyimage">' +
+	'<img id="sticky" src="https://admhelp.microfocus.com/resources/Light.png" />' +
+	
+	'</div>' +
+	'<div id="stickytext">' +
+	'<p id="stickybigtext"></p>' +
+	'<a id="stickylink" href="" target="_blank"></a>' +
+	'</div>' +
+	'</div>';
+
+if(stickyEnable){
+	if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+					
+		function GetCookie(name) 
+		{
+			var arg = name + "=";
+			var alen = arg.length;
+			var clen = document.cookie.length;
+			var i = 0;
+			while (i < clen) {
+				var j = i + alen;
+				if (document.cookie.substring(i, j) == arg)
+					return "here";
+				i = document.cookie.indexOf(" ", i) + 1;
+				if (i == 0) break;
+			}
+			return null;
+		}
+
+		function testFirstCookie() {
+			var visit = GetCookie(cname);
+			if (visit == null) {
+				$("#StickyBar").show();
+			} else {}
+		}
+	
+		$(document).ready(function() {
+					
+				var notification = document.createElement("DIV");
+				notification.innerHTML = codeBlock;
+				$("#StickyBar").hide();
+				document.getElementById("extras").appendChild(notification);		
+				document.getElementById("stickybigtext").innerHTML = stickyText;
+				document.getElementById("stickylink").href = stickyPath;
+				$("#stickylink").html(stickyLinktext);
+				$("#StickyButton").click(function() {
+						console.log("Understood");
+						var expire = new Date;
+						expire = new Date(expire.getTime() + expiryPeriod);
+							
+						document.cookie = cname + "=here; domain=admhelp.microfocus.com;expires=" + expiryPeriod + ";path=/";
+							
+						$("#StickyBar").hide(400);
+					});
+				testFirstCookie();
+			});
+				
+	}
+			
+	else{}
+}

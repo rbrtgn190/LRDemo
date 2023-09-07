@@ -1,0 +1,51 @@
+Virtual User Script started at : 2023-09-06 17:22:29
+TruClient Replay (build 0151) for LoadRunner Professional 2023.0.0, build 0628. OS: Windows 2019, Browser: Chromium 108.0.5359.125, initialized on 2023/09/06 at 17:22:28 (1694013748,762s)
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "1_Home" started.
+t=00001602ms: Step 1: Navigate to "http://nimbusserver.aos.com:8000" started    [MsgId: MMSG-205180]
+t=00002101ms: Step 1: Navigate to http://nimbusserver.aos.com:8000 successfully completed with End Event "Document Loaded"    [MsgId: MMSG-205180]
+Notify: Transaction "1_Home" ended with a "Pass" status (Duration: 0,4950 Wasted Time: 0,3140).
+t=00002607ms: Step 3: Click on UserMenu button started    [MsgId: MMSG-205180]
+t=00003057ms: Step 3: Click on UserMenu button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "2_Login" started.
+t=00003563ms: Step 4: Click on username textbox started    [MsgId: MMSG-205180]
+t=00005971ms: Step 4: Click on username textbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00006475ms: Step 5: Type davidm in username textbox started    [MsgId: MMSG-205180]
+t=00008507ms: Step 5: Type davidm in username textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00009012ms: Step 6: Click on Password label started    [MsgId: MMSG-205180]
+t=00011442ms: Step 6: Click on Password label successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00011949ms: Step 7: Type ****************... in PasswordPassword passwordbox started    [MsgId: MMSG-205180]
+t=00011966ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous API TCA.getParam instead. For details, see https://admhelp.microfocus.com/tc/en/2023.0.0/Content/TruClient/procedures/Async_API_Example.htm.    [MsgId: MWAR-205179]
+t=00011975ms: Warning -205179: The TC.unmask API is deprecated because it is synchronous. Use the asynchronous API TCA.unmask instead. For details, see https://admhelp.microfocus.com/tc/en/2023.0.0/Content/TruClient/procedures/Async_API_Example.htm.    [MsgId: MWAR-205179]
+t=00015204ms: Step 7: Type ******** in PasswordPassword passwordbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00015716ms: Step 9: Click on SIGN IN button started    [MsgId: MMSG-205180]
+t=00016521ms: Step 9: Click on SIGN IN button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00016525ms: Step 10: Verify username's Visible Text contains davidm started    [MsgId: MMSG-205180]
+t=00017054ms: Step 10: Verify username's Visible Text contains davidm successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "2_Login" ended with a "Pass" status (Duration: 13,4950 Think Time: 0,0010 Wasted Time: 8,5820).
+Notify: Transaction "3_BrowseSpeakers" started.
+t=00017564ms: Step 11: Click on SPEAKERS  started    [MsgId: MMSG-205180]
+t=00018489ms: Step 11: Click on SPEAKERS  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00018996ms: Step 12: Click on Bose Soundlink Bluetooth...  started    [MsgId: MMSG-205180]
+t=00019927ms: Step 12: Click on Bose Soundlink Bluetooth...  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "3_BrowseSpeakers" ended with a "Pass" status (Duration: 2,3660 Wasted Time: 1,8690).
+Notify: Transaction "4_AddCart" started.
+t=00020436ms: Step 13: Click on ADD TO CART button started    [MsgId: MMSG-205180]
+t=00021428ms: Step 13: Click on ADD TO CART button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00021940ms: Step 14: Click on CHECKOUT button started    [MsgId: MMSG-205180]
+t=00022680ms: Step 14: Click on CHECKOUT button successfully completed with End Event "Step synchronous network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "4_AddCart" ended with a "Pass" status (Duration: 2,2480 Wasted Time: 1,2990).
+Notify: Transaction "5_End" started.
+t=00023187ms: Step 16: Click on NEXT button started    [MsgId: MMSG-205180]
+t=00025506ms: Step 16: Click on NEXT button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00026011ms: Step 17: Click on dvantage link started    [MsgId: MMSG-205180]
+t=00026567ms: Step 17: Click on dvantage link successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00027076ms: Step 18: Click on davidm JavaScript link started    [MsgId: MMSG-205180]
+t=00029383ms: Step 18: Click on davidm JavaScript link successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00029891ms: Step 19: Click on Sign out label started    [MsgId: MMSG-205180]
+t=00031547ms: Step 19: Click on Sign out label successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "5_End" ended with a "Pass" status (Duration: 8,3630 Wasted Time: 7,2190).
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

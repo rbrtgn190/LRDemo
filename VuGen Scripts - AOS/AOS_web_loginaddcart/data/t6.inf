@@ -1,0 +1,11 @@
+[t6]
+FileName1=t6_categories.json
+URL1=http://nimbusserver.aos.com:8002/catalog/api/v1/categories
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_5.xml
+RequestHeaderFile=t6_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t6_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
