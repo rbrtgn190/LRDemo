@@ -1,6 +1,10 @@
 Action()
 {
 
+	lr_save_string(lr_unmask("{maskedPwd}"), "unmaskedPwd");
+//	lr_output_message("unmaskedPwd : %s", lr_eval_string("{unmaskedPwd}"));
+
+	
 	web_set_user("{UserName}", 
 		lr_unmask("{maskedPwd}"), 
 		"{host_nimbusserver_aos_com_8002}");
