@@ -15,7 +15,6 @@
     <FileEntry Name="globals.h" Filter="2" />
     <FileEntry Name="combined_AOS_tc2w_loginaddcart.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
-    <FileEntry Name="161827440.idx" Filter="1" />
     <FileEntry Name="AOS_tc2w_loginaddcart.c.pickle" Filter="1" />
     <FileEntry Name="AOS_tc2w_loginaddcart.ci" Filter="1" />
     <FileEntry Name="AOS_tc2w_loginaddcart.prm.bak" Filter="1" />
@@ -39,6 +38,5 @@
     <FileEntry Name="UserName.dat" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
-    <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>

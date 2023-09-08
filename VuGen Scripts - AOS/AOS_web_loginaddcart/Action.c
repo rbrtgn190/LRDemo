@@ -9,7 +9,7 @@ Action()
 		lr_unmask("{maskedPwd}"), 
 		"{host_nimbusserver_aos_com_8002}");
 
-	//web_add_cookie("userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; DOMAIN=nimbusserver.aos.com");
+	web_add_cookie("userCart=%7B%22userId%22%3A-1%2C%22productsInCart%22%3A%5B%5D%7D; DOMAIN=nimbusserver.aos.com");
 
 	web_url("nimbusserver.aos.com:8000", 
 		"URL=http://{host_nimbusserver_aos_com_8000}/", 
@@ -98,11 +98,11 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	//web_add_cookie("_ga=GA1.2.143467447.1693930200; DOMAIN=nimbusserver.aos.com");
+	web_add_cookie("_ga=GA1.2.143467447.1693930200; DOMAIN=nimbusserver.aos.com");
 
-	//web_add_cookie("_gid=GA1.2.653243541.1693930200; DOMAIN=nimbusserver.aos.com");
+	web_add_cookie("_gid=GA1.2.653243541.1693930200; DOMAIN=nimbusserver.aos.com");
 
-	//web_add_cookie("_gat=1; DOMAIN=nimbusserver.aos.com");
+	web_add_cookie("_gat=1; DOMAIN=nimbusserver.aos.com");
 
 	web_url("popularProducts.json", 
 		"URL=http://{host_nimbusserver_aos_com_8000}/app/tempFiles/popularProducts.json", 
@@ -164,14 +164,14 @@ Action()
 lr_output_message(">>>>>>>>>>>>>> userId %s", lr_eval_string( "{userId}"));
 
 
-	web_add_header("Access-Control-Request-Method",
-		"GET");
-
-	web_add_header("Access-Control-Request-Headers",
-		"authorization");
-
-	web_add_header("Sec-Fetch-Mode",
-		"cors");
+//	web_add_header("Access-Control-Request-Method",
+//		"GET");
+//
+//	web_add_header("Access-Control-Request-Headers",
+//		"authorization");
+//
+//	web_add_header("Sec-Fetch-Mode",
+//		"cors");
 
 	web_custom_request("738747973",
 		"URL=http://{host_nimbusserver_aos_com_8002}/order/api/v1/carts/{userId}",

@@ -58,14 +58,14 @@ Action=0
 Lib-View=0
 vuser_end=0
 [Replayed Actions]
-vuser_init=0
-Action=0
-Lib-View=0
-vuser_end=0
+vuser_init=1
+Action=1
+Lib-View=1
+vuser_end=1
 [TransactionsOrder]
 Order="1_Home__*delimiter*__2_Login__*delimiter*__3_BrowseSpeakers__*delimiter*__4_AddCart__*delimiter*__5_End"
 [StateManagement]
-LastReplayStatus=0
+LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=
 ActiveRunName=
