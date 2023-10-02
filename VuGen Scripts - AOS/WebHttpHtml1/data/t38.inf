@@ -1,0 +1,11 @@
+[t38]
+FileName1=t38.html
+URL1=http://nimbusserver.aos.com:8001//accountservice/ws/AccountLogoutRequest
+Total=1
+RequestHeaderFile=t38_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t38_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_38.xml
+[ProtocolInfo]
+ProtocolId=QTWeb
