@@ -7,6 +7,30 @@
 	],
 	"FilterResources": [
 		{
+			"IsNonResource": true,
+			"type": "text/html"
+		},
+		{
+			"IsNonResource": false,
+			"type": "image/svg+xml"
+		},
+		{
+			"IsNonResource": false,
+			"type": "image/png"
+		},
+		{
+			"IsNonResource": true,
+			"type": "text/xml"
+		},
+		{
+			"IsNonResource": false,
+			"type": "text/css"
+		},
+		{
+			"IsNonResource": false,
+			"type": "application/javascript"
+		},
+		{
 			"IsNonResource": false,
 			"type": "font/woff"
 		},
@@ -15,32 +39,8 @@
 			"type": "image/jpeg"
 		},
 		{
-			"IsNonResource": false,
-			"type": "application/javascript"
-		},
-		{
-			"IsNonResource": false,
-			"type": "image/png"
-		},
-		{
 			"IsNonResource": true,
 			"type": "application/json"
-		},
-		{
-			"IsNonResource": true,
-			"type": "text/xml"
-		},
-		{
-			"IsNonResource": true,
-			"type": "text/html"
-		},
-		{
-			"IsNonResource": false,
-			"type": "text/css"
-		},
-		{
-			"IsNonResource": false,
-			"type": "image/svg+xml"
 		}
 	],
 	"GeneralInfo": {
@@ -51,7 +51,7 @@
 		"RecordingDate": "Oct-10-2023",
 		"RecordingDuration": 0,
 		"RecordingMode": "N/A",
-		"RecordingTimeStamp": 1696928230,
+		"RecordingTimeStamp": 1696932084,
 		"RecordingType": "Browser",
 		"TotalBytesReceived": 1860420,
 		"TotalBytesSent": 12073,

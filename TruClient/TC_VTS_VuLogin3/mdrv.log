@@ -1,5 +1,5 @@
-Virtual User Script started at : 2022-10-31 12:13:13
-TruClient Replay (build 0383) for LoadRunner Professional 2021.2.0, build 0495. OS: Windows 2019, Browser: Chromium 91.0.4472.77, initialized on 2022/10/31 at 12:13:13 (1667214793.943s)
+Virtual User Script started at : 2023-12-08 14:40:26
+TruClient Replay (build 0151) for LoadRunner Professional 2023.0.0, build 0628. OS: Windows 2019, Browser: Chromium 108.0.5359.125, initialized on 2023/12/08 at 14:40:23 (1702042823,121s)
 
 Selected Run-Time Settings:
     Simulate a new user on each iteration...............: 1
@@ -11,34 +11,39 @@ Selected Run-Time Settings:
     HTTP Version........................................: 1.1
     Proxy HTTP Version..................................: 1.1
     DNS cache entries...................................: 20
-    Run-Time Settings file..............................: "C:\Users\demo\Documents\VuGen\Scripts\TC_VTS_VuLogin2\\default.cfg"
-    Vuser directory.....................................: "C:\Users\demo\Documents\VuGen\Scripts\TC_VTS_VuLogin2"
-    Vuser output directory..............................: "C:\Users\demo\Documents\VuGen\Scripts\TC_VTS_VuLogin2"
+    Run-Time Settings file..............................: "C:\dev\LRDemo\TruClient\TC_VTS_VuLogin3\\default.cfg"
+    Vuser directory.....................................: "C:\Users\demo\AppData\Local\Temp\1\TC\Temp\"
+    Vuser output directory..............................: "C:\Users\demo\AppData\Local\Temp\1\TC\Temp\"
 End of selected Run-Time Settings
 
 Please refer to the ReadMe file in the LoadRunner Professional installation directory for notes about measurements and logging
-t=00000498ms: Step 2: Execute TC.groupName started    [MsgId: MMSG-205180]
-t=00000515ms: Step 2: Execute TC.groupName successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
-t=00000523ms: Step 3: Execute VTS.vtcConnect ("nimbusserver", 4888, [vtsName]) started    [MsgId: MMSG-205180]
-t=00000551ms: Step 3: Execute VTS.vtcConnect ("nimbusserver", 4888, [vtsName]) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
-t=00000558ms: Step 4: Execute VTS.vtcPopCells ([vtsName]) started    [MsgId: MMSG-205180]
-t=00000582ms: Step 4: Execute VTS.vtcPopCells ([vtsName]) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
-t=00000588ms: Step 5: Evaluate JavaScript code TC.log("vPopedCells : " ...Cells.Password); started    [MsgId: MMSG-205180]
-t=00000590ms: Warning -205179: The TC.log API is deprecated because it is synchronous. Use the asynchronous API TCA.log instead. For details, see https://admhelp.microfocus.com/tc/en/2021.2.0/Content/TruClient/procedures/Async_API_Example.htm.    [MsgId: MWAR-205179]
-t=00000591ms: vPopedCells : [object Object]    [MsgId: MMSG-205180]
-t=00000602ms: GroupName : None / User : -1 > User1/p1    [MsgId: MMSG-205180]
-t=00000805ms: Step 5: Evaluate JavaScript code TC.log("vPopedCells : " ...Cells.Password); successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
-t=00000809ms: Step 9: Execute VTS.vtcDisconnect ([vtsName]) started    [MsgId: MMSG-205180]
-t=00000823ms: Step 9: Execute VTS.vtcDisconnect ([vtsName]) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00003389ms: Step 2: Execute TC.groupName started    [MsgId: MMSG-205180]
+t=00003395ms: Step 2: Execute TC.groupName successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00003396ms: Step 3: Execute VTS.vtcConnect ("nimbusserver", 4888, [vtsName]) started    [MsgId: MMSG-205180]
+t=00003419ms: Step 3: Execute VTS.vtcConnect ("nimbusserver", 4888, [vtsName]) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00003419ms: Step 4: Execute VTS.vtcPopCells ([vtsName]) started    [MsgId: MMSG-205180]
+t=00003438ms: Step 4: Execute VTS.vtcPopCells ([vtsName]) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00003440ms: Step 5: Evaluate JavaScript code TC.log("vPopedCells : " ...Cells.Password); started    [MsgId: MMSG-205180]
+t=00003442ms: Warning -205179: The TC.log API is deprecated because it is synchronous. Use the asynchronous API TCA.log instead. For details, see https://admhelp.microfocus.com/tc/en/2023.0.0/Content/TruClient/procedures/Async_API_Example.htm.    [MsgId: MWAR-205179]
+t=00003443ms: vPopedCells : [object Object]    [MsgId: MMSG-205180]
+t=00003450ms: GroupName : None / User : -1 > undefined/undefined    [MsgId: MMSG-205180]
+t=00003655ms: Step 5: Evaluate JavaScript code TC.log("vPopedCells : " ...Cells.Password); successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00003657ms: Step 9: Execute VTS.vtcDisconnect ([vtsName]) started    [MsgId: MMSG-205180]
+t=00003671ms: Step 9: Execute VTS.vtcDisconnect ([vtsName]) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
 Warning: The "vuser_init" section contains step(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations.
 Running Vuser...
 Starting iteration 1.
-t=00001212ms: Step 1: Wait 3 seconds started    [MsgId: MMSG-205180]
-t=00004424ms: Step 1: Wait 3 seconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
-t=00004941ms: Step 2: Navigate to "http://advantageonlineshopping.com/" started    [MsgId: MMSG-205180]
-t=00005899ms: 2: Navigate to http://advantageonlineshopping.com/: Automatic End Event set to: Document Loaded    [MsgId: MMSG-205200]
-t=00005901ms: Step 2: Navigate to http://advantageonlineshopping.com/ successfully completed with End Event "Document Loaded"    [MsgId: MMSG-205180]
+t=00003974ms: Step 1: Wait 3 seconds started    [MsgId: MMSG-205180]
+t=00007184ms: Step 1: Wait 3 seconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00007686ms: Step 2: Navigate to "http://advantageonlineshopping.com/" started    [MsgId: MMSG-205180]
+t=00008519ms: Step 2: Navigate to http://advantageonlineshopping.com/ successfully completed with End Event "Document Loaded"    [MsgId: MMSG-205180]
 Ending iteration 1.
+Starting iteration 2.
+t=00008734ms: Step 1: Wait 3 seconds started    [MsgId: MMSG-205180]
+t=00011952ms: Step 1: Wait 3 seconds successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00012454ms: Step 2: Navigate to "http://advantageonlineshopping.com/" started    [MsgId: MMSG-205180]
+t=00013326ms: Step 2: Navigate to http://advantageonlineshopping.com/ successfully completed with End Event "Document Loaded"    [MsgId: MMSG-205180]
+Ending iteration 2.
 Ending Vuser...
 Vuser Terminated.
-Vuser 0 (thread 9448), ended OK."
+Vuser 0 (thread 2952), ended OK."

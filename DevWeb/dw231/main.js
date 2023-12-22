@@ -159,7 +159,7 @@ load.action("Action", async function () {
         </soap:Envelope>`,
 		extractors:[
 			//"151014987"
-			new load.XpathExtractor("loginUser","/Envelope/Body/AccountLoginResponse/StatusMessage/userId/text()"),
+			new load.XpathExtractor("cart","/Envelope/Body/AccountLoginResponse/StatusMessage/userId/text()"),
 		]
 	
     }).sendSync();
@@ -173,7 +173,7 @@ load.action("Action", async function () {
 
     const webResponse10 = new load.WebRequest({
         id: 10,
-        url: "http://advantageonlineshopping.com/order/api/v1/carts/151014987",
+        url: `http://advantageonlineshopping.com/order/api/v1/carts/${webResponse9.extractors['cart']}`,
         method: "GET",
         headers: {
             "Accept": "application/json, text/plain, */*",
@@ -183,7 +183,7 @@ load.action("Action", async function () {
 
     const webResponse11 = new load.WebRequest({
         id: 11,
-        url: "http://advantageonlineshopping.com/order/api/v1/carts/151014987",
+        url: `http://advantageonlineshopping.com/order/api/v1/carts/${webResponse9.extractors['cart']}`,
         method: "PUT",
         headers: {
             "Accept": "application/json, text/plain, */*",

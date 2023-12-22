@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\demo\Documents\VuGen\Scripts\TC_VTS_VuLogin2
--IC:\LREHost\include
--ec:\users\demo\documents\vugen\scripts\tc_vts_vulogin2\\logfile.log
-c:\users\demo\documents\vugen\scripts\tc_vts_vulogin2\\combined_TC_VTS_VuLogin2.c
-c:\users\demo\documents\vugen\scripts\tc_vts_vulogin2\\pre_cci.c
+-IC:\dev\LRDemo\TruClient\TC_VTS_VuLogin3
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\dev\lrdemo\truclient\tc_vts_vulogin3\\logfile.log
+c:\dev\lrdemo\truclient\tc_vts_vulogin3\\combined_TC_VTS_VuLogin3.c
+c:\dev\lrdemo\truclient\tc_vts_vulogin3\\pre_cci.c

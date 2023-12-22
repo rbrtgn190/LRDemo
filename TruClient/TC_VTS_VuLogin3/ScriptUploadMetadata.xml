@@ -20,6 +20,8 @@
     <FileEntry Name="TC.xsl" Filter="2" />
     <FileEntry Name="OutputColoringDatabase.json" Filter="2" />
     <FileEntry Name="TCIEAuthenticationFilters.ini" Filter="2" />
+    <FileEntry Name="combined_TC_VTS_VuLogin3.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -31,21 +33,26 @@
     <FileEntry Name="mdrv2XF.723.log" Filter="1" />
     <FileEntry Name="mdrv7GC.883.log" Filter="1" />
     <FileEntry Name="mdrvEem.975.log" Filter="1" />
+    <FileEntry Name="mdrvkDp.329.log" Filter="1" />
     <FileEntry Name="mdrvsmY.79.log" Filter="1" />
     <FileEntry Name="mdrvtrM.975.log" Filter="1" />
+    <FileEntry Name="mdrvXgd.735.log" Filter="1" />
+    <FileEntry Name="mdrvzhs.791.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="replay.har" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="shunra.shunra" Filter="1" />
+    <FileEntry Name="TC_VTS_VuLogin3.c.pickle" Filter="1" />
+    <FileEntry Name="TC_VTS_VuLogin3.ci" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="VTS data 2022-10-12(15_20_48).csv" Filter="1" />
     <FileEntry Name="Backup\" Filter="1" />
     <FileEntry Name="res\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
-    <FileEntry Name="results\" Filter="1" />
-    <FileEntry Name="resultSnap\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>
