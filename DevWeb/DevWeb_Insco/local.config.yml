@@ -1,4 +1,4 @@
 measurements:                       #Configuration for storing measurements
   useSqliteDB: true                 #If true, all measurements is stored in local SQLite database
-  useInfluxDB: true                #If true, all measurements is send to InfluxDB instance
+  useInfluxDB: false                #If true, all measurements is send to InfluxDB instance
   influxDBURL: "http://localhost:8087?db=devwebdemo"                   #InfluxDB endpoint and database name (for example: http://myHost:8086?db=devWebDB)    http://pch126x:8086?db=devwebdemo 

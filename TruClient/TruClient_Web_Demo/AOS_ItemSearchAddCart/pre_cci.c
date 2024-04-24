@@ -1,23 +1,4 @@
-# 1 "c:\\users\\jeang\\documents\\demolr\\vugen\\truclient_web_demo\\aos_itemsearchaddcart\\\\combined_AOS_ItemSearchAddCart.c"
-# 1 "globals.h" 1
-
-# 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/TruClient.h" 1
-
-
-
-
-
-
-
-
-
-
-
-
-# 2 "globals.h" 2
-
-# 1 "c:\\users\\jeang\\documents\\demolr\\vugen\\truclient_web_demo\\aos_itemsearchaddcart\\\\combined_AOS_ItemSearchAddCart.c" 2
-
+# 1 "c:\\dev\\lrdemo\\truclient\\truclient_web_demo\\aos_itemsearchaddcart\\\\combined_AOS_ItemSearchAddCart.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -876,6 +857,7 @@ VTCERR   vtc_query_row(PVCI pvci, int rowIndex, char * **outcolumns, char * **ou
 VTCERR   vtc_send_message(PVCI pvci, char * column, char * message, unsigned short *outRc);
 VTCERR   vtc_send_if_unique(PVCI pvci, char * column, char * message, unsigned short *outRc);
 VTCERR   vtc_send_row1(PVCI pvci, char * columnNames, char * messages, char * delimiter, unsigned char sendflag, unsigned short *outUpdates);
+VTCERR   vtc_search_row(PVCI pvci, char * columnNames, char * messages, char * delimiter, char * **outcolumns, char * **outvalues);
 VTCERR   vtc_update_message(PVCI pvci, char * column, int index , char * message, unsigned short *outRc);
 VTCERR   vtc_update_message_ifequals(PVCI pvci, char * columnName, int index,	char * message, char * ifmessage, unsigned short 	*outRc);
 VTCERR   vtc_update_row1(PVCI pvci, char * columnNames, int index , char * messages, char * delimiter, unsigned short *outUpdates);
@@ -906,6 +888,7 @@ VTCERR   lrvtc_query_row(int columnIndex);
 VTCERR   lrvtc_send_message(char * columnName, char * message);
 VTCERR   lrvtc_send_if_unique(char * columnName, char * message);
 VTCERR   lrvtc_send_row1(char * columnNames, char * messages, char * delimiter, unsigned char sendflag);
+VTCERR   lrvtc_search_row(char * columnNames, char * messages, char * delimiter);
 VTCERR   lrvtc_update_message(char * columnName, int index , char * message);
 VTCERR   lrvtc_update_message_ifequals(char * columnName, int index, char * message, char * ifmessage);
 VTCERR   lrvtc_update_row1(char * columnNames, int index , char * messages, char * delimiter);
@@ -985,7 +968,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 2 "c:\\users\\jeang\\documents\\demolr\\vugen\\truclient_web_demo\\aos_itemsearchaddcart\\\\combined_AOS_ItemSearchAddCart.c" 2
+# 1 "c:\\dev\\lrdemo\\truclient\\truclient_web_demo\\aos_itemsearchaddcart\\\\combined_AOS_ItemSearchAddCart.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1027,6 +1010,7 @@ extern VTCERR2  vtc_query_row(PVCI2 pvci, int columnIndex, char ***outcolumns, c
 extern VTCERR2  vtc_send_message(PVCI2 pvci, char *column, char *message, unsigned short *outRc);
 extern VTCERR2  vtc_send_if_unique(PVCI2 pvci, char *column, char *message, unsigned short *outRc);
 extern VTCERR2  vtc_send_row1(PVCI2 pvci, char *columnNames, char *messages, char *delimiter,  unsigned char sendflag, unsigned short *outUpdates);
+extern VTCERR2  vtc_search_row(PVCI2 pvci, char *columnNames, char *messages, char *delimiter, char ***outcolumns, char ***outvalues);
 extern VTCERR2  vtc_update_message(PVCI2 pvci, char *column, int index , char *message, unsigned short *outRc);
 extern VTCERR2  vtc_update_message_ifequals(PVCI2 pvci, char	*columnName, int index,	char *message, char	*ifmessage,	unsigned short 	*outRc);
 extern VTCERR2  vtc_update_row1(PVCI2 pvci, char *columnNames, int index , char *messages, char *delimiter, unsigned short *outUpdates);
@@ -1100,6 +1084,7 @@ extern VTCERR2  lrvtc_query_row(int columnIndex);
 extern VTCERR2  lrvtc_send_message(char *columnName, char *message);
 extern VTCERR2  lrvtc_send_if_unique(char *columnName, char *message);
 extern VTCERR2  lrvtc_send_row1(char *columnNames, char *messages, char *delimiter,  unsigned char sendflag);
+extern VTCERR2  lrvtc_search_row(char *columnNames, char *messages, char *delimiter);
 extern VTCERR2  lrvtc_update_message(char *columnName, int index , char *message);
 extern VTCERR2  lrvtc_update_message_ifequals(char *columnName, int index, char 	*message, char *ifmessage);
 extern VTCERR2  lrvtc_update_row1(char *columnNames, int index , char *messages, char *delimiter);
@@ -1151,7 +1136,14 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 3 "c:\\users\\jeang\\documents\\demolr\\vugen\\truclient_web_demo\\aos_itemsearchaddcart\\\\combined_AOS_ItemSearchAddCart.c" 2
+# 2 "c:\\dev\\lrdemo\\truclient\\truclient_web_demo\\aos_itemsearchaddcart\\\\combined_AOS_ItemSearchAddCart.c" 2
+
+# 1 "globals.h" 1
+
+# 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/TruClient.h" 1
+# 2 "globals.h" 2
+
+# 3 "c:\\dev\\lrdemo\\truclient\\truclient_web_demo\\aos_itemsearchaddcart\\\\combined_AOS_ItemSearchAddCart.c" 2
 
 # 1 "C-functions.c" 1
  
@@ -1165,5 +1157,5 @@ void main()
 {
 	
 }
-# 4 "c:\\users\\jeang\\documents\\demolr\\vugen\\truclient_web_demo\\aos_itemsearchaddcart\\\\combined_AOS_ItemSearchAddCart.c" 2
+# 4 "c:\\dev\\lrdemo\\truclient\\truclient_web_demo\\aos_itemsearchaddcart\\\\combined_AOS_ItemSearchAddCart.c" 2
 

@@ -1,18 +1,44 @@
-Virtual User Script started at : 2019-07-11 09:41:28
-TruClient Replay (build 0324) for LoadRunner 12.63.0, build 0399. OS: Windows 10, Browser: Chromium 68.0.3440.106, initialized on 2019/07/11 at 09:41:28 (1562830888.582s)
+Virtual User Script started at : 2024-04-24 11:10:58
+TruClient Replay (build 0151) for LoadRunner Professional 2023.0.0, build 0628. OS: Windows 2019, Browser: Chromium 108.0.5359.125, initialized on 2024/04/24 at 11:10:57 (1713949857,887s)
 
 Running Vuser...
 Starting iteration 1.
-t=00002136ms: Step 1: Navigate to "http://www.advantageonlineshopping.com" started    [MsgId: MMSG-205180]
-t=00006743ms: Step 1: Navigate to http://www.advantageonlineshopping.com successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
-t=00007254ms: Step 2: Click on LAPTOPS Shop Now link started    [MsgId: MMSG-205180]
-t=00008475ms: Step 2: Click on LAPTOPS Shop Now link successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
-t=00008993ms: Step 3: Click on image (1) image started    [MsgId: MMSG-205180]
-t=00009801ms: Step 3: Click on image (1) image successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
-t=00010311ms: Step 4: Click on ADD TO CART button started    [MsgId: MMSG-205180]
-t=00010732ms: Step 4: Click on ADD TO CART button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
-t=00011243ms: Step 5: Click on HOME link started    [MsgId: MMSG-205180]
-t=00011744ms: Step 5: Click on HOME link successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "Open AOS URL" started.
+t=00001421ms: Step 1: Navigate to "http://www.advantageonlineshopping.com" started    [MsgId: MMSG-205180]
+t=00003819ms: Step 1: Navigate to http://www.advantageonlineshopping.com successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "Open AOS URL" ended with a "Pass" status (Duration: 2,4030 Wasted Time: 0,4610).
+Notify: Transaction "Search and Select Item" started.
+t=00004323ms: Step 2: Click on LAPTOPS Shop Now link started    [MsgId: MMSG-205180]
+t=00007667ms: Step 2: Click on LAPTOPS Shop Now link successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00008172ms: Step 3: Click on Laptop  started    [MsgId: MMSG-205180]
+t=00009786ms: Step 3: Click on Laptop  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "Search and Select Item" ended with a "Pass" status (Duration: 5,4660 Wasted Time: 1,3340).
+Notify: Transaction "Add to cart" started.
+t=00010292ms: Step 4: Click on ADD TO CART button started    [MsgId: MMSG-205180]
+t=00012625ms: Step 4: Click on ADD TO CART button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "Add to cart" ended with a "Pass" status (Duration: 2,3360 Wasted Time: 2,3180).
+Notify: Transaction "Home Page" started.
+t=00013132ms: Step 5: Click on HOME link started    [MsgId: MMSG-205180]
+t=00013672ms: Step 5: Click on HOME link successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "Home Page" ended with a "Pass" status (Duration: 0,5430 Wasted Time: 0,4590).
+t=00014180ms: Step 6: Click on element (1)  started    [MsgId: MMSG-205180]
+t=00014737ms: Step 6: Click on element (1)  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00015244ms: Step 7: Click on username textbox started    [MsgId: MMSG-205180]
+t=00017687ms: Step 7: Click on username textbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00018196ms: Step 8: Type john in username textbox started    [MsgId: MMSG-205180]
+t=00019723ms: Step 8: Type john in username textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00020227ms: Step 9: Click on Password label started    [MsgId: MMSG-205180]
+t=00022640ms: Step 9: Click on Password label successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00023147ms: Step 10: Type ** in Password passwordbox started    [MsgId: MMSG-205180]
+t=00023982ms: Step 10: Type ** in Password passwordbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "LoginFailed" started.
+t=00024491ms: Step 11: Click on SIGN IN button started    [MsgId: MMSG-205180]
+t=00026898ms: Step 11: Click on SIGN IN button successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00026901ms: Step 12: Verify Incorrect user name or...'s Visible Text contains Incorrect user name or password. started    [MsgId: MMSG-205180]
+t=00051060ms: Error -205177: Step 12: Verify Incorrect user name or...'s Visible Text contains Incorrect user name or password. failed - Target object was not found. Identification Method: Automatic       Snapshot Info [MSH 1 1]    [MsgId: MERR-205177]
+Notify: Transaction "LoginFailed" ended with a "Fail" status (Duration: 26,3520 Wasted Time: 2,0680).
+Notify: Transaction "LoginFailed" has 1 error message(s).
+Notify: The 1st error message associated with transaction "LoginFailed" is "Error -205177: Step 12: Verify Incorrect user name or...'s Visible Text contains Incorrect user name or password. failed - Target object was not found. Identification Method: Automatic"
 Ending iteration 1.
 Ending Vuser...
 Vuser Terminated.

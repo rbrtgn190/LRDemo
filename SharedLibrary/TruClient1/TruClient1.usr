@@ -62,16 +62,9 @@ Action=0
 Lib-View=0
 vuser_end=0
 [TransactionsOrder]
-Order="Open AOS URL__*delimiter*__Search and Select Item__*delimiter*__Add to cart__*delimiter*__Home Page__*delimiter*__LoginFailed__*delimiter*__EmptyCart"
+Order=
 [StateManagement]
 LastReplayStatus=0
 [ActiveReplay]
 LastReplayedRunName=
 ActiveRunName=
-[Transactions]
-"Open AOS URL"=
-"Search and Select Item"=
-"Add to cart"=
-"Home Page"=
-LoginFailed=
-EmptyCart=

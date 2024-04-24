@@ -1,10 +1,14 @@
 name: devWeb
-version: 2021.0.0
+version: 2023.0.0
 
 measurements:                       #Configuration for storing measurements
-  adapters: ["influxDB"]              #Configuration for database adapters that is used for measurements. Available adapters are [sqlite, influxDB, influxDBV2].
+  adapters: ["sqlite"]              #Configuration for database adapters that is used for measurements. Available adapters are [sqlite, influxDB, influxDBV2, analysisInfluxDB, analysisInfluxDBV2].
   useProxy: false                   #Indicates whether to use proxy settings from rts.yml during connection to measurements instance
+  runName: ""                       #Run Name tag for reported data, providing easier identification of streamed data on InfluxDB. Leave empty to use script name by default
 
 influxDB:                           #Configuration for InfluxDB adapter instance
   url: "http://nimbusserver:8186"                           #The InfluxDB endpoint (for example: http://myHost:8086)
   dbName: "LRD"                #The InfluxDB v1 database name
+  userName: "admin"                      #The InfluxDB username
+  password: "Password1"                      #The InfluxDB password
+  ignoreBadCertificate: false       # If true, SSL accepts any certificate presented by the influxDB server and any hostname in that certificate.

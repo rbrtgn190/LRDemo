@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\jeang\Documents\demoLR\VUGen\TruClient_Web_Demo\AOS_ItemSearchAddCart
+-IC:\dev\LRDemo\TruClient\TruClient_Web_Demo\AOS_ItemSearchAddCart
 -IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\jeang\documents\demolr\vugen\truclient_web_demo\aos_itemsearchaddcart\\logfile.log
-c:\users\jeang\documents\demolr\vugen\truclient_web_demo\aos_itemsearchaddcart\\combined_AOS_ItemSearchAddCart.c
-c:\users\jeang\documents\demolr\vugen\truclient_web_demo\aos_itemsearchaddcart\\pre_cci.c
+-ec:\dev\lrdemo\truclient\truclient_web_demo\aos_itemsearchaddcart\\logfile.log
+c:\dev\lrdemo\truclient\truclient_web_demo\aos_itemsearchaddcart\\combined_AOS_ItemSearchAddCart.c
+c:\dev\lrdemo\truclient\truclient_web_demo\aos_itemsearchaddcart\\pre_cci.c
