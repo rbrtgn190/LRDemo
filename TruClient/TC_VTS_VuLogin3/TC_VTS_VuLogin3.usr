@@ -1,14 +1,14 @@
 [General]
 Type=TruClientWeb
 DefaultCfg=default.cfg
-MajorVersion=2021
-MinorVersion=2
+MajorVersion=2023
+MinorVersion=0
 ParameterFile=
 GlobalParameterFile=
 NewFunctionHeader=1
 LastActiveAction=Action
 DevelopTool=Vugen
-LastModifyVer=2021.2.0.0
+LastModifyVer=2023.0.0.0
 ActiveTypes=TruClientWeb
 AdditionalTypes=TruClientWeb
 GenerateTypes=TruClientWeb
@@ -20,7 +20,7 @@ LastCodeGenerationVer=2021.2.0.0
 DisableRegenerate=0
 Encoding=
 Description=
-ScriptLocale=en-US
+ScriptLocale=fr-FR
 [Actions]
 vuser_init=vuser_init.c
 Action=Action.c
@@ -64,7 +64,7 @@ vuser_end=1
 [TransactionsOrder]
 Order=
 [StateManagement]
-LastReplayStatus=2
+LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=
 ActiveRunName=

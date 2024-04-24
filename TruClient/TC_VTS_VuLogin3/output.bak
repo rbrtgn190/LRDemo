@@ -1,19 +1,25 @@
-Virtual User Script started at : 2022-10-12 17:09:02
-TruClient Replay (build 0383) for LoadRunner Professional 2021.2.0, build 0495. OS: Windows 2019, Browser: Chromium 91.0.4472.77, initialized on 2022/10/12 at 17:08:59 (1665587339.963s)
-t=00002373ms: Step 2: Execute VTS.vtcConnect ("nimbusserver", 4888, [vtsName]) started    [MsgId: MMSG-205180]
-t=00002400ms: Step 2: Execute VTS.vtcConnect ("nimbusserver", 4888, [vtsName]) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
-t=00002404ms: Step 3: Execute VTS.vtcGetCell ("UserName", 1, [vtsName]) started    [MsgId: MMSG-205180]
-t=00002421ms: Step 3: Execute VTS.vtcGetCell ("UserName", 1, [vtsName]) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
-t=00002424ms: Step 4: Execute VTS.vtcGetCell ("Password", 1, [vtsName]) started    [MsgId: MMSG-205180]
-t=00002441ms: Step 4: Execute VTS.vtcGetCell ("Password", 1, [vtsName]) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
-t=00002444ms: Step 5: Execute TC.log ("User : " + TC.userId + ... : " + vPassword, "Standard") started    [MsgId: MMSG-205180]
-t=00002453ms: User : -1 > User1 : p1    [MsgId: MMSG-205180]
-t=00002454ms: Step 5: Execute TC.log (User : -1 > User1 : p1, "Standard") successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
-t=00002456ms: Step 6: Execute VTS.vtcDisconnect ([vtsName]) started    [MsgId: MMSG-205180]
-t=00002470ms: Step 6: Execute VTS.vtcDisconnect ([vtsName]) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
-Warning: The "vuser_init" section contains step(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations.
-Running Vuser...
-Starting iteration 1.
-Ending iteration 1.
-Ending Vuser...
-Vuser Terminated.
+Virtual User Script started at : 2023-12-08 14:38:18
+TruClient Replay (build 0151) for LoadRunner Professional 2023.0.0, build 0628. OS: Windows 2019, Browser: Chromium 108.0.5359.125, initialized on 2023/12/08 at 14:38:14 (1702042694,365s)
+Selected Run-Time Settings:
+    Simulate a new user on each iteration...............: 1
+    Using system proxy settings
+    Check for newer versions of stored pages: 4 (Automatically)
+    Keep-Alive..........................................: 1
+    Proxy Keep-Alive....................................: 1
+    Keep-Alive timeout (ms).............................: 60000
+    HTTP Version........................................: 1.1
+    Proxy HTTP Version..................................: 1.1
+    DNS cache entries...................................: 20
+    Run-Time Settings file..............................: "C:\dev\LRDemo\TruClient\TC_VTS_VuLogin3\\default.cfg"
+    Vuser directory.....................................: "C:\Users\demo\AppData\Local\Temp\1\TC\Temp\"
+    Vuser output directory..............................: "C:\Users\demo\AppData\Local\Temp\1\TC\Temp\"
+End of selected Run-Time Settings
+Please refer to the ReadMe file in the LoadRunner Professional installation directory for notes about measurements and logging
+t=00004247ms: Step 2: Execute TC.groupName started    [MsgId: MMSG-205180]
+t=00004254ms: Step 2: Execute TC.groupName successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00004255ms: Step 3: Execute VTS.vtcConnect ("nimbusserver", 4888, [vtsName]) started    [MsgId: MMSG-205180]
+t=00009273ms: Step 3: Execute VTS.vtcConnect ("nimbusserver", 4888, [vtsName]) successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00009274ms: Step 4: Execute VTS.vtcPopCells ([vtsName]) started    [MsgId: MMSG-205180]
+t=00014297ms: Warning -205179: VTS.vtcPopCells("") APIError: Failed to retrieve parameters from Virtual Table Server. Failed to connect. Check the server name, port number, network connectivity, and whether server is on line.undefined    [MsgId: MWAR-205179]
+t=00014390ms: Error -205177: Step 4: Execute VTS.vtcPopCells ([vtsName]) failed - Exception occurred: API_ERROR_INVALID_ARGUMENTS_RUNTIME: VTS.vtcPopCells("") APIError: Failed to retrieve parameters from Virtual Table Server. Failed to connect. Check the server name, port number, network connectivity, and whether server is on line.undefined       Snapshot Info [MSH Init 0]    [MsgId: MERR-205177]
+Action was aborted.

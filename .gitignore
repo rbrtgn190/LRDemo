@@ -21,6 +21,9 @@ options.txt
 *.log
 
 
+output.bak
+output.txt
+
 ## VuGen Results folder
 result*/
 *.idx
