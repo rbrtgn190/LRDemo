@@ -1,0 +1,1556 @@
+{
+  "meta": {
+    "engineVersion": "2024.3.0.164",
+    "platform": "Chrome",
+    "timestamp": "Fri Aug 23 2024 09:23:05 GMT+0200 (Central European Summer Time)"
+  },
+  "default": {
+    "level": 1,
+    "actions": [
+      {
+        "id": "step:{00000000-0000-0000-0000-000000000003}",
+        "name": "Init",
+        "type": 1,
+        "steps": []
+      },
+      {
+        "id": "step:{00000000-0000-0000-0000-000000000004}",
+        "name": "Action",
+        "type": 1,
+        "steps": [
+          {
+            "id": "76b2c39c-49ef-b54f-9864-40310481ae03",
+            "type": 8,
+            "level": 100,
+            "disabled": false,
+            "endEvent": 1,
+            "name": "Open AOS URL",
+            "action": 1
+          },
+          {
+            "id": "step:{73e6d127-7476-0a1e-6e53-3c009e96f4df}",
+            "type": 3,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 3,
+            "arguments": [
+              {
+                "name": "location",
+                "type": 2,
+                "value": "'http://www.advantageonlineshopping.com'"
+              }
+            ],
+            "action": 100,
+            "recDuration": 15
+          },
+          {
+            "id": "6eaf97d0-0a60-838f-2c03-1ceb892298bb",
+            "type": 8,
+            "level": 100,
+            "disabled": false,
+            "endEvent": 1,
+            "name": "Open AOS URL",
+            "action": 2
+          },
+          {
+            "id": "step:{51f8ac77-bd23-e075-4090-e936fbc5d82c}",
+            "type": 6,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "steps": [
+              {
+                "id": "step:{6ffc2afb-5464-8909-f57d-cff32deef586}",
+                "type": 2,
+                "level": 100,
+                "disabled": false,
+                "endEvent": 3,
+                "testObjectsRef": [
+                  "testObj:{60040c10-3de9-74ed-d95e-9804f796199f}"
+                ],
+                "arguments": [
+                  {
+                    "name": "button",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "xCoordinate",
+                    "type": 1,
+                    "value": "10"
+                  },
+                  {
+                    "name": "yCoordinate",
+                    "type": 1,
+                    "value": "17"
+                  },
+                  {
+                    "name": "hasCtrlKey",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "hasAltKey",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "hasShiftKey",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "useCoordinates",
+                    "type": 1,
+                    "value": ""
+                  }
+                ],
+                "action": 1,
+                "recDuration": 4
+              },
+              {
+                "id": "step:{ea50cc68-dd0f-53b8-ded1-c79879203fb3}",
+                "type": 2,
+                "level": 100,
+                "disabled": false,
+                "endEvent": 1,
+                "testObjectsRef": [
+                  "testObj:{69638676-4445-d844-0ce4-1439c42aad1e}"
+                ],
+                "arguments": [
+                  {
+                    "name": "text",
+                    "type": 1,
+                    "value": ""
+                  },
+                  {
+                    "name": "ordinal",
+                    "type": 1,
+                    "value": "3"
+                  }
+                ],
+                "action": 10,
+                "recDuration": 4
+              }
+            ],
+            "activeStep": 0,
+            "recDuration": 4
+          },
+          {
+            "id": "step:{e87f70b3-2a84-c96b-5883-dc1431730563}",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 3,
+            "testObjectsRef": [
+              "testObj:{2d6590bd-7a2f-8c00-0864-550aa28d1dc9}"
+            ],
+            "arguments": [
+              {
+                "name": "button",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "xCoordinate",
+                "type": 1,
+                "value": "28"
+              },
+              {
+                "name": "yCoordinate",
+                "type": 1,
+                "value": "13"
+              },
+              {
+                "name": "hasCtrlKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasAltKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasShiftKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "useCoordinates",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 1,
+            "recDuration": 2
+          },
+          {
+            "id": "step:{e04f4510-f863-cb11-a589-1aabffe6feff}",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 2,
+            "testObjectsRef": [
+              "testObj:{2d6590bd-7a2f-8c00-0864-550aa28d1dc9}"
+            ],
+            "arguments": [
+              {
+                "name": "value",
+                "type": 1,
+                "value": "john"
+              },
+              {
+                "name": "clear",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "interval",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 5
+          },
+          {
+            "id": "step:{2dd383fd-106a-e7bd-5314-24d049ec48ab}",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 3,
+            "testObjectsRef": [
+              "testObj:{2593ac56-70bc-83d7-c06d-b625ba325cf2}"
+            ],
+            "arguments": [
+              {
+                "name": "button",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "xCoordinate",
+                "type": 1,
+                "value": "9"
+              },
+              {
+                "name": "yCoordinate",
+                "type": 1,
+                "value": "1"
+              },
+              {
+                "name": "hasCtrlKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasAltKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasShiftKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "useCoordinates",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 1
+          },
+          {
+            "id": "step:{a53d0f66-f108-d765-7da7-c926505ec34c}",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 2,
+            "testObjectsRef": [
+              "testObj:{15b4daf4-adc6-576d-c959-5b18c842200a}"
+            ],
+            "arguments": [
+              {
+                "name": "value",
+                "type": 1,
+                "value": "do"
+              },
+              {
+                "name": "clear",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "interval",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 5
+          },
+          {
+            "id": "step:{ea5626be-b52b-d21c-e2cb-6f4e46992580}",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 3,
+            "testObjectsRef": [
+              "testObj:{05d7d125-ccb0-cc94-5536-70f247aed524}"
+            ],
+            "arguments": [
+              {
+                "name": "button",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "xCoordinate",
+                "type": 1,
+                "value": "117"
+              },
+              {
+                "name": "yCoordinate",
+                "type": 1,
+                "value": "4"
+              },
+              {
+                "name": "hasCtrlKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasAltKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasShiftKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "useCoordinates",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 1
+          },
+          {
+            "id": "step:{9a8b67a3-3a65-9233-a716-9bb3ff0f9300}",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "testObjectsRef": [
+              "testObj:{a7f3cf45-4171-1c33-c228-208596d830c5}"
+            ],
+            "arguments": [
+              {
+                "name": "value",
+                "type": 1,
+                "value": "Incorrect user name or password."
+              },
+              {
+                "name": "property",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "condition",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 25
+          },
+          {
+            "id": "step:{1598e343-a154-a470-31c2-600b89ceaf2f}",
+            "type": 2,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 3,
+            "testObjectsRef": [
+              "testObj:{e68bd85e-faa8-772e-d7fe-fe7ce5b52978}"
+            ],
+            "arguments": [
+              {
+                "name": "button",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "xCoordinate",
+                "type": 1,
+                "value": "7"
+              },
+              {
+                "name": "yCoordinate",
+                "type": 1,
+                "value": "12"
+              },
+              {
+                "name": "hasCtrlKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasAltKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "hasShiftKey",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "useCoordinates",
+                "type": 1,
+                "value": ""
+              }
+            ],
+            "action": 1
+          }
+        ]
+      },
+      {
+        "id": "step:{00000000-0000-0000-0000-000000000005}",
+        "name": "End",
+        "type": 1,
+        "steps": []
+      },
+      {
+        "id": "step:{00000000-0000-0000-0000-000000000006}",
+        "name": "EventHandler",
+        "type": 3,
+        "steps": []
+      },
+      {
+        "id": "step:{00000000-0000-0000-0000-000000000007}",
+        "name": "RunLogic",
+        "type": 2,
+        "steps": [
+          {
+            "id": "00000000-0000-0000-0000-InitBlock",
+            "type": 100,
+            "level": 100,
+            "disabled": false,
+            "endEvent": 1,
+            "steps": [
+              {
+                "id": "step:{63754c4e-ba3f-75de-a653-b8d74d6fc41e}",
+                "type": 101,
+                "level": 100,
+                "disabled": false,
+                "endEvent": 1,
+                "actionName": "Init"
+              }
+            ],
+            "name": "Init Block"
+          },
+          {
+            "id": "00000000-0000-0000-0000-ActionBlock",
+            "type": 100,
+            "level": 100,
+            "disabled": false,
+            "endEvent": 1,
+            "steps": [
+              {
+                "id": "step:{460908da-7ecf-979b-71bb-0765cd9214e5}",
+                "type": 101,
+                "level": 100,
+                "disabled": false,
+                "endEvent": 1,
+                "actionName": "Action"
+              }
+            ],
+            "name": "Action Block"
+          },
+          {
+            "id": "00000000-0000-0000-0000-EndBlock",
+            "type": 100,
+            "level": 100,
+            "disabled": false,
+            "endEvent": 1,
+            "steps": [
+              {
+                "id": "step:{eb40bb40-8c42-543e-e8f7-9e326740d720}",
+                "type": 101,
+                "level": 100,
+                "disabled": false,
+                "endEvent": 1,
+                "actionName": "End"
+              }
+            ],
+            "name": "End Block"
+          }
+        ]
+      }
+    ],
+    "testObjects": [
+      {
+        "id": "testObj:{60040c10-3de9-74ed-d95e-9804f796199f}",
+        "name": "element (1)",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": [],
+            "allFrames": true
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "//svg[@id=\"menuUser\"]",
+              "suggestion": [
+                "//svg[@id=\"menuUser\"]"
+              ]
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.50995,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "SVG",
+                  "score": 0.01
+                },
+                {
+                  "id": "id",
+                  "value": {
+                    "id": "menuUser",
+                    "isValidWord": true
+                  },
+                  "score": 0.5
+                },
+                {
+                  "id": "leaf",
+                  "value": false,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 21,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 21,
+                  "id": 1,
+                  "leaf": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "svg"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "id",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "id"
+                      },
+                      {
+                        "op": "value",
+                        "args": "menuUser"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 21,
+                  "id": 1
+                },
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 4,
+              "value": "",
+              "suggestion": []
+            }
+          ]
+        },
+        "rolesEx": [
+          100
+        ]
+      },
+      {
+        "id": "testObj:{69638676-4445-d844-0ce4-1439c42aad1e}",
+        "name": "listbox (2)",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": [],
+            "allFrames": true
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "/html/body/header/nav/ul",
+              "suggestion": [
+                "/html/body/header/nav/ul"
+              ]
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.166915,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "UL",
+                  "score": 0.01
+                },
+                {
+                  "id": "class",
+                  "value": "roboto-light desktop-handler",
+                  "score": 0.15
+                },
+                {
+                  "id": "leaf",
+                  "value": false,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 10,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 8,
+                  "class": 3,
+                  "leaf": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "UL"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "contained",
+                    "active": true,
+                    "descriptor": "class",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "class"
+                      },
+                      {
+                        "op": "value",
+                        "args": [
+                          "roboto-light",
+                          "desktop-handler"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 8,
+                  "class": 1
+                },
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 4,
+              "value": "",
+              "suggestion": []
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          2600
+        ]
+      },
+      {
+        "id": "testObj:{2d6590bd-7a2f-8c00-0864-550aa28d1dc9}",
+        "name": "username",
+        "notVisible": true,
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": [],
+            "allFrames": true
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "//input[@type=\"text\" and @name=\"username\"]",
+              "suggestion": [
+                "//input[@type=\"text\" and @name=\"username\"]",
+                "/html/body/login-modal/div/div/div[3]/sec-form/sec-view[1]/div/input"
+              ]
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.49636225,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "INPUT",
+                  "score": 0.1
+                },
+                {
+                  "id": "name",
+                  "value": {
+                    "name": "username",
+                    "isValidWord": true
+                  },
+                  "score": 0.3
+                },
+                {
+                  "id": "class",
+                  "value": "ng-pristine ng-valid ng-scope invalid ng-touched",
+                  "score": 0.15
+                },
+                {
+                  "id": "input/type",
+                  "value": "text",
+                  "score": 0.05
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 205,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 41,
+                  "name": 1,
+                  "class": 163,
+                  "input/type": 3,
+                  "leaf": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "INPUT"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "name",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "name"
+                      },
+                      {
+                        "op": "value",
+                        "args": "username"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "input/type",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "input/type"
+                      },
+                      {
+                        "op": "value",
+                        "args": "text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 41,
+                  "name": 1,
+                  "input/type": 1
+                },
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 4,
+              "value": "",
+              "suggestion": []
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          200
+        ]
+      },
+      {
+        "id": "testObj:{2593ac56-70bc-83d7-c06d-b625ba325cf2}",
+        "name": "Password",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": [],
+            "allFrames": true
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "//label[text()=\"Password\"]",
+              "suggestion": [
+                "//label[text()=\"Password\"]",
+                "/html/body/login-modal/div/div/div[3]/sec-form/sec-view[2]/div/label"
+              ]
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.47074600000000005,
+              "ctxScore": 0.5,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "LABEL",
+                  "score": 0.01
+                },
+                {
+                  "id": "text",
+                  "value": {
+                    "text": "Password",
+                    "tagName": "LABEL"
+                  },
+                  "score": 0.4
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                },
+                {
+                  "id": "position",
+                  "value": {
+                    "pos": "absolute"
+                  },
+                  "score": 0.1
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 70,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 70,
+                  "text": 1,
+                  "leaf": null,
+                  "position": null
+                },
+                "secondaryScore": 0.1179088209,
+                "totalCandidates": 3
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "LABEL"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "text",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "text"
+                      },
+                      {
+                        "op": "value",
+                        "args": "Password"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 70,
+                  "text": 1
+                },
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 4,
+              "value": "",
+              "suggestion": []
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          1400
+        ]
+      },
+      {
+        "id": "testObj:{15b4daf4-adc6-576d-c959-5b18c842200a}",
+        "name": "Password",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": [],
+            "allFrames": true
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "//input[@type=\"password\" and @name=\"password\"]",
+              "suggestion": [
+                "//input[@type=\"password\" and @name=\"password\"]",
+                "/html/body/login-modal/div/div/div[3]/sec-form/sec-view[2]/div/input"
+              ]
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.49636225,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "INPUT",
+                  "score": 0.1
+                },
+                {
+                  "id": "name",
+                  "value": {
+                    "name": "password",
+                    "isValidWord": true
+                  },
+                  "score": 0.3
+                },
+                {
+                  "id": "class",
+                  "value": "ng-pristine ng-untouched ng-valid ng-scope",
+                  "score": 0.15
+                },
+                {
+                  "id": "input/type",
+                  "value": "password",
+                  "score": 0.05
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 202,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 41,
+                  "name": 1,
+                  "class": 162,
+                  "input/type": 1,
+                  "leaf": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "INPUT"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "name",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "name"
+                      },
+                      {
+                        "op": "value",
+                        "args": "password"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "input/type",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "input/type"
+                      },
+                      {
+                        "op": "value",
+                        "args": "password"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 41,
+                  "name": 1,
+                  "input/type": 1
+                },
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 4,
+              "value": "",
+              "suggestion": []
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          200,
+          1600
+        ]
+      },
+      {
+        "id": "testObj:{05d7d125-ccb0-cc94-5536-70f247aed524}",
+        "name": "SIGN IN",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": [],
+            "allFrames": true
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "//button[text()=\"SIGN IN\"]",
+              "suggestion": [
+                "//button[text()=\"SIGN IN\"]",
+                "/html/body/login-modal/div/div/div[3]/sec-form/sec-sender/button",
+                "//button[@id=\"sign_in_btnundefined\"]"
+              ]
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.6978173500000001,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "BUTTON",
+                  "score": 0.1
+                },
+                {
+                  "id": "role",
+                  "value": "button",
+                  "score": 0.05
+                },
+                {
+                  "id": "id",
+                  "value": {
+                    "id": "sign_in_btnundefined",
+                    "isValidWord": false
+                  },
+                  "score": 0.3
+                },
+                {
+                  "id": "class",
+                  "value": "sec-sender-a ng-scope",
+                  "score": 0.15
+                },
+                {
+                  "id": "text",
+                  "value": {
+                    "text": "SIGN IN",
+                    "tagName": "BUTTON"
+                  },
+                  "score": 0.4
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 126,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 3,
+                  "role": 3,
+                  "id": 1,
+                  "class": 124,
+                  "text": 1,
+                  "leaf": null
+                },
+                "secondaryScore": 0.20057299425000003,
+                "totalCandidates": 2
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "BUTTON"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "role",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "role"
+                      },
+                      {
+                        "op": "value",
+                        "args": "button"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "text",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "text"
+                      },
+                      {
+                        "op": "value",
+                        "args": "SIGN IN"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 3,
+                  "role": 3,
+                  "text": 1
+                },
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 4,
+              "value": "",
+              "suggestion": []
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          1000
+        ]
+      },
+      {
+        "id": "testObj:{a7f3cf45-4171-1c33-c228-208596d830c5}",
+        "name": "Incorrect user name or...",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": [],
+            "allFrames": true
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "//label[text()=\"Incorrect user name or password.\"]",
+              "suggestion": [
+                "//label[text()=\"Incorrect user name or password.\"]",
+                "//label[@id=\"signInResultMessage\"]"
+              ]
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.7500745000000001,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "LABEL",
+                  "score": 0.01
+                },
+                {
+                  "id": "id",
+                  "value": {
+                    "id": "signInResultMessage",
+                    "isValidWord": true
+                  },
+                  "score": 0.5
+                },
+                {
+                  "id": "class",
+                  "value": "or  center invalid",
+                  "score": 0.15
+                },
+                {
+                  "id": "text",
+                  "value": {
+                    "text": "Incorrect user name or password",
+                    "tagName": "LABEL"
+                  },
+                  "score": 0.4
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 75,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 70,
+                  "id": 1,
+                  "class": 6,
+                  "text": 1,
+                  "leaf": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "LABEL"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "text",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "text"
+                      },
+                      {
+                        "op": "value",
+                        "args": "Incorrect user name or password."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 70,
+                  "text": 1
+                },
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 4,
+              "value": "",
+              "suggestion": []
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          1400
+        ]
+      },
+      {
+        "id": "testObj:{e68bd85e-faa8-772e-d7fe-fe7ce5b52978}",
+        "name": "CloseDark",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": [],
+            "allFrames": true
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "/html/body/login-modal/div/div/div[2]",
+              "suggestion": [
+                "/html/body/login-modal/div/div/div[2]"
+              ]
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.362689975,
+              "ctxScore": 0.5,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "DIV",
+                  "score": 0.01
+                },
+                {
+                  "id": "class",
+                  "value": "closeBtn loginPopUpCloseBtn",
+                  "score": 0.15
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                },
+                {
+                  "id": "style/background-image",
+                  "value": {
+                    "bkImg": "http://www.advantageonlineshopping.com/css/images/closeDark.png"
+                  },
+                  "score": 0.15
+                },
+                {
+                  "id": "position",
+                  "value": {
+                    "pos": "absolute"
+                  },
+                  "score": 0.1
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 160,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 160,
+                  "class": 1,
+                  "leaf": null,
+                  "style/background-image": null,
+                  "position": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "DIV"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "contained",
+                    "active": true,
+                    "descriptor": "class",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "class"
+                      },
+                      {
+                        "op": "value",
+                        "args": [
+                          "closeBtn",
+                          "loginPopUpCloseBtn"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 160,
+                  "class": 1
+                },
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 4,
+              "value": "",
+              "suggestion": []
+            }
+          ]
+        },
+        "rolesEx": [
+          100
+        ]
+      }
+    ]
+  }
+}

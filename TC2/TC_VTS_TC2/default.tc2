@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "engineVersion": "2024.3.0.164",
+    "platform": "Chrome",
+    "timestamp": "Fri Aug 23 2024 09:21:54 GMT+0200 (Central European Summer Time)"
+  },
+  "default": {
+    "level": 1,
+    "actions": [
+      {
+        "id": "step:{00000000-0000-0000-0000-000000000003}",
+        "name": "Init",
+        "type": 1,
+        "steps": [
+          {
+            "id": "step:{87e82540-2a1f-e699-a422-bfe068dbd36a}",
+            "type": 11,
+            "level": 1,
+            "disabled": true,
+            "endEvent": 1,
+            "arguments": [
+              {
+                "name": "code",
+                "type": 2,
+                "value": "TC.vtcConnect('nimbusserver.aos.com', '4888')"
+              }
+            ]
+          },
+          {
+            "id": "step:{3ffed9d8-4109-51e2-f608-5f232d450fe0}",
+            "type": 11,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "arguments": [
+              {
+                "name": "code",
+                "type": 2,
+                "value": "var vVTSConnect;\n(async () => {\n    vVTSConnect = await TC.vtcConnect('nimbusserver.aos.com', 4888)\n})()"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "step:{00000000-0000-0000-0000-000000000004}",
+        "name": "Action",
+        "type": 1,
+        "steps": [
+          {
+            "id": "step:{3d3d8b93-6364-a4bd-a051-dcb32a8246cf}",
+            "type": 11,
+            "level": 1,
+            "disabled": true,
+            "endEvent": 1,
+            "arguments": [
+              {
+                "name": "code",
+                "type": 2,
+                "value": "var vendeur;\n(async () => {\n    vendeur = await TC.vtcSearchRow('Vendeur', 'toto');\n    await TC.log(vendeur, 'Standard')\n})()"
+              }
+            ]
+          },
+          {
+            "id": "step:{1de217b5-a591-8ae6-51d9-814c3f61bc47}",
+            "type": 11,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "arguments": [
+              {
+                "name": "code",
+                "type": 2,
+                "value": "var vVendeur;\n(async () => {\n    vVendeur = await TC.vtcSearchRow('Vendeur', 'Titi', ';')\n})()"
+              }
+            ]
+          },
+          {
+            "id": "step:{3e704ac9-215f-a7b7-da90-201c31d84a83}",
+            "type": 11,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "arguments": [
+              {
+                "name": "code",
+                "type": 2,
+                "value": "(async () => {\n    const text = vVendeur;\n    await TC.log(text, 'Standard')\n})()"
+              }
+            ]
+          },
+          {
+            "id": "step:{f75a7fb0-b185-acc0-4918-5cc181716ac7}",
+            "type": 11,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "arguments": [
+              {
+                "name": "code",
+                "type": 2,
+                "value": "(async () => {\n    const text = eval(vVendeur);\n    await TC.outputMessage(text)\n})()"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "step:{00000000-0000-0000-0000-000000000005}",
+        "name": "End",
+        "type": 1,
+        "steps": [
+          {
+            "id": "step:{b052cffe-3b94-36ce-cad7-9268f654d35d}",
+            "type": 11,
+            "level": 1,
+            "disabled": true,
+            "endEvent": 1,
+            "arguments": [
+              {
+                "name": "code",
+                "type": 2,
+                "value": "TC.vtcDisconnect()"
+              }
+            ]
+          },
+          {
+            "id": "step:{ee56cecc-4fbb-b41c-ae3f-651f7f64bcc6}",
+            "type": 11,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "arguments": [
+              {
+                "name": "code",
+                "type": 2,
+                "value": "var vVTSDisconnect;\n(async () => {\n    vVTSDisconnect = await TC.vtcDisconnect()\n})()"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "step:{00000000-0000-0000-0000-000000000006}",
+        "name": "EventHandler",
+        "type": 3,
+        "steps": []
+      },
+      {
+        "id": "step:{00000000-0000-0000-0000-000000000007}",
+        "name": "RunLogic",
+        "type": 2,
+        "steps": [
+          {
+            "id": "00000000-0000-0000-0000-InitBlock",
+            "type": 100,
+            "level": 100,
+            "disabled": false,
+            "endEvent": 1,
+            "steps": [
+              {
+                "id": "step:{63b5b6c9-7f02-a628-2f55-37c9ffba7ec1}",
+                "type": 101,
+                "level": 100,
+                "disabled": false,
+                "endEvent": 1,
+                "actionName": "Init"
+              }
+            ],
+            "name": "Init Block"
+          },
+          {
+            "id": "00000000-0000-0000-0000-ActionBlock",
+            "type": 100,
+            "level": 100,
+            "disabled": false,
+            "endEvent": 1,
+            "steps": [
+              {
+                "id": "step:{5d1a37d9-d14a-b10d-99f4-bb75c0ec6613}",
+                "type": 101,
+                "level": 100,
+                "disabled": false,
+                "endEvent": 1,
+                "actionName": "Action"
+              }
+            ],
+            "name": "Action Block"
+          },
+          {
+            "id": "00000000-0000-0000-0000-EndBlock",
+            "type": 100,
+            "level": 100,
+            "disabled": false,
+            "endEvent": 1,
+            "steps": [
+              {
+                "id": "step:{16a52e64-ecea-ed9e-86c3-56a248a3f0d5}",
+                "type": 101,
+                "level": 100,
+                "disabled": false,
+                "endEvent": 1,
+                "actionName": "End"
+              }
+            ],
+            "name": "End Block"
+          }
+        ]
+      }
+    ],
+    "testObjects": []
+  }
+}
