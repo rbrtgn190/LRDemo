@@ -1,0 +1,1686 @@
+{
+  "meta": {
+    "engineVersion": "2024.3.0.164",
+    "platform": "Chrome 127.0.6533.100",
+    "timestamp": "Tue Aug 13 2024 14:43:06 GMT+0200 (Central European Summer Time)"
+  },
+  "default": {
+    "level": 1,
+    "actions": [
+      {
+        "id": "Functions",
+        "name": "SFDC",
+        "type": 4,
+        "steps": [
+          {
+            "id": "2284ce19-81fb-5ecd-6785-29f1dc6d8607",
+            "type": 9,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 1,
+            "steps": [
+              {
+                "id": "7c5d6f54-9171-42e4-70b0-8e739ba57ca7",
+                "type": 1,
+                "level": 1,
+                "disabled": false,
+                "endEvent": 2,
+                "steps": [
+                  {
+                    "id": "2e83fcbd-0bad-c417-1ba7-ae66c986c777",
+                    "type": 2,
+                    "level": 1,
+                    "disabled": false,
+                    "endEvent": 5,
+                    "testObjectsRef": [
+                      "31195302-1cda-ad2a-a0d5-a9ccdc3c398c"
+                    ],
+                    "arguments": [
+                      {
+                        "name": "button",
+                        "type": 1,
+                        "value": "1"
+                      },
+                      {
+                        "name": "xCoordinate",
+                        "type": 1,
+                        "value": "69"
+                      },
+                      {
+                        "name": "yCoordinate",
+                        "type": 1,
+                        "value": "27"
+                      },
+                      {
+                        "name": "hasCtrlKey",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "name": "hasAltKey",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "name": "hasShiftKey",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "name": "useCoordinates",
+                        "type": 1,
+                        "value": ""
+                      }
+                    ],
+                    "action": 1,
+                    "recDuration": 7
+                  },
+                  {
+                    "id": "ff3f211b-f943-9f96-de1c-2ad8b13c075a",
+                    "type": 2,
+                    "level": 1,
+                    "disabled": false,
+                    "endEvent": 2,
+                    "testObjectsRef": [
+                      "f9277233-ef17-2201-bda4-d704011e45f4"
+                    ],
+                    "arguments": [
+                      {
+                        "name": "value",
+                        "type": 1,
+                        "value": "jeang"
+                      },
+                      {
+                        "name": "clear",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "name": "interval",
+                        "type": 1,
+                        "value": ""
+                      }
+                    ],
+                    "action": 5
+                  },
+                  {
+                    "id": "315bc070-b3eb-0666-bfa7-6f0e05634a65",
+                    "type": 2,
+                    "level": 1,
+                    "disabled": false,
+                    "endEvent": 2,
+                    "testObjectsRef": [
+                      "29857a9f-ab7d-a87c-090d-4b340b9d5e47"
+                    ],
+                    "arguments": [
+                      {
+                        "name": "button",
+                        "type": 1,
+                        "value": "1"
+                      },
+                      {
+                        "name": "xCoordinate",
+                        "type": 1,
+                        "value": "37"
+                      },
+                      {
+                        "name": "yCoordinate",
+                        "type": 1,
+                        "value": "23"
+                      },
+                      {
+                        "name": "hasCtrlKey",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "name": "hasAltKey",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "name": "hasShiftKey",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "name": "useCoordinates",
+                        "type": 1,
+                        "value": ""
+                      }
+                    ],
+                    "action": 1
+                  },
+                  {
+                    "id": "14b4f456-172f-9b3b-591e-68a91c21ac6a",
+                    "type": 2,
+                    "level": 1,
+                    "disabled": false,
+                    "endEvent": 2,
+                    "testObjectsRef": [
+                      "29857a9f-ab7d-a87c-090d-4b340b9d5e47"
+                    ],
+                    "arguments": [
+                      {
+                        "name": "value",
+                        "type": 1,
+                        "value": "66bb4caff207704275ed272d7fea3e33e7",
+                        "encrypted": true
+                      },
+                      {
+                        "name": "clear",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "name": "interval",
+                        "type": 1,
+                        "value": ""
+                      }
+                    ],
+                    "action": 5
+                  },
+                  {
+                    "id": "68865c58-bb13-4a1b-c572-3a0ac4aef08e",
+                    "type": 2,
+                    "level": 1,
+                    "disabled": false,
+                    "endEvent": 5,
+                    "testObjectsRef": [
+                      "48d4a394-920b-e8b6-7c62-39991b71b622"
+                    ],
+                    "arguments": [
+                      {
+                        "name": "button",
+                        "type": 1,
+                        "value": "1"
+                      },
+                      {
+                        "name": "xCoordinate",
+                        "type": 1,
+                        "value": "118"
+                      },
+                      {
+                        "name": "yCoordinate",
+                        "type": 1,
+                        "value": "21"
+                      },
+                      {
+                        "name": "hasCtrlKey",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "name": "hasAltKey",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "name": "hasShiftKey",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "name": "useCoordinates",
+                        "type": 1,
+                        "value": ""
+                      }
+                    ],
+                    "action": 1
+                  }
+                ],
+                "name": "Login"
+              },
+              {
+                "id": "05e71437-4b0d-b7db-8d27-afa4c3e070b0",
+                "type": 1,
+                "level": 1,
+                "disabled": false,
+                "breakpoint": false,
+                "endEvent": 2,
+                "steps": [
+                  {
+                    "id": "661951df-1917-ac74-b22a-7eefd57d1a2d",
+                    "type": 6,
+                    "level": 1,
+                    "disabled": false,
+                    "endEvent": 2,
+                    "steps": [
+                      {
+                        "id": "00171191-f656-895b-046e-6fe4aa53fdad",
+                        "type": 2,
+                        "level": 100,
+                        "disabled": false,
+                        "endEvent": 2,
+                        "testObjectsRef": [
+                          "16ea1ed0-ec16-25b9-fc64-bb9b4ea00660"
+                        ],
+                        "arguments": [
+                          {
+                            "name": "text",
+                            "type": 1,
+                            "value": "SMS OTP"
+                          },
+                          {
+                            "name": "ordinal",
+                            "type": 1,
+                            "value": ""
+                          }
+                        ],
+                        "action": 10
+                      },
+                      {
+                        "id": "9f7e54aa-1691-27d8-8295-bea4cdee7d6e",
+                        "type": 2,
+                        "level": 100,
+                        "disabled": false,
+                        "endEvent": 1,
+                        "testObjectsRef": [
+                          "16ea1ed0-ec16-25b9-fc64-bb9b4ea00660"
+                        ],
+                        "arguments": [
+                          {
+                            "name": "text",
+                            "type": 1,
+                            "value": ""
+                          },
+                          {
+                            "name": "ordinal",
+                            "type": 1,
+                            "value": "3"
+                          }
+                        ],
+                        "action": 10
+                      }
+                    ],
+                    "activeStep": 0
+                  },
+                  {
+                    "id": "269ed3d4-a5dd-4de0-4ad7-0ff0b48e216e",
+                    "type": 2,
+                    "level": 1,
+                    "disabled": false,
+                    "endEvent": 5,
+                    "testObjectsRef": [
+                      "e6210f97-5da9-32e6-38b1-b8b20560bf67"
+                    ],
+                    "arguments": [
+                      {
+                        "name": "button",
+                        "type": 1,
+                        "value": "1"
+                      },
+                      {
+                        "name": "xCoordinate",
+                        "type": 1,
+                        "value": "16"
+                      },
+                      {
+                        "name": "yCoordinate",
+                        "type": 1,
+                        "value": "18"
+                      },
+                      {
+                        "name": "hasCtrlKey",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "name": "hasAltKey",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "name": "hasShiftKey",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "name": "useCoordinates",
+                        "type": 1,
+                        "value": ""
+                      }
+                    ],
+                    "action": 1
+                  },
+                  {
+                    "id": "8562d8b8-6fb1-3ee5-bf81-48a94c41290b",
+                    "type": 2,
+                    "level": 1,
+                    "disabled": false,
+                    "endEvent": 2,
+                    "testObjectsRef": [
+                      "d6b25648-5f6f-2820-b3e0-28f395ddc92f"
+                    ],
+                    "arguments": [
+                      {
+                        "name": "value",
+                        "type": 1,
+                        "value": "66bb4caf8c5a300b2da9",
+                        "encrypted": true
+                      },
+                      {
+                        "name": "clear",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "name": "interval",
+                        "type": 1,
+                        "value": ""
+                      }
+                    ],
+                    "action": 5
+                  },
+                  {
+                    "id": "82c0bd8b-0355-8c29-6a71-695ad712e805",
+                    "type": 2,
+                    "level": 1,
+                    "disabled": false,
+                    "endEvent": 5,
+                    "testObjectsRef": [
+                      "4307b446-1a0f-dd06-cae5-4b4dcf6dd93c"
+                    ],
+                    "arguments": [
+                      {
+                        "name": "button",
+                        "type": 1,
+                        "value": "1"
+                      },
+                      {
+                        "name": "xCoordinate",
+                        "type": 1,
+                        "value": "18"
+                      },
+                      {
+                        "name": "yCoordinate",
+                        "type": 1,
+                        "value": "22"
+                      },
+                      {
+                        "name": "hasCtrlKey",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "name": "hasAltKey",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "name": "hasShiftKey",
+                        "type": 1,
+                        "value": ""
+                      },
+                      {
+                        "name": "useCoordinates",
+                        "type": 1,
+                        "value": ""
+                      }
+                    ],
+                    "action": 1,
+                    "recDuration": 33
+                  }
+                ],
+                "name": "OTP"
+              }
+            ],
+            "name": "SFDCLogin",
+            "argsSchema": []
+          }
+        ]
+      }
+    ],
+    "testObjects": [
+      {
+        "id": "31195302-1cda-ad2a-a0d5-a9ccdc3c398c",
+        "name": "Log in with Internal SSO",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//button[text()=\"Log in with \"])[1]",
+              "suggestion": [
+                "(//button[text()=\"Log in with \"])[1]",
+                "(//div[@id=\"wrapper\"]/div[6]/button)[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "div#wrapper>div:nth-of-type(6)>button",
+              "suggestion": [
+                "div#wrapper>div:nth-of-type(6)>button"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('div#wrapper>div:nth-of-type(6)>button')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.54559,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "BUTTON",
+                  "score": 0.1
+                },
+                {
+                  "id": "class",
+                  "value": "button mb12 secondary wide",
+                  "score": 0.15
+                },
+                {
+                  "id": "text",
+                  "value": {
+                    "text": "Log in with InternalSSO",
+                    "tagName": "BUTTON"
+                  },
+                  "score": 0.4
+                },
+                {
+                  "id": "leaf",
+                  "value": false,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 5,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 5,
+                  "class": 10,
+                  "text": 1,
+                  "leaf": null
+                },
+                "secondaryScore": 0.043749562500000005,
+                "totalCandidates": 5
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "BUTTON"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "text",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "text"
+                      },
+                      {
+                        "op": "value",
+                        "args": "Log in with Internal-SSO"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 5,
+                  "text": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          1000
+        ]
+      },
+      {
+        "id": "f9277233-ef17-2201-bda4-d704011e45f4",
+        "name": "Username",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//input[@type=\"text\" and @name=\"Ecom_User_ID\"])[1]",
+              "suggestion": [
+                "(//input[@type=\"text\" and @name=\"Ecom_User_ID\"])[1]",
+                "(//input[@id=\"username\"])[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "input#username",
+              "suggestion": [
+                "input#username"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('input#username')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.66142,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "INPUT",
+                  "score": 0.1
+                },
+                {
+                  "id": "id",
+                  "value": {
+                    "id": "username",
+                    "isValidWord": true
+                  },
+                  "score": 0.5
+                },
+                {
+                  "id": "name",
+                  "value": {
+                    "name": "Ecom_User_ID",
+                    "isValidWord": false
+                  },
+                  "score": 0.2
+                },
+                {
+                  "id": "input/type",
+                  "value": "text",
+                  "score": 0.05
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 1,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 4,
+                  "id": 1,
+                  "name": 1,
+                  "input/type": 1,
+                  "leaf": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "INPUT"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "name",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "name"
+                      },
+                      {
+                        "op": "value",
+                        "args": "Ecom_User_ID"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "input/type",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "input/type"
+                      },
+                      {
+                        "op": "value",
+                        "args": "text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 4,
+                  "name": 1,
+                  "input/type": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          200
+        ]
+      },
+      {
+        "id": "29857a9f-ab7d-a87c-090d-4b340b9d5e47",
+        "name": "Password",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//input[@type=\"password\" and @name=\"Ecom_Password\"])[1]",
+              "suggestion": [
+                "(//input[@type=\"password\" and @name=\"Ecom_Password\"])[1]",
+                "(//input[@id=\"password\"])[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "input#password",
+              "suggestion": [
+                "input#password"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('input#password')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.66142,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "INPUT",
+                  "score": 0.1
+                },
+                {
+                  "id": "id",
+                  "value": {
+                    "id": "password",
+                    "isValidWord": true
+                  },
+                  "score": 0.5
+                },
+                {
+                  "id": "name",
+                  "value": {
+                    "name": "Ecom_Password",
+                    "isValidWord": false
+                  },
+                  "score": 0.2
+                },
+                {
+                  "id": "input/type",
+                  "value": "password",
+                  "score": 0.05
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 1,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 4,
+                  "id": 1,
+                  "name": 1,
+                  "input/type": 1,
+                  "leaf": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "INPUT"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "name",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "name"
+                      },
+                      {
+                        "op": "value",
+                        "args": "Ecom_Password"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "input/type",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "input/type"
+                      },
+                      {
+                        "op": "value",
+                        "args": "password"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 4,
+                  "name": 1,
+                  "input/type": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          200,
+          1600
+        ]
+      },
+      {
+        "id": "48d4a394-920b-e8b6-7c62-39991b71b622",
+        "name": "Login",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//input[@type=\"submit\" and @name=\"submit\" and @value=\"Login\"])[1]",
+              "suggestion": [
+                "(//input[@type=\"submit\" and @name=\"submit\" and @value=\"Login\"])[1]",
+                "(/html/body/div/div/div/form/p[3]/input)[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "html>body>div>div>div>form>p:nth-of-type(3)>input",
+              "suggestion": [
+                "html>body>div>div>div>form>p:nth-of-type(3)>input"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('html>body>div>div>div>form>p:nth-of-type(3)>input')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.5852394999999999,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "INPUT",
+                  "score": 0.1
+                },
+                {
+                  "id": "name",
+                  "value": {
+                    "name": "submit",
+                    "isValidWord": true
+                  },
+                  "score": 0.3
+                },
+                {
+                  "id": "input/type",
+                  "value": "submit",
+                  "score": 0.05
+                },
+                {
+                  "id": "input/button/value",
+                  "value": "Login",
+                  "score": 0.3
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 1,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 4,
+                  "name": 1,
+                  "input/type": 1,
+                  "input/button/value": 1,
+                  "leaf": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "INPUT"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "name",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "name"
+                      },
+                      {
+                        "op": "value",
+                        "args": "submit"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "input/type",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "input/type"
+                      },
+                      {
+                        "op": "value",
+                        "args": "submit"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "input/button/value",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "input/button/value"
+                      },
+                      {
+                        "op": "value",
+                        "args": "Login"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 4,
+                  "name": 1,
+                  "input/type": 1,
+                  "input/button/value": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          1000
+        ]
+      },
+      {
+        "id": "16ea1ed0-ec16-25b9-fc64-bb9b4ea00660",
+        "name": "Chain",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//form[@id=\"postform\"]/div[2]/div/select)[1]",
+              "suggestion": [
+                "(//form[@id=\"postform\"]/div[2]/div/select)[1]",
+                "(//select[@id=\"naafSelect\"])[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "select#naafSelect",
+              "suggestion": [
+                "select#naafSelect",
+                "form#postform>div:nth-of-type(2)>div>select"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('select#naafSelect')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.700624,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "SELECT",
+                  "score": 0.1
+                },
+                {
+                  "id": "id",
+                  "value": {
+                    "id": "naafSelect",
+                    "isValidWord": false
+                  },
+                  "score": 0.3
+                },
+                {
+                  "id": "name",
+                  "value": {
+                    "name": "nfchn",
+                    "isValidWord": false
+                  },
+                  "score": 0.2
+                },
+                {
+                  "id": "label",
+                  "value": "Chain",
+                  "score": 0.4
+                },
+                {
+                  "id": "leaf",
+                  "value": false,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 1,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 1,
+                  "id": 1,
+                  "name": 1,
+                  "label": 1,
+                  "leaf": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "SELECT"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "name",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "name"
+                      },
+                      {
+                        "op": "value",
+                        "args": "nfchn"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "label",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "label"
+                      },
+                      {
+                        "op": "value",
+                        "args": "Chain"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 1,
+                  "name": 1,
+                  "label": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          2600
+        ]
+      },
+      {
+        "id": "e6210f97-5da9-32e6-38b1-b8b20560bf67",
+        "name": "Next",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//button[text()=\"Next\"])[1]",
+              "suggestion": [
+                "(//button[text()=\"Next\"])[1]",
+                "(//form[@id=\"postform\"]/div[3]/button[1])[1]",
+                "(//button[@id=\"loginButton2\"])[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "button#loginButton2",
+              "suggestion": [
+                "button#loginButton2",
+                "form#postform>div:nth-of-type(3)>button:nth-of-type(1)"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('button#loginButton2')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.615088,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "BUTTON",
+                  "score": 0.1
+                },
+                {
+                  "id": "id",
+                  "value": {
+                    "id": "loginButton2",
+                    "isValidWord": false
+                  },
+                  "score": 0.2
+                },
+                {
+                  "id": "name",
+                  "value": {
+                    "name": "loginButton2",
+                    "isValidWord": false
+                  },
+                  "score": 0.1
+                },
+                {
+                  "id": "text",
+                  "value": {
+                    "text": "Next",
+                    "tagName": "BUTTON"
+                  },
+                  "score": 0.4
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 1,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 2,
+                  "id": 1,
+                  "name": 1,
+                  "text": 1,
+                  "leaf": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "BUTTON"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "name",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "name"
+                      },
+                      {
+                        "op": "value",
+                        "args": "loginButton2"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "text",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "text"
+                      },
+                      {
+                        "op": "value",
+                        "args": "Next"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 2,
+                  "name": 1,
+                  "text": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          1000
+        ]
+      },
+      {
+        "id": "d6b25648-5f6f-2820-b3e0-28f395ddc92f",
+        "name": "One Time Password (OTP)",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//input[@type=\"password\" and @name=\"nffc\"])[1]",
+              "suggestion": [
+                "(//input[@type=\"password\" and @name=\"nffc\"])[1]",
+                "(//form[@id=\"postform\"]/div[2]/div/input)[1]",
+                "(//input[@id=\"nffc\"])[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "input#nffc",
+              "suggestion": [
+                "input#nffc",
+                "form#postform>div:nth-of-type(2)>div>input"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('input#nffc')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.7155928,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "INPUT",
+                  "score": 0.1
+                },
+                {
+                  "id": "id",
+                  "value": {
+                    "id": "nffc",
+                    "isValidWord": false
+                  },
+                  "score": 0.3
+                },
+                {
+                  "id": "name",
+                  "value": {
+                    "name": "nffc",
+                    "isValidWord": false
+                  },
+                  "score": 0.2
+                },
+                {
+                  "id": "label",
+                  "value": "One Time Password (OTP)",
+                  "score": 0.4
+                },
+                {
+                  "id": "input/type",
+                  "value": "password",
+                  "score": 0.05
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 1,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 11,
+                  "id": 1,
+                  "name": 1,
+                  "label": 1,
+                  "input/type": 1,
+                  "leaf": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "INPUT"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "name",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "name"
+                      },
+                      {
+                        "op": "value",
+                        "args": "nffc"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "label",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "label"
+                      },
+                      {
+                        "op": "value",
+                        "args": "One Time Password (OTP)"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "input/type",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "input/type"
+                      },
+                      {
+                        "op": "value",
+                        "args": "password"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 11,
+                  "name": 1,
+                  "label": 1,
+                  "input/type": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          200,
+          1600
+        ]
+      },
+      {
+        "id": "4307b446-1a0f-dd06-cae5-4b4dcf6dd93c",
+        "name": "Next",
+        "idents": {
+          "active": 2,
+          "context": {
+            "type": 1,
+            "path": []
+          },
+          "data": [
+            {
+              "type": 1,
+              "value": "(//button[text()=\"Next\"])[1]",
+              "suggestion": [
+                "(//button[text()=\"Next\"])[1]",
+                "(//form[@id=\"postform\"]/div[3]/button[1])[1]",
+                "(//button[@id=\"loginButton2\"])[1]"
+              ]
+            },
+            {
+              "type": 4,
+              "value": "button#loginButton2",
+              "suggestion": [
+                "button#loginButton2",
+                "form#postform>div:nth-of-type(3)>button:nth-of-type(1)"
+              ]
+            },
+            {
+              "type": 3,
+              "code": "evalCSS('button#loginButton2')"
+            },
+            {
+              "type": 2,
+              "primaryScore": 0.615088,
+              "ctxScore": 0,
+              "electors": [
+                {
+                  "id": "tagName",
+                  "value": "BUTTON",
+                  "score": 0.1
+                },
+                {
+                  "id": "id",
+                  "value": {
+                    "id": "loginButton2",
+                    "isValidWord": false
+                  },
+                  "score": 0.2
+                },
+                {
+                  "id": "name",
+                  "value": {
+                    "name": "loginButton2",
+                    "isValidWord": false
+                  },
+                  "score": 0.1
+                },
+                {
+                  "id": "text",
+                  "value": {
+                    "text": "Next",
+                    "tagName": "BUTTON"
+                  },
+                  "score": 0.4
+                },
+                {
+                  "id": "leaf",
+                  "value": true,
+                  "score": 0.01
+                }
+              ],
+              "secondaryData": {
+                "totalObjs": 1,
+                "maxObjsPerElector": 200,
+                "total": {
+                  "tagName": 3,
+                  "id": 1,
+                  "name": 1,
+                  "text": 1,
+                  "leaf": null
+                },
+                "secondaryScore": 0,
+                "totalCandidates": 1
+              }
+            },
+            {
+              "type": 5,
+              "primaryScore": 1,
+              "ctxScore": 0,
+              "expression": {
+                "op": "and",
+                "active": true,
+                "args": [
+                  {
+                    "op": "equalsIgnoreCase",
+                    "active": true,
+                    "descriptor": "tagName",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "tagName"
+                      },
+                      {
+                        "op": "value",
+                        "args": "BUTTON"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equalsIgnoreDigits",
+                    "active": true,
+                    "descriptor": "name",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "name"
+                      },
+                      {
+                        "op": "value",
+                        "args": "loginButton2"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "equals",
+                    "active": true,
+                    "descriptor": "text",
+                    "args": [
+                      {
+                        "op": "property",
+                        "args": "text"
+                      },
+                      {
+                        "op": "value",
+                        "args": "Next"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "secondaryData": {
+                "maxObjsPerDescriptor": 200,
+                "total": {
+                  "tagName": 3,
+                  "name": 1,
+                  "text": 1
+                },
+                "totalCandidates": 1
+              }
+            }
+          ]
+        },
+        "rolesEx": [
+          100,
+          800,
+          1000
+        ]
+      }
+    ]
+  }
+}
