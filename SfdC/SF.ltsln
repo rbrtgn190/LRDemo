@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 4.1.3.0
+Project("61D9CF73-C2CC-40AA-ABFA-D710035DDF42") = "SF_Issues", "SF_Issues\SF_Issues.usr", "61D9CF73-C2CC-40AA-ABFA-D710035DDF42"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XGRldlxMUkRlbW9cU2ZkQ1xTRl9Jc3N1ZXNcU0ZfSXNzdWVzLnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5DOlxkZXZcTFJEZW1vXFNmZENcU0ZfSXNzdWVzXFNGX0lzc3Vlcy51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDI0LTEwLTE0VDE3OjEyOjU2LjQ1ODk4MTgrMDI6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("D8555524-EF98-4EF9-83D8-2E5132D630E1") = "SF1", "SF1\SF1.usr", "D8555524-EF98-4EF9-83D8-2E5132D630E1"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XGRldlxMUkRlbW9cU2ZkQ1xTRjFcU0YxLnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5DOlxkZXZcTFJEZW1vXFNmZENcU0YxXFNGMS51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDI0LTEwLTE0VDE4OjIxOjI2LjQzOTA2NjErMDI6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPgAAAAAAAAAAAA__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		61D9CF73-C2CC-40AA-ABFA-D710035DDF42.Debug|Any CPU.Build.0 = Debug|Any CPU
+		61D9CF73-C2CC-40AA-ABFA-D710035DDF42.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		61D9CF73-C2CC-40AA-ABFA-D710035DDF42.Release|Any CPU.Build.0 = Release|Any CPU
+		61D9CF73-C2CC-40AA-ABFA-D710035DDF42.Release|Any CPU.ActiveCfg = Release|Any CPU
+		D8555524-EF98-4EF9-83D8-2E5132D630E1.Debug|Any CPU.Build.0 = Debug|Any CPU
+		D8555524-EF98-4EF9-83D8-2E5132D630E1.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		D8555524-EF98-4EF9-83D8-2E5132D630E1.Release|Any CPU.Build.0 = Release|Any CPU
+		D8555524-EF98-4EF9-83D8-2E5132D630E1.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

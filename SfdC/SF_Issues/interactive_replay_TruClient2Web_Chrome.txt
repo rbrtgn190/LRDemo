@@ -1,0 +1,48 @@
+Virtual User Script started at : 2024-10-18 13:24:52
+TruClient Replay (build 0164) for LoadRunner Professional 2024.3.0, build 0200. OS: Windows 2019, Browser: Chrome 130.0.6723.58, initialized on 2024/10/18 at 13:24:40 (1729250680.664s)
+t=00011730ms: Warning -205179: Breakdown data may be lost for URL="https://authenticate.microfocus.net/nidp/saml2/sso".    [MsgId: MWAR-205179]
+t=00011730ms: Warning -205179: Breakdown data may be lost for URL="https://authenticate.microfocus.net/nidp/saml2/sso".    [MsgId: MWAR-205179]
+t=00011871ms: Action Init started.    [MsgId: MMSG-205180]
+t=00011872ms: Action Init ended.    [MsgId: MMSG-205180]
+Running Vuser...
+Starting iteration 1.
+t=00011961ms: Action Action started.    [MsgId: MMSG-205180]
+Notify: Transaction "01_Login" started.
+t=00012028ms: Step 1: Navigate to https://microfocus.lightning.force.com/ started.    [MsgId: MMSG-205180]
+t=00014498ms: Step 1: Navigate to https://microfocus.lightning.force.com/ successfully completed with End Event "Document Loaded".    [MsgId: MMSG-205180]
+t=00015301ms: Step 2: Click on Internal SSO Element started.    [MsgId: MMSG-205180]
+t=00016079ms: Step 2: Click on Internal SSO Element successfully completed with End Event "Document Loaded".    [MsgId: MMSG-205180]
+t=00016879ms: Step 3: Login started.    [MsgId: MMSG-205180]
+t=00016880ms: Step 3.1: Type jeang in Username TextBox started.    [MsgId: MMSG-205180]
+t=00018987ms: Step 3.1: Type jeang in Username TextBox successfully completed with End Event "Action Completed".    [MsgId: MMSG-205180]
+t=00019789ms: Step 3.2: Click on Password PasswordBox started.    [MsgId: MMSG-205180]
+t=00020082ms: Step 3.2: Click on Password PasswordBox successfully completed with End Event "Action Completed".    [MsgId: MMSG-205180]
+t=00020883ms: Step 3.3: Type ****** in Password PasswordBox started.    [MsgId: MMSG-205180]
+t=00028933ms: Step 3.3: Type ****** in Password PasswordBox successfully completed with End Event "Action Completed".    [MsgId: MMSG-205180]
+t=00029734ms: Step 3.4: Click on Login Button started.    [MsgId: MMSG-205180]
+t=00043696ms: Step 3.4: Click on Login Button successfully completed with End Event "Document Loaded".    [MsgId: MMSG-205180]
+t=00044497ms: Step 3: Login successfully completed with End Event "Action Completed".    [MsgId: MMSG-205180]
+t=00044498ms: Step 4: Select SMS OTP from Chain ListBox started.    [MsgId: MMSG-205180]
+t=00044819ms: Step 4: Select SMS OTP from Chain ListBox successfully completed with End Event "Action Completed".    [MsgId: MMSG-205180]
+t=00045622ms: Step 5: Click on Next Button started.    [MsgId: MMSG-205180]
+t=00046700ms: Step 5: Click on Next Button successfully completed with End Event "Document Loaded".    [MsgId: MMSG-205180]
+t=00062813ms: Step 7: Click on Next Button started.    [MsgId: MMSG-205180]
+t=00078423ms: Step 7: Click on Next Button successfully completed with End Event "Document Loaded".    [MsgId: MMSG-205180]
+Notify: Transaction "01_Login" ended with a "Pass" status (Duration: 67.2620 Wasted Time: 9.5620).
+t=00079344ms: Action Action ended.    [MsgId: MMSG-205180]
+t=00079344ms: Action OpenReport started.    [MsgId: MMSG-205180]
+t=00079344ms: Step 1: Navigate to https://microfocus.light...htning/page/home started.    [MsgId: MMSG-205180]
+t=00081252ms: Step 1: Navigate to https://microfocus.light...htning/page/home successfully completed with End Event "Document Loaded".    [MsgId: MMSG-205180]
+t=00082057ms: Step 2: Click on Reports Link started.    [MsgId: MMSG-205180]
+t=00085165ms: Step 2: Click on Reports Link successfully completed with End Event "Step Network Completed".    [MsgId: MMSG-205180]
+t=00085966ms: Step 3: Click on Created by Me JavascriptLink started.    [MsgId: MMSG-205180]
+t=00086799ms: Step 3: Click on Created by Me JavascriptLink successfully completed with End Event "Step Network Completed".    [MsgId: MMSG-205180]
+t=00087602ms: Step 4: Click on Case LR KERBEROS Link started.    [MsgId: MMSG-205180]
+t=00088681ms: Step 4: Click on Case LR KERBEROS Link successfully completed with End Event "Step Network Completed".    [MsgId: MMSG-205180]
+Notify: Transaction "02_GetReport" started.
+Notify: Transaction "02_GetReport" ended with a "Stop" status (Duration: 39.6624).
+Ending Vuser...
+t=00129288ms: Step 6: Wait until Total Records Element exists started.    [MsgId: MMSG-205180]
+t=00129288ms: Step 6: Wait until Total Records Element exists was stopped.    [MsgId: MMSG-205180]
+t=00129288ms: Action OpenReport ended.    [MsgId: MMSG-205180]
+Vuser Terminated.
