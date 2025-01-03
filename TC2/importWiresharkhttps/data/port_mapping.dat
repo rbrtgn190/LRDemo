@@ -1,0 +1,25 @@
+Registry settings:
+	wikipedia.org:443
+		default	Ð˜­w6£,þÿÿÿ¼É5€8®v
+		Active	true
+		UseProxy	true
+		UserPrompt	false
+		SSL_Active	false
+		SSL_AutoSslDetect	true
+		Svr_SSL_Version	13
+		Svr_SSL_Ciphers	13
+		SSL_AutoGenCert	true
+		Svr_SSL_Certificate	true
+		Svr_SSL_Key	true
+		Svr_SSL_Password	true
+		Svr_SSL_Client_WinINet_Cert_Index	0
+		Clnt_SSL_Version	13
+		Clnt_SSL_Ciphers	13
+		Clnt_SSL_Certificate	13
+		Clnt_SSL_Key	13
+		Clnt_SSL_Password	13
+		Forward_Active	false
+		Forward_Port	0
+		CUSTOMIZE_SNI	false
+		SNI_SERVERNAME	false
+

@@ -1,0 +1,19 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2024/12/10 12:24:04
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2024/12/10 12:25:26
+StartRecordingIsDst_2=0
+StartRecordingGMT_3=2024/12/10 12:26:36
+StartRecordingIsDst_3=0
+StartRecordingGMT_4=2024/12/10 12:33:18
+StartRecordingIsDst_4=0
+StartRecordingGMT_5=2024/12/10 12:33:35
+StartRecordingIsDst_5=0
+StartRecordingGMT_6=2024/12/10 12:34:09
+StartRecordingIsDst_6=0
+StartRecordingGMT_7=2024/12/10 12:35:47
+StartRecordingIsDst_7=0
+StartRecordingGMT_8=2024/12/10 12:41:14
+StartRecordingIsDst_8=0
+[Security]
+UsingPersistForAuthentication=1

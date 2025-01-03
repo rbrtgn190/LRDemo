@@ -1,0 +1,11 @@
+[API Trapper      (23bc:172c)] Recording in 32-bit mode: C:\Program Files (x86)\OpenText\Virtual User Generator\bin\LRPDMLAnalyzer.exe
+[Network Analyzer (23bc:172c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (23bc:172c)] Load Network Traffic Analyzers:
+[Network Analyzer (23bc:172c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (23bc:172c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (23bc:172c)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (23bc:172c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (23bc:172c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (23bc:172c)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (23bc:172c)]     Analyzer Module: local_server (value=)
+[Network Analyzer (23bc:172c)] ------------------------------------------------------------------------------------------

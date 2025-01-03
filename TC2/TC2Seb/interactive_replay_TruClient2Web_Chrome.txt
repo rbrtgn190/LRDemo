@@ -1,0 +1,1181 @@
+Virtual User Script started at : 2024-10-04 14:24:58
+TruClient Replay (build 0164) for LoadRunner Professional 2024.3.0, build 0200. OS: Windows 2019, Browser: Chrome 129.0.6668.90, initialized on 2024/10/04 at 14:24:56 (1728044696.923s)
+Please refer to the ReadMe file in the LoadRunner Professional installation directory for notes about measurements and logging
+t=00001688ms: Action Init started.    [MsgId: MMSG-205180]
+t=00001689ms: Action Init ended.    [MsgId: MMSG-205180]
+Running Vuser...
+Starting iteration 1.
+t=00001764ms: Action Action started.    [MsgId: MMSG-205180]
+t=00001764ms: Step 1: Resize window to 390 px / 844 px started.    [MsgId: MMSG-205180]
+t=00001818ms: Step 1: Resize window to 390 px / 844 px successfully completed with End Event "Action Completed".    [MsgId: MMSG-205180]
+t=00002619ms: Step 3: Evaluate JavaScript code Utils.addAutoHeader("myC...eFake", false);  started.    [MsgId: MMSG-205180]
+t=00002623ms: Step 3: Evaluate JavaScript code Utils.addAutoHeader("myC...eFake", false);  successfully completed with End Event "Action Completed".    [MsgId: MMSG-205180]
+Notify: Transaction "T1_SEB" started.
+t=00002685ms: Step 4: Navigate to https://seb.com/ started.    [MsgId: MMSG-205180]
+t=00002687ms: Request headers for "https://seb.com/" (309 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://seb.com/
+		  Upgrade-Insecure-Requests: 1
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  sec-ch-ua-platform: "Windows"
+		  
+t=00002746ms: Request headers for "https://www.groupeseb.com/" (319 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/
+		  Upgrade-Insecure-Requests: 1
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  sec-ch-ua-platform: "Windows"
+		  
+t=00002926ms: Request headers for "http://www.groupeseb.com/fr" (320 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET http://www.groupeseb.com/fr
+		  Upgrade-Insecure-Requests: 1
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  sec-ch-ua-platform: "Windows"
+		  
+t=00003118ms: Request headers for "https://www.groupeseb.com/fr" (321 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/fr
+		  Upgrade-Insecure-Requests: 1
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  sec-ch-ua-platform: "Windows"
+		  
+t=00003913ms: Response headers for "https://www.groupeseb.com/fr" (461 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=3600, public
+		  content-language: fr
+		  content-type: text/html; charset=UTF-8
+		  date: Fri, 04 Oct 2024 12:25:00 GMT
+		  etag: "1728044700"
+		  expires: Sun, 19 Nov 1978 05:00:00 GMT
+		  last-modified: Fri, 04 Oct 2024 12:25:00 GMT
+		  server: nginx/1.17.0
+		  vary: Cookie
+		  x-content-type-options: nosniff
+		  x-drupal-dynamic-cache: UNCACHEABLE
+		  x-frame-options: SAMEORIGIN
+		  x-generator: Drupal 9 (https://www.drupal.org)
+		  x-ua-compatible: IE=edge
+		  
+t=00003925ms: Request headers for "https://unpkg.com/swiper/swiper-bundle.min.css" (346 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://unpkg.com/swiper/swiper-bundle.min.css
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00003927ms: Request headers for "https://www.groupeseb.com/sites/default/files/css/css_8jGhhp_d8AaMHmIXgoU6rDI-i5Qyax0bCsFcTDYRkFI.css" (403 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/css/css_8jGhhp_d8AaMHmIXgoU6rDI-i5Qyax0bCsFcTDYRkFI.css
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00003928ms: Request headers for "https://www.groupeseb.com/sites/default/files/css/css_hRNgrV_BlWBm_Lst4srnmXIwbPU6fBEbReFKjQ1ToW4.css" (403 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/css/css_hRNgrV_BlWBm_Lst4srnmXIwbPU6fBEbReFKjQ1ToW4.css
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00003929ms: Request headers for "https://www.groupeseb.com/sites/default/files/js/js_IUkP29v0OBH-pkQE-iUHx_JBMrQ2qDkguU4nCER_HeI.js" (400 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/js/js_IUkP29v0OBH-pkQE-iUHx_JBMrQ2qDkguU4nCER_HeI.js
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00003931ms: Request headers for "https://unpkg.com/swiper/swiper-bundle.min.js" (345 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://unpkg.com/swiper/swiper-bundle.min.js
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00003932ms: Request headers for "https://www.groupeseb.com/tarteaucitron/tarteaucitron.js" (358 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/tarteaucitron/tarteaucitron.js
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00003933ms: Request headers for "https://www.groupeseb.com/themes/custom/periscope/logo.svg" (360 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/themes/custom/periscope/logo.svg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004043ms: Response headers for "https://www.groupeseb.com/sites/default/files/css/css_8jGhhp_d8AaMHmIXgoU6rDI-i5Qyax0bCsFcTDYRkFI.css" (363 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  content-encoding: gzip
+		  etag: "1473-62266edd0f940"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:00 GMT
+		  accept-ranges: bytes
+		  content-length: 5235
+		  date: Fri, 04 Oct 2024 12:25:00 GMT
+		  content-type: text/css
+		  vary: Accept-encoding
+		  server: nginx/1.17.0
+		  last-modified: Wed, 18 Sep 2024 16:02:12 GMT
+		  
+t=00004049ms: Response headers for "https://www.groupeseb.com/sites/default/files/css/css_hRNgrV_BlWBm_Lst4srnmXIwbPU6fBEbReFKjQ1ToW4.css" (364 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  content-encoding: gzip
+		  etag: "d9b3-62266edd6b9e8"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:00 GMT
+		  accept-ranges: bytes
+		  content-length: 55731
+		  date: Fri, 04 Oct 2024 12:25:00 GMT
+		  content-type: text/css
+		  vary: Accept-encoding
+		  server: nginx/1.17.0
+		  last-modified: Wed, 18 Sep 2024 16:02:12 GMT
+		  
+t=00004051ms: Response headers for "https://www.groupeseb.com/themes/custom/periscope/logo.svg" (320 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "d34-5debebfa57f00"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:00 GMT
+		  accept-ranges: bytes
+		  content-length: 3380
+		  date: Fri, 04 Oct 2024 12:25:00 GMT
+		  content-type: image/svg+xml
+		  last-modified: Wed, 11 May 2022 16:15:24 GMT
+		  server: nginx/1.17.0
+		  
+t=00004061ms: Request headers for "https://unpkg.com/swiper@11.1.14/swiper-bundle.min.css" (224 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://unpkg.com/swiper@11.1.14/swiper-bundle.min.css
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  Referer: https://www.groupeseb.com/
+		  
+t=00004062ms: Request headers for "https://www.groupeseb.com/themes/custom/periscope/logo_white.svg" (366 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/themes/custom/periscope/logo_white.svg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004066ms: Response headers for "https://www.groupeseb.com/tarteaucitron/tarteaucitron.js" (332 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "18534-5debebfa57f00"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:00 GMT
+		  accept-ranges: bytes
+		  content-length: 99636
+		  date: Fri, 04 Oct 2024 12:25:00 GMT
+		  content-type: application/javascript
+		  last-modified: Wed, 11 May 2022 16:15:24 GMT
+		  server: nginx/1.17.0
+		  
+t=00004069ms: Response headers for "https://www.groupeseb.com/sites/default/files/js/js_IUkP29v0OBH-pkQE-iUHx_JBMrQ2qDkguU4nCER_HeI.js" (373 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  content-encoding: gzip
+		  etag: "2ee36-62266edeae5f8"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:00 GMT
+		  accept-ranges: bytes
+		  content-length: 192054
+		  date: Fri, 04 Oct 2024 12:25:00 GMT
+		  content-type: text/javascript
+		  vary: Accept-encoding
+		  server: nginx/1.17.0
+		  last-modified: Wed, 18 Sep 2024 16:02:13 GMT
+		  
+t=00004071ms: Request headers for "https://unpkg.com/swiper@11.1.14/swiper-bundle.min.js" (223 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://unpkg.com/swiper@11.1.14/swiper-bundle.min.js
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  Referer: https://www.groupeseb.com/
+		  
+t=00004086ms: Response headers for "https://unpkg.com/swiper@11.1.14/swiper-bundle.min.css" (549 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  content-encoding: br
+		  cf-cache-status: HIT
+		  etag: "481b-FIrNb6/WFqmJrbwjO8RMNOzohs4"
+		  age: 1867324
+		  x-content-type-options: nosniff
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: text/css; charset=utf-8
+		  last-modified: Sat, 26 Oct 1985 08:15:00 GMT
+		  fly-request-id: 01J7M30Z9T99HF81MJRZZ3K4VQ-cdg
+		  vary: Accept-Encoding
+		  strict-transport-security: max-age=31536000; includeSubDomains; preload
+		  cache-control: public, max-age=31536000
+		  via: 1.1 fly.io
+		  cf-ray: 8cd526f53a95153a-CDG
+		  access-control-allow-origin: *
+		  server: cloudflare
+		  
+t=00004111ms: Response headers for "https://www.groupeseb.com/themes/custom/periscope/logo_white.svg" (320 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "cf0-5debebfa57f00"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 3312
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/svg+xml
+		  last-modified: Wed, 11 May 2022 16:15:24 GMT
+		  server: nginx/1.17.0
+		  
+t=00004112ms: Response headers for "https://unpkg.com/swiper@11.1.14/swiper-bundle.min.js" (564 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  content-encoding: br
+		  cf-cache-status: HIT
+		  etag: "25095-EUNPx8gux2zBtwWTzHbqH/pgsgQ"
+		  age: 1867276
+		  x-content-type-options: nosniff
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: application/javascript; charset=utf-8
+		  last-modified: Sat, 26 Oct 1985 08:15:00 GMT
+		  fly-request-id: 01J7M32E03G9R5BV6DAAEJXWTP-cdg
+		  vary: Accept-Encoding
+		  strict-transport-security: max-age=31536000; includeSubDomains; preload
+		  cache-control: public, max-age=31536000
+		  via: 1.1 fly.io
+		  cf-ray: 8cd526f54a9e153a-CDG
+		  access-control-allow-origin: *
+		  server: cloudflare
+		  
+t=00004273ms: Request headers for "https://www.groupeseb.com/sites/default/files/2018-10/investisseur-groupe-seb.jpg" (383 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2018-10/investisseur-groupe-seb.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004274ms: Request headers for "https://www.groupeseb.com/sites/default/files/2018-10/actionnaires-groupe-seb_1.jpg" (385 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2018-10/actionnaires-groupe-seb_1.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004275ms: Request headers for "https://www.groupeseb.com/sites/default/files/2018-10/journaliste-groupe-seb.jpg" (382 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2018-10/journaliste-groupe-seb.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004276ms: Request headers for "https://www.groupeseb.com/sites/default/files/2018-01/PARTENAIRE%20INNOVATION_0.jpg" (385 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2018-01/PARTENAIRE%20INNOVATION_0.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004277ms: Request headers for "https://www.groupeseb.com/sites/default/files/2018-02/CANDIDAT_0_0.jpg" (372 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2018-02/CANDIDAT_0_0.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004278ms: Request headers for "https://www.groupeseb.com/sites/default/files/2024-07/ACTU%20FINANCE_Gabarit_R%C3%A9sultats_HOME%20%281%29.png" (412 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2024-07/ACTU%20FINANCE_Gabarit_R%C3%A9sultats_HOME%20%281%29.png
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004279ms: Request headers for "https://www.groupeseb.com/sites/default/files/2022-07/BANNIERE%20RECRUTEMENT_Gabarit_1800x760.png" (399 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2022-07/BANNIERE%20RECRUTEMENT_Gabarit_1800x760.png
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004280ms: Request headers for "https://www.groupeseb.com/sites/default/files/2022-12/Banni%C3%A8re-SEB-Discovery_2.jpg" (389 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2022-12/Banni%C3%A8re-SEB-Discovery_2.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004281ms: Request headers for "https://www.groupeseb.com/sites/default/files/2018-01/COMPTES%20CONSOLIDES%20ANNUELS%202017_1.jpg" (399 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2018-01/COMPTES%20CONSOLIDES%20ANNUELS%202017_1.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004282ms: Request headers for "https://www.groupeseb.com/sites/default/files/2018-10/TEFAL.jpg" (365 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2018-10/TEFAL.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004283ms: Request headers for "https://www.groupeseb.com/sites/default/files/2018-03/Rowenta.jpg" (367 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2018-03/Rowenta.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004284ms: Request headers for "https://www.groupeseb.com/sites/default/files/2017-12/All-Clad%20copie_4.jpg" (378 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2017-12/All-Clad%20copie_4.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004285ms: Request headers for "https://www.groupeseb.com/sites/default/files/2018-03/WMF_0.jpg" (365 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2018-03/WMF_0.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004286ms: Request headers for "https://www.groupeseb.com/sites/default/files/2018-10/SUPOR_accueil.jpg" (373 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2018-10/SUPOR_accueil.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004287ms: Request headers for "https://www.groupeseb.com/sites/default/files/2018-10/MOULINEX.jpg" (368 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2018-10/MOULINEX.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004289ms: Request headers for "https://www.groupeseb.com/sites/default/files/2018-10/KURPS_home.jpg" (370 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2018-10/KURPS_home.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004291ms: Request headers for "https://www.groupeseb.com/sites/default/files/2018-03/PIONNIER%20INNOVATION.jpg" (381 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2018-03/PIONNIER%20INNOVATION.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004293ms: Request headers for "https://www.groupeseb.com/sites/default/files/2018-07/Fonds%20Groupe%20SEB-opti_1.jpg" (387 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2018-07/Fonds%20Groupe%20SEB-opti_1.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004294ms: Request headers for "https://www.groupeseb.com/sites/default/files/styles/1087x696/public/2018-04/publications_0.jpg?itok=FEESZQEe" (411 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/styles/1087x696/public/2018-04/publications_0.jpg?itok=FEESZQEe
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004296ms: Request headers for "https://www.groupeseb.com/sites/default/files/styles/1087x696/public/2020-04/AG_BlocPushHome.jpg?itok=F8z9avkS" (412 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/styles/1087x696/public/2020-04/AG_BlocPushHome.jpg?itok=F8z9avkS
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004298ms: Request headers for "https://www.groupeseb.com/sites/default/files/styles/1087x696/public/2019-07/HOME_Carrieres.jpg?itok=CxKBkApJ" (411 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/styles/1087x696/public/2019-07/HOME_Carrieres.jpg?itok=CxKBkApJ
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004299ms: Request headers for "https://www.groupeseb.com/sites/default/files/styles/1087x696/public/2018-09/CONTACT.jpg?itok=iFo1ruVt" (404 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/styles/1087x696/public/2018-09/CONTACT.jpg?itok=iFo1ruVt
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004303ms: Request headers for "https://www.groupeseb.com/themes/custom/periscope/fonts/RobotoCondensed-Regular.woff2" (495 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/themes/custom/periscope/fonts/RobotoCondensed-Regular.woff2
+		  Origin: https://www.groupeseb.com
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/sites/default/files/css/css_hRNgrV_BlWBm_Lst4srnmXIwbPU6fBEbReFKjQ1ToW4.css
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004305ms: Request headers for "https://www.groupeseb.com/themes/custom/periscope/fonts/icomoon.ttf?t2x0mq=" (485 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/themes/custom/periscope/fonts/icomoon.ttf?t2x0mq=
+		  Origin: https://www.groupeseb.com
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/sites/default/files/css/css_hRNgrV_BlWBm_Lst4srnmXIwbPU6fBEbReFKjQ1ToW4.css
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004307ms: Request headers for "https://www.groupeseb.com/sites/default/files/2017-10/logo001.png" (367 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2017-10/logo001.png
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004307ms: Request headers for "https://www.groupeseb.com/sites/default/files/2018-02/logo003.png" (367 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2018-02/logo003.png
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004308ms: Request headers for "https://www.groupeseb.com/sites/default/files/2018-02/logo007%20%281%29_0.png" (379 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2018-02/logo007%20%281%29_0.png
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004309ms: Request headers for "https://www.groupeseb.com/sites/default/files/2017-10/logo004.png" (367 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2017-10/logo004.png
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004310ms: Request headers for "https://www.groupeseb.com/sites/default/files/2018-02/logo002.png" (367 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2018-02/logo002.png
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004311ms: Request headers for "https://www.groupeseb.com/sites/default/files/2017-10/logo005.png" (367 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2017-10/logo005.png
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004312ms: Request headers for "https://www.groupeseb.com/sites/default/files/2017-10/logo006.png" (367 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2017-10/logo006.png
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004313ms: Request headers for "https://www.groupeseb.com/sites/default/files/styles/large/public/2018-10/PolitiqueRH.jpg?itok=ZevyxvTw" (405 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/styles/large/public/2018-10/PolitiqueRH.jpg?itok=ZevyxvTw
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004315ms: Request headers for "https://www.groupeseb.com/sites/default/files/styles/large/public/2024-03/SEB%20-%20%284%29.jpg?itok=jqseDc3A" (411 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/styles/large/public/2024-03/SEB%20-%20%284%29.jpg?itok=jqseDc3A
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004318ms: Request headers for "https://www.groupeseb.com/sites/default/files/styles/large/public/2018-10/SieCarrieres.jpg?itok=A6RglX66" (406 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/styles/large/public/2018-10/SieCarrieres.jpg?itok=A6RglX66
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004320ms: Request headers for "https://www.groupeseb.com/sites/default/files/2024-09/DSC03249_2.JPG" (370 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2024-09/DSC03249_2.JPG
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004321ms: Request headers for "https://www.groupeseb.com/sites/default/files/2024-09/bandeau%20actu.jpg" (374 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2024-09/bandeau%20actu.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004336ms: Request headers for "https://www.groupeseb.com/seb_stock/updateStock" (397 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  POST https://www.groupeseb.com/seb_stock/updateStock
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  X-Requested-With: XMLHttpRequest
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  Accept: */*
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004340ms: Response headers for "https://www.groupeseb.com/sites/default/files/2018-10/actionnaires-groupe-seb_1.jpg" (318 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "1e2e-58ced1f91e878"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 7726
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:09:08 GMT
+		  server: nginx/1.17.0
+		  
+t=00004343ms: Response headers for "https://www.groupeseb.com/sites/default/files/2018-10/journaliste-groupe-seb.jpg" (318 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "22e8-58ced1f97c478"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 8936
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:09:08 GMT
+		  server: nginx/1.17.0
+		  
+t=00004346ms: Response headers for "https://www.groupeseb.com/sites/default/files/2018-02/CANDIDAT_0_0.jpg" (319 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "b6b0-58ced13900a50"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 46768
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:05:46 GMT
+		  server: nginx/1.17.0
+		  
+t=00004347ms: Response headers for "https://www.groupeseb.com/sites/default/files/2018-10/investisseur-groupe-seb.jpg" (319 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "42ea-58ced1f865f58"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 17130
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:09:07 GMT
+		  server: nginx/1.17.0
+		  
+t=00004350ms: Response headers for "https://www.groupeseb.com/sites/default/files/2018-01/PARTENAIRE%20INNOVATION_0.jpg" (320 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "150cd-58ced0fe5da88"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 86221
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:04:45 GMT
+		  server: nginx/1.17.0
+		  
+t=00004352ms: Response headers for "https://www.groupeseb.com/sites/default/files/2022-12/Banni%C3%A8re-SEB-Discovery_2.jpg" (320 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "11eb5-5efde45bcce88"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 73397
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Thu, 15 Dec 2022 14:00:15 GMT
+		  server: nginx/1.17.0
+		  
+t=00004354ms: Response headers for "https://www.groupeseb.com/sites/default/files/2018-01/COMPTES%20CONSOLIDES%20ANNUELS%202017_1.jpg" (319 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "b6c6-58ced1111f6a8"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 46790
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:05:05 GMT
+		  server: nginx/1.17.0
+		  
+t=00004368ms: Response headers for "https://www.groupeseb.com/sites/default/files/2024-07/ACTU%20FINANCE_Gabarit_R%C3%A9sultats_HOME%20%281%29.png" (322 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "101714-61c30765dc668"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 1054484
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/png
+		  last-modified: Mon, 01 Jul 2024 14:32:10 GMT
+		  server: nginx/1.17.0
+		  
+t=00004371ms: Response headers for "https://www.groupeseb.com/sites/default/files/2018-10/TEFAL.jpg" (320 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "10d14-58ced1fc0b4f0"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 68884
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:09:11 GMT
+		  server: nginx/1.17.0
+		  
+t=00004374ms: Response headers for "https://www.groupeseb.com/sites/default/files/2022-07/BANNIERE%20RECRUTEMENT_Gabarit_1800x760.png" (320 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "ee988-5e463cb38aa68"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 977288
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/png
+		  last-modified: Fri, 22 Jul 2022 12:15:45 GMT
+		  server: nginx/1.17.0
+		  
+t=00004381ms: Response headers for "https://www.groupeseb.com/sites/default/files/2018-03/Rowenta.jpg" (319 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "d995-58ced17328958"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 55701
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:06:47 GMT
+		  server: nginx/1.17.0
+		  
+t=00004382ms: Response headers for "https://www.groupeseb.com/sites/default/files/2018-03/WMF_0.jpg" (321 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "2d5b6-58ced14977bb8"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 185782
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:06:04 GMT
+		  server: nginx/1.17.0
+		  
+t=00004383ms: Response headers for "https://www.groupeseb.com/sites/default/files/2017-12/All-Clad%20copie_4.jpg" (319 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "c288-58ced0d9f5588"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 49800
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:04:07 GMT
+		  server: nginx/1.17.0
+		  
+t=00004392ms: Response headers for "https://www.groupeseb.com/sites/default/files/2018-03/PIONNIER%20INNOVATION.jpg" (321 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "1aad2-58ced14a815b8"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 109266
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:06:05 GMT
+		  server: nginx/1.17.0
+		  
+t=00004396ms: Response headers for "https://www.groupeseb.com/sites/default/files/2018-10/MOULINEX.jpg" (321 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "3e3a2-58ced1f06b3c0"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 254882
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:08:59 GMT
+		  server: nginx/1.17.0
+		  
+t=00004402ms: Response headers for "https://www.groupeseb.com/sites/default/files/2017-10/logo001.png" (316 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "8ab-58ced0c5ebb50"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 2219
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/png
+		  last-modified: Fri, 05 Jul 2019 11:03:46 GMT
+		  server: nginx/1.17.0
+		  
+t=00004403ms: Response headers for "https://www.groupeseb.com/sites/default/files/2018-10/SUPOR_accueil.jpg" (321 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "3575c-58ced1fa30b30"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 218972
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:09:09 GMT
+		  server: nginx/1.17.0
+		  
+t=00004405ms: Response headers for "https://www.groupeseb.com/sites/default/files/2018-10/KURPS_home.jpg" (321 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "2db4e-58ced1f329df0"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 187214
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:09:02 GMT
+		  server: nginx/1.17.0
+		  
+t=00004406ms: Response headers for "https://www.groupeseb.com/sites/default/files/2018-07/Fonds%20Groupe%20SEB-opti_1.jpg" (321 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "19365-58ced19dbc7c8"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 103269
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:07:32 GMT
+		  server: nginx/1.17.0
+		  
+t=00004408ms: Response headers for "https://www.groupeseb.com/sites/default/files/styles/1087x696/public/2020-04/AG_BlocPushHome.jpg?itok=F8z9avkS" (319 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "e3bb-5a2aeed6bee20"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 58299
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Tue, 07 Apr 2020 08:11:14 GMT
+		  server: nginx/1.17.0
+		  
+t=00004411ms: Response headers for "https://www.groupeseb.com/sites/default/files/2018-02/logo007%20%281%29_0.png" (316 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "afd-58ced129f39e0"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 2813
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/png
+		  last-modified: Fri, 05 Jul 2019 11:05:31 GMT
+		  server: nginx/1.17.0
+		  
+t=00004412ms: Response headers for "https://www.groupeseb.com/sites/default/files/styles/1087x696/public/2019-07/HOME_Carrieres.jpg?itok=CxKBkApJ" (320 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "10804-58d77fb4672a0"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 67588
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 12 Jul 2019 08:48:59 GMT
+		  server: nginx/1.17.0
+		  
+t=00004413ms: Response headers for "https://www.groupeseb.com/sites/default/files/2017-10/logo005.png" (316 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "5db-58ced0c5b7760"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 1499
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/png
+		  last-modified: Fri, 05 Jul 2019 11:03:46 GMT
+		  server: nginx/1.17.0
+		  
+t=00004415ms: Response headers for "https://www.groupeseb.com/sites/default/files/2017-10/logo004.png" (316 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "57d-58ced0c3bcde8"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 1405
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/png
+		  last-modified: Fri, 05 Jul 2019 11:03:43 GMT
+		  server: nginx/1.17.0
+		  
+t=00004416ms: Response headers for "https://www.groupeseb.com/sites/default/files/styles/1087x696/public/2018-09/CONTACT.jpg?itok=iFo1ruVt" (319 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "e385-58ced30a4a2b8"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 58245
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:13:54 GMT
+		  server: nginx/1.17.0
+		  
+t=00004417ms: Response headers for "https://www.groupeseb.com/sites/default/files/2024-09/DSC03249_2.JPG" (320 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "13150-623527a73c1e8"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 78160
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Mon, 30 Sep 2024 09:03:28 GMT
+		  server: nginx/1.17.0
+		  
+t=00004419ms: Response headers for "https://www.groupeseb.com/sites/default/files/2018-02/logo002.png" (316 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "9aa-58ced130f7070"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 2474
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/png
+		  last-modified: Fri, 05 Jul 2019 11:05:38 GMT
+		  server: nginx/1.17.0
+		  
+t=00004421ms: Response headers for "https://www.groupeseb.com/sites/default/files/2017-10/logo006.png" (316 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "3eb-58ced0c4c2580"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 1003
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/png
+		  last-modified: Fri, 05 Jul 2019 11:03:45 GMT
+		  server: nginx/1.17.0
+		  
+t=00004422ms: Response headers for "https://www.groupeseb.com/sites/default/files/styles/large/public/2018-10/SieCarrieres.jpg?itok=A6RglX66" (319 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "2974-58ced30a8b5b0"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 10612
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:13:55 GMT
+		  server: nginx/1.17.0
+		  
+t=00004425ms: Response headers for "https://www.groupeseb.com/sites/default/files/styles/large/public/2018-10/PolitiqueRH.jpg?itok=ZevyxvTw" (318 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "2551-58ced30aa6f18"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 9553
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:13:55 GMT
+		  server: nginx/1.17.0
+		  
+t=00004426ms: Response headers for "https://www.groupeseb.com/sites/default/files/2024-09/bandeau%20actu.jpg" (320 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "11e9c-62265efdd6080"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 73372
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Wed, 18 Sep 2024 14:51:11 GMT
+		  server: nginx/1.17.0
+		  
+t=00004427ms: Response headers for "https://www.groupeseb.com/sites/default/files/2018-02/logo003.png" (316 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "95b-58ced1417ff00"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 2395
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/png
+		  last-modified: Fri, 05 Jul 2019 11:05:55 GMT
+		  server: nginx/1.17.0
+		  
+t=00004428ms: Response headers for "https://www.groupeseb.com/sites/default/files/styles/large/public/2024-03/SEB%20-%20%284%29.jpg?itok=jqseDc3A" (319 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "61ba-6137638644520"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 25018
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Tue, 12 Mar 2024 12:58:53 GMT
+		  server: nginx/1.17.0
+		  
+t=00004429ms: Response headers for "https://www.groupeseb.com/sites/default/files/styles/1087x696/public/2018-04/publications_0.jpg?itok=FEESZQEe" (319 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "f9d1-58ced30a36a38"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 63953
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Fri, 05 Jul 2019 11:13:54 GMT
+		  server: nginx/1.17.0
+		  
+t=00004431ms: Response headers for "https://www.groupeseb.com/themes/custom/periscope/fonts/RobotoCondensed-Regular.woff2" (294 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "102c8-5eb785f002080"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 66248
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  last-modified: Thu, 20 Oct 2022 14:45:06 GMT
+		  server: nginx/1.17.0
+		  
+t=00004433ms: Response headers for "https://www.groupeseb.com/themes/custom/periscope/fonts/icomoon.ttf?t2x0mq=" (330 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "9bbc-5debebfa57f00"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 39868
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: application/font-sfnt
+		  last-modified: Wed, 11 May 2022 16:15:24 GMT
+		  server: nginx/1.17.0
+		  
+t=00004449ms: Response headers for "https://www.groupeseb.com/seb_stock/updateStock" (350 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: must-revalidate, no-cache, private
+		  x-content-type-options: nosniff
+		  x-generator: Drupal 9 (https://www.drupal.org)
+		  expires: Sun, 19 Nov 1978 05:00:00 GMT
+		  x-ua-compatible: IE=edge
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: application/json
+		  content-language: fr
+		  server: nginx/1.17.0
+		  x-frame-options: SAMEORIGIN
+		  
+t=00004534ms: Request headers for "https://www.groupeseb.com/sites/default/files/2024-09/banner-stade.jpg" (372 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2024-09/banner-stade.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004602ms: Response headers for "https://www.groupeseb.com/sites/default/files/2024-09/banner-stade.jpg" (319 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "c0f6-621c6bf385448"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 49398
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Tue, 10 Sep 2024 16:55:55 GMT
+		  server: nginx/1.17.0
+		  
+t=00004759ms: Step 4: Navigate to https://seb.com/ successfully completed with End Event "Document Loaded".    [MsgId: MMSG-205180]
+t=00004759ms: Request headers for "https://www.groupeseb.com/tarteaucitron/css/tarteaucitron.css?v=20210310" (374 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/tarteaucitron/css/tarteaucitron.css?v=20210310
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004761ms: Request headers for "https://www.groupeseb.com/tarteaucitron/lang/tarteaucitron.fr.js?v=20210310" (377 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/tarteaucitron/lang/tarteaucitron.fr.js?v=20210310
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004765ms: Request headers for "https://www.groupeseb.com/sites/default/files/2024-07/bandeau%20actu_0.jpg" (376 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/sites/default/files/2024-07/bandeau%20actu_0.jpg
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004769ms: Request headers for "https://www.groupeseb.com/themes/custom/periscope/favicon.ico" (363 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/themes/custom/periscope/favicon.ico
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004788ms: Response headers for "https://www.groupeseb.com/tarteaucitron/lang/tarteaucitron.fr.js?v=20210310" (329 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "e1b-5debebfa57f00"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 3611
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: application/javascript
+		  last-modified: Wed, 11 May 2022 16:15:24 GMT
+		  server: nginx/1.17.0
+		  
+t=00004790ms: Response headers for "https://www.groupeseb.com/tarteaucitron/css/tarteaucitron.css?v=20210310" (317 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "6480-5debebfa57f00"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 25728
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: text/css
+		  last-modified: Wed, 11 May 2022 16:15:24 GMT
+		  server: nginx/1.17.0
+		  
+t=00004791ms: Request headers for "https://www.groupeseb.com/tarteaucitron/tarteaucitron.services.js?v=20210310" (378 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET https://www.groupeseb.com/tarteaucitron/tarteaucitron.services.js?v=20210310
+		  sec-ch-ua-platform: "Windows"
+		  Referer: https://www.groupeseb.com/fr
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+		  sec-ch-ua: "Google Chrome";v="129", "Not=A?Brand";v="8", "Chromium";v="129"
+		  sec-ch-ua-mobile: ?0
+		  
+t=00004805ms: Response headers for "https://www.groupeseb.com/sites/default/files/2024-07/bandeau%20actu_0.jpg" (320 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "11e9c-61e8d04d08f58"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 73372
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/jpeg
+		  last-modified: Wed, 31 Jul 2024 15:48:00 GMT
+		  server: nginx/1.17.0
+		  
+t=00004807ms: Response headers for "https://www.groupeseb.com/themes/custom/periscope/favicon.ico" (331 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "47e-5debebfa57f00"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 1150
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: image/vnd.microsoft.icon
+		  last-modified: Wed, 11 May 2022 16:15:24 GMT
+		  server: nginx/1.17.0
+		  
+t=00004827ms: Response headers for "https://www.groupeseb.com/tarteaucitron/tarteaucitron.services.js?v=20210310" (333 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  h2 200
+		  cache-control: max-age=1209600
+		  etag: "22883-5debebfa57f00"
+		  x-content-type-options: nosniff
+		  expires: Fri, 18 Oct 2024 12:25:01 GMT
+		  accept-ranges: bytes
+		  content-length: 141443
+		  date: Fri, 04 Oct 2024 12:25:01 GMT
+		  content-type: application/javascript
+		  last-modified: Wed, 11 May 2022 16:15:24 GMT
+		  server: nginx/1.17.0
+		  
+t=00004837ms: Response headers for "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAAeCAYAAAAWwoEYAAADl0lEQVRoge1Y0W3bQAx9CjKARlC+9GVUmqDJBHEmiDyB6wkcTxBngtgTxJ0gzgQW4C/9aYOmE6g4lTQo+k6y3Rb94QOERNQd+cjj8XiGwWAwGAwGg8FgMBgMBoPB8F8RNRXe+whEKe7c36ZCAeCRxC9Rig2PUd8kPgAsoxSfQ3YAzAA8D/HwYYCb05kBKKO0teFkmbC1jlKsAnq/Abjn+QBqAIsoRS30ttwG/HNz1wH/XIxWTicLdvtW7xTAGEAMtP685CNsBTe2d/BLydfXAG57SEnMAST0zgYZSUCPk02bCvkJduIzuJzDLfPolbY+tLKmar+/8+IRePy4qdpE03qHuH8fipFb4N2+XdA3AJ/0vaQxt7s9FvkIS2XvtqnwM0rxpOQfbnE5G2LhTCmUO2fHIngOmcv+KG3HafDchB6ntwjYqenR2PqC7sOZ3E7FXHB0vqxoFyUyLh7OEH7LOGouvhhN3eIBeKXv0n5MsufdHqXcwYR5U2EbpV35lSspVPJmQj4TcgRK7jTg5IzmPUhhwM5a2WHUFCx+NgiDucmgh7idikLovHFlL0pxQ9xzX+IIP9Y6FrJsqhjlQpZRAkFVDCjZfcCHt6bqJDmuh5ylCWx0RVnk3oumaknqTH5sqrY0fBWyULaHUIgAgxb46MxV3DbieAhxOxUxjSuljig9lMQ/Bcfoi9BTEv9aLORSndVxYOH525sUDC6u2gWxcNzBNRxPanyh3ktKinOgy3WoxPbtUM0t6RkbQnzBnFPgi9GCOEubY9UffIryz9iKRe8s/FUfEWosJJGxagp85bpUO3VywQ46lOtAWfNxKwa4JXQ+628+bpxYGXXMzp5rXH401VEyXwIdowXFaKWSMFHvMTVmGnc+P3oXV2QOiBCfgex8QtcQCbcQE/H+eoHzrkFo1KM7zVO4jVVj5s6lRiWF7zyXyfRMc97J3tzj87mYqZ7E2YjzUct9GUi4tjHLR8dVkBLjQcuHFleWvQfRNEhFR7uX7pkctOwvZXsft7sAtyldEUIN2UTeLxnEfxKYswzdi88BdbZ8hifUoSMftQvP+muRwN6+Q3DeqqRExP9QmTtcheiHh0Ot1x2i2km1bP9pbufw5zZdyWsOrh7vQae5OZWbsMv30pi7cd/CKj3coPEVaCP4Zhx4eQWhOZ1Y9MTXGyP8/iGjEyfa1T4fO/4Lea9vBoPBYDAYDAaDwWAwGAwGwz8GgF8siXCCbrSRhgAAAABJRU5ErkJggg==" (37 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  data 200
+		  Content-Type: image/png
+		  
+Notify: Transaction "T1_SEB" ended with a "Pass" status (Duration: 2.9360 Wasted Time: 0.8550).
+t=00005603ms: Step 5: Wait 1 Seconds started.    [MsgId: MMSG-205180]
+t=00006565ms: Step 5: Wait 1 Seconds successfully completed with End Event "Action Completed".    [MsgId: MMSG-205180]
+t=00006566ms: Step 6: Take snapshot started.    [MsgId: MMSG-205180]
+t=00006632ms: Step 6: Take snapshot successfully completed with End Event "Action Completed".    Snapshot Info [MSH 1 0]    [MsgId: MMSG-205180]
+t=00006633ms: Action Action ended.    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+t=00006639ms: Action End started.    [MsgId: MMSG-205180]
+t=00006641ms: Action End ended.    [MsgId: MMSG-205180]
+Vuser Terminated.

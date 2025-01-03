@@ -1,0 +1,8 @@
+ ** (tshark:2012) 13:41:14.054393 [Epan WARNING] C:\gitlab-builds\builds\MsQ3pox2\1\wireshark\wireshark\epan\prefs.c:6334 -- set_pref(): Preference "ssl.desegment_ssl_records" has been converted to "tls.desegment_ssl_records"
+Save your preferences to make this change permanent.
+ ** (tshark:2012) 13:41:14.054559 [Epan WARNING] C:\gitlab-builds\builds\MsQ3pox2\1\wireshark\wireshark\epan\prefs.c:6334 -- set_pref(): Preference "ssl.desegment_ssl_application_data" has been converted to "tls.desegment_ssl_application_data"
+Save your preferences to make this change permanent.
+ ** (tshark:2012) 13:41:14.054718 [Epan WARNING] C:\gitlab-builds\builds\MsQ3pox2\1\wireshark\wireshark\epan\prefs.c:6334 -- set_pref(): Preference "ssl.keys_list" has been converted to "tls.keys_list"
+Save your preferences to make this change permanent.
+tshark: Can't load private key from C:/dev/LRDemo/TC2/importWiresharkhttps/wikipedia.org.pem: can't import pem data: The requested data were not available.
+

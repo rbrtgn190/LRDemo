@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "engineVersion": "2024.3.0.164",
+    "platform": "Chrome 129.0.6668.90",
+    "timestamp": "Fri Oct 04 2024 14:25:14 GMT+0200 (Central European Summer Time)"
+  },
+  "default": {
+    "level": 1,
+    "actions": [
+      {
+        "id": "00000000-0000-0000-0000-Init",
+        "name": "Init",
+        "type": 1,
+        "steps": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-Action",
+        "name": "Action",
+        "type": 1,
+        "steps": [
+          {
+            "id": "1aa6373a-70b1-e768-c7ed-dc80cb934ef9",
+            "type": 3,
+            "level": 1,
+            "disabled": false,
+            "breakpoint": false,
+            "endEvent": 2,
+            "arguments": [
+              {
+                "name": "width",
+                "type": 1,
+                "value": "390"
+              },
+              {
+                "name": "height",
+                "type": 1,
+                "value": "844"
+              }
+            ],
+            "action": 400
+          },
+          {
+            "id": "4fcf3793-b78b-b32d-5d8d-4f4b6d7deb53",
+            "type": 11,
+            "level": 1,
+            "disabled": true,
+            "breakpoint": false,
+            "endEvent": 2,
+            "arguments": [
+              {
+                "name": "code",
+                "type": 2,
+                "value": "UtilsA.addAutoHeader(\"User-Agent\", \"Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1\", false).then(function(){\r\n  TC.done();\r\n}).catch(function (error) {\r\n  TC.doneWithError(error);\r\n});\r\n"
+              }
+            ]
+          },
+          {
+            "id": "c246046b-ca5e-d760-cecf-d63f21009918",
+            "type": 11,
+            "level": 1,
+            "disabled": false,
+            "breakpoint": false,
+            "endEvent": 2,
+            "arguments": [
+              {
+                "name": "code",
+                "type": 2,
+                "value": "Utils.addAutoHeader(\"myCustomHeader\", \"iPhoneFake\", false);\r\n"
+              }
+            ]
+          },
+          {
+            "id": "91642eea-754a-f1f3-f329-9fb7b9f635fc",
+            "type": 8,
+            "level": 100,
+            "disabled": false,
+            "endEvent": 2,
+            "name": "T1_SEB",
+            "action": 1
+          },
+          {
+            "id": "d1c9218b-6295-3942-e537-d7ab652559bf",
+            "type": 3,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 5,
+            "arguments": [
+              {
+                "name": "location",
+                "type": 1,
+                "value": "https://seb.com/"
+              }
+            ],
+            "action": 100
+          },
+          {
+            "id": "131a5c42-8e7f-b8b9-b690-c63c7aa7ab94",
+            "type": 8,
+            "level": 100,
+            "disabled": false,
+            "endEvent": 2,
+            "name": "T1_SEB",
+            "action": 2
+          },
+          {
+            "id": "13cdda84-f645-f288-6c59-60cbe0c00e02",
+            "type": 5,
+            "level": 1,
+            "disabled": false,
+            "breakpoint": false,
+            "endEvent": 2,
+            "arguments": [
+              {
+                "name": "duration",
+                "type": 1,
+                "value": "1"
+              },
+              {
+                "name": "unit",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "thinkTime",
+                "type": 1,
+                "value": ""
+              }
+            ]
+          },
+          {
+            "id": "d522bdf5-c83b-e50e-2be6-764bc1dcd20f",
+            "type": 14,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 2,
+            "arguments": [
+              {
+                "name": "fullPage",
+                "type": 1,
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "00000000-0000-0000-0000-End",
+        "name": "End",
+        "type": 1,
+        "steps": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-RunLogic",
+        "name": "RunLogic",
+        "type": 2,
+        "steps": [
+          {
+            "id": "00000000-0000-0000-0000-InitBlock",
+            "type": 100,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 2,
+            "steps": [
+              {
+                "id": "740c3da3-91ba-69a3-6241-9b5e9b931e84",
+                "type": 101,
+                "level": 1,
+                "disabled": false,
+                "endEvent": 2,
+                "actionName": "Init"
+              }
+            ],
+            "name": "Init Block",
+            "iteration": 1,
+            "mode": 1
+          },
+          {
+            "id": "00000000-0000-0000-0000-ActionBlock",
+            "type": 100,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 2,
+            "steps": [
+              {
+                "id": "712fc4b6-03fb-b472-2431-40ff03553f39",
+                "type": 101,
+                "level": 1,
+                "disabled": false,
+                "endEvent": 2,
+                "actionName": "Action"
+              }
+            ],
+            "name": "Action Block",
+            "iteration": 1,
+            "mode": 1
+          },
+          {
+            "id": "00000000-0000-0000-0000-EndBlock",
+            "type": 100,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 2,
+            "steps": [
+              {
+                "id": "c5a92e6a-64f2-6c9d-9d4a-da458eccd84c",
+                "type": 101,
+                "level": 1,
+                "disabled": false,
+                "endEvent": 2,
+                "actionName": "End"
+              }
+            ],
+            "name": "End Block",
+            "iteration": 1,
+            "mode": 1
+          }
+        ]
+      },
+      {
+        "id": "00000000-0000-0000-0000-EventHandler",
+        "name": "EventHandler",
+        "type": 3,
+        "steps": []
+      }
+    ],
+    "testObjects": []
+  }
+}
