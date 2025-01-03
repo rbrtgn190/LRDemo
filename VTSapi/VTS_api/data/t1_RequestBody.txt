@@ -1,0 +1,7 @@
+"request={\r\n"
+"    \"cmd\": \"handshake\",\r\n"
+"    \"version\": \"1.0\",\r\n"
+"    \"data\": {\r\n"
+"        \"version\": \"1.0\"\r\n"
+"    }\r\n"
+"}"

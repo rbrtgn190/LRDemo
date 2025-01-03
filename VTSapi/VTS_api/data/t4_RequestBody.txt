@@ -1,0 +1,5 @@
+"request={\r\n"
+"    \"cmd\": \"retrieve\",\r\n"
+"    \"version\": \"1.0\",\r\n"
+"    \"data\": {}\r\n"
+"}"

@@ -1,0 +1,13 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2025/01/03 16:04:50
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2025/01/03 16:06:18
+StartRecordingIsDst_2=0
+StartRecordingGMT_3=2025/01/03 16:07:07
+StartRecordingIsDst_3=0
+StartRecordingGMT_4=2025/01/03 16:09:35
+StartRecordingIsDst_4=0
+[User-Agent]
+User-Agent=
+[Security]
+UsingPersistForAuthentication=1

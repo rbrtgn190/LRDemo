@@ -1,0 +1,7 @@
+"request={\r\n"
+"    \"cmd\": \"get\",\r\n"
+"    \"version\": \"1.0\",\r\n"
+"    \"data\": {\r\n"
+"        \"index\": 1\r\n"
+"    }\r\n"
+"}"
