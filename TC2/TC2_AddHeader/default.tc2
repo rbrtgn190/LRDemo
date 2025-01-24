@@ -1,8 +1,8 @@
 {
   "meta": {
     "engineVersion": "2024.3.0.164",
-    "platform": "Chrome 131.0.6778.109",
-    "timestamp": "Tue Dec 10 2024 10:52:26 GMT+0100 (Central European Standard Time)"
+    "platform": "Edge 132.0.2957.115",
+    "timestamp": "Fri Jan 24 2025 14:48:17 GMT+0100 (Central European Standard Time)"
   },
   "default": {
     "level": 1,
@@ -18,6 +18,31 @@
         "name": "Action",
         "type": 1,
         "steps": [
+          {
+            "id": "b267d55d-f84b-cd31-10f0-a79043ef9f39",
+            "type": 5,
+            "level": 1,
+            "disabled": true,
+            "breakpoint": false,
+            "endEvent": 1,
+            "arguments": [
+              {
+                "name": "duration",
+                "type": 1,
+                "value": "5"
+              },
+              {
+                "name": "unit",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "thinkTime",
+                "type": 1,
+                "value": ""
+              }
+            ]
+          },
           {
             "id": "24830de0-ce70-d32a-2e78-35f5b34483c4",
             "type": 11,
@@ -37,7 +62,7 @@
             "id": "9334655e-1199-6158-d72a-879a63a193b5",
             "type": 3,
             "level": 1,
-            "disabled": false,
+            "disabled": true,
             "breakpoint": false,
             "endEvent": 5,
             "arguments": [
@@ -50,10 +75,35 @@
             "action": 100
           },
           {
+            "id": "43359be4-5f2c-c21c-381d-e48f02ab7b16",
+            "type": 5,
+            "level": 1,
+            "disabled": true,
+            "breakpoint": false,
+            "endEvent": 1,
+            "arguments": [
+              {
+                "name": "duration",
+                "type": 1,
+                "value": "180"
+              },
+              {
+                "name": "unit",
+                "type": 1,
+                "value": ""
+              },
+              {
+                "name": "thinkTime",
+                "type": 1,
+                "value": ""
+              }
+            ]
+          },
+          {
             "id": "ad0f8933-38f8-7b7e-07d0-60aea21660db",
             "type": 3,
             "level": 1,
-            "disabled": false,
+            "disabled": true,
             "breakpoint": false,
             "endEvent": 5,
             "arguments": [
@@ -64,6 +114,50 @@
               }
             ],
             "action": 100
+          },
+          {
+            "id": "15af14c0-98c6-c894-fb14-610cc3c68088",
+            "type": 14,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 2,
+            "arguments": [
+              {
+                "name": "fullPage",
+                "type": 1,
+                "value": ""
+              }
+            ]
+          },
+          {
+            "id": "f642907a-5d47-6423-717b-7b0af1d75c74",
+            "type": 3,
+            "level": 1,
+            "disabled": false,
+            "breakpoint": false,
+            "endEvent": 5,
+            "arguments": [
+              {
+                "name": "location",
+                "type": 1,
+                "value": "http://localhost:3000"
+              }
+            ],
+            "action": 100
+          },
+          {
+            "id": "f2eba4c9-24eb-012b-da4c-8eb7aeebcea9",
+            "type": 14,
+            "level": 1,
+            "disabled": false,
+            "endEvent": 2,
+            "arguments": [
+              {
+                "name": "fullPage",
+                "type": 1,
+                "value": ""
+              }
+            ]
           }
         ]
       },

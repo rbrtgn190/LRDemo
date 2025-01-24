@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Headers</title>
+</head>
+<body>
+    <h1>Received Request Headers</h1>
+    <pre id="headers"></pre>
+
+    <script>
+        fetch('/headers')
+            .then(response => response.json())
+            .then(headers => {
+                const headersElement = document.getElementById('headers');
+                headersElement.textContent = JSON.stringify(headers, null, 2);
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+Virtual User Script started at : 2025-01-24 14:47:30
+TruClient Replay (build 0164) for LoadRunner Professional 2024.3.0, build 0200. OS: Windows 2019, Browser: Edge 132.0.2957.115, initialized on 2025/01/24 at 14:47:29 (1737726449.062s)
+Please refer to the ReadMe file in the LoadRunner Professional installation directory for notes about measurements and logging
+t=00001765ms: Action Init started.    [MsgId: MMSG-205180]
+t=00001766ms: Action Init ended.    [MsgId: MMSG-205180]
+Running Vuser...
+Starting iteration 1.
+t=00001888ms: Action Action started.    [MsgId: MMSG-205180]
+t=00001890ms: Step 2: Evaluate JavaScript code Utils.addAutoHeader("Hea...ercool", false)  started.    [MsgId: MMSG-205180]
+t=00001895ms: Step 2: Evaluate JavaScript code Utils.addAutoHeader("Hea...ercool", false)  successfully completed with End Event "Action Completed".    [MsgId: MMSG-205180]
+t=00001897ms: Step 6: Take snapshot started.    [MsgId: MMSG-205180]
+t=00002024ms: Step 6: Take snapshot successfully completed with End Event "Action Completed".    Snapshot Info [MSH 1 0]    [MsgId: MMSG-205180]
+t=00002024ms: Step 7: Navigate to http://localhost:3000 started.    [MsgId: MMSG-205180]
+t=00002114ms: Request initiated for "http://localhost:3000/" (internal ID=0)    [MsgId: MMSG-204692]
+t=00002115ms: Request headers for "http://localhost:3000/" (330 byte(s)) (internal ID=0)    [MsgId: MMSG-204699]
+		  GET http://localhost:3000/
+		  Upgrade-Insecure-Requests: 1
+		  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0
+		  sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"
+		  sec-ch-ua-mobile: ?0
+		  sec-ch-ua-platform: "Windows"
+		  
+t=00002132ms: First response segment received for "http://localhost:3000/" (internal ID=0)    [MsgId: MMSG-204694]
+t=00002133ms: Response headers for "http://localhost:3000/" (228 byte(s)) (internal ID=0)    [MsgId: MMSG-204697]
+		  http/1.1 200
+		  Connection: keep-alive
+		  Content-Length: 1393
+		  Content-Type: text/html; charset=utf-8
+		  Date: Fri, 24 Jan 2025 13:47:31 GMT
+		  ETag: W/"571-niPo/TcEFi8a4J9L+JyjGzzQowM"
+		  Keep-Alive: timeout=5
+		  X-Powered-By: Express
+		  
+t=00002133ms: End of response for "http://localhost:3000/" (internal ID=0)    [MsgId: MMSG-204691]
+t=00002261ms: Response body for "http://localhost:3000/" (1393 byte(s), decoded) (internal ID=0)    [MsgId: MMSG-204696]
+		  
+		          <!DOCTYPE html>
+		          <html lang="en">
+		          <head>
+		              <meta charset="UTF-8">
+		              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		              <title>Request Headers</title>
+		          </head>
+		          <body>
+		              <h1>Received Request Headers</h1><ul><li><strong>host:</strong> localhost:3000</li><li><strong>connection:</strong> keep-alive</li><li><strong>upgrade-insecure-requests:</strong> 1</li><li><strong>user-agent:</strong> Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0</li><li><strong>sec-ch-ua:</strong> "Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"</li><li><strong>sec-ch-ua-mobile:</strong> ?0</li><li><strong>sec-ch-ua-platform:</strong> "Windows"</li><li><strong>accept:</strong> text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7</li><li><strong>headerfromjs:</strong> Supercool</li><li><strong>sec-fetch-site:</strong> none</li><li><strong>sec-fetch-mode:</strong> navigate</li><li><strong>sec-fetch-user:</strong> ?1</li><li><strong>sec-fetch-dest:</strong> document</li><li><strong>accept-encoding:</strong> gzip, deflate, br, zstd</li><li><strong>accept-language:</strong> en-US,en;q=0.9</li></ul>
+		          </body>
+		          </html>
+		      
+t=00002270ms: Step 7: Navigate to http://localhost:3000 successfully completed with End Event "Document Loaded".    [MsgId: MMSG-205180]
+t=00003086ms: Step 8: Take snapshot started.    [MsgId: MMSG-205180]
+t=00003193ms: Step 8: Take snapshot successfully completed with End Event "Action Completed".    Snapshot Info [MSH 1 1]    [MsgId: MMSG-205180]
+t=00003194ms: Action Action ended.    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+t=00003198ms: Action End started.    [MsgId: MMSG-205180]
+t=00003199ms: Action End ended.    [MsgId: MMSG-205180]
+Vuser Terminated.
